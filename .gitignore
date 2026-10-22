@@ -1,0 +1,20 @@
+# Local credentials: publish only the placeholder example.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and generated files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Keep licensed raw data and exports out of the public repository.
+data/raw/
+data/private/
+exports/
