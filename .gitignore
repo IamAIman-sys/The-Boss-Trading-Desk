@@ -1,0 +1,6 @@
+# Local environment files containing secrets
+.env
+.env.*
+
+# Keep a secret-free example available for configuration guidance
+!.env.example
