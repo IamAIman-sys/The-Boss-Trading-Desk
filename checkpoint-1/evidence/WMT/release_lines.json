@@ -1,0 +1,186 @@
+{
+  "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+    "accession": "0000104169-26-000145",
+    "raw_file": "earnings_release.html",
+    "text_file": "earnings_release.txt"
+  },
+  "matches": {
+    "total_revenue": [
+      {
+        "line_number": 103,
+        "line": "•Membership fee revenue grew 6% driven by steady growth in member counts and Plus penetration",
+        "context": [
+          {
+            "line_number": 99,
+            "line": "Adjusted operating income 2 | $0.7 | $0.6 | $0.1 | 23.3%"
+          },
+          {
+            "line_number": 100,
+            "line": "Sam’s Club U.S."
+          },
+          {
+            "line_number": 101,
+            "line": "•Comp sales driven by increased transactions and total unit volumes with strength in grocery and general merchandise"
+          },
+          {
+            "line_number": 102,
+            "line": "•eCommerce sales up 26% with continued strong growth in club-fulfilled pickup & delivery"
+          }
+        ]
+      },
+      {
+        "line_number": 141,
+        "line": "About Walmart Walmart Inc. (Nasdaq: WMT) is a people-led, tech-powered omnichannel retailer helping people save money and live better - anytime and anywhere - in stores, online, and through their mobile devices. Each week, approximately 280 million customers and members visit more than 10,900 stores and numerous eCommerce websites in 19 countries. With fiscal year 2026 revenue of $713 billion, Walmart employs approximately 2.1 million associates worldwide. Walmart continues to be a leader in sustainability, corporate philanthropy, and employment opportunity. Additional information about Walmart can be found by visiting corporate.walmart.com, on Facebook at facebook.com/walmart, on X at x.com/walmart, and on LinkedIn at linkedin.com/company/walmart. Investor Relations contact: Steph Wissink – ir@walmart.com Media Relations contact: Jennifer Rodriguez – press@walmart.com",
+        "context": [
+          {
+            "line_number": 137,
+            "line": "| Capital expenditures | Approximately 3.5% of net sales | Unchanged | Approximately 4.0% of net sales |"
+          },
+          {
+            "line_number": 138,
+            "line": "| 1 For relevant non-GAAP reconciliations, see Q3 FY26 and Q4 FY26 earnings release furnished on Form 8-K on November 20, 2025 and February 19, 2026, respectively. 2 See additional information at the end of this release regarding non-GAAP financial measures. cc - constant currency |"
+          },
+          {
+            "line_number": 139,
+            "line": "5"
+          },
+          {
+            "line_number": 140,
+            "line": "| |"
+          }
+        ]
+      },
+      {
+        "line_number": 161,
+        "line": "Total revenues | | 187,937 | | | 177,402 | | | 5.9 | % | | 365,688 | | | 343,011 | | | 6.6 | %",
+        "context": [
+          {
+            "line_number": 155,
+            "line": "| | Three Months Ended | | Six Months Ended"
+          },
+          {
+            "line_number": 156,
+            "line": "| | July 31, | | July 31,"
+          },
+          {
+            "line_number": 157,
+            "line": "(Amounts in millions, except per share data) | | 2026 | | 2025 | | Percent Change | | 2026 | | 2025 | | Percent Change"
+          },
+          {
+            "line_number": 158,
+            "line": "Revenues: | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 159,
+            "line": "Net sales | | $ | 186,100 | | | $ | 175,750 | | | 5.9 | % | | $ | 361,784 | | | $ | 339,731 | | | 6.5 | %"
+          },
+          {
+            "line_number": 160,
+            "line": "Membership and other income | | 1,837 | | | 1,652 | | | 11.2 | % | | 3,904 | | | 3,280 | | | 19.0 | %"
+          }
+        ]
+      },
+      {
+        "line_number": 354,
+        "line": "The table below reflects the calculation of constant currency for total revenues, net sales and operating income for the three and six months ended July 31, 2026.",
+        "context": [
+          {
+            "line_number": 350,
+            "line": "The following information provides reconciliations of certain non-GAAP financial measures presented in the press release to which this reconciliation is attached to the most directly comparable financial measures calculated and presented in accordance with U.S. generally accepted accounting principles (GAAP). The company has provided the non-GAAP financial information presented in the press release, which is not calculated or presented in accordance with GAAP, as information supplemental and in addition to the financial measures presented in the press release that are calculated and presented in accordance with GAAP. Such non-GAAP financial measures should not be considered superior to, as a substitute for or alternative to, and should be considered in conjunction with, the GAAP financial measures presented in the press release. The non-GAAP financial measures in the press release may differ from similar measures used by other companies."
+          },
+          {
+            "line_number": 351,
+            "line": "Constant currency"
+          },
+          {
+            "line_number": 352,
+            "line": "In discussing our operating results, the term currency exchange rates refers to the currency exchange rates we use to convert the operating results for countries where the functional currency is not the U.S. dollar into U.S. dollars. We calculate the effect of changes in currency exchange rates as the difference between current period activity translated using the current period's currency exchange rates and the comparable prior year period's currency exchange rates. Additionally, no currency exchange rate fluctuations are calculated for non-USD acquisitions until owned for 12 months."
+          },
+          {
+            "line_number": 353,
+            "line": "Throughout our discussion, we refer to the results of this calculation as the impact of currency exchange rate fluctuations. When we refer to constant currency operating results, this means operating results without the impact of the currency exchange rate fluctuations. The disclosure of constant currency amounts or results permits investors to better understand Walmart’s underlying performance without the effects of currency exchange rate fluctuations."
+          }
+        ]
+      },
+      {
+        "line_number": 362,
+        "line": "Total revenues (cc) | $ | 34,081 | | 7.9 | % | | $ | 186,394 | | 5.1 | % | | $ | 67,276 | | 9.0 | % | | $ | 361,805 | | 5.5 | %",
+        "context": [
+          {
+            "line_number": 340,
+            "line": "| | 13 Weeks Ended | | 13 Weeks Ended | | 13 Weeks Ended | | 13 Weeks Ended | | 13 Weeks Ended | | 13 Weeks Ended"
+          },
+          {
+            "line_number": 341,
+            "line": "| | 7/31/2026 | | 8/1/2025 | | 7/31/2026 | | 8/1/2025 | | 7/31/2026 | | 8/1/2025"
+          },
+          {
+            "line_number": 356,
+            "line": "| Three Months Ended July 31, 2026 | | Six Months Ended July 31, 2026"
+          },
+          {
+            "line_number": 357,
+            "line": "| Walmart International | | Consolidated | | Walmart International | | Consolidated"
+          },
+          {
+            "line_number": 358,
+            "line": "(Dollars in millions) | 2026 | Percent Change 1 | | 2026 | Percent Change 1 | | 2026 | Percent Change 1 | | 2026 | Percent Change 1"
+          },
+          {
+            "line_number": 359,
+            "line": "Total revenues: | | | | | | | | | | |"
+          },
+          {
+            "line_number": 360,
+            "line": "As reported | $ | 35,624 | | 12.8 | % | | $ | 187,937 | | 5.9 | % | | $ | 71,159 | | 15.3 | % | | $ | 365,688 | | 6.6 | %"
+          },
+          {
+            "line_number": 361,
+            "line": "Currency exchange rate fluctuations | (1,543) | | N/A | | (1,543) | | N/A | | (3,883) | | N/A | | (3,883) | | N/A"
+          }
+        ]
+      }
+    ],
+    "diluted_eps": [
+      {
+        "line_number": 180,
+        "line": "Diluted net income per common share attributable to Walmart | | 0.80 | | | 0.88 | | | (9.1 | %) | | 1.46 | | | 1.43 | | | 2.1 | %",
+        "context": [
+          {
+            "line_number": 155,
+            "line": "| | Three Months Ended | | Six Months Ended"
+          },
+          {
+            "line_number": 156,
+            "line": "| | July 31, | | July 31,"
+          },
+          {
+            "line_number": 157,
+            "line": "(Amounts in millions, except per share data) | | 2026 | | 2025 | | Percent Change | | 2026 | | 2025 | | Percent Change"
+          },
+          {
+            "line_number": 158,
+            "line": "Revenues: | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 176,
+            "line": "Consolidated net income attributable to Walmart | | $ | 6,366 | | | $ | 7,026 | | | (9.4 | %) | | $ | 11,696 | | | $ | 11,513 | | | 1.6 | %"
+          },
+          {
+            "line_number": 177,
+            "line": "| | | | | | | | | | | |"
+          },
+          {
+            "line_number": 178,
+            "line": "Net income per common share: | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 179,
+            "line": "Basic net income per common share attributable to Walmart | | $ | 0.80 | | | $ | 0.88 | | | (9.1 | %) | | $ | 1.47 | | | $ | 1.44 | | | 2.1 | %"
+          }
+        ]
+      }
+    ]
+  }
+}

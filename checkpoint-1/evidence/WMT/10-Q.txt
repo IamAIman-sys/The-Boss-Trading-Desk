@@ -1,0 +1,1001 @@
+wmt-20260731
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM 10-Q
+(Mark One)
+| | | | |
+☒ | Quarterly Report Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934.
+For the quarterly period ended July 31, 2026.
+or
+| | | | |
+☐ | Transition Report Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934. For the transition period from to .
+Commission File Number 001-06991
+WALMART INC.
+(Exact name of registrant as specified in its charter)
+| | | | | | | | | | |
+Delaware | | 71-0415188
+(State or other jurisdiction of incorporation or organization) | | (I.R.S. Employer Identification No.)
+| |
+1 Customer Drive | | 72716
+Bentonville | AR |
+(Address of principal executive offices) | | (Zip Code)
+Registrant's telephone number, including area code: (479) 273-4000
+Former name, former address and former fiscal year, if changed since last report: N/A
+Securities registered pursuant to Section 12(b) of the Act:
+| | | | | | | | | | | | | |
+Title of each class | | Trading Symbol(s) | | Name of each exchange on which registered
+Common Stock, par value $0.10 per share | | WMT | | The Nasdaq Stock Market LLC
+1.050% Notes due 2026 | | WMT26A | | The Nasdaq Stock Market LLC
+1.500% Notes due 2028 | | WMT28C | | The Nasdaq Stock Market LLC
+4.875% Notes due 2029 | | WMT29B | | The Nasdaq Stock Market LLC
+5.750% Notes due 2030 | | WMT30B | | The Nasdaq Stock Market LLC
+1.800% Notes due 2031 | | WMT31A | | The Nasdaq Stock Market LLC
+5.625% Notes due 2034 | | WMT34 | | The Nasdaq Stock Market LLC
+5.250% Notes due 2035 | | WMT35A | | The Nasdaq Stock Market LLC
+4.875% Notes due 2039 | | WMT39 | | The Nasdaq Stock Market LLC
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or such shorter periods that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes ☒ No ☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See definitions of "large accelerated filer," "accelerated filer," "smaller reporting company," and "emerging growth company" in Rule 12b-2 of the Exchange Act.
+| | | | | | | | | | | | | | | | | | | |
+Large Accelerated Filer | | ☒ | | Accelerated Filer | | ☐
+Non-Accelerated Filer | | ☐ | | Smaller Reporting Company | | ☐
+| | | | Emerging Growth Company | | ☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+Indicate by a check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒
+The registrant had 7,933,746,241 shares of common stock outstanding as of August 26, 2026.
+Table of Contents
+Walmart Inc.
+Form 10-Q
+For the Quarterly Period Ended July 31, 2026
+Table of Contents
+| | | | | | | | | | |
+| | | Page
+Part I. Financial Information |
+| Item 1. Financial Statements |
+| | Condensed Consolidated Statements of Income | 3
+| | Condensed Consolidated Statements of Comprehensive Income | 4
+| | Condensed Consolidated Balance Sheets | 5
+| | Condensed Consolidated Statements of Shareholders' Equity | 6
+| | Condensed Consolidated Statements of Cash Flows | 7
+| | Notes to Condensed Consolidated Financial Statements | 8
+| Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations | 17
+| Item 3. Quantitative and Qualitative Disclosures About Market Risk | 27
+| Item 4. Controls and Procedures | 28
+| | |
+Part II. Other Information |
+| Item 1. Legal Proceedings | 29
+| Item 1A. Risk Factors | 29
+| Item 2. Unregistered Sales of Equity Securities and Use of Proceeds | 30
+| Item 5. Other Information | 30
+| Item 6. Exhibits | 34
+| | |
+Signatures | | 35
+Table of Contents
+PART I. FINANCIAL INFORMATION
+Item 1.Financial Statements
+Walmart Inc.
+Condensed Consolidated Statements of Income
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+(Amounts in millions, except per share data) | | 2026 | | 2025 | | 2026 | | 2025
+Revenues: | | | | | | | |
+Net sales | | $ | 186,100 | | | $ | 175,750 | | | $ | 361,784 | | | $ | 339,731 |
+Membership and other income | | 1,837 | | | 1,652 | | | 3,904 | | | 3,280 |
+Total revenues | | 187,937 | | | 177,402 | | | 365,688 | | | 343,011 |
+Costs and expenses: | | | | | | | |
+Cost of sales | | 138,804 | | | 132,771 | | | 271,862 | | | 257,074 |
+Operating, selling, general and administrative expenses | | 39,750 | | | 37,345 | | | 76,950 | | | 71,516 |
+Operating income | | 9,383 | | | 7,286 | | | 16,876 | | | 14,421 |
+Interest: | | | | | | | |
+Debt | | 137 | | | 651 | | | 711 | | | 1,170 |
+Finance lease | | 126 | | | 118 | | | 251 | | | 236 |
+Interest income | | ( 92 ) | | | ( 94 ) | | | ( 171 ) | | | ( 187 ) |
+Interest, net | | 171 | | | 675 | | | 791 | | | 1,219 |
+Other (gains) and losses | | 1,200 | | | ( 2,708 ) | | | 925 | | | ( 2,111 ) |
+Income before income taxes | | 8,012 | | | 9,319 | | | 15,160 | | | 15,313 |
+Provision for income taxes | | 1,483 | | | 2,168 | | | 3,141 | | | 3,523 |
+Consolidated net income | | 6,529 | | | 7,151 | | | 12,019 | | | 11,790 |
+Consolidated net income attributable to noncontrolling interest | | ( 163 ) | | | ( 125 ) | | | ( 323 ) | | | ( 277 ) |
+Consolidated net income attributable to Walmart | | $ | 6,366 | | | $ | 7,026 | | | $ | 11,696 | | | $ | 11,513 |
+| | | | | | | |
+Net income per common share: | | | | | | | |
+Basic net income per common share attributable to Walmart | | $ | 0.80 | | | $ | 0.88 | | | $ | 1.47 | | | $ | 1.44 |
+Diluted net income per common share attributable to Walmart | | 0.80 | | | 0.88 | | | 1.46 | | | 1.43 |
+| | | | | | | |
+Weighted-average common shares outstanding: | | | | | | | |
+Basic | | 7,954 | | | 7,978 | | | 7,962 | | | 7,994 |
+Diluted | | 7,978 | | | 8,016 | | | 7,989 | | | 8,033 |
+| | | | | | | |
+Dividends declared per common share | | $ | — | | | $ | — | | | $ | 0.99 | | | $ | 0.94 |
+See accompanying notes.
+3
+Table of Contents
+Walmart Inc.
+Condensed Consolidated Statements of Comprehensive Income
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025 | | 2026 | | 2025
+Consolidated net income | | $ | 6,529 | | | $ | 7,151 | | | $ | 12,019 | | | $ | 11,790 |
+Consolidated net income attributable to noncontrolling interest | | ( 163 ) | | | ( 125 ) | | | ( 323 ) | | | ( 277 ) |
+Consolidated net income attributable to Walmart | | 6,366 | | | 7,026 | | | 11,696 | | | 11,513 |
+| | | | | | | |
+Other comprehensive income (loss), net of income taxes | | 534 | | | 750 | | | ( 432 ) | | | 1,095 |
+Other comprehensive income attributable to noncontrolling interest | | ( 132 ) | | | ( 187 ) | | | ( 1 ) | | | ( 223 ) |
+Other comprehensive income (loss) attributable to Walmart | | 402 | | | 563 | | | ( 433 ) | | | 872 |
+| | | | | | | |
+Comprehensive income, net of income taxes | | 7,063 | | | 7,901 | | | 11,587 | | | 12,885 |
+Comprehensive income attributable to noncontrolling interest | | ( 295 ) | | | ( 312 ) | | | ( 324 ) | | | ( 500 ) |
+Comprehensive income attributable to Walmart | | $ | 6,768 | | | $ | 7,589 | | | $ | 11,263 | | | $ | 12,385 |
+See accompanying notes.
+4
+Table of Contents
+Walmart Inc.
+Condensed Consolidated Balance Sheets
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | |
+| | July 31, | | January 31, | | July 31,
+(Amounts in millions) | | 2026 | | 2026 | | 2025
+ASSETS | | | | | |
+Current assets: | | | | | |
+Cash and cash equivalents | | $ | 11,529 | | | $ | 10,727 | | | $ | 9,431 |
+Receivables, net | | 11,075 | | | 11,172 | | | 10,518 |
+Inventories | | 61,600 | | | 58,851 | | | 57,729 |
+Prepaid expenses and other | | 4,499 | | | 4,124 | | | 4,355 |
+Total current assets | | 88,703 | | | 84,874 | | | 82,033 |
+| | | | | |
+Property and equipment, net | | 142,482 | | | 136,083 | | | 125,476 |
+Operating lease right-of-use assets | | 15,650 | | | 14,750 | | | 13,953 |
+Finance lease right-of-use assets, net | | 6,178 | | | 6,123 | | | 6,128 |
+Goodwill | | 28,260 | | | 28,735 | | | 29,060 |
+Other long-term assets | | 12,641 | | | 14,103 | | | 14,187 |
+Total assets | | $ | 293,914 | | | $ | 284,668 | | | $ | 270,837 |
+| | | | | |
+LIABILITIES, REDEEMABLE NONCONTROLLING INTEREST, AND SHAREHOLDERS' EQUITY | | | | | |
+Current liabilities: | | | | | |
+Short-term borrowings | | $ | 10,479 | | | $ | 6,596 | | | $ | 3,837 |
+Accounts payable | | 64,318 | | | 63,061 | | | 60,086 |
+Dividends payable | | 3,949 | | | — | | | 3,783 |
+Accrued liabilities | | 30,074 | | | 31,187 | | | 28,821 |
+Accrued income taxes | | 746 | | | 596 | | | 620 |
+Long-term debt due within one year | | 3,470 | | | 3,542 | | | 4,011 |
+Operating lease obligations due within one year | | 1,714 | | | 1,631 | | | 1,580 |
+Finance lease obligations due within one year | | 880 | | | 856 | | | 828 |
+Total current liabilities | | 115,630 | | | 107,469 | | | 103,566 |
+| | | | | |
+Long-term debt | | 36,462 | | | 34,624 | | | 35,640 |
+Long-term operating lease obligations | | 14,798 | | | 13,941 | | | 13,171 |
+Long-term finance lease obligations | | 5,952 | | | 5,905 | | | 5,947 |
+Deferred income taxes and other | | 16,273 | | | 16,549 | | | 15,656 |
+| | | | | |
+Commitments and contingencies | | | | | |
+| | | | | |
+Redeemable noncontrolling interest | | 293 | | | 293 | | | 307 |
+| | | | | |
+Shareholders' equity: | | | | | |
+Common stock | | 794 | | | 797 | | | 797 |
+Capital in excess of par value | | 7,046 | | | 6,816 | | | 5,718 |
+Retained earnings | | 103,601 | | | 104,774 | | | 96,328 |
+Accumulated other comprehensive loss | | ( 13,203 ) | | | ( 12,770 ) | | | ( 12,733 ) |
+Total Walmart shareholders' equity | | 98,238 | | | 99,617 | | | 90,110 |
+Nonredeemable noncontrolling interest | | 6,268 | | | 6,270 | | | 6,440 |
+Total shareholders' equity | | 104,506 | | | 105,887 | | | 96,550 |
+Total liabilities, redeemable noncontrolling interest, and shareholders' equity | | $ | 293,914 | | | $ | 284,668 | | | $ | 270,837 |
+See accompanying notes.
+5
+Table of Contents
+Walmart Inc.
+Condensed Consolidated Statements of Shareholders' Equity
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | Accumulated | | Total | | | |
+| | | | | Capital in | | | | Other | | Walmart | | Nonredeemable | |
+(Amounts in millions) | Common Stock | | Excess of | | Retained | | Comprehensive | | Shareholders' | | Noncontrolling | | Total
+Shares | | Amount | | Par Value | | Earnings | | Loss | | Equity | | Interest | | Equity
+Balances as of February 1, 2026 | 7,969 | | | $ | 797 | | | $ | 6,816 | | | $ | 104,774 | | | $ | ( 12,770 ) | | | $ | 99,617 | | | $ | 6,270 | | | $ | 105,887 |
+Consolidated net income | — | | | — | | | — | | | 5,330 | | | — | | | 5,330 | | | 175 | | | 5,505 |
+Other comprehensive loss, net of immaterial income taxes | — | | | — | | | — | | | — | | | ( 835 ) | | | ( 835 ) | | | ( 131 ) | | | ( 966 ) |
+Dividends declared ($ 0.99 per share) | — | | | — | | | — | | | ( 7,896 ) | | | — | | | ( 7,896 ) | | | — | | | ( 7,896 ) |
+Purchase of Company stock | ( 17 ) | | | ( 2 ) | | | ( 128 ) | | | ( 1,966 ) | | | — | | | ( 2,096 ) | | | — | | | ( 2,096 ) |
+Other | 10 | | | 1 | | | 210 | | | ( 1 ) | | | — | | | 210 | | | 38 | | | 248 |
+Balances as of April 30, 2026 | 7,962 | | | $ | 796 | | | $ | 6,898 | | | $ | 100,241 | | | $ | ( 13,605 ) | | | $ | 94,330 | | | $ | 6,352 | | | $ | 100,682 |
+Consolidated net income | — | | | — | | | — | | | 6,366 | | | — | | | 6,366 | | | 163 | | | 6,529 |
+Other comprehensive income, net of immaterial income taxes | — | | | — | | | — | | | — | | | 402 | | | 402 | | | 132 | | | 534 |
+Purchase of Company stock | ( 26 ) | | | ( 2 ) | | | ( 196 ) | | | ( 2,849 ) | | | — | | | ( 3,047 ) | | | — | | | ( 3,047 ) |
+Dividends to noncontrolling interest | — | | | — | | | — | | | — | | | — | | | — | | | ( 322 ) | | | ( 322 ) |
+Other | 6 | | | — | | | 344 | | | ( 157 ) | | | — | | | 187 | | | ( 57 ) | | | 130 |
+Balances as of July 31, 2026 | 7,942 | | | $ | 794 | | | $ | 7,046 | | | $ | 103,601 | | | $ | ( 13,203 ) | | | $ | 98,238 | | | $ | 6,268 | | | $ | 104,506 |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | Accumulated | | Total | | | |
+| | | | | Capital in | | | | Other | | Walmart | | Nonredeemable | |
+(Amounts in millions) | Common Stock | | Excess of | | Retained | | Comprehensive | | Shareholders' | | Noncontrolling | | Total
+Shares | | Amount | | Par Value | | Earnings | | Loss | | Equity | | Interest | | Equity
+Balances as of February 1, 2025 | 8,024 | | | $ | 802 | | | $ | 5,503 | | | $ | 98,313 | | | $ | ( 13,605 ) | | | $ | 91,013 | | | $ | 6,408 | | | $ | 97,421 |
+Consolidated net income | — | | | — | | | — | | | 4,487 | | | — | | | 4,487 | | | 161 | | | 4,648 |
+Other comprehensive income, net of immaterial income taxes | — | | | — | | | — | | | — | | | 309 | | | 309 | | | 36 | | | 345 |
+Dividends declared ($ 0.94 per share) | — | | | — | | | — | | | ( 7,540 ) | | | — | | | ( 7,540 ) | | | — | | | ( 7,540 ) |
+Purchase of Company stock | ( 51 ) | | | ( 5 ) | | | ( 243 ) | | | ( 4,350 ) | | | — | | | ( 4,598 ) | | | — | | | ( 4,598 ) |
+Other | 13 | | | 2 | | | 181 | | | ( 61 ) | | | — | | | 122 | | | ( 57 ) | | | 65 |
+Balances as of April 30, 2025 | 7,986 | | | $ | 799 | | | $ | 5,441 | | | $ | 90,849 | | | $ | ( 13,296 ) | | | $ | 83,793 | | | $ | 6,548 | | | $ | 90,341 |
+Consolidated net income | — | | | — | | | — | | | 7,026 | | | — | | | 7,026 | | | 132 | | | 7,158 |
+Other comprehensive income, net of immaterial income taxes | — | | | — | | | — | | | — | | | 563 | | | 563 | | | 187 | | | 750 |
+Purchase of Company stock | ( 16 ) | | | ( 2 ) | | | ( 90 ) | | | ( 1,500 ) | | | — | | | ( 1,592 ) | | | — | | | ( 1,592 ) |
+Dividends to noncontrolling interest | — | | | — | | | — | | | — | | | — | | | — | | | ( 424 ) | | | ( 424 ) |
+Other | 5 | | | — | | | 367 | | | ( 47 ) | | | — | | | 320 | | | ( 3 ) | | | 317 |
+Balances as of July 31, 2025 | 7,975 | | | $ | 797 | | | $ | 5,718 | | | $ | 96,328 | | | $ | ( 12,733 ) | | | $ | 90,110 | | | $ | 6,440 | | | $ | 96,550 |
+See accompanying notes.
+6
+Table of Contents
+Walmart Inc.
+Condensed Consolidated Statements of Cash Flows
+(Unaudited)
+| | | | | | | | | | | | | |
+| | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025
+Cash flows from operating activities: | | | |
+Consolidated net income | | $ | 12,019 | | | $ | 11,790 |
+Adjustments to reconcile consolidated net income to net cash provided by operating activities: | | | |
+Depreciation and amortization | | 7,746 | | | 6,856 |
+Investment (gains) and losses, net | | 947 | | | ( 2,066 ) |
+Deferred income taxes | | 845 | | | 1,551 |
+Other operating activities | | 816 | | | 1,370 |
+Changes in certain assets and liabilities, net of effects of acquisitions and dispositions: | | | |
+Receivables, net | | 9 | | | ( 405 ) |
+Inventories | | ( 2,660 ) | | | ( 659 ) |
+Accounts payable | | 1,648 | | | 1,302 |
+Accrued liabilities | | ( 1,449 ) | | | ( 1,453 ) |
+Accrued income taxes | | ( 211 ) | | | 66 |
+Net cash provided by operating activities | | 19,710 | | | 18,352 |
+| | | |
+Cash flows from investing activities: | | | |
+Payments for property and equipment | | ( 14,181 ) | | | ( 11,409 ) |
+Proceeds from disposal of property and equipment | | 124 | | | 41 |
+Proceeds from disposal of certain strategic investments | | 42 | | | 775 |
+Other investing activities | | ( 249 ) | | | ( 606 ) |
+Net cash used in investing activities | | ( 14,264 ) | | | ( 11,199 ) |
+| | | |
+Cash flows from financing activities: | | | |
+Net change in short-term borrowings | | 3,923 | | | 759 |
+Proceeds from issuance of long-term debt | | 4,230 | | | 3,983 |
+Repayments of long-term debt | | ( 2,303 ) | | | ( 875 ) |
+Dividends paid | | ( 3,945 ) | | | ( 3,755 ) |
+Purchase of Company stock | | ( 5,104 ) | | | ( 6,200 ) |
+Other financing activities | | ( 1,643 ) | | | ( 905 ) |
+Net cash used in financing activities | | ( 4,842 ) | | | ( 6,993 ) |
+| | | |
+Effect of exchange rates on cash, cash equivalents and restricted cash | | 67 | | | 181 |
+| | | |
+Net increase in cash, cash equivalents and restricted cash | | 671 | | | 341 |
+Cash, cash equivalents and restricted cash at beginning of year | | 11,321 | | | 9,536 |
+Cash, cash equivalents and restricted cash at end of period | | $ | 11,992 | | | $ | 9,877 |
+See accompanying notes.
+7
+Table of Contents
+Walmart Inc.
+Notes to Condensed Consolidated Financial Statements
+Note 1. Summary of Significant Accounting Policies
+Basis of Presentation
+The Condensed Consolidated Financial Statements of Walmart Inc. and its subsidiaries ("Walmart" or the "Company") and the accompanying notes included in this Quarterly Report on Form 10-Q are unaudited. In the opinion of management, all adjustments necessary for the fair presentation of the Condensed Consolidated Financial Statements have been included. Such adjustments are of a normal, recurring nature. The Condensed Consolidated Financial Statements, and the accompanying notes, are prepared in accordance with generally accepted accounting principles in the United States ("GAAP") and do not contain certain information included in the Company's Annual Report on Form 10-K for the fiscal year ended January 31, 2026 ("fiscal 2026"). Therefore, the interim Condensed Consolidated Financial Statements should be read in conjunction with that Annual Report on Form 10-K.
+The Company's Condensed Consolidated Financial Statements are based on a fiscal year ending January 31 for the United States ("U.S.") and Canadian operations. The Company consolidates all other operations generally using a one-month lag based on a calendar year. There were no significant intervening events during the month of July 2026 related to the consolidated operations using a lag that materially affected the Condensed Consolidated Financial Statements.
+The Company's business is seasonal to a certain extent due to calendar events and national and religious holidays, as well as weather patterns. Historically, the Company's highest sales volume has occurred in the fiscal quarter ending January 31.
+Use of Estimates
+The Condensed Consolidated Financial Statements have been prepared in conformity with GAAP. Those principles require management to make estimates and assumptions that affect the reported amounts of assets and liabilities. Management's estimates and assumptions also affect the disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results may differ materially from those estimates.
+Supplier Financing Program Obligations
+The Company has supplier financing programs with financial institutions, whereby the Company agrees to pay the financial institution the stated amount of confirmed invoices on the invoice due date for participating suppliers. Participation in these programs is optional and solely up to the supplier, who negotiates the terms of the arrangement directly with the financial institution and may allow early payment. The outstanding payment obligations to financial institutions under these programs were $6.4 billion, $6.0 billion and $5.7 billion as of July 31, 2026, January 31, 2026 and July 31, 2025, respectively.
+Income Taxes
+The Company records a liability for unrecognized tax benefits resulting from uncertain tax positions taken or expected to be taken in a tax return. The Company records interest related to unrecognized tax benefits in interest expense in the Company's Condensed Consolidated Statements of Income. During the quarter ended July 31, 2026, the Company recorded a $0.4 billion benefit to income tax expense and a $0.5 billion reduction of interest expense in the Condensed Consolidated Statements of Income related to changes in unrecognized tax benefits.
+Recent Accounting Pronouncements
+In November 2024, the FASB issued ASU 2024-03, Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses, which requires incremental disclosures about specific expense categories, including but not limited to, purchases of inventory, employee compensation, depreciation, amortization and selling expenses. The amendments are effective for fiscal years beginning after December 15, 2026, and for interim periods within fiscal years beginning after December 15, 2027. Early adoption is permitted and the amendments may be applied either prospectively or retrospectively. Management is currently evaluating this ASU to determine its impact on the Company's disclosures. The amendments only impact disclosures and are not expected to have an impact on the Company's financial condition and results of operations.
+8
+Table of Contents
+Note 2. Net Income Per Common Share
+Basic net income per common share attributable to Walmart is based on the weighted-average common shares outstanding during the relevant period. Diluted net income per common share attributable to Walmart is based on the weighted-average common shares outstanding during the relevant period adjusted for the dilutive effect of share-based awards as determined under the treasury stock method. The Company did not have significant share-based awards outstanding that were antidilutive and not included in the calculation of diluted net income per common share attributable to Walmart for the three and six months ended July 31, 2026 and 2025.
+The following table provides a reconciliation of the numerators and denominators used to determine basic and diluted net income per common share attributable to Walmart:
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+(Amounts in millions, except per share data) | | 2026 | | 2025 | | 2026 | | 2025
+Numerator | | | | | | | |
+Consolidated net income | | $ | 6,529 | | | $ | 7,151 | | | $ | 12,019 | | | $ | 11,790 |
+Consolidated net income attributable to noncontrolling interest | | ( 163 ) | | | ( 125 ) | | | ( 323 ) | | | ( 277 ) |
+Consolidated net income attributable to Walmart | | $ | 6,366 | | | $ | 7,026 | | | $ | 11,696 | | | $ | 11,513 |
+| | | | | | | |
+Denominator | | | | | | | |
+Weighted-average common shares outstanding, basic | | 7,954 | | | 7,978 | | | 7,962 | | | 7,994 |
+Dilutive impact of share-based awards | | 24 | | | 38 | | | 27 | | | 39 |
+Weighted-average common shares outstanding, diluted | | 7,978 | | | 8,016 | | | 7,989 | | | 8,033 |
+| | | | | | | |
+Net income per common share attributable to Walmart | | | | | | | |
+Basic | | $ | 0.80 | | | $ | 0.88 | | | $ | 1.47 | | | $ | 1.44 |
+Diluted | | 0.80 | | | 0.88 | | | 1.46 | | | 1.43 |
+Note 3. Short-term Borrowings and Long-term Debt
+The Company has various committed lines of credit in the U.S. to support its commercial paper program. In April 2026, the Company renewed and extended its existing 364-day revolving credit facility of $10.0 billion as well as its five-year credit facility of $5.0 billion. In total, the Company had committed lines of credit in the U.S. of $15.0 billion at July 31, 2026 and January 31, 2026, all undrawn.
+The following table provides the changes in the Company's long-term debt for the six months ended July 31, 2026:
+| | | | | | | | | | | | | | | | | | | |
+(Amounts in millions) | | Long-term debt due within one year | | Long-term debt | | Total
+Balances as of February 1, 2026 | | $ | 3,542 | | | $ | 34,624 | | | $ | 38,166 |
+Proceeds from issuance of long-term debt (1) | | — | | | 4,230 | | | 4,230 |
+Repayments of long-term debt | | ( 2,303 ) | | | — | | | ( 2,303 ) |
+Reclassifications of long-term debt | | 2,249 | | | ( 2,249 ) | | | — |
+Currency and other adjustments | | ( 18 ) | | | ( 143 ) | | | ( 161 ) |
+Balances as of July 31, 2026 | | $ | 3,470 | | | $ | 36,462 | | | $ | 39,932 |
+(1)Proceeds from issuance of long-term debt are net of deferred loan costs and any related discount or premium.
+Debt Issuances
+Information on significant long-term debt issued during the six months ended July 31, 2026, for general corporate purposes, is as follows:
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+(Amounts in millions) | | | | | | | |
+Issue Date | | Principal Amount | | Maturity Date | | Interest Rate | | Net Proceeds
+April 30, 2026 | | $ | 350 | | | April 30, 2029 | | Floating | | $ | 349 |
+April 30, 2026 | | $ | 650 | | | April 30, 2029 | | 4.000 % | | $ | 648 |
+April 30, 2026 | | $ | 1,000 | | | April 30, 2031 | | 4.150 % | | $ | 994 |
+April 30, 2026 | | $ | 1,250 | | | April 30, 2033 | | 4.450 % | | $ | 1,244 |
+April 30, 2026 | | $ | 1,000 | | | April 30, 2036 | | 4.750 % | | $ | 995 |
+Total | | | | | | | | $ | 4,230 |
+These issuances are senior, unsecured notes which rank equally with all other senior, unsecured debt obligations of the Company, and are not convertible or exchangeable. These issuances do not contain any financial covenants and do not restrict the Company's ability to pay dividends or repurchase company stock.
+9
+Table of Contents
+Maturities
+Information on significant long-term debt maturities during the six months ended July 31, 2026 is as follows:
+| | | | | | | | | | | | | | | | | | | |
+(Amounts in millions) | | | | | |
+Maturity Date | | Principal Amount | | Interest Rate | | Repayment
+April 8, 2026 | | € 650 | | | 2.550 % | | $ | 754 |
+April 15, 2026 | | $ 750 | | | 4.000 % | | 750 |
+July 8, 2026 | | $ 799 | | | 3.050 % | | 799 |
+| | | | | | $ | 2,303 |
+Note 4. Fair Value Measurements
+Assets and liabilities recorded at fair value are measured using the fair value hierarchy, which prioritizes the inputs used in measuring fair value. The levels of the fair value hierarchy are:
+•Level 1: observable inputs such as quoted prices in active markets;
+•Level 2: inputs other than quoted prices in active markets that are either directly or indirectly observable; and
+•Level 3: unobservable inputs for which little or no market data exists, therefore requiring the Company to develop its own assumptions.
+The Company measures the fair value of certain equity investments, including certain immaterial equity method investments where the Company has elected the fair value option, as well as debt investments classified as trading on a recurring basis primarily within other long-term assets in the accompanying Condensed Consolidated Balance Sheets. The associated gains and losses from fair value changes for these investments are recognized within other gains and losses in the Condensed Consolidated Statements of Income. The fair value of these investments is as follows:
+| | | | | | | | | | | | | |
+(Amounts in millions) | | Fair Value as of July 31, 2026 | | Fair Value as of January 31, 2026
+Equity investments measured using Level 1 inputs | | $ | 860 | | | $ | 1,037 |
+Equity investments measured using Level 2 inputs | | 2,781 | | | 3,462 |
+Debt investments measured using Level 3 inputs | | 1,226 | | | 1,176 |
+Total | | $ | 4,867 | | | $ | 5,675 |
+The fair value of these investments decreased $1.1 billion and $0.8 billion for the three and six months ended July 31, 2026, respectively, and increased $2.0 billion and $1.4 billion for the three and six months ended July 31, 2025, respectively, primarily due to gains and losses resulting from net changes in the underlying stock prices of the investments and certain other immaterial investment activity.
+The Company also has derivatives recorded at fair value. Derivative fair values are the estimated amounts the Company would receive or pay upon termination of the related derivative agreements as of the reporting dates. The fair values have been measured using the income approach and Level 2 inputs, which include the relevant interest rate and foreign currency forward curves. As of July 31, 2026 and January 31, 2026, the notional amounts and fair values of these derivatives were as follows:
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | July 31, 2026 | | January 31, 2026 |
+(Amounts in millions) | | Notional Amount | | Fair Value | | Notional Amount | | Fair Value |
+Receive fixed-rate, pay variable-rate interest rate swaps designated as fair value hedges | | $ | 4,771 | | | $ | ( 467 ) | | (1) | $ | 4,771 | | | $ | ( 411 ) | | (1)
+Receive fixed-rate, pay fixed-rate cross-currency swaps designated as cash flow hedges | | 5,147 | | | ( 870 ) | | (1) | 6,020 | | | ( 920 ) | | (1)
+Total | | $ | 9,918 | | | $ | ( 1,337 ) | | | $ | 10,791 | | | $ | ( 1,331 ) | |
+(1) Primarily classified in deferred income taxes and other within the Company's Condensed Consolidated Balance Sheets.
+Nonrecurring Fair Value Measurements
+In addition to assets and liabilities recorded at fair value on a recurring basis, the Company's assets and liabilities are also subject to nonrecurring fair value measurements. Generally, assets are recorded at fair value on a nonrecurring basis as a result of impairment charges. The Company did not have any material assets or liabilities resulting in nonrecurring fair value measurements as of July 31, 2026 in the Company's Condensed Consolidated Balance Sheets.
+Other Fair Value Disclosures
+The Company records cash and cash equivalents, restricted cash and short-term borrowings at cost. The carrying values of these instruments approximate their fair value due to their short-term maturities.
+10
+Table of Contents
+The Company's long-term debt is also recorded at cost. The fair value is estimated using Level 2 inputs based on observable prices of identical instruments in less active markets. The carrying value and fair value of the Company's long-term debt as of July 31, 2026 and January 31, 2026, are as follows:
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | July 31, 2026 | | January 31, 2026
+(Amounts in millions) | | Carrying Value | | Fair Value | | Carrying Value | | Fair Value
+Long-term debt, including amounts due within one year | | $ | 39,932 | | | $ | 37,267 | | | $ | 38,166 | | | $ | 36,777 |
+Note 5. Contingencies
+Legal Proceedings
+The Company is involved in a number of legal proceedings and regulatory matters. The Company records a liability for those legal proceedings and regulatory matters when it determines it is probable that a loss has been incurred and the amount of the loss can be reasonably estimated. The Company also discloses when it is reasonably possible that a material loss may be incurred. From time to time, the Company may enter into discussions regarding settlement of these matters, and may enter into settlement agreements, if it believes settlement is in the best interest of the Company and its shareholders.
+Unless stated otherwise, the matters discussed below, if decided adversely to or settled by the Company, individually or in the aggregate, may result in a liability material to the Company's financial position, results of operations or cash flows. The Company can provide no assurance as to the scope and outcome of these matters and cannot reasonably estimate any loss or range of loss, beyond the amounts accrued, if any, that may arise from these matters.
+Opioid-Related Litigation
+The Company continues to vigorously defend against claims relating to distribution and dispensing of prescription opioid medications. These opioid-related matters include, but are not limited to, each of the matters described below; other actions filed by healthcare providers, individuals, and third-party payors; and actions filed by political subdivisions or Native American tribes that elected not to join the national settlements the Company disclosed in fiscal year 2023. Except as noted below, the Company cannot reasonably estimate any loss or range of loss that may arise from these matters and the Company can provide no assurance as to the scope and outcome of any of the opioid-related matters and no assurance that its business, financial position, results of operations or cash flows will not be materially adversely affected.
+Civil Litigation in the U.S. and Canada. In December 2017, the United States Judicial Panel on Multidistrict Litigation consolidated numerous lawsuits filed against a wide array of defendants by various plaintiffs asserting claims generally concerning the impacts of widespread opioid abuse. The consolidated multidistrict litigation is entitled In re National Prescription Opiate Litigation (MDL No. 2804) (the "MDL") and is pending in the U.S. District Court for the Northern District of Ohio (the "MDL Court"). Final approval of a settlement resolving the opioid-related claims of a nationwide class of third-party payors is pending with the MDL Court. The Company remains a party to certain other opioid-related matters in the MDL. Of those remaining cases, one brought by a hospital system has been selected as a bellwether case to proceed through discovery. The MDL Court may designate additional bellwether cases in the future.
+The Company is also a defendant to other opioid-related matters and in state and federal courts. The Florida Health Sciences Center case in a Florida state court asserted claims on behalf of several hospital systems against the Company and other defendants. A jury trial in this matter ended in a mistrial, and the Court thereafter granted a directed verdict and entered judgment in favor of the Company and other defendants. The plaintiffs have appealed.
+The Company has been responding to subpoenas, information requests, and investigations from governmental entities related to nationwide controlled substance dispensing and distribution practices involving opioids.
+Wal-Mart Canada Corp. and certain other subsidiaries of the Company have been named as defendants in two putative class action complaints filed in Canada related to distribution practices involving opioids. These matters remain pending.
+Department of Justice Opioid Civil Litigation. On December 22, 2020, the U.S. Department of Justice (the "DOJ") filed a civil complaint in the U.S. District Court for the District of Delaware alleging that the Company unlawfully dispensed controlled substances from its pharmacies and unlawfully distributed controlled substances to those pharmacies. The complaint alleges that this conduct resulted in violations of the Controlled Substances Act. The Company, without admitting liability, has settled this matter for an immaterial amount, which was accrued as of July 31, 2026.
+False Claims Act Litigation. On August 23, 2019, a qui tam action was filed in the U.S. District Court for the District of New Mexico. The action was partially unsealed on April 30, 2024 after the federal government declined to intervene. The DOJ informed the Company of its decision not to intervene on June 20, 2024. On July 25, 2024, the Court transferred the litigation to the U.S. District Court for the District of Delaware. On January 9, 2025, the plaintiffs filed a third amended complaint on behalf of two former pharmacists of the Company as relators that alleges the Company violated the Controlled Substances Act and state pharmacy regulations and that such conduct constitutes violations of the federal False Claims Act. The Company, without admitting liability, has settled this matter for an immaterial amount, which was accrued as of July 31, 2026.
+11
+Table of Contents
+Other Legal Proceedings
+Asda Equal Value Claims. Asda, formerly a subsidiary of the Company, is a defendant in certain equal value claims that began in 2008 and are proceeding in the United Kingdom before an Employment Tribunal in Manchester and before the High Court. Claims have been brought by approximately 77,000 current and former Asda store employees who allege their work is of equal value to the work done by employees in Asda's distribution centers and that the difference in pay and conditions between the different jobs is not objectively justified. Additional employees may assert claims in the future. The High Court claims are stayed pending the determination of a cohort of claims brought in the Employment Tribunal. The legal proceedings to consider these equal value claims are in three phases, and the first two phases are complete. On January 31, 2025 and February 25, 2026, the Employment Tribunal issued rulings that certain of the claims are permitted to advance to the third phase. The hearing on the third phase is scheduled to begin on November 23, 2026. There are factual and legal defenses to the equal value claims, and the Company intends to vigorously defend them. Subsequent to the divestiture of Asda in February 2021, the Company continues to oversee the conduct of the defense of these claims. While potential liability for these claims remains with Asda, the Company has agreed to provide indemnification with respect to certain of these claims up to a contractually determined amount. The Company cannot predict the number of such claims that may ultimately be filed and cannot reasonably estimate any loss or range of loss that may arise related to these proceedings. Accordingly, the Company can provide no assurance as to the scope and outcome of these matters.
+Money Transfer Agent Services Matter. The Company has responded to grand jury subpoenas issued by the United States Attorney's Office for the Middle District of Pennsylvania on behalf of the DOJ seeking documents regarding the Company's consumer fraud prevention program and anti-money laundering compliance related to the Company's money transfer services, where Walmart is an agent. The most recent subpoena was issued in August 2020. Walmart's responses to DOJ's subpoenas have been complete since 2021. While it has cooperated with the DOJ's review, the Company intends to vigorously defend this matter should the DOJ decide to pursue it further. The Company can provide no assurance as to the scope and outcome of this matter and cannot reasonably estimate any loss or range of loss that may arise. Accordingly, the Company can provide no assurance that its business, financial position, results of operations or cash flows will not be materially adversely affected.
+Driver Platform Matters. The Company, the Federal Trade Commission ("FTC") and certain states have reached a settlement regarding investigations into payment and operational practices of its Spark Driver platform pursuant to a stipulated order entered on March 3, 2026. Pursuant to the settlement and without admitting liability, the Company agreed to entry of a judgment of $100 million and to maintain certain programmatic practices and reporting obligations for a period of 10 years. Approximately $63 million of the judgment was suspended, pursuant to the terms of the stipulated order (reflecting amounts that have already been paid to drivers and other considerations reflected in the settlement), and the Company accrued the remainder of approximately $37 million as of January 31, 2026. The Company has also agreed to settlement terms with certain other states on these matters.
+The Company has also been responding to subpoenas, information requests and investigations from governmental entities with respect to the payment of drivers, independent contractor classification of drivers and certain operational issues regarding its Spark Driver platform. The Company is defending putative representative action civil litigation relating to driver classification and defending other civil litigation and arbitration claims in connection with the platform. The Company intends to vigorously defend itself in these matters. However, the Company can provide no assurance as to the scope and outcome of these matters and cannot reasonably estimate any loss or range of loss that may arise. Accordingly, the Company can provide no assurance that its business, financial position, results of operations or cash flows will not be materially adversely affected.
+Mexico Antitrust Matter. On October 6, 2023, the Comisión Federal de Competencia Económica of México ("COFECE") notified the main Mexican operating subsidiary of Wal-Mart de México, S.A.B. de C.V. ("Walmex"), a majority owned subsidiary of the Company, that COFECE's Investigatory Authority ("IA") had recommended the initiation of a quasi-judicial administrative process against Walmex's subsidiary for alleged relative monopolistic practices in connection with the supply and wholesale distribution of certain consumer goods, retail marketing practices of such consumer goods and related services. On December 12, 2024, after Walmex provided defenses, produced expert evidence and participated in a hearing, COFECE issued a split decision that Walmex's subsidiary had engaged in a single relative monopolistic practice in relation to the negotiation of two types of contributions with its suppliers. The resolution imposed a monetary penalty on Walmex's subsidiary in the amount of $93.4 million pesos (approximately $5 million U.S. dollars) and certain non-structural conduct measures relating to the two prohibited types of supplier contributions (while recognizing that other supplier contributions can continue). On January 6, 2025, Walmex's subsidiary challenged COFECE's resolution through an appeal in the specialized federal courts. Until the appeal is resolved, Walmex's subsidiary will operate in compliance with COFECE's ruling. Payment of the monetary penalty is stayed until the lawsuit is resolved.
+12
+Table of Contents
+Foreign Direct Investment Matters. At various times since July 2021, the Directorate of Enforcement in India has issued show cause notices (the "Notices") to Flipkart, various of its subsidiaries, and to unrelated companies and individuals, including certain current and former shareholders and directors of Flipkart. The Notices request the recipients to show cause as to why further proceedings should not be initiated against them based on alleged violations under India's Foreign Direct Investment rules and regulations (the "Rules"). The Notices primarily address the period from 2009 to 2015, prior to the Company's acquisition of a majority stake in Flipkart in 2018. Flipkart is responding to the Notices, which are at an initial stage of proceedings. Flipkart is also responding to requests for information for periods prior and subsequent to April 2016 regarding the Rules. If a hearing on the merits is initiated with respect to any Notice, and it is determined that violations of the Rules occurred, then the regulatory authority has the authority to impose monetary and/or non-monetary relief, such as share ownership restrictions. Flipkart intends to vigorously defend against the allegations set forth in the Notices. The Company is unable to predict whether any of the Notices will lead to a hearing on the merits or, if it does, the final outcome of the resulting proceedings. The Company cannot reasonably estimate any loss or range of loss that may arise from these matters, can provide no assurance as to the scope or outcome of any proceeding that might result from the Notices, or the amount of the proceeds the Company may receive in indemnification from individuals and entities that sold shares to the Company under the 2018 agreement for the period prior to the date the Company acquired its majority stake in Flipkart, and can provide no assurance that its business, financial position, results of operations or cash flows will not be materially adversely affected.
+India Antitrust Matter. On January 13, 2020, the Competition Commission of India ("CCI") ordered its Director General (the "DG") to investigate certain matters alleging competition law violations by certain subsidiaries of Flipkart in India and other parties. On September 13, 2024, those subsidiaries received a non-confidential version of the DG's Investigation Report (the "Report"), alleging certain competition law violations. CCI is not bound by the Report, and will conduct its independent analysis of the allegations, including hearing objections from the subsidiaries and other parties before issuing its final order in the matter, which could include monetary and non-monetary relief. CCI's final order would also be subject to appropriate appellate proceedings. The Company can provide no assurance as to the scope and outcome of this matter, cannot reasonably estimate any loss or range of loss that may arise, and can provide no assurance that its business, financial position, results of operations or cash flows will not be materially adversely affected.
+Other Lawsuits and Regulatory Matters
+The Company is involved in various other legal and regulatory proceedings that generally arise in the ordinary course of business, certain of which may be styled as class, representative, or mass actions which may seek substantial or indeterminate amounts, including punitive or exemplary damages. Among other things, these matters may involve intellectual property, antitrust and competition, consumer protection, and employment, as well as claims for insurance-related liabilities, such as workers' compensation, general liability, product liability, and certain employee-related healthcare benefits. These matters increasingly allege novel theories of harm, and can be expensive, disruptive and time-consuming to resolve.
+In addition, the Company self-insures against a number of insurance-related liabilities, including, but not limited to, general liability, workers' compensation, auto liability, product liability and certain employee-related healthcare benefits. Certain of the claims asserted against the Company may be subject to third-party insurance coverage or indemnification, including indemnification from suppliers of the products that the Company sells; however, in the event that insurance coverage is not adequate or does not continue to be available, or a supplier does not have the financial ability or capacity to fulfill their indemnification obligations, the Company's exposure to the full risks and costs of such claims is likely to increase.
+Gain Contingencies
+The Company engaged in the process established by the U.S. Customs and Border Protection ("CBP") for refunds of tariffs that the Company paid as the importer of record under the International Emergency Economic Powers Act. The Company accounts for such refunds as gain contingencies and recognizes any recovery when the gain is realized or realizable and the related contingencies have been substantially resolved. During the quarter ended July 31, 2026, the Company received approximately $2.9 billion in tariff refunds, primarily in the Walmart U.S. segment, which were recorded as a reduction to cost of sales and represent substantially all of the refunds requested by the Company.
+Note 6. Segments and Disaggregated Revenue
+Segments
+The Company is engaged in the operation of retail and wholesale stores and clubs, as well as eCommerce websites and mobile applications, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. The Company's operations are conducted in three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. The Company defines its segments as those operations whose results the chief operating decision maker ("CODM"), the Company's Chief Executive Officer, regularly reviews to analyze performance and allocate resources. The Company sells similar individual products and services in each of its segments. It is impractical to segregate and identify revenues for each of these individual products and services.
+13
+Table of Contents
+The Walmart U.S. segment includes the Company's mass merchandising concept in the U.S., as well as eCommerce, which includes omnichannel initiatives and certain other business offerings such as advertising services. The Walmart International segment consists of the Company's operations outside of the U.S., as well as eCommerce, which includes omnichannel initiatives. The Sam's Club U.S. segment includes the warehouse membership clubs in the U.S., as well as eCommerce, which includes omnichannel initiatives. Corporate and support consists of corporate overhead and other items not allocated to any of the Company's segments. The operating results of each reportable segment, including the mix of cost of sales and operating, selling, general and administrative expenses, are not directly comparable due to differences in business model, format and channel mix. Additionally, the operating results of each reportable segment may not be comparable to those of other retailers.
+The Company measures the profit or loss of its segments using operating income. The CODM uses operating income to allocate resources across the reportable segments as part of the Company's long-range and annual planning processes, and to evaluate planned versus actual results when assessing segment operating performance. From time to time, the Company may revise the measurement of each segment's operating income, including any corporate overhead allocations, and presentation of significant segment expenses, as determined by the information regularly reviewed by its CODM. Beginning in February 2026, the Company updated its segment allocation methodology for certain corporate overhead allocations and, accordingly, revised the prior period amounts for comparability. Information for the Company's segments, as well as for Corporate and support, including the reconciliation to income before income taxes, is provided as follows:
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025 | | 2026 | | 2025
+Walmart U.S. | | | | | | | |
+Net sales | | $ | 125,189 | | | $ | 120,911 | | | $ | 242,358 | | | $ | 233,074 |
+Membership and other income | | 750 | | 649 | | 1,676 | | 1,285
+Total revenues | | 125,939 | | 121,560 | | 244,034 | | 234,359
+Cost of sales | | 88,351 | | 87,237 | | 172,991 | | 168,589
+Operating, selling, general and administrative expenses | | 29,468 | | 27,591 | | 57,026 | | 53,342
+Operating income | | $ | 8,120 | | | $ | 6,732 | | | $ | 14,017 | | | $ | 12,428 |
+| | | | | | | |
+Walmart International | | | | | | | |
+Net sales | | $ | 35,198 | | | $ | 31,201 | | | $ | 70,308 | | | $ | 60,955 |
+Membership and other income | | 426 | | 381 | | 851 | | 760
+Total revenues | | 35,624 | | 31,582 | | 71,159 | | 61,715
+Cost of sales | | 27,659 | | 24,472 | | 55,346 | | 47,936
+Operating, selling, general and administrative expenses | | 6,526 | | 5,876 | | 12,772 | | 11,252
+Operating income | | $ | 1,439 | | | $ | 1,234 | | | $ | 3,041 | | | $ | 2,527 |
+| | | | | | | |
+Sam's Club U.S. (1) | | | | | | | |
+Net sales | | $ | 25,713 | | | $ | 23,638 | | | $ | 49,118 | | | $ | 45,702 |
+Membership and other income | | 654 | | 617 | | 1,328 | | 1,224
+Total revenues | | 26,367 | | 24,255 | | 50,446 | | 46,926
+Cost of sales | | 22,794 | | 21,062 | | 43,525 | | 40,549
+Operating, selling, general and administrative expenses | | 2,895 | | 2,723 | | 5,569 | | 5,241
+Operating income | | $ | 678 | | | $ | 470 | | | $ | 1,352 | | | $ | 1,136 |
+| | | | | | | |
+Corporate and support | | | | | | | |
+Membership and other income (2) | | $ | 7 | | | $ | 5 | | | $ | 49 | | | $ | 11 |
+Operating, selling, general and administrative expenses | | 861 | | 1,155 | | 1,583 | | 1,681
+Operating loss | | $ | ( 854 ) | | | $ | ( 1,150 ) | | | $ | ( 1,534 ) | | | $ | ( 1,670 ) |
+| | | | | | | |
+Consolidated | | | | | | | |
+Net sales | | $ | 186,100 | | | $ | 175,750 | | | $ | 361,784 | | | $ | 339,731 |
+Membership and other income | | 1,837 | | 1,652 | | 3,904 | | 3,280
+Total revenues | | 187,937 | | 177,402 | | 365,688 | | 343,011
+Cost of sales | | 138,804 | | 132,771 | | 271,862 | | 257,074
+Operating, selling, general and administrative expenses | | 39,750 | | 37,345 | | 76,950 | | 71,516
+Operating income | | 9,383 | | 7,286 | | 16,876 | | 14,421
+Interest, net | | 171 | | | 675 | | | 791 | | | 1,219 |
+Other (gains) and losses | | 1,200 | | | ( 2,708 ) | | | 925 | | | ( 2,111 ) |
+Income before income taxes | | $ | 8,012 | | | $ | 9,319 | | | $ | 15,160 | | | $ | 15,313 |
+(1) Total fuel-related cost of sales and operating, selling, general and administrative expenses for Sam's Club U.S. were $3.4 billion and $2.3 billion for the three months ended July 31, 2026 and 2025, respectively, and $6.1 billion and $4.5 billion for the six months ended July 31, 2026 and 2025, respectively.
+(2) Includes other income from corporate campus facilities and miscellaneous items.
+14
+Table of Contents
+Depreciation and amortization and capital expenditures for the Company's segments, as well as for Corporate and support, are as follows:
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025 | | 2026 | | 2025
+Walmart U.S. | | | | | | | |
+Depreciation and amortization | | $ | 2,602 | | | $ | 2,299 | | | $ | 5,111 | | | $ | 4,539 |
+Capital expenditures | | 5,442 | | 4,775 | | 10,453 | | 8,547
+Walmart International | | | | | | | |
+Depreciation and amortization | | $ | 632 | | | $ | 572 | | | $ | 1,263 | | | $ | 1,121 |
+Capital expenditures | | 991 | | 746 | | 1,812 | | 1,227
+Sam's Club U.S. | | | | | | | |
+Depreciation and amortization | | $ | 205 | | | $ | 195 | | | $ | 408 | | | $ | 384 |
+Capital expenditures | | 390 | | 194 | | 664 | | 338
+Corporate and support | | | | | | | |
+Depreciation and amortization | | $ | 486 | | | $ | 421 | | | $ | 964 | | | $ | 812 |
+Capital expenditures | | 674 | | 708 | | 1,252 | | 1,297
+Consolidated | | | | | | | |
+Depreciation and amortization | | $ | 3,925 | | | $ | 3,487 | | | $ | 7,746 | | | $ | 6,856 |
+Capital expenditures | | 7,497 | | 6,423 | | 14,181 | | 11,409
+Total assets for the Company's segments, as well as for Corporate and support, are as follows:
+| | | | | | | | | | | | | |
+| | July 31, | | January 31,
+(Amounts in millions) | | 2026 | | 2026
+Assets by segment | | | |
+Walmart U.S. | | $ | 172,301 | | | $ | 165,627 |
+Walmart International | | 87,968 | | | 86,093 |
+Sam's Club U.S. | | 18,203 | | | 17,186 |
+Corporate and support | | 15,442 | | | 15,762 |
+Total assets | | $ | 293,914 | | | $ | 284,668 |
+Disaggregated Revenues
+In the following tables, segment net sales are disaggregated by either merchandise category or market. In addition, net sales related to eCommerce are provided for each segment. Net sales related to eCommerce include omnichannel sales where a customer initiates an order digitally and the order is fulfilled through a store or club, as well as net sales from other business offerings that are part of the Company's ecosystem such as certain advertising arrangements, fulfillment services and data insights. From time to time, the Company revises the assignment of net sales of a particular item to a merchandise category. When the assignment changes, previous period amounts are reclassified to be comparable to the current period's presentation.
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+(Amounts in millions) | | Three Months Ended July 31, | | Six Months Ended July 31,
+Walmart U.S. net sales by merchandise category | | 2026 | | 2025 | | 2026 | | 2025
+Grocery | | $ | 74,130 | | | $ | 71,092 | | | $ | 144,826 | | | $ | 138,923 |
+General merchandise | | 29,728 | | | 29,458 | | | 56,148 | | | 54,734 |
+Health and wellness | | 16,942 | | | 17,248 | | | 33,297 | | | 33,492 |
+Other categories | | 4,389 | | | 3,113 | | | 8,087 | | | 5,925 |
+Total | | $ | 125,189 | | | $ | 120,911 | | | $ | 242,358 | | | $ | 233,074 |
+Of Walmart U.S.'s total net sales, approximately $29.4 billion and $23.7 billion related to eCommerce for the three months ended July 31, 2026 and 2025, respectively, and approximately $56.4 billion and $45.1 billion related to eCommerce for the six months ended July 31, 2026 and 2025, respectively.
+15
+Table of Contents
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+(Amounts in millions) | | Three Months Ended July 31, | | Six Months Ended July 31,
+Walmart International net sales by market | | 2026 | | 2025 | | 2026 | | 2025
+Mexico and Central America | | $ | 14,331 | | | $ | 12,546 | | | $ | 28,178 | | | $ | 24,260 |
+China | | 7,416 | | | 5,786 | | | 15,870 | | | 12,365 |
+Canada | | 6,379 | | | 6,114 | | | 12,106 | | | 11,259 |
+Other | | 7,072 | | | 6,755 | | | 14,153 | | | 13,071 |
+Total | | $ | 35,198 | | | $ | 31,201 | | | $ | 70,307 | | | $ | 60,955 |
+Of Walmart International's total net sales, approximately $9.9 billion and $8.3 billion related to eCommerce for the three months ended July 31, 2026 and 2025, respectively, and approximately $19.6 billion and $16.0 billion related to eCommerce for the six months ended July 31, 2026 and 2025, respectively.
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+(Amounts in millions) | | Three Months Ended July 31, | | Six Months Ended July 31,
+Sam's Club U.S. net sales by merchandise category | | 2026 | | 2025 | | 2026 | | 2025
+Grocery | | $ | 17,223 | | | $ | 16,417 | | | $ | 33,325 | | | $ | 31,860 |
+Fuel and other | | 4,192 | | | 3,064 | | | 7,635 | | | 5,915 |
+General merchandise | | 3,042 | | | 2,877 | | | 5,691 | | | 5,413 |
+Health and wellness | | 1,256 | | | 1,280 | | | 2,467 | | | 2,514 |
+Total | | $ | 25,713 | | | $ | 23,638 | | | $ | 49,118 | | | $ | 45,702 |
+Of Sam's Club U.S.'s total net sales, approximately $4.7 billion and $3.7 billion related to eCommerce for the three months ended July 31, 2026 and 2025, respectively, and approximately $8.8 billion and $7.1 billion related to eCommerce for the six months ended July 31, 2026 and 2025, respectively.
+16
+Table of Contents
+Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations
+Overview
+This discussion, which presents Walmart Inc.'s ("Walmart," the "Company," "our," "us" or "we") results for periods occurring in the fiscal year ending January 31, 2027 ("fiscal 2027") and the fiscal year ended January 31, 2026 ("fiscal 2026"), should be read in conjunction with our Condensed Consolidated Financial Statements as of and for the three and six months ended July 31, 2026, and the accompanying notes included in Part I, Item 1 of this Quarterly Report on Form 10-Q, as well as our Consolidated Financial Statements as of and for the year ended January 31, 2026, the accompanying notes and the related Management's Discussion and Analysis of Financial Condition and Results of Operations, contained in our Annual Report on Form 10-K for the year ended January 31, 2026.
+From time to time, we revise the measurement of each segment's operating income and other measures as determined by the information regularly reviewed by its chief operating decision maker. Beginning in February 2026, the Company updated its segment allocation methodology for certain corporate overhead allocations and, accordingly, revised the prior period amounts for comparability.
+Recent Developments, Macroeconomic Conditions and Potential Impacts
+We expect continued uncertainty in our business and the global economy due to the following factors: tariffs and trade restrictions, including tariff refunds; inflationary trends; fluctuations in global currencies; swings in macroeconomic conditions and their effect on consumer confidence; changes in employment trends; volatility in fuel prices; and supply chain pressures, any of which may impact our results. While we operate in a highly dynamic tariff environment, less than one third of what we sell in the U.S. is imported, with most of our imports coming from China, Vietnam, Mexico, India and Canada. We are committed to helping customers save money and live better through everyday low prices, supported by everyday low costs. Our operating results are influenced in part by our sourcing, pricing, merchandising, inventory management and other strategies in response to cost increases, which are further discussed in our Annual Report on Form 10-K. Information on certain risks, factors, and uncertainties that can affect our operating results and an investment in our securities can be found herein under "Item 1A. Risk Factors" and "Item 5. Other Information."
+The Company engaged in the process established by the U.S. Customs and Border Protection ("CBP") for refunds of tariffs that the Company paid as the importer of record under the International Emergency Economic Powers Act. During the quarter ended July 31, 2026, the Company received approximately $2.9 billion in tariff refunds pursuant to the CBP process, which were recorded as a reduction to cost of sales and represent substantially all of the refunds requested by the Company. A significant portion of these refunds was invested into customer-focused initiatives during the current quarter, primarily through price investment and other cost mitigation strategies, with continued prioritization of price investment expected through fiscal 2027.
+For a detailed discussion on results of operations by reportable segment, refer to "Results of Operations" below.
+Company Performance Metrics
+We are committed to helping customers save money and live better through everyday low prices, supported by everyday low costs. At times, we adjust our business strategies to maintain and strengthen our competitive positions in the countries in which we operate. We define our financial priorities as follows:
+•Growth - serve customers through a seamless omnichannel experience;
+•Margin - improve our operating income margin through productivity initiatives as well as category and business mix; and
+•Returns - improve our Return on Investment through margin improvement and disciplined capital spend.
+Growth
+Our objective of prioritizing growth means we will focus on serving customers and members however they want to shop through our omnichannel business model. This includes increasing comparable store and club sales through increasing membership through Walmart+ and at Sam's Club U.S., accelerating eCommerce sales growth and expansion of omnichannel initiatives that complement our strategy.
+Comparable sales is a metric that indicates the performance of our existing stores and clubs by measuring the change in sales for such stores and clubs, including eCommerce sales, for a particular period over the corresponding period in the previous year. Our discussion of our comparable sales below refers to our calendar comparable sales calculated using our fiscal calendar, which may result in differences when compared to comparable sales using the retail calendar (also known as the 4-5-4 calendar) as provided in our quarterly earnings releases. We report on comparable sales in the U.S. as we believe it is a meaningful metric within the context of the U.S. retail market where there is a single currency, one inflationary market and generally consistent store and club formats from year to year.
+17
+Table of Contents
+Calendar comparable sales, as well as the impact of fuel, for the three and six months ended July 31, 2026 and 2025, were as follows:
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+| | 2026 | | 2025 | | 2026 | | 2025 | | 2026 | | 2025 | | 2026 | | 2025
+| | With Fuel | | Fuel Impact | | With Fuel | | Fuel Impact
+Walmart U.S. | | 3.3 | % | | 4.7 | % | | 0.4 | % | | (0.1) | % | | 3.8 | % | | 3.9 | % | | 0.3 | % | | (0.1) | %
+Sam's Club U.S. | | 8.6 | % | | 3.3 | % | | 4.2 | % | | (2.6) | % | | 7.3 | % | | 3.1 | % | | 3.2 | % | | (2.6) | %
+Walmart U.S. comparable sales increased 3.3% and 3.8% for the three and six months ended July 31, 2026, respectively, driven by growth in transactions and average ticket, reflecting strength in grocery, partially offset by a decrease in health and wellness primarily due to the impact from maximum fair price regulation on certain prescription drugs, which went into effect in January 2026. Growth for the six months ended July 31, 2026 also reflects strength in general merchandise. Walmart U.S. eCommerce sales positively contributed approximately 4.9% and 5.1% to comparable sales for the three and six months ended July 31, 2026, respectively. This growth reflects continued strength in customer and Walmart+ member engagement with omnichannel offerings, which was primarily driven by store-fulfilled delivery.
+Sam's Club U.S. comparable sales increased 8.6% and 7.3% for the three and six months ended July 31, 2026, respectively, with growth in transactions and unit volumes, reflecting strength in grocery and general merchandise. Additionally, higher fuel sales, driven by higher fuel prices and volumes, positively impacted comparable sales by 4.2% and 3.2% for the three and six months ended July 31, 2026, respectively. Sam's Club U.S. eCommerce sales positively contributed approximately 3.1% to comparable sales for both the three and six months ended July 31, 2026, reflecting continued strength in member engagement with omnichannel offerings, such as club-fulfilled delivery.
+Margin
+Our objective of prioritizing margin focuses on growth with a focus on incremental margin accretion through a combination of productivity improvements, as well as category and business mix. We invest in technology and process improvements to increase productivity, manage inventory and reduce costs, and we operate with discipline by managing expenses and optimizing the efficiency of how we work. We measure operating discipline through expense leverage, which we define as net sales growing at a faster rate than operating, selling, general and administrative ("operating") expenses. Additionally, we focus on our mix of businesses, including expanding our ecosystem in higher margin areas, such as digital advertising. Our objective over the long-term is to achieve operating income leverage, which we define as growing operating income at a faster rate than net sales.
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025 | | 2026 | | 2025
+Net sales | | $ | 186,100 | | | $ | 175,750 | | | $ | 361,784 | | | $ | 339,731 |
+Percentage change from comparable period | | 5.9 | % | | 4.8 | % | | 6.5 | % | | 3.7 | %
+Operating income | | $ | 9,383 | | | $ | 7,286 | | | $ | 16,876 | | | $ | 14,421 |
+Percentage change from comparable period | | 28.8 | % | | (8.2) | % | | 17.0 | % | | (2.4) | %
+| | | | | | | |
+Percentage of net sales | | | | | | | |
+Gross profit (1) | | 25.4 | % | | 24.5 | % | | 24.9 | % | | 24.3 | %
+Operating expenses | | 21.4 | % | | 21.2 | % | | 21.3 | % | | 21.1 | %
+Operating income | | 5.0 | % | | 4.1 | % | | 4.7 | % | | 4.2 | %
+(1) Gross profit defined as net sales less cost of sales.
+Gross profit as a percentage of net sales ("gross profit rate") increased 96 and 53 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year, primarily due to tariff refunds, partially offset by price investments and higher fuel costs within our supply chain. Gross profit rate also benefited from continued growth in higher margin businesses, including advertising.
+Operating expenses as a percentage of net sales increased 11 and 22 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increase for the three months ended July 31, 2026 was primarily driven by higher self-insured general liability claims expense influenced by rising costs to resolve claims across retail and related industries, increased depreciation related to our capital investments and higher associate healthcare benefit costs related to increased enrollment and medical cost inflation. The increase for the six months ended July 31, 2026 was primarily driven by increased depreciation related to our capital investments, higher associate healthcare benefit costs and higher self-insured general liability claims expense. The increases for both the three and six months ended July 31, 2026 were partially offset by lapping charges of $0.4 billion related to certain legal matters for the same periods in the previous fiscal year.
+Operating income as a percentage of net sales increased 89 and 42 basis points for the three and six months ended July 31, 2026, respectively, primarily due to the factors described above.
+18
+Table of Contents
+Returns
+As we execute our financial framework, we believe our return on capital will improve over time. We measure return on capital with our return on investment and free cash flow metrics. In addition, we provide returns in the form of share repurchases and dividends, which are discussed in the Liquidity and Capital Resources section.
+Return on Assets and Return on Investment
+We include Return on Assets ("ROA") and Return on Investment ("ROI") as metrics to assess our return on capital. ROA is the most directly comparable measure based on our financial statements presented in accordance with generally accepted accounting principles in the U.S. ("GAAP") while ROI is considered a non-GAAP financial measure. Management believes ROI is a meaningful metric to share with investors because it helps investors assess how effectively Walmart is deploying its assets. Trends in ROI can fluctuate over time as management balances long-term strategic initiatives with possible short-term impacts.
+Our calculation of ROI is considered a non-GAAP financial measure because it uses financial measures that differ from those used in ROA, the most directly comparable GAAP financial measure. ROA is consolidated net income for the period divided by average total assets for the period. We define ROI as operating income plus interest income, depreciation and amortization, and rent expense for the trailing 12 months divided by average invested capital during the period. We consider average invested capital to be the average of our beginning and ending total assets, plus average accumulated depreciation and amortization, less average accounts payable and average accrued liabilities for that period. Although ROI is a standard financial measure, numerous methods exist for calculating a company's ROI. As a result, the method used by management to calculate our ROI may differ from the methods used by other companies to calculate their ROI.
+The calculation of ROA and ROI, along with a reconciliation of ROI to the calculation of ROA, the most comparable GAAP financial measure, is as follows:
+| | | | | | | | | | | | | |
+| | For the Trailing Twelve Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025
+CALCULATION OF RETURN ON ASSETS
+Numerator | | | |
+Consolidated net income | | $ | 22,499 | | | $ | 21,929 |
+Denominator | | | |
+Average total assets (1) | | $ | 282,376 | | | $ | 262,639 |
+Return on assets (ROA) | | 8.0 | % | | 8.3 | %
+| | | |
+CALCULATION OF RETURN ON INVESTMENT
+Numerator | | | |
+Operating income | | $ | 32,280 | | | $ | 28,988 |
++ Interest income | | 352 | | | 442 |
++ Depreciation and amortization | | 15,094 | | | 13,491 |
++ Rent | | 2,559 | | | 2,374 |
+= ROI operating income | | $ | 50,285 | | | $ | 45,295 |
+| | | |
+Denominator | | | |
+Average total assets (1) | | $ | 282,376 | | | $ | 262,639 |
+' + Average accumulated depreciation and amortization (1) | | 134,840 | | | 124,255 |
+' - Average accounts payable (1) | | 62,202 | | | 58,401 |
+- Average accrued liabilities (1) | | 29,448 | | | 28,239 |
+= Average invested capital | | $ | 325,566 | | | $ | 300,254 |
+Return on investment (ROI) | | 15.4 | % | | 15.1 | %
+(1)`The average is calculated using the account balance at the end of the current and prior comparative periods.
+| | | | | | | | | | | | | | | | | | | |
+| | As of July 31,
+(Amounts in millions) | | 2026 | | 2025 | | 2024
+Certain Balance Sheet Data | | | | | |
+Total assets | | $ | 293,914 | | | $ | 270,837 | | | $ | 254,440 |
+Accumulated depreciation and amortization | | 141,445 | | | 128,234 | | | 120,275 |
+Accounts payable | | 64,318 | | | 60,086 | | | 56,716 |
+Accrued liabilities | | 30,074 | | | 28,821 | | | 27,656 |
+19
+Table of Contents
+ROA was 8.0% and 8.3% for the trailing 12 months ended July 31, 2026 and 2025, respectively. The decrease in ROA was primarily due to net decreases in the fair value of our equity and other investments and an increase in average total assets resulting from higher purchases of property and equipment, offset by an increase in operating income. ROI was 15.4% and 15.1% for the trailing 12 months ended July 31, 2026 and 2025, respectively. The increase in ROI was primarily due to an increase in operating income from improved business performance, partially offset by an increase in average invested capital due to higher purchases of property and equipment.
+Capital Allocation
+Our strategy includes allocating the majority of our capital to higher-return areas focused on automation such as eCommerce, supply chain and store and club investments. The following table provides additional detail regarding our capital expenditures:
+| | | | | | | | | | | | | |
+(Amounts in millions) | | Six Months Ended July 31,
+Allocation of Capital Expenditures | | 2026 | | 2025
+Supply chain, customer-facing initiatives, technology and other | | $ | 7,659 | | | $ | 6,688 |
+Store and club remodels | | 3,623 | | | 2,917 |
+New stores and clubs, including expansions and relocations | | 1,087 | | | 577 |
+Total U.S. | | $ | 12,369 | | | $ | 10,182 |
+Walmart International | | 1,812 | | | 1,227 |
+Total Capital Expenditures | | $ | 14,181 | | | $ | 11,409 |
+Free Cash Flow
+Free cash flow is considered a non-GAAP financial measure. Management believes, however, that free cash flow, which measures our ability to generate additional cash from our business operations, is an important financial measure for use in evaluating the Company's financial performance. Free cash flow should be considered in addition to, rather than as a substitute for, consolidated net income as a measure of our performance and net cash provided by operating activities as a measure of our liquidity. See Liquidity and Capital Resources for discussions of GAAP metrics including net cash provided by operating activities, net cash used in investing activities and net cash provided by financing activities.
+We define free cash flow as net cash provided by operating activities in a period minus payments for property and equipment made in that period. Walmart's definition of free cash flow is limited in that it does not represent residual cash flows available for discretionary expenditures due to the fact that the measure does not deduct the payments required for debt service and other contractual obligations or payments made for business acquisitions. Therefore, we believe it is important to view free cash flow as a measure that provides supplemental information to our Condensed Consolidated Statements of Cash Flows.
+Although other companies report their free cash flow, numerous methods may exist for calculating a company's free cash flow. As a result, the method used by management to calculate our free cash flow may differ from the methods used by other companies to calculate their free cash flow.
+The following table sets forth a reconciliation of free cash flow, a non-GAAP financial measure, to net cash provided by operating activities, which we believe to be the GAAP financial measure most directly comparable to free cash flow, as well as information regarding net cash used in investing activities and net cash provided by financing activities.
+| | | | | | | | | | | | | |
+| | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025
+Net cash provided by operating activities | | $ | 19,710 | | | $ | 18,352 |
+Payments for property and equipment | | (14,181) | | | (11,409) |
+Free cash flow | | $ | 5,529 | | | $ | 6,943 |
+| | | |
+Net cash used in investing activities (1) | | $ | (14,264) | | | $ | (11,199) |
+Net cash used in financing activities | | (4,842) | | | (6,993) |
+(1) Net cash used in investing activities includes payments for property and equipment, which is also included in our computation of free cash flow.
+Net cash provided by operating activities was $19.7 billion for the six months ended July 31, 2026, which represents an increase of $1.4 billion when compared to the same period in the previous fiscal year. The increase was primarily due to an increase in cash provided by operating income, partially offset by timing of inventory receipts. Free cash flow for the six months ended July 31, 2026 was $5.5 billion, which represents a decrease of $1.4 billion when compared to the same period in the previous fiscal year. The decrease in free cash flow was due to an increase of $2.8 billion in capital expenditures to support our omnichannel growth strategy, partially offset by the increase in net cash provided by operating activities described above.
+20
+Table of Contents
+Results of Operations
+Consolidated Results of Operations
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+(Dollar amounts and retail square feet in millions) | | 2026 | | 2025 | | 2026 | | 2025
+Net sales | | $ | 186,100 | | | $ | 175,750 | | | $ | 361,784 | | | $ | 339,731 |
+Percentage change from comparable period | | 5.9 | % | | 4.8 | % | | 6.5 | % | | 3.7 | %
+Membership and other income (1) | | 1,837 | | | 1,652 | | | 3,904 | | | 3,280 |
+Total revenues | | 187,937 | | | 177,402 | | | 365,688 | | | 343,011 |
+Percentage change from comparable period | | 5.9 | % | | 4.8 | % | | 6.6 | % | | 3.7 | %
+Gross profit (2) | | 47,296 | | | 42,979 | | | 89,922 | | | 82,657 |
+Operating expenses (2) | | 39,750 | | | 37,345 | | | 76,950 | | | 71,516 |
+Operating income | | 9,383 | | | 7,286 | | | 16,876 | | | 14,421 |
+Other (gains) and losses | | 1,200 | | | (2,708) | | | 925 | | | (2,111) |
+Consolidated net income | | $ | 6,529 | | | $ | 7,151 | | | $ | 12,019 | | | $ | 11,790 |
+| | | | | | | |
+Percentage of net sales | | | | | | | |
+Gross profit | | 25.4 | % | | 24.5 | % | | 24.9 | % | | 24.3 | %
+Operating expenses | | 21.4 | % | | 21.2 | % | | 21.3 | % | | 21.1 | %
+Operating income | | 5.0 | % | | 4.1 | % | | 4.7 | % | | 4.2 | %
+| | | | | | | |
+Unit counts at period end | | 11,000 | | | 10,797 | | | 11,000 | | | 10,797 |
+Retail square feet at period end | | 1,058 | | | 1,052 | | | 1,058 | | | 1,052 |
+(1) Membership and other income includes membership fees and other items such as rental and tenant income, recycling income, gift card breakage income, as well as other income from corporate campus facilities.
+(2) Gross profit is defined as net sales less cost of sales. Operating expenses refers to operating, selling, general and administrative expenses.
+Our total revenues increased $10.5 billion or 5.9% and $22.7 billion or 6.6% for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increases were primarily due to strong positive comparable sales in our U.S. segments and international markets driven by growth in transactions. eCommerce net sales grew $8.2 billion or 23% and $16.7 billion or 24% for the three and six months ended July 31, 2026, respectively, primarily driven by store and club-fulfilled delivery. Net sales growth also reflected strong sales in grocery and general merchandise across our segments. Net sales for the three and six months ended July 31, 2026 were positively affected by $1.5 billion and $3.9 billion, respectively, in currency exchange rate fluctuations.
+Membership and other income increased $0.2 billion or 11.2% and $0.6 billion or 19.0% for the three and six months ended July 31, 2026, respectively, primarily due to strong growth in membership income globally. Growth in the six months ended July 31, 2026 also reflects increases in certain miscellaneous items, none of which are individually material.
+Gross profit rate increased 96 and 53 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increases were primarily driven by tariff refunds, partially offset by price investments and higher fuel costs within our supply chain. Gross profit rate also benefited from continued growth in higher margin businesses, including advertising.
+Operating expenses as a percentage of net sales increased 11 and 22 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increase for the three months ended July 31, 2026 was primarily driven by higher self-insured general liability claims expense influenced by rising costs to resolve claims across retail and related industries, increased depreciation related to our capital investments and higher associate healthcare benefit costs related to increased enrollment and medical cost inflation. The increase for the six months ended July 31, 2026 was primarily driven by increased depreciation related to our capital investments, higher associate healthcare benefit costs and higher self-insured general liability claims expense. The increases for both the three and six months ended July 31, 2026 were partially offset by lapping charges of $0.4 billion related to certain legal matters for the same periods in the previous fiscal year.
+Other gains and losses consist of certain non-operating items, such as the change in the fair value of our investments and gains or losses on business dispositions, which by their nature can fluctuate from period to period. Other gains and losses for the three and six months ended July 31, 2026 consisted of net losses of $1.2 billion and $0.9 billion, respectively, compared to net gains of $2.7 billion and $2.1 billion for the same periods in the previous fiscal year. These net gains and losses primarily consisted of changes in fair value of our equity and other investments driven by changes in their underlying stock prices.
+21
+Table of Contents
+Our effective income tax rate was 18.5% and 20.7% for the three and six months ended July 31, 2026, respectively, compared to 23.3% and 23.0% for the same periods in the previous fiscal year. The decreases in effective tax rate were primarily due to changes in unrecognized tax benefits. Our effective income tax rate may fluctuate as a result of various factors, including changes in our unrecognized tax benefits, valuation allowances, business operations, acquisitions, investments, entry into new businesses and geographies, intercompany transactions, changes in tax law, changes in the administrative practices, principles, and interpretations related to tax and the mix and size of earnings among our U.S. operations and international operations, which are subject to statutory rates that may be different than the U.S. statutory rate.
+As a result of the factors discussed above, as well as an interest expense benefit related to changes in unrecognized tax benefits, consolidated net income decreased $0.6 billion and increased $0.2 billion for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. Accordingly, diluted net income per common share attributable to Walmart was $0.80 and $1.46 for the three and six months ended July 31, 2026, respectively, which represents a decrease of $0.08 and an increase of $0.03 when compared to the same periods in the previous fiscal year.
+Walmart U.S. Segment
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31,
+(Dollar amounts and retail square feet in millions) | | 2026 | | 2025 | | 2026 | | 2025
+Net sales | | $ | 125,189 | | | $ | 120,911 | | | $ | 242,358 | | | $ | 233,074 |
+Net sales percentage change from comparable period | | 3.5 | % | | 4.8 | % | | 4.0 | % | | 4.0 | %
+Calendar comparable sales increase | | 3.3 | % | | 4.7 | % | | 3.8 | % | | 3.9 | %
+Membership and other income | | 750 | | | 649 | | | 1,676 | | | 1,285 |
+Gross profit | | 36,838 | | | 33,674 | | | 69,367 | | | 64,485 |
+Operating expenses | | 29,468 | | | 27,591 | | | 57,026 | | | 53,342 |
+Operating income | | $ | 8,120 | | | $ | 6,732 | | | $ | 14,017 | | | $ | 12,428 |
+| | | | | | | |
+Percentage of net sales | | | | | | | |
+Gross profit | | 29.4 | % | | 27.9 | % | | 28.6 | % | | 27.7 | %
+Operating expenses | | 23.5 | % | | 22.8 | % | | 23.5 | % | | 22.9 | %
+Operating income | | 6.5 | % | | 5.6 | % | | 5.8 | % | | 5.3 | %
+| | | | | | | |
+Unit counts at period end | | 4,615 | | 4,606 | | 4,615 | | 4,606
+Retail square feet at period end | | 699 | | 698 | | 699 | | 698
+Net sales for the Walmart U.S. segment increased $4.3 billion or 3.5% and $9.3 billion or 4.0%, for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increases were due to comparable sales of 3.3% and 3.8% for the three and six months ended July 31, 2026, respectively, driven by growth in transactions and average ticket, reflecting strength in grocery, partially offset by a decrease in health and wellness primarily due to the impact from maximum fair price regulation on certain prescription drugs, which went into effect in January 2026. Growth for the six months ended July 31, 2026 also reflects strength in general merchandise. The Walmart U.S. segment's eCommerce net sales positively contributed approximately 4.9% and 5.1% to comparable sales for the three and six months ended July 31, 2026, respectively. This growth reflects continued strength in customer and Walmart+ member engagement with omnichannel offerings, which was primarily driven by store-fulfilled delivery.
+Membership and other income increased 15.6% and 30.4% for the three and six months ended July 31, 2026, respectively, primarily driven by double-digit percentage growth in membership fee revenue from Walmart+. Growth during the six months ended July 31, 2026 also reflects increases in certain miscellaneous items.
+Gross profit rate increased 158 and 95 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increases were primarily driven by tariff refunds, partially offset by price investments and higher fuel costs within our supply chain. Gross profit rate also benefited from continued growth in higher margin businesses, including advertising.
+Operating expenses as a percentage of net sales increased 72 and 64 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increase for the three months ended July 31, 2026 was primarily driven by higher self-insured general liability claims expense, increased depreciation related to our capital investments and higher associate healthcare benefit costs related to increased enrollment and medical cost inflation. The increase for the six months ended July 31, 2026 was primarily driven by higher associate healthcare benefit costs, increased depreciation related to our capital investments and higher self-insured general liability claims expense.
+As a result of the factors discussed above, operating income increased $1.4 billion and $1.6 billion for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year.
+22
+Table of Contents
+Walmart International Segment
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31, |
+(Dollar amounts and retail square feet in millions) | | 2026 | | 2025 | | 2026 | | 2025 |
+Net sales | | $ | 35,198 | | | $ | 31,201 | | | $ | 70,308 | | | $ | 60,955 | |
+Percentage change from comparable period | | 12.8 | % | | 5.5 | % | | 15.3 | % | | 2.6 | % |
+Membership and other income | | 426 | | | 381 | | | 851 | | | 760 | |
+Gross profit | | 7,539 | | | 6,729 | | | 14,962 | | | 13,019 | |
+Operating expenses | | 6,526 | | | 5,876 | | | 12,772 | | | 11,252 | |
+Operating income | | $ | 1,439 | | | $ | 1,234 | | | $ | 3,041 | | | $ | 2,527 | |
+| | | | | | | | |
+Percentage of net sales | | | | | | | | |
+Gross profit | | 21.4 | % | | 21.6 | % | | 21.3 | % | | 21.4 | % |
+Operating expenses | | 18.5 | % | | 18.8 | % | | 18.2 | % | | 18.5 | % |
+Operating income | | 4.1 | % | | 4.0 | % | | 4.3 | % | | 4.1 | % |
+| | | | | | | | |
+Unit counts at period end | | 5,783 | | | 5,591 | | | 5,783 | | | 5,591 | |
+Retail square feet at period end | | 278 | | | 274 | | | 278 | | | 274 | |
+Net sales for the Walmart International segment increased $4.0 billion or 12.8% and $9.4 billion or 15.3% for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increases were primarily due to positive comparable sales across our international markets, including strong eCommerce growth of $1.6 billion and $3.6 billion for the three and six months ended July 31, 2026, respectively. Currency exchange rate fluctuations positively contributed $1.5 billion and $3.9 billion for the three and six months ended July 31, 2026, respectively.
+Gross profit rate decreased 15 and 8 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The decreases were primarily due to price investments and ongoing format mix shifts, partially offset by improved eCommerce margins and business mix shifts. Additionally for the three months ended July 31, 2026, the rate was negatively impacted by a discrete sales-related reserve.
+Operating expenses as a percentage of net sales decreased 29 basis points for both the three and six months ended July 31, 2026, when compared to the same periods in the previous fiscal year. The decreases were primarily due to disciplined cost controls and ongoing format mix shifts, partially offset by investments in strategic growth priorities in our Mexico and Canada markets.
+As a result of the factors discussed above, operating income increased $0.2 billion and $0.5 billion for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year.
+23
+Table of Contents
+Sam's Club U.S. Segment
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended July 31, | | Six Months Ended July 31, |
+(Dollar amounts and retail square feet in millions) | | 2026 | | 2025 | | 2026 | | 2025 |
+Including Fuel | | | | | | | | |
+Net sales | | $ | 25,713 | | | $ | 23,638 | | | $ | 49,118 | | | $ | 45,702 | |
+Percentage change from comparable period | | 8.8 | % | | 3.4 | % | | 7.5 | % | | 3.2 | % |
+Calendar comparable sales increase | | 8.6 | % | | 3.3 | % | | 7.3 | % | | 3.1 | % |
+Membership and other income | | 654 | | | 617 | | | 1,328 | | | 1,224 | |
+Gross profit | | 2,919 | | | 2,576 | | | 5,593 | | | 5,153 | |
+Operating expenses | | 2,895 | | | 2,723 | | | 5,569 | | | 5,241 | |
+Operating income | | $ | 678 | | | $ | 470 | | | $ | 1,352 | | | $ | 1,136 | |
+| | | | | | | | |
+Percentage of net sales | | | | | | | | |
+Gross profit | | 11.4 | % | | 10.9 | % | | 11.4 | % | | 11.3 | % |
+Operating expenses | | 11.3 | % | | 11.5 | % | | 11.3 | % | | 11.5 | % |
+Operating income | | 2.6 | % | | 2.0 | % | | 2.8 | % | | 2.5 | % |
+| | | | | | | | |
+Unit counts at period end | | 602 | | | 600 | | | 602 | | | 600 | |
+Retail square feet at period end | | 81 | | | 80 | | | 81 | | | 80 | |
+| | | | | | | | |
+Excluding Fuel (1) | | | | | | | | |
+Net sales | | $ | 22,139 | | | $ | 21,185 | | | $ | 42,656 | | | $ | 40,924 | |
+Percentage change from comparable period | | 4.5 | % | | 6.0 | % | | 4.2 | % | | 5.8 | % |
+Operating income | | $ | 485 | | | $ | 314 | | | $ | 1,000 | | | $ | 843 | |
+(1) We believe the Excluding Fuel information is useful to investors because it permits investors to understand the effect of the Sam's Club U.S. segment's fuel sales on its results of operations, which are impacted by the volatility of fuel prices. Volatility in fuel prices may continue to impact the operating results of the Sam's Club U.S. segment in the future.
+Net sales for the Sam's Club U.S. segment increased $2.1 billion or 8.8% and $3.4 billion or 7.5% for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increases were primarily due to comparable sales, including fuel, of 8.6% and 7.3% for the three and six months ended July 31, 2026, respectively, with growth in transactions and unit volumes, reflecting strength in grocery and general merchandise. Additionally, higher fuel sales, driven by higher fuel prices and volumes, positively impacted comparable sales by 4.2% and 3.2% for the three and six months ended July 31, 2026, respectively. Sam's Club U.S. eCommerce net sales positively contributed approximately 3.1% to comparable sales for both the three and six months ended July 31, 2026, reflecting continued strength in member engagement with omnichannel offerings, such as club-fulfilled delivery.
+Membership and other income increased 6.0% and 8.5% for the three and six months ended July 31, 2026, when compared to the same periods in the previous fiscal year. The increases were primarily due to growth in the membership base and Plus penetration. Growth during the six months ended July 31, 2026 also reflects increases in certain miscellaneous items. As previously reported, Sam's Club U.S. increased its annual membership fees, effective May 1, 2026. Membership fees are deferred and recognized ratably over the one-year membership term.
+Gross profit rate increased 45 and 11 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The increases were primarily due to tariff refunds, partially offset by price investments and increased eCommerce shipping and fulfillment costs, driven by club-fulfilled delivery.
+Operating expenses as a percentage of net sales decreased 26 and 13 basis points for the three and six months ended July 31, 2026, respectively, when compared to the same periods in the previous fiscal year. The decreases for both the three and six months ended July 31, 2026 were primarily driven by higher fuel sales, offset by continued technology investments and higher self-insured general liability claims expense.
+As a result of the factors discussed above, operating income increased $0.2 billion for both the three and six months ended July 31, 2026, when compared to the same periods in the previous fiscal year.
+Liquidity and Capital Resources
+Liquidity
+The strength and stability of our operations have historically supplied us with a significant source of liquidity. Our cash flows provided by operating activities, supplemented with our long-term debt and short-term borrowings, have been sufficient to fund our operations while allowing us to invest in activities that support the long-term growth of our operations. Generally, some or all of the remaining available cash flow has been used to fund dividends on our common stock and share repurchases. We believe our sources of liquidity will continue to be sufficient to fund operations, finance our investment activities, pay dividends and fund our share repurchases for at least the next 12 months and for the foreseeable future.
+24
+Table of Contents
+Net Cash Provided by Operating Activities
+| | | | | | | | | | | | | |
+| | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025
+Net cash provided by operating activities | | $ | 19,710 | | | $ | 18,352 |
+Net cash provided by operating activities for the six months ended July 31, 2026 increased $1.4 billion when compared to the same period in the previous fiscal year. The increase was primarily due to an increase in cash provided by operating income, partially offset by timing of inventory receipts.
+Cash Equivalents and Working Capital Deficit
+Cash and cash equivalents were $11.5 billion and $9.4 billion at July 31, 2026 and 2025, respectively. Our working capital deficit was $26.9 billion as of July 31, 2026, which increased when compared to the $21.5 billion working capital deficit as of July 31, 2025. The increase in our working capital deficit was primarily driven by an increase in short-term borrowings for general corporate purposes as well as the timing of certain payments described above, partially offset by timing of inventory receipts, increase in receivables related to sales growth and higher cash balances. We generally operate with a working capital deficit due to our efficient use of cash in funding operations, consistent access to the capital markets and returns provided to our shareholders in the form of cash dividends and share repurchases.
+As of July 31, 2026 and January 31, 2026, cash and cash equivalents of $5.0 billion and $3.9 billion, respectively, may not be freely transferable to the U.S. due to local laws or other restrictions or are subject to the approval of the noncontrolling interest shareholders.
+Net Cash Used in Investing Activities
+| | | | | | | | | | | | | |
+| | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025
+Net cash used in investing activities | | $ | (14,264) | | | $ | (11,199) |
+Net cash used in investing activities for the six months ended July 31, 2026 increased $3.1 billion when compared to the same period in the previous fiscal year. The increase was primarily due to increased payments for property and equipment and change in net proceeds received from sales of certain strategic investments in the previous fiscal year.
+Net Cash Used in Financing Activities
+| | | | | | | | | | | | | |
+| | Six Months Ended July 31,
+(Amounts in millions) | | 2026 | | 2025
+Net cash used in financing activities | | $ | (4,842) | | | $ | (6,993) |
+Net cash used in financing activities decreased $2.2 billion for the six months ended July 31, 2026, when compared to the same period in the previous fiscal year. The decrease was primarily due to higher short-term borrowings and lower share repurchases, primarily offset by increased debt repayments in the current fiscal year.
+In April 2026, the Company renewed and extended its existing 364-day revolving credit facility of $10.0 billion as well as its five-year credit facility of $5.0 billion. In total, we had committed lines of credit in the U.S. of $15.0 billion at July 31, 2026, all undrawn.
+Long-term Debt
+The following table provides the changes in our long-term debt for the six months ended July 31, 2026:
+| | | | | | | | | | | | | | | | | | | |
+(Amounts in millions) | | Long-term debt due within one year | | Long-term debt | | Total
+Balances as of February 1, 2026 | | $ | 3,542 | | | $ | 34,624 | | | $ | 38,166 |
+Proceeds from issuance of long-term debt (1) | | — | | | 4,230 | | | 4,230 |
+Repayments of long-term debt | | (2,303) | | | — | | | (2,303) |
+Reclassifications of long-term debt | | 2,249 | | | (2,249) | | | — |
+Currency and other adjustments | | (18) | | | (143) | | | (161) |
+Balances as of July 31, 2026 | | $ | 3,470 | | | $ | 36,462 | | | $ | 39,932 |
+(1)Proceeds from issuance of long-term debt are net of deferred loan costs and any related discount or premium.
+During the six months ended July 31, 2026, our total outstanding long-term debt increased $1.8 billion, primarily due to the issuance of new long-term debt in April 2026, less current year debt repayments. Refer to Note 3 to our Condensed Consolidated Financial Statements for details.
+25
+Table of Contents
+Dividends
+Effective February 19, 2026, the Company approved the fiscal 2027 annual dividend of $0.99 per share, an increase over the fiscal 2026 annual dividend of $0.94 per share. For fiscal 2027, the annual dividend was or will be paid in four quarterly installments of $0.2475 per share, according to the following record and payable dates:
+| | | | | | | |
+Record Date | | Payable Date
+March 20, 2026 | | April 6, 2026
+May 8, 2026 | | May 26, 2026
+August 21, 2026 | | September 8, 2026
+December 11, 2026 | | January 4, 2027
+The dividend installments payable on April 6, 2026 and May 26, 2026 were paid as scheduled.
+Company Share Repurchase Program
+From time to time, the Company repurchases shares of its common stock under share repurchase programs authorized by the Company's Board of Directors. All repurchases made during the six months ended July 31, 2026 prior to February 23, 2026 were made under the program in effect at the beginning of fiscal 2027. In February 2026, the Company approved a new $30 billion share repurchase program, which beginning on February 23, 2026, replaced the previous share repurchase program. As of July 31, 2026, authorization for $25.1 billion of share repurchases remained under the current share repurchase program. Any repurchased shares are constructively retired and returned to an unissued status.
+We regularly review share repurchase activity and consider several factors in determining when to execute share repurchases, including, among other things, current cash needs, capacity for leverage, cost of borrowings, our results of operations and the market price of our common stock. We anticipate that a majority of the ongoing share repurchase program will be funded through the Company's free cash flow.
+The following table provides, on a settlement date basis, share repurchase information for the six months ended July 31, 2026 and 2025:
+| | | | | | | | | | |
+| Six Months Ended July 31,
+(Amounts in millions, except per share data) | 2026 | | 2025
+Total number of shares repurchased | 42.3 | | | 67.4 |
+Average price paid per share | $ | 120.71 | | | $ | 92.03 |
+Total amount paid for share repurchases | $ | 5,104 | | | $ | 6,200 |
+During the six months ended July 31, 2026, the Company repurchased $5.1 billion in shares of its common stock, a decrease of $1.1 billion as compared to the same period in the previous fiscal year. The decrease was primarily driven by opportunistic prices during the first quarter of fiscal 2026 as part of the Company's long-term strategy.
+Material Cash Requirements
+Material cash requirements from operating activities primarily consist of inventory purchases, employee related costs, taxes, interest and other general operating expenses, which we expect to be primarily satisfied by our cash from operations. Other material cash requirements from known contractual and other obligations include short-term borrowings, long-term debt and related interest payments, leases and purchase obligations.
+Capital Resources
+We believe our cash flows from operations, current cash position, short-term borrowings and access to capital markets will continue to be sufficient to meet our anticipated cash requirements and contractual obligations, which includes funding seasonal buildups in merchandise inventories and funding our capital expenditures, acquisitions, dividend payments and share repurchases.
+We have strong commercial paper and long-term debt ratings that have enabled and should continue to enable us to refinance our debt as it becomes due at favorable rates in capital markets. As of July 31, 2026, the ratings assigned to our commercial paper and rated series of our outstanding long-term debt were as follows:
+| | | | | | | | | | | | | |
+Rating agency | | Commercial paper | | Long-term debt
+Standard & Poor's | | A-1+ | | AA
+Moody's Investors Service | | P-1 | | Aa2
+Fitch Ratings | | F1+ | | AA
+26
+Table of Contents
+Credit rating agencies review their ratings periodically and, therefore, the credit ratings assigned to us by each agency may be subject to revision at any time. Accordingly, we are not able to predict whether our current credit ratings will remain consistent over time. Factors that could affect our credit ratings include changes in our operating performance, the general economic environment, conditions in the retail industry, our financial position, including our total debt and capitalization, and changes in our business strategy. Any downgrade of our credit ratings by a credit rating agency could increase our future borrowing costs or impair our ability to access capital and credit markets on terms commercially acceptable to us. In addition, any downgrade of our current short-term credit ratings could impair our ability to access the commercial paper markets with the same flexibility that we have experienced historically, potentially requiring us to rely more heavily on more expensive types of debt financing. The credit rating agency ratings are not recommendations to buy, sell or hold our commercial paper or debt securities. Each rating may be subject to revision or withdrawal at any time by the assigning rating organization and should be evaluated independently of any other rating. Moreover, each credit rating is specific to the security to which it applies.
+Other Matters
+In Note 5 to our Condensed Consolidated Financial Statements, which is captioned "Contingencies" and appears in Part I of this Quarterly Report on Form 10-Q under the caption "Item 1. Financial Statements," we discuss, under the sub-caption "Opioid-Related Litigation," certain opioid-related matters and certain risks arising therefrom. In Note 5, we discuss, "Asda Equal Value Claims" the Company's indemnification obligation for the Asda Equal Value Claims matter, "Money Transfer Agent Services Matter," a government investigation by the U.S. Attorney's Office for the Middle District of Pennsylvania into the Company's consumer fraud prevention and anti-money laundering compliance related to the Company's money transfer agent services, as well as matters related to independent contractor drivers on the driver platform under "Driver Platform Matters." In Note 5, under "Mexico Antitrust Matter," we also discuss a quasi-judicial administrative process initiated by COFECE against Walmex and Walmex's related constitutional challenge. In Note 5 we also discuss show cause notices and requests issued by the Directorate of Enforcement to Flipkart regarding Foreign Direct Investment rules and regulations in India and an India Antitrust Matter. We reference various legal proceedings related to the Prescription Opiate Litigation, the DOJ Opioid Civil Litigation and False Claims Act Litigation; Asda Equal Value Claims; Money Transfer Agent Services Matter; Federal Trade Commission and State Attorneys General Driver Platform Litigation; Mexico Antitrust Matter; and an India Antitrust Matter in Part II of this Quarterly Report on Form 10-Q under the caption "Item 1. Legal Proceedings," under the caption "I. Supplemental Information." We also discuss an environmental matter with the U.S. Environmental Protection Agency in Part II of this Quarterly Report on Form 10-Q under the caption "Item 1. Legal Proceedings," under the sub-caption "II. Environmental Matters." The foregoing matters and other matters described elsewhere in this Quarterly Report on Form 10-Q represent contingent liabilities of the Company that may or may not result in the incurrence of a material liability by the Company upon their final resolution.
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+Market risks relating to our operations result primarily from changes in interest rates, currency exchange rates and the fair value of certain equity investments. As of July 31, 2026, there were no material changes to our market risks disclosed in our Annual Report on Form 10-K for the fiscal year ended January 31, 2026. The information concerning market risk set forth in Part II, Item 7A. of our Annual Report on Form 10-K for the fiscal year ended January 31, 2026, as filed with the SEC on March 13, 2026, under the caption "Quantitative and Qualitative Disclosures About Market Risk," is hereby incorporated by reference into this Quarterly Report on Form 10-Q.
+27
+Table of Contents
+Item 4. Controls and Procedures
+We maintain disclosure controls and procedures that are designed to provide reasonable assurance that information, which is required to be timely disclosed, is accumulated and communicated to management in a timely fashion. In designing and evaluating such controls and procedures, we recognize that any controls and procedures, no matter how well designed and operated, can provide only reasonable assurance of achieving the desired control objectives. Our management is necessarily required to use judgment in evaluating controls and procedures. Also, we have investments in unconsolidated entities. Since we do not control or manage those entities, our controls and procedures with respect to those entities are substantially more limited than those we maintain with respect to our consolidated subsidiaries.
+In the ordinary course of business, we review our internal control over financial reporting and make changes to our systems and processes to improve such controls and increase efficiency, while ensuring that we maintain an effective internal control environment. Changes may include such activities as implementing new, more efficient systems, updating existing systems, automating manual processes, standardizing controls globally, migrating certain processes to our shared services organizations and increasing monitoring controls. We are continuing to upgrade our financial systems globally and modernize functions across the business which will impact our internal control over financial reporting.
+An evaluation of the effectiveness of the design and operation of our disclosure controls and procedures as of the end of the period covered by this report was performed under the supervision and with the participation of management, including our Chief Executive Officer and Chief Financial Officer. Based upon that evaluation, our Chief Executive Officer and Chief Financial Officer concluded that our disclosure controls and procedures are effective to provide reasonable assurance that information required to be disclosed by the Company in the reports that it files or submits under the Securities Exchange Act of 1934, as amended (the "Exchange Act"), is accumulated and communicated to management, including our Chief Executive Officer and Chief Financial Officer, as appropriate, to allow timely decisions regarding required disclosure and are effective to provide reasonable assurance that such information is recorded, processed, summarized and reported within the time periods specified by the SEC's rules and forms. There has been no significant change in the Company's internal control over financial reporting that occurred during the fiscal quarter ended July 31, 2026, that has materially affected, or is reasonably likely to materially affect, the Company's internal control over financial reporting.
+28
+Table of Contents
+PART II. OTHER INFORMATION
+Item 1. Legal Proceedings
+I. SUPPLEMENTAL INFORMATION: The Company is involved in legal proceedings arising in the normal course of its business, including litigation, arbitration and other claims, and investigations, inspections, subpoenas, audits, claims, inquiries and similar actions by governmental authorities. We discuss certain legal proceedings in Part I of this Quarterly Report on Form 10-Q under the caption "Item 1. Financial Statements," in Note 5 to our Condensed Consolidated Financial Statements, which is captioned "Contingencies," under the sub-caption "Legal Proceedings." We refer you to that discussion for important information concerning those legal proceedings, including the basis for such actions and, where known, the relief sought. We provide the following additional information concerning those legal proceedings, including the name of the lawsuit, the court in which the lawsuit is pending, and the date on which the petition commencing the lawsuit or appeal was filed, in addition to disclosure of certain other legal matters.
+Opioid-Related Litigation: In re National Prescription Opiate Litigation (MDL No. 2804) (the "MDL") is pending in the U.S. District Court for the Northern District of Ohio and includes approximately 118 cases with claims against the Company as of August 21, 2026. In addition, the following 15 other opioid-related cases against the Company and its subsidiaries were pending in U.S. state and federal courts and Canadian courts as of August 21, 2026: Plumbers' Local Union No. 690 Industry Funds, et al. v. Purdue Pharma L.P., et al., Pa. Ct. Com. Pl., Philadelphia Cty., 7/27/26; Baby Doe 1, et al. v. Allergan Finances, LLC, et al., U.S. Dist. Ct., E.D. Tenn., 4/29/25; Marshall Cty. Bd. of Educ., et al. v. Cephalon, Inc., et al., U.S. Dist. Ct., N.D. W. Va., 10/28/24; Reiner v. CVS Pharm., Inc., et al., Nev. 5th Jud. Dist. Ct., Nye Cty., 2/26/24; Chaney v. CVS Pharm., Inc., et al., Ky. Cir. Ct., Perry Cty., 12/11/23; City of Grande Prairie, et al. v. Apotex Inc., et al., Alta. King's Bench Ct., Calgary Jud. Ctr., 4/27/23; Lac La Ronge Indian Band, et al. v. Apotex Inc., et al., Sask. King's Bench Ct., Prince Albert Jud. Ctr., 3/17/23; Commonwealth of Pennsylvania ex rel. Allegheny Cty. Dist. Att'y Stephen A. Zappala, Jr. v. CVS Ind., LLC, et al., Pa. Ct. Com. Pl., Delaware Cty., 8/8/22; Baby Doe, et al., ex rel. Their Guardian Ad Litem v. Endo Health Sols., Inc., et al., U.S. Dist. Ct., M.D. Tenn., 8/3/22; Paynter ex rel. Minor Child(ren) Z.N.B. v. McKesson Corp., et al., W. Va. Cir. Ct., Kanawha Cty., 3/28/22, appealed to W. Va. Sup. Ct., 2/28/25; Blankenship ex rel. Minor Child Z.D.B. v. McKesson Corp., et al., W. Va. Cir. Ct., Kanawha Cty., 1/14/22, appealed to W. Va. Sup. Ct., 2/28/25; Miss. Baptist Med. Ctr. Inc., et al. v. Amneal Pharm., LLC, et al., Miss. 1st Jud. Dist., Hinds Cty. Cir. Ct., 5/15/20; Dallas Cty. Hosp. Dist. d/b/a Parkland Health & Hosp. Sys., et al., v. Amneal Pharm., LLC, et al., Tex. Dist. Ct., 152nd Jud. Dist., Harris Cty., 11/20/19; Fla. Health Scis. Ctr., Inc., et al. v. Sackler, et al., Fla. Cir. Ct., 17th Jud. Cir., Broward Cty., 9/16/19, appealed to Fla. Dist. Ct. App. 4th Dist., 6/29/26; Takoma Reg'l Hosp., Inc., et al. v. Purdue Pharma L.P., et al., Tenn. Cir. Ct., Greene Cty., 7/12/19.
+DOJ Opioid Civil Litigation: United States of America v. Walmart Inc., et al., USDC, Dist. of DE, 12/22/20.
+False Claims Act Litigation: United States of America ex rel. James Marcilla and Isela Chavez, USDC, Dist. of N.M., 8/23/19, transferred to USDC Dist. of DE 7/25/24.
+ASDA Equal Value Claims: Ms S Brierley & Others v. ASDA Stores Ltd (2406372/2008 & Others – Manchester Employment Tribunal); Abbas & Others v Asda Stores limited (KB-2022-003243); and Abusubih & Others v Asda Stores limited (KB-2022-003240).
+Federal Trade Commission and State Attorneys General Driver Platform Litigation: Federal Trade Commission, et al. v. Walmart Inc., USDC, N.D. Cal., 2/26/26.
+Mexico Antitrust Matter: Comisión Federal de Competencia Económica of México, Investigative Authority v. Nueva Wal-Mart de México, S.de R.L. de C.V. (Docket IO-002-2020, consolidated with Docket DE-026-2020), Mexico, 10/6/23.
+India Antitrust Matter: Competition Commission of India, Case No. 40 of 2019, order initiating investigation 1/13/20.
+II. ENVIRONMENTAL MATTERS: Item 103 of SEC Regulation S-K requires disclosure of certain environmental matters when a governmental authority is a party to the proceedings and such proceedings involve potential monetary sanctions that the Company reasonably believes will exceed $1 million.
+In October 2023, the Company received a Finding of Violation from the U.S. Environmental Protection Agency (the "EPA") alleging violations of the Clean Air Act in connection with the Company's refrigeration leak detection and repair program at certain of its facilities. The Company is cooperating with the EPA in its investigation. The EPA may seek to impose monetary and non-monetary penalties for the alleged violations of the Clean Air Act. The Company is unable to predict the final outcome of this matter, but the EPA could seek penalties in excess of $1 million. Although the Company does not believe this matter will have a material adverse effect on its business, financial position, results of operations, or cash flows, the Company can provide no assurance that its business, financial position, results of operations or cash flows will not be materially adversely affected.
+Item 1A. Risk Factors
+In addition to the other information set forth in this report, you should carefully consider the risk factors disclosed in Part I, Item 1A, under the caption "Risk Factors," of our Annual Report on Form 10-K for the fiscal year ended January 31, 2026, which risks could materially and adversely affect our business, results of operations, financial condition and liquidity. No material change in the risk factors discussed in such Form 10-K has occurred. Such risk factors do not identify all risks that we
+29
+Table of Contents
+face because our business operations could also be affected by additional factors that are not presently known to us or that we currently consider to be immaterial to our operations. Our business operations could also be affected by additional factors that apply to all companies operating in the U.S. and globally.
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+From time to time, the Company repurchases shares of its common stock under share repurchase programs authorized by the Company's Board of Directors. All repurchases during the six months ended July 31, 2026 made prior to February 23, 2026 were made under the program in effect at the beginning of fiscal 2027. In February 2026, the Company approved a new $30 billion share repurchase program, which beginning on February 23, 2026, replaced the previous share repurchase program. As of July 31, 2026, authorization for $25.1 billion of share repurchases remained under the current share repurchase program, which has no expiration date or other restrictions limiting the period over which the Company can make repurchases. Any repurchased shares are constructively retired and returned to an unissued status.
+The Company regularly reviews its share repurchase activity and considers several factors in determining when to execute share repurchases, including, among other things, current cash needs, capacity for leverage, cost of borrowings, its results of operations and the market price of its common stock. Share repurchase activity under our share repurchase program, on a trade date basis, for the three months ended July 31, 2026, was as follows:
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+Fiscal Period | | Total Number of Shares Purchased | | Average Price Paid per Share | | Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs | | Approximate Dollar Value of Shares that May Yet Be Purchased Under the Plans or Programs (1) (billions)
+May 1 - 31, 2026 | | 6,074,858 | | | $ | 126.18 | | | 6,074,858 | | | $ | 27.4 |
+June 1 - 30, 2026 | | 8,950,798 | | | 117.91 | | | 8,950,798 | | | 26.3 |
+July 1 - 31, 2026 | | 10,936,366 | | | 111.99 | | | 10,936,366 | | | 25.1 |
+Total | | 25,962,022 | | | | | 25,962,022 | | |
+(1) Represents approximate dollar value of shares that could have been purchased under the plan in effect at the end of the month.
+Item 5. Other Information
+Security Trading Plans of Directors and Executive Officers
+During the Company's fiscal quarter ended July 31, 2026, the following Section 16 officers and directors adopted or terminated a Rule 10b5-1 trading arrangement or a non-Rule 10b5-1 trading arrangement as part of each officer's or director's long-term asset diversification, tax, and financial planning strategies, and is in accordance with the Company's Insider Trading Policy:
+On May 29, 2026, John Furner, President and Chief Executive Officer, entered into a stock trading plan designed to comply with Rule 10b5-1 under the Exchange Act. Under the terms of the plan, Mr. Furner is scheduled to sell an aggregate of up to 236,250 shares of common stock in equal monthly trades scheduled from September 2026 through February 2028. The plan will terminate on February 17, 2028.
+On June 24, 2026, Latriece Watkins, Executive Vice President, President and Chief Executive Officer, Sam's Club U.S., entered into a stock trading plan designed to comply with Rule 10b5-1 under the Exchange Act. Under the terms of the plan, Ms. Watkins is scheduled to sell, subject to a specified minimum stock price threshold, in trades scheduled from September 23, 2026 through May 28, 2027, an aggregate of up to: (i) 5,000 shares on or after September 23, 2026; (ii) 50% of net shares received after tax withholding upon the vesting of 5,433 shares of restricted stock on or after January 12, 2027; and (iii) 50% of net shares received after tax withholding upon the vesting of 48,484 performance-based restricted stock units on or after February 1, 2027. The plan will terminate no later than May 28, 2027.
+Disclosure Pursuant to Section 13(r) of the Securities Exchange Act of 1934
+Section 13(r) of the Securities Exchange Act of 1934, as amended, requires an issuer to disclose certain information in its periodic reports if it or any of its affiliates knowingly engaged in certain activities, transactions or dealings with individuals or entities subject to specific U.S. economic sanctions during the reporting period. The required disclosure may include reporting of activities not prohibited by U.S. or other law, even if conducted outside the U.S. by non-U.S. affiliates in compliance with local law.
+The Company has identified a transaction between Makro, a division of Massmart Retail (Pty) Ltd., and an individual that appears to have been purchasing on behalf of the Embassy of Iran. On July 9, 2026, the Company had an ordinary retail sales transaction with this individual valued at approximately $25. We are unable to accurately calculate the net profit attributable to this sales transaction, but it would be significantly less than the gross sales amount. The Company does not plan to continue selling to this individual.
+Additionally, the Company has identified an ordinary retail sales transaction between Sam's Club Mexico and an individual sanctioned under Executive Order 13224, valued at approximately $1,500 in food and general merchandise items on July 28,
+30
+Table of Contents
+2026. We are unable to accurately calculate the net profit attributable to this sales transaction, but it would be significantly less than the gross sales amount. The Company does not plan to continue selling to this individual.
+Cautionary Statement Regarding Forward-Looking Statements
+This Quarterly Report on Form 10-Q contains statements that Walmart believes are "forward-looking statements" within the meaning of the Private Securities Litigation Reform Act of 1995. Those forward-looking statements are intended to enjoy the protection of the safe harbor for forward-looking statements provided by that Act as well as protections afforded by other federal securities laws.
+Forward-looking Statements
+The forward-looking statements in this report include, among other things:
+•statements in Note 5 to those Condensed Consolidated Financial Statements regarding the possible outcome of, and future effect on Walmart's financial condition and results of operations of, certain litigation and other proceedings to which Walmart is a party, the possible outcome of, and future effect on Walmart's business of, certain other matters to which Walmart is subject, including the Company's ongoing opioids litigation, the False Claims Act Litigation, Walmart's ongoing indemnification obligation for the Asda Equal Value Claims, the Company's Money Transfer Agent Services Matter, the Driver Platform Matters, the Mexico Antitrust Matter, the Foreign Direct Investment Matters, the India Antitrust Matter and the liabilities, losses, expenses and costs that Walmart may incur in connection with such matters;
+•in Part I, Item 2 "Management's Discussion and Analysis of Financial Condition and Results of Operations": statements under the caption "Overview" regarding future changes to our business and our expectations about the potential impacts on our business, financial position, results of operations or cash flows as a result of macroeconomic factors such as geopolitical conditions, tariffs and trade restrictions, supply chain disruptions, volatility in employment trends and consumer confidence; statements under the caption "Overview" relating to the possible impact of inflationary pressures and volatility in currency exchange rates on the results, including net sales and operating income, of Walmart and the Walmart International segment, as well as our sourcing, pricing, merchandising, inventory management and other strategies in response to cost increases; statements under the caption "Company Performance Metrics - Growth" regarding our strategy to serve customers through a seamless omnichannel experience; statements under the caption "Company Performance Metrics - Margin" regarding our strategy to improve operating income margin through productivity improvements, as well as category and business mix; statements under the caption "Company Performance Metrics - Returns" regarding our belief that returns on capital will improve as we execute on our financial framework; statements under the caption "Results of Operations - Consolidated Results of Operations" regarding the possibility of fluctuations in Walmart's effective income tax rate from quarter to quarter and the factors that may cause those fluctuations; a statement under the caption "Results of Operations - Sam's Club U.S. Segment" relating to the possible continuing impact of volatility in fuel prices on the future operating results of the Sam's Club U.S. segment; a statement under the caption "Liquidity and Capital Resources - Liquidity" that Walmart's sources of liquidity will be adequate to fund its operations, finance its investment activities, pay dividends and fund share repurchases; a statement under the caption "Liquidity and Capital Resources - Liquidity - Net Cash Used In Financing Activities - Dividends" regarding the payment of annual dividends in fiscal 2027; a statement under the caption "Liquidity and Capital Resources - Liquidity - Net Cash Used In Financing Activities - Company Share Repurchase Program" regarding funding of our share repurchase program; a statement under the caption "Liquidity and Capital Resources - Liquidity - Net Cash Used In Financing Activities - Material Cash Requirements" regarding funding of our material cash requirements from operating activities; statements under the caption "Liquidity and Capital Resources - Capital Resources" regarding management's expectations regarding the Company's cash flows from operations, current cash position, short-term borrowings and access to capital markets continuing to be sufficient to meet its anticipated cash requirements and contractual obligations, the Company's commercial paper and long-term debt ratings continuing to enable it to refinance its debts at favorable rates, factors that could affect its credit ratings, and the effect that lower credit ratings would have on its access to capital and credit markets and borrowing costs; and statements under the caption "Other Matters" regarding the contingent liabilities of the Company that may or may not result in the incurrence of a material liability by the Company;
+•in Part I, Item 4 "Controls and Procedures": statements regarding the effect of changes to systems and processes on our internal control over financial reporting; and
+•in Part II, Item 1 "Legal Proceedings": statements regarding the effect that possible losses or the range of possible losses that might be incurred in connection with the legal proceedings and other matters discussed therein may have on our financial condition or results of operations.
+31
+Table of Contents
+Risks, Factors and Uncertainties Regarding Our Business
+These forward-looking statements are subject to risks, uncertainties and other factors, domestically and internationally. We, along with other retail companies, are influenced by a number of factors including, but not limited to:
+Economic Factors
+•economic, geopolitical, capital markets and business conditions, trends and events around the world and in the markets in which Walmart operates;
+•changes or modifications in tariff rates, exemptions therefrom or the imposition of new tariffs or new taxes on imports;
+•changes or modifications in trade restrictions or the imposition of new trade restrictions;
+•currency exchange rate fluctuations;
+•changes in market rates of interest;
+•inflation or deflation, generally and in certain product categories;
+•transportation, energy and utility costs;
+•commodity prices, including the prices of oil and natural gas;
+•changes in market levels of wages;
+•changes in the size of various markets, including eCommerce markets;
+•unemployment levels;
+•consumer confidence, disposable income, credit availability, spending levels, shopping patterns, debt levels and demand for certain merchandise;
+•trends in consumer shopping habits around the world and in the markets in which Walmart operates;
+•consumer enrollment in health and drug insurance programs and such programs' reimbursement rates and drug formularies; and
+•initiatives of competitors, competitors' entry into and expansion in Walmart's markets or lines of business, and competitive pressures.
+Operating Factors
+•the amount of Walmart's net sales and operating expenses denominated in U.S. dollar and various foreign currencies;
+•the financial performance of Walmart and each of its segments, including the amount of Walmart's cash flow during various periods;
+•customer transaction and average ticket in Walmart's stores and clubs and on its eCommerce platforms;
+•the mix of merchandise Walmart sells and its customers purchase;
+•the availability of goods from suppliers and the cost of goods acquired from suppliers;
+•the effectiveness of the implementation and operation of Walmart's strategies, plans, programs and initiatives;
+•the financial and operational impacts of our investments in eCommerce, technology, talent and automation;
+•supply chain disruption and production, labor shortages and increases in labor costs;
+•the impact of acquisitions, divestitures, store or club closures and other strategic decisions;
+•Walmart's ability to successfully integrate acquired businesses;
+•unexpected changes in Walmart's objectives and plans;
+•the amount of inventory shrinkage Walmart experiences;
+•consumer acceptance of and response to Walmart's stores and clubs, eCommerce platforms, programs, merchandise offerings and delivery methods;
+•Walmart's gross profit margins, including pharmacy margins and margins of other product categories;
+•the commodity prices and the price of gasoline and diesel fuel;
+•disruption of seasonal buying patterns in Walmart's markets;
+•disruptions in Walmart's supply chain and inventory management;
+•developments and disruptions related to the deployment of artificial intelligence technologies;
+•cybersecurity events affecting Walmart and related costs and impact of any disruption in business;
+•Walmart's labor costs, including healthcare and other benefit costs;
+•Walmart's casualty and accident-related costs and insurance costs;
+•the size of and turnover in Walmart's workforce and the number of associates at various pay levels within that workforce;
+•the availability of necessary personnel to staff Walmart's stores, clubs and other facilities;
+•delays in the opening of new, expanded, relocated or remodeled units;
+•developments in, and the outcome of, legal and regulatory proceedings and investigations to which Walmart is a party or is subject, and the liabilities, obligations and expenses, if any, that Walmart may incur in connection therewith, including expenses pertaining to general liability claims, for which we self-insure;
+•changes in the credit ratings assigned to the Company's commercial paper and debt securities by credit rating agencies;
+•Walmart's effective tax rate; and
+•unanticipated changes in accounting judgments and estimates.
+32
+Table of Contents
+Regulatory and Other Factors
+•changes in existing tax, labor and other laws and changes in tax rates, including the enactment of laws and the adoption and interpretation of administrative rules and regulations, including those related to worker classification;
+•adoption or creation of new, and modification of existing, governmental policies, programs, initiatives and actions in the markets in which Walmart operates and elsewhere and actions with respect to such policies, programs and initiatives;
+•changes in government-funded benefit programs or changes in levels of other public assistance payments;
+•changes in currency control laws;
+•one or more prolonged federal government shutdowns;
+•the timing of federal income tax refunds;
+•natural disasters, changes in climate, catastrophic events and global health epidemics or pandemics; and
+•changes in generally accepted accounting principles in the United States.
+Other Risk Factors; No Duty to Update
+This Quarterly Report on Form 10-Q should be read in conjunction with Walmart's Annual Report on Form 10-K for the fiscal year ended January 31, 2026 and all of Walmart's subsequent other filings with the Securities and Exchange Commission. Walmart urges investors to consider all of the risks, uncertainties and other factors disclosed in these filings carefully in evaluating the forward-looking statements contained in this Quarterly Report on Form 10-Q. The Company cannot assure you that the results or developments anticipated by the Company and reflected or implied by any forward-looking statement contained in this Quarterly Report on Form 10-Q will be realized or, even if substantially realized, that those results or developments will result in the forecasted or expected consequences for the Company or affect the Company, its operations or its financial performance as the Company has forecasted or expected. As a result of the matters discussed above and other matters, including changes in facts, assumptions not being realized or other factors, the actual results relating to the subject matter of any forward-looking statement in this Quarterly Report on Form 10-Q may differ materially from the anticipated results expressed or implied in that forward-looking statement. The forward-looking statements included in this Quarterly Report on Form 10-Q are made only as of the date of this report, and Walmart undertakes no obligation to update any such statements to reflect subsequent events or circumstances.
+33
+Table of Contents
+Item 6. Exhibits
+The following documents are filed as an exhibit to this Quarterly Report on Form 10-Q:
+| | | | | | | |
+Exhibit 3.1(a) | | Certificate of Amendment of Restated Certificate of Incorporation of Walmart Inc., effective June 4, 2026 is incorporated herein by reference to Exhibit 3.1 to the Report on Form 8-K filed by the Company on June 5, 2026
+| |
+Exhibit 3.1(b) | | Restated Certificate of Incorporation of Walmart Inc., effective June 4, 2026 is incorporated herein by reference to Exhibit 3.2 to the Report on Form 8-K filed by the Company on June 5, 2026
+| |
+Exhibit 3.2 | | Amended and Restated Bylaws of the Company dated November 10, 2022 are incorporated herein by reference to Exhibit 3.1 to the Report on Form 8-K filed by the Company on November 16, 2022
+| |
+Exhibit 31.1* | | Chief Executive Officer Section 302 Certification
+|
+Exhibit 31.2* | | Chief Financial Officer Section 302 Certification
+|
+Exhibit 32.1** | | Chief Executive Officer Section 906 Certification
+|
+Exhibit 32.2** | | Chief Financial Officer Section 906 Certification
+| |
+Exhibit 101.INS* | | Inline XBRL Instance Document
+|
+Exhibit 101.SCH* | | Inline XBRL Taxonomy Extension Schema Document
+|
+Exhibit 101.CAL* | | Inline XBRL Taxonomy Extension Calculation Linkbase Document
+|
+Exhibit 101.DEF* | | Inline XBRL Taxonomy Extension Definition Linkbase Document
+|
+Exhibit 101.LAB* | | Inline XBRL Taxonomy Extension Label Linkbase Document
+|
+Exhibit 101.PRE* | | Inline XBRL Taxonomy Extension Presentation Linkbase Document
+| |
+Exhibit 104 | | The cover page from the Company's Quarterly Report on Form 10-Q for the quarter ended July 31, 2026, formatted in Inline XBRL (included in Exhibit 101)
+| | | | |
+* | Filed herewith as an Exhibit.
+** | Furnished herewith as an Exhibit.
+34
+Table of Contents
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+WALMART INC.
+| | | | | | | | | | |
+Date: August 28, 2026 | By: | | /s/ John R. Furner
+| | | John R. Furner President and Chief Executive Officer (Principal Executive Officer)
+| | |
+Date: August 28, 2026 | By: | | /s/ John David Rainey
+| | | John David Rainey Executive Vice President and Chief Financial Officer (Principal Financial Officer)
+| | |
+Date: August 28, 2026 | By: | | /s/ Dwayne M. Milum
+| | | Dwayne M. Milum Senior Vice President and Controller (Principal Accounting Officer)
+35

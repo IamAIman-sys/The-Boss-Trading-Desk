@@ -1,0 +1,308 @@
+{
+  "company": {
+    "ticker": "RTX",
+    "cik": "0000101829",
+    "name": "RTX Corp"
+  },
+  "periods": {
+    "current": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "prior": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    }
+  },
+  "facts": {
+    "revenue": {
+      "label": "Total revenue",
+      "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "unit": "USD",
+      "current": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 88603000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2025",
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 80738000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024",
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    },
+    "operating_income": {
+      "label": "Operating income",
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 9300000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2025",
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 6538000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024",
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    },
+    "net_income": {
+      "label": "Net income",
+      "tag": "us-gaap:NetIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 6732000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2025",
+        "tag": "us-gaap:NetIncomeLoss",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 4774000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024",
+        "tag": "us-gaap:NetIncomeLoss",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    },
+    "diluted_eps": {
+      "label": "Diluted EPS",
+      "tag": "us-gaap:EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "current": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 4.96,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2025",
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 3.55,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024",
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    },
+    "equity": {
+      "label": "Stockholders' equity",
+      "tag": "us-gaap:StockholdersEquity",
+      "unit": "USD",
+      "current": {
+        "end": "2025-12-31",
+        "val": 65245000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "tag": "us-gaap:StockholdersEquity",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "end": "2024-12-31",
+        "val": 60156000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024Q4I",
+        "tag": "us-gaap:StockholdersEquity",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    },
+    "long_term_debt": {
+      "label": "Long-term debt, excluding current portion (including finance/capital leases)",
+      "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+      "unit": "USD",
+      "current": {
+        "end": "2025-12-31",
+        "val": 34288000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "end": "2024-12-31",
+        "val": 38726000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024Q4I",
+        "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    },
+    "current_debt": {
+      "label": "Current portion of long-term debt (including finance/capital leases)",
+      "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+      "unit": "USD",
+      "current": {
+        "end": "2025-12-31",
+        "val": 3412000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "end": "2024-12-31",
+        "val": 2352000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024Q4I",
+        "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    },
+    "cfo": {
+      "label": "Cash from operations",
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "current": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 10567000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2025",
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 7159000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024",
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    },
+    "capex": {
+      "label": "Additions to property and equipment",
+      "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "unit": "USD",
+      "current": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 2627000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2025",
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      },
+      "prior": {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 2625000000,
+        "accn": "0000101829-26-000006",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-06",
+        "frame": "CY2024",
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "unit": "USD",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+      }
+    }
+  },
+  "policy": "Annual 10-K/10-K/A facts, 330-400 days. Newest tag period first; latest filed comparative value. USD only. No missing value is zero."
+}

@@ -1,0 +1,1110 @@
+noc-20260930
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+| | | | |
+FORM 10-Q
+| | | | | | | |
+☒ | | QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the Quarterly Period Ended September 30, 2026
+or
+| | | | | | | |
+☐ | | TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+Commission File Number 1-16411
+NORTHROP GRUMMAN CORPORATION
+(Exact name of registrant as specified in its charter)
+| | | | | | | | | | |
+Delaware | | 80-0640649
+(State or other jurisdiction of incorporation or organization) | | (I.R.S. Employer Identification No.)
+| | |
+2980 Fairview Park Drive | |
+Falls Church, | Virginia | | 22042
+(Address of principal executive offices) | | (Zip Code)
+(703) 280-2900
+(Registrant’s telephone number, including area code)
+Securities registered pursuant to Section 12(b) of the Act:
+| | | | | | | |
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common Stock | NOC | New York Stock Exchange
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.
+Yes ☒ No ☐
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).
+Yes ☒ No ☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company” and “emerging growth company” in Rule 12b-2 of the Exchange Act:
+Large Accelerated Filer ☒ Accelerated Filer ☐
+Non-accelerated Filer ☐ Smaller Reporting Company ☐
+Emerging Growth Company ☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).
+Yes ☐ No ☒
+Indicate the number of shares outstanding of each of the issuer’s classes of common stock, as of the latest practicable date.
+As of October 15, 2026, 142,064,489 shares of common stock were outstanding.
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+TABLE OF CONTENTS
+| | | | | | | |
+| | Page
+| PART I – FINANCIAL INFORMATION |
+Item 1. | Financial Statements (Unaudited) |
+| Condensed Consolidated Statements of Earnings and Comprehensive Income | 1
+| Condensed Consolidated Statements of Financial Position | 2
+| Condensed Consolidated Statements of Cash Flows | 3
+| Condensed Consolidated Statements of Changes in Shareholders’ Equity | 4
+| Notes to Condensed Consolidated Financial Statements |
+| 1. Summary of Significant Accounting Policies | 5
+| 2. Earnings Per Share, Share Repurchases and Dividends on Common Stock | 8
+| 3. Inventoried Costs, Net | 8
+| 4. Income Taxes | 9
+| 5. Fair Value of Financial Instruments | 9
+| 6. Investigations, Claims and Litigation | 11
+| 7. Commitments and Contingencies | 11
+| 8. Retirement Benefits | 13
+| 9. Stock Compensation Plans and Other Compensation Arrangements | 13
+| 10. Segment Information | 14
+| Report of Independent Registered Public Accounting Firm | 21
+Item 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations |
+| Overview | 22
+| Consolidated Operating Results | 25
+| Segment Operating Results | 27
+| Product and Service Analysis | 31
+| Backlog | 32
+| Liquidity and Capital Resources | 32
+| Critical Accounting Policies, Estimates and Judgments | 34
+| Accounting Standards Updates | 34
+| Forward-Looking Statements and Projections | 34
+Item 3. | Quantitative and Qualitative Disclosures About Market Risk | 35
+Item 4. | Controls and Procedures | 36
+| |
+| PART II – OTHER INFORMATION |
+Item 1. | Legal Proceedings | 37
+Item 1A. | Risk Factors | 37
+Item 2. | Unregistered Sales of Equity Securities and Use of Proceeds | 37
+Item 5. | Other Information | 37
+Item 6. | Exhibits | 38
+| Signatures | 39
+i
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+PART I. FINANCIAL INFORMATION
+Item 1. Financial Statements
+CONDENSED CONSOLIDATED STATEMENTS OF EARNINGS AND COMPREHENSIVE INCOME (Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions, except per share amounts | 2026 | | 2025 | | 2026 | | 2025
+Sales | | | | | | |
+Product | $ | 9,098 | | | $ | 8,369 | | | $ | 25,864 | | | $ | 24,148 |
+Service | 2,024 | | | 2,054 | | | 6,015 | | | 6,094 |
+Total sales | 11,122 | | | 10,423 | | | 31,879 | | | 30,242 |
+Operating costs and expenses | | | | | | |
+Product | 7,198 | | | 6,631 | | | 20,786 | | | 19,523 |
+Service | 1,572 | | | 1,565 | | | 4,660 | | | 4,702 |
+General and administrative expenses | 1,083 | | | 985 | | | 3,079 | | | 3,008 |
+Total operating costs and expenses | 9,853 | | | 9,181 | | | 28,525 | | | 27,233 |
+Gain on sale of business | — | | | — | | | — | | | 231 |
+Operating income | 1,269 | | | 1,242 | | | 3,354 | | | 3,240 |
+Other (expense) income | | | | | | |
+Interest expense | ( 158 ) | | | ( 161 ) | | | ( 481 ) | | | ( 490 ) |
+Non-operating FAS pension benefit | 167 | | | 136 | | | 499 | | | 403 |
+Other, net | 20 | | | 106 | | | 124 | | | 175 |
+Earnings before income taxes | 1,298 | | | 1,323 | | | 3,496 | | | 3,328 |
+Federal and foreign income tax expense | 174 | | | 223 | | | 403 | | | 573 |
+Net earnings | $ | 1,124 | | | $ | 1,100 | | | $ | 3,093 | | | $ | 2,755 |
+| | | | | | |
+Basic earnings per share | $ | 7.91 | | | $ | 7.69 | | | $ | 21.77 | | | $ | 19.16 |
+Weighted-average common shares outstanding, in millions | 142.1 | | | 143.1 | | | 142.1 | | | 143.8 |
+Diluted earnings per share | $ | 7.89 | | | $ | 7.67 | | | $ | 21.72 | | | $ | 19.12 |
+Weighted-average diluted shares outstanding, in millions | 142.4 | | | 143.5 | | | 142.4 | | | 144.1 |
+| | | | | | |
+Net earnings (from above) | $ | 1,124 | | | $ | 1,100 | | | $ | 3,093 | | | $ | 2,755 |
+Other comprehensive income (loss), net of tax | | | | | | |
+Change in cumulative translation adjustment | 2 | | | 2 | | | — | | | 11 |
+Change in other, net | — | | | ( 1 ) | | | ( 6 ) | | | 18 |
+Other comprehensive income (loss), net of tax | 2 | | | 1 | | | ( 6 ) | | | 29 |
+Comprehensive income | $ | 1,126 | | | $ | 1,101 | | | $ | 3,087 | | | $ | 2,784 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+-1-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF FINANCIAL POSITION
+(Unaudited)
+| | | | | | | | | | |
+$ in millions, except par value | September 30, 2026 | | December 31, 2025
+Assets | | |
+Cash and cash equivalents | $ | 3,744 | | | $ | 4,403 |
+Accounts receivable, net | 2,080 | | | 1,375 |
+Unbilled receivables, net | 7,899 | | | 6,544 |
+Inventoried costs, net | 1,361 | | | 1,309 |
+Prepaid expenses and other current assets | 1,893 | | | 1,656 |
+Total current assets | 16,977 | | | 15,287 |
+Property, plant and equipment, net of accumulated depreciation of $ 10,306 for 2026 and $ 9,648 for 2025 | 10,461 | | | 10,972 |
+Operating lease right-of-use assets | 2,182 | | | 1,859 |
+Goodwill | 17,440 | | | 17,437 |
+Deferred tax assets | 488 | | | 1,051 |
+Pension and other postretirement benefit plan assets | 3,447 | | | 3,167 |
+Other non-current assets | 1,502 | | | 1,604 |
+Total assets | $ | 52,497 | | | $ | 51,377 |
+| | |
+Liabilities | | |
+Trade accounts payable | $ | 3,281 | | | $ | 3,240 |
+Accrued employee compensation | 2,039 | | | 2,309 |
+Advance payments and billings in excess of costs incurred | 3,838 | | | 4,086 |
+Other current liabilities | 4,595 | | | 4,247 |
+Total current liabilities | 13,753 | | | 13,882 |
+Long-term debt, net of current portion of $ 764 for 2026 and $ 534 for 2025 | 14,433 | | | 15,162 |
+Pension and other postretirement benefit plan liabilities | 1,076 | | | 1,110 |
+Operating lease liabilities | 2,202 | | | 1,857 |
+Other non-current liabilities | 2,350 | | | 2,692 |
+Total liabilities | 33,814 | | | 34,703 |
+| | |
+Commitments and contingencies (Note 7) | | |
+| | |
+Shareholders’ equity | | |
+Preferred stock, $ 1 par value; 10,000,000 shares authorized; no shares issued and outstanding | — | | | — |
+Common stock, $ 1 par value; 800,000,000 shares authorized; issued and outstanding: 2026— 142,064,132 and 2025— 141,997,194 | 142 | | | 142 |
+Paid-in capital | 63 | | | — |
+Retained earnings | 18,610 | | | 16,658 |
+Accumulated other comprehensive loss | ( 132 ) | | | ( 126 ) |
+Total shareholders’ equity | 18,683 | | | 16,674 |
+Total liabilities and shareholders’ equity | $ | 52,497 | | | $ | 51,377 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+-2-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(Unaudited)
+| | | | | | | | | | |
+| Nine Months Ended September 30
+$ in millions | 2026 | | 2025
+Operating activities | | |
+Net earnings | $ | 3,093 | | | $ | 2,755 |
+Adjustments to reconcile to net cash provided by operating activities: | | |
+Depreciation and amortization | 1,118 | | | 1,066 |
+Stock-based compensation | 75 | | | 65 |
+Deferred income taxes | 651 | | | 344 |
+B-21 loss provision | — | | | 477 |
+Gain on sale of business | — | | | ( 231 ) |
+Net periodic pension and OPB income | ( 361 ) | | | ( 256 ) |
+Pension and OPB contributions | ( 92 ) | | | ( 94 ) |
+Changes in assets and liabilities: | | |
+Accounts receivable, net | ( 705 ) | | | ( 716 ) |
+Unbilled receivables, net | ( 1,177 ) | | | ( 1,240 ) |
+Inventoried costs, net | ( 65 ) | | | ( 179 ) |
+Prepaid expenses and other assets | 55 | | | ( 29 ) |
+Trade accounts payable | 41 | | | 203 |
+Advance payments and billings in excess of costs incurred | ( 248 ) | | | ( 505 ) |
+Other liabilities | ( 868 ) | | | ( 340 ) |
+Income taxes payable, net | ( 125 ) | | | ( 421 ) |
+Other operating activities | ( 23 ) | | | ( 39 ) |
+Net cash provided by operating activities | 1,369 | | | 860 |
+| | |
+Investing activities | | |
+Capital expenditures | ( 775 ) | | | ( 788 ) |
+Proceeds from sale of equipment to a customer | 371 | | | — |
+Proceeds from sale of investment | 107 | | | — |
+Divestiture of training services business | — | | | 333 |
+Other investing activities | ( 17 ) | | | ( 36 ) |
+Net cash used in investing activities | ( 314 ) | | | ( 491 ) |
+| | |
+Financing activities | | |
+Net proceeds from issuance of long-term debt | — | | | 998 |
+Payments of long-term debt | ( 527 ) | | | ( 1,500 ) |
+Common stock repurchases | ( 68 ) | | | ( 1,168 ) |
+Cash dividends paid | ( 1,035 ) | | | ( 964 ) |
+Payments of employee taxes withheld from share-based awards | ( 58 ) | | | ( 38 ) |
+Other financing activities | ( 26 ) | | | ( 93 ) |
+Net cash used in financing activities | ( 1,714 ) | | | ( 2,765 ) |
+Decrease in cash and cash equivalents | ( 659 ) | | | ( 2,396 ) |
+Cash and cash equivalents, beginning of year | 4,403 | | | 4,353 |
+Cash and cash equivalents, end of period | $ | 3,744 | | | $ | 1,957 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+-3-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN SHAREHOLDERS’ EQUITY
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions, except per share amounts | 2026 | | 2025 | | 2026 | | 2025
+Common stock | | | | | | |
+Beginning of period | $ | 142 | | | $ | 143 | | | $ | 142 | | | $ | 145 |
+Common stock repurchased | — | | | — | | | — | | | ( 2 ) |
+End of period | 142 | | | 143 | | | 142 | | | 143 |
+Paid-in capital | | | | | | |
+Beginning of period | 37 | | | — | | | — | | | — |
+Stock compensation | 26 | | | — | | | 63 | | | — |
+End of period | 63 | | | — | | | 63 | | | — |
+Retained earnings | | | | | | |
+Beginning of period | 17,839 | | | 15,452 | | | 16,658 | | | 15,297 |
+Common stock repurchased | — | | | ( 278 ) | | | ( 63 ) | | | ( 1,150 ) |
+Net earnings | 1,124 | | | 1,100 | | | 3,093 | | | 2,755 |
+Dividends declared | ( 353 ) | | | ( 332 ) | | | ( 1,034 ) | | | ( 963 ) |
+Stock compensation | — | | | 26 | | | ( 44 ) | | | 29 |
+End of period | 18,610 | | | 15,968 | | | 18,610 | | | 15,968 |
+Accumulated other comprehensive loss | | | | | | |
+Beginning of period | ( 134 ) | | | ( 124 ) | | | ( 126 ) | | | ( 152 ) |
+Other comprehensive income (loss), net of tax | 2 | | | 1 | | | ( 6 ) | | | 29 |
+End of period | ( 132 ) | | | ( 123 ) | | | ( 132 ) | | | ( 123 ) |
+Total shareholders’ equity | $ | 18,683 | | | $ | 15,988 | | | $ | 18,683 | | | $ | 15,988 |
+Cash dividends declared per share | $ | 2.47 | | | $ | 2.31 | | | $ | 7.25 | | | $ | 6.68 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+-4-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (Unaudited)
+1. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+Principles of Consolidation and Reporting
+These unaudited condensed consolidated financial statements (the “financial statements”) include the accounts of Northrop Grumman Corporation and its subsidiaries and joint ventures or other investments for which we consolidate the financial results (herein referred to as “Northrop Grumman,” the “company,” “we,” “us,” or “our”). Intercompany accounts, transactions and profits are eliminated in consolidation. Investments in equity securities and joint ventures where the company has significant influence, but not control, are accounted for using the equity method.
+On May 24, 2025 (the “Divestiture date”), the company completed its previously announced sale of substantially all of the Immersive Mission Solutions (IMS) operating unit of Defense Systems (the “training services” business or “divestiture”) for $333 million in cash and recorded a pre-tax gain on sale of $231 million. IMS is a provider of mission training and satellite ground network communications software for U.S. government customers. 2025 operating results include sales and operating income for the training services business prior to the Divestiture date.
+The financial statements are prepared in conformity with accounting principles generally accepted in the United States of America (“GAAP” or “FAS”) and in accordance with the rules of the Securities and Exchange Commission (SEC) for interim reporting. The financial statements include adjustments of a normal recurring nature considered necessary by management for a fair presentation of the company’s unaudited condensed consolidated financial position, results of operations and cash flows. For classification of certain current assets and liabilities, we consider the duration of our customer contracts when defining our operating cycle, which is generally longer than one year.
+During the fourth quarter of 2025, we modified our presentation of the changes in liabilities in the operating cash flow section of the consolidated statement of cash flows by disaggregating Accounts payable and other liabilities into three separate line items: Accounts payable, Advance payments and billings in excess of costs incurred, and Other liabilities. Prior period amounts have been conformed to the current period presentation. The modified presentation does not impact previously reported cash provided by operating activities.
+Results reported in the financial statements are not necessarily indicative of results that may be expected for the entire year. The financial statements should be read in conjunction with the information contained in the company’s 2025 Annual Report on Form 10-K.
+Quarterly information is labeled using a calendar convention; that is, first quarter is consistently labeled as ending on March 31, second quarter as ending on June 30 and third quarter as ending on September 30. It is the company’s long-standing practice to establish actual interim closing dates using a “fiscal” calendar, in which we close our books on a Friday near these quarter-end dates in order to normalize the potentially disruptive effects of quarterly closings on business processes. This practice is only used at interim periods within a reporting year.
+Accounting Estimates
+Preparation of the financial statements requires management to make estimates and judgments that affect the reported amounts of assets and liabilities and the disclosure of contingencies at the date of the financial statements, as well as the reported amounts of sales and expenses during the reporting period. Estimates have been prepared using the most current and best available information; however, actual results could differ materially from those estimates.
+Revenue Recognition
+Contract Estimates
+Contract sales may include estimates of variable consideration, including cost or performance incentives (such as award and incentive fees), un-priced change orders, requests for equitable adjustment (REAs) and contract claims. Variable consideration is included in total estimated sales to the extent it is probable that a significant reversal in the amount of cumulative revenue recognized will not occur when the uncertainty associated with the variable consideration is subsequently resolved. We estimate variable consideration as the most likely amount to which we expect to be entitled.
+We recognize changes in estimated contract sales or costs and the resulting changes in contract profit on a cumulative basis. Net estimate-at-completion (EAC) adjustments represent the cumulative effect of the changes on current and prior periods; sales and operating margins in future periods are recognized as if the revised estimates had been used since contract inception. If it is determined that a loss is expected to result on an individual performance
+-5-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+obligation, the entire amount of the estimable future loss, including an allocation of general and administrative (G&A) cost, is charged against income in the period the loss is identified.
+B-21 Program
+The company has previously recognized and disclosed cumulative losses of approximately $2.0 billion on the low-rate initial production (LRIP) phase of the B-21 program. As of September 30, 2026, the remaining loss accrual totaled $1.0 billion, which is included in Other current liabilities.
+Net EAC Adjustments
+The following table presents the effect of aggregate net EAC adjustments:
+| | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions, except per share data | 2026 | | 2025 | | 2026 | | 2025
+Revenue | $ | 240 | | | $ | 181 | | | $ | 344 | | | $ | 383 |
+Operating income | 221 | | | 81 | | | 235 | | | 107 |
+Net earnings (1) | 175 | | | 64 | | | 186 | | | 85 |
+Diluted earnings per share (1) | 1.23 | | | 0.45 | | | 1.31 | | | 0.59 |
+(1)Based on a 21 percent federal statutory tax rate.
+EAC adjustments can have a significant effect on the company’s financial statements. When such adjustments occur, we generally disclose the nature, underlying conditions and financial impact of the adjustments. In most cases, EAC adjustments have an equal impact on both revenue and operating income. However, for contracts in a forward loss position, the impact of EAC adjustments on revenue is different than the impact on operating income because changes in forward losses also impact cost of sales.
+2026 – No EAC adjustments on a single performance obligation had a significant impact on the financial statements during the three months ended September 30, 2026. During the second quarter of 2026, the company recorded a $91 million unfavorable EAC adjustment on the Graphite Epoxy Motor (GEM) 63XL program at Space Systems and a $68 million unfavorable EAC adjustment on the Stand-in Attack Weapon (SiAW) program at Defense Systems. During the first quarter of 2026, the company recorded a $71 million unfavorable EAC adjustment on the GEM 63XL program and a $157 million net unfavorable EAC adjustment on the first four LRIP lots of the B-21 program at Aeronautics Systems, which was offset by a net reduction in the loss contingency accrual on the remainder of the program.
+2025 – During the third quarter of 2025, the company recorded a $68 million favorable EAC adjustment in the restricted advanced microelectronics portfolio at Mission Systems as well as a $122 million unfavorable EAC adjustment on the first and second LRIP lots of the B-21 program, which was offset by a net reduction in the loss contingency accrual on the remaining LRIP lots. During the second quarter of 2025, the company recorded a $76 million favorable EAC adjustment on the engineering and manufacturing development (EMD) phase of the Sentinel program at Defense Systems. During the first quarter of 2025, the company recorded a $226 million unfavorable EAC adjustment on the first and second LRIP lots of the B-21 program at Aeronautics Systems.
+Backlog
+Backlog represents the future sales we expect to recognize on firm orders received by the company and is equivalent to the company’s remaining performance obligations at the end of each period. It comprises both funded backlog (firm orders for which funding is authorized and appropriated) and unfunded backlog. Unexercised contract options and indefinite delivery indefinite quantity (IDIQ) contracts are not included in backlog until the time an option or IDIQ task order is exercised or awarded. Backlog is converted into sales as costs are incurred or deliveries are made.
+Company backlog as of September 30, 2026 was $109.6 billion. Of our September 30, 2026 backlog, we expect to recognize approximately 35 percent as revenue over the next 12 months and 55 percent as revenue over the next 24 months, with the remainder to be recognized thereafter.
+Contract Assets and Liabilities
+For each of the company’s contracts, the timing of revenue recognition, customer billings, and cash collections results in a net contract asset or liability at the end of each reporting period. Contract assets are equivalent to and reflected as Unbilled receivables in the unaudited condensed consolidated statements of financial position and are primarily related to long-term contracts where revenue recognized under the cost-to-cost method exceeds amounts billed to customers. Contract liabilities are equivalent to and reflected as Advance payments and billings in excess of
+-6-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+costs incurred in the unaudited condensed consolidated statements of financial position. The amount of revenue recognized for the three and nine months ended September 30, 2026 that was included in the December 31, 2025 contract liability balance was $552 million and $3.1 billion, respectively. The amount of revenue recognized for the three and nine months ended September 30, 2025 that was included in the December 31, 2024 contract liability balance was $431 million and $3.1 billion, respectively.
+Disaggregation of Revenue
+See Note 10 for information regarding the company’s sales by customer type, contract type and geographic region for each of our segments. We believe those categories best depict how the nature, amount, timing and uncertainty of our revenue and cash flows are affected by economic factors.
+Property, Plant, and Equipment (PP&E)
+In connection with the company’s first quarter 2026 agreement with the U.S. Air Force to expand production capacity and increase the aircraft production rate for the B-21 program, we agreed to sell an aircraft to the U.S. Air Force that we had previously planned to utilize as a company-owned test asset. While the sale of this asset accelerates the LRIP aircraft delivery schedule, it does not change the number of aircraft we expect to deliver under the LRIP phase of the program. Because the company previously intended to use the test asset for internal purposes, we recognized the acquisition costs as capital expenditures and included it in PP&E. As we regularly sell this type of asset to customers in the ordinary course of business, we recorded the sale as a revenue transaction and included the net book value of the asset in Operating costs and expenses. Although we generally classify proceeds from revenue transactions as cash inflows from operating activities, we recognized the proceeds from this transaction as cash inflows from investing activities, consistent with our prior recognition of the cost to acquire the asset as capital expenditures. The company received cash payments of $371 million related to the sale during the third quarter of 2026 and included it in Proceeds from sale of equipment to a customer in the consolidated statements of cash flows.
+During the nine months ended September 30, 2026, the company received lease incentives for landlord funded leasehold improvements of $90 million related to Aeronautics Systems real estate leases, which were recorded in PP&E and included in non-cash investing activities.
+Non-cash investing activities for the nine months ended September 30, 2026 and 2025 include capital expenditures incurred but not yet paid of $149 million and $140 million, respectively.
+Accumulated Other Comprehensive Loss
+The components of accumulated other comprehensive loss, net of tax, are as follows:
+| | | | | | | | | | |
+$ in millions | September 30, 2026 | | December 31, 2025
+Cumulative translation adjustment | $ | ( 131 ) | | | $ | ( 131 ) |
+Other, net | ( 1 ) | | | 5 |
+Total accumulated other comprehensive loss | $ | ( 132 ) | | | $ | ( 126 ) |
+Related Party Transactions
+For all periods presented, the company had no material related party transactions.
+Accounting Standards Updates
+On November 4, 2024, the Financial Accounting Standards Board (FASB) issued Accounting Standards Update (ASU) No. 2024-03 Disaggregation of Income Statement Expenses (Subtopic 220-40). ASU 2024-03 requires disaggregation of certain expense captions into specified categories in disclosures within the footnotes to the financial statements. ASU 2024-03 will be effective for annual periods beginning January 1, 2027 and interim periods beginning January 1, 2028. We expect to adopt ASU 2024-03 on a prospective basis; the standard will not have an impact on the company’s consolidated financial position, results of operations or cash flows.
+On September 18, 2025, the FASB issued ASU No. 2025-06 Targeted Improvements to the Accounting for Internal-Use Software (Subtopic 350-40). ASU 2025-06 removes references to prescriptive and sequential software development stages, requiring companies to capitalize internal-use software costs when management commits to funding the software project and it is probable the project will be completed. ASU 2025-06 will be effective for annual and interim periods beginning January 1, 2028, and can be applied on a prospective, modified prospective, or retrospective basis. We do not currently expect the standard will have a material impact on the company’s consolidated financial position, results of operations or cash flows.
+On December 8, 2025, the FASB issued ASU No. 2025-11 Interim Reporting (Topic 270): Narrow-Scope Improvements. ASU 2025-11 clarifies the applicability of Topic 270 and the form and content of interim financial
+-7-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+statements. In addition, ASU 2025-11 requires entities to disclose material events occurring since the last annual reporting period. ASU 2025-11 will be effective for interim periods beginning January 1, 2028, and can be applied on a prospective or retrospective basis. We are evaluating the disclosure impact of ASU 2025-11; however, the standard will not have an impact on the company’s consolidated financial position, results of operations or cash flows.
+Other accounting standards updates adopted and/or issued, but not effective until after September 30, 2026, are not expected to have a material effect on the company’s consolidated financial position, results of operations and/or cash flows.
+2. EARNINGS PER SHARE, SHARE REPURCHASES AND DIVIDENDS ON COMMON STOCK
+Basic Earnings Per Share
+We calculate basic earnings per share by dividing net earnings by the weighted-average number of shares of common stock outstanding during each period.
+Diluted Earnings Per Share
+Diluted earnings per share include the dilutive effect of awards granted to employees under stock-based compensation plans. The dilutive effect of these securities totaled 0.3 million shares for each of the three and nine months ended September 30, 2026. The dilutive effect of these securities totaled 0.4 million shares and 0.3 million shares for the three and nine months ended September 30, 2025, respectively.
+Share Repurchases
+On December 11, 2024, the company’s board of directors authorized a share repurchase program of up to $3.0 billion in share repurchases of the company’s common stock. Repurchases under the program commenced in September 2025 and $2.5 billion of the share repurchase authorization remained as of September 30, 2026. We had no repurchases of common stock during the three months ended September 30, 2026.
+Share repurchases take place from time to time, subject to market and regulatory conditions and management’s discretion, in the open market or in privately negotiated transactions. The company retires its common stock upon repurchase and, in the periods presented, has not made any purchases of common stock other than in connection with these publicly announced repurchase programs.
+Dividends on Common Stock
+In May 2026, the company increased the quarterly common stock dividend 7 percent to $2.47 per share from the previous amount of $2.31 per share.
+3. INVENTORIED COSTS, NET
+Inventoried costs, net consisted of the following:
+| | | | | | | | | | | | | |
+$ in millions | | September 30, 2026 | | December 31, 2025
+Raw materials | | $ | 308 | | | $ | 306 |
+Work in process | | 979 | | | 945 |
+Finished goods | | 74 | | | 58 |
+Inventoried costs, net | | $ | 1,361 | | | $ | 1,309 |
+-8-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+4. INCOME TAXES
+In July 2025, the One Big Beautiful Bill Act (OBBBA) was enacted. Key income tax-related provisions of the OBBBA include the repeal of mandatory capitalization of research and development expenditures under Internal Revenue Code (IRC) Section 174 (reinstating full expensing beginning in 2025), extension of bonus depreciation, and revisions to international tax regimes. As part of the enactment of the OBBBA, the company became subject to the corporate alternative minimum tax (CAMT) and recorded CAMT credit carryforwards of $187 million during 2025. In February 2026, the Internal Revenue Service (IRS) issued Notice 2026-7, providing interim relief for the CAMT through a favorable adjustment related to the amortization of research and development expenditures under IRC Section 174. The company recognized the impacts of Notice 2026-7 during the first quarter of 2026, resulting in a $187 million decrease in CAMT credit carryforwards and a corresponding increase in Taxes receivable, as well as a $19 million reduction to federal income tax expense.
+| | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions | 2026 | | 2025 | | 2026 | | 2025
+Federal and foreign income tax expense | $ | 174 | | | $ | 223 | | | $ | 403 | | | $ | 573 |
+Effective income tax rate | 13.4 | % | | 16.9 | % | | 11.5 | % | | 17.2 | %
+Current Quarter
+Third quarter 2026 income tax expense decreased $49 million, or 22 percent, due to a lower effective tax rate (ETR) and $25 million of lower earnings before income taxes. The third quarter 2026 ETR decreased to 13.4 percent from 16.9 percent principally due to higher research credits. The third quarter 2026 ETR includes benefits of $112 million for research credits and $15 million for foreign-derived deduction-eligible income (FDDEI), partially offset by $21 million of interest expense on unrecognized tax benefits. The third quarter 2025 ETR included benefits of $66 million for research credits and $16 million for foreign derived intangible income (FDII), partially offset by $19 million of interest expense on unrecognized tax benefits.
+Year to Date
+Year to date 2026 income tax expense decreased $170 million, or 30 percent, due to a lower ETR, partially offset by $168 million of higher earnings before income taxes. The year to date 2026 ETR decreased to 11.5 percent from 17.2 percent primarily due to the remeasurement of unrecognized tax benefits during the second quarter of 2026 given recent developments with the IRS towards resolving our previously filed federal income tax returns and refund claims, as well as higher research credits, including a $19 million benefit related to the CAMT guidance discussed above. The year to date 2026 ETR includes benefits of $356 million for research credits, inclusive of the unrecognized tax benefit remeasurement of $115 million, and $35 million for FDDEI, partially offset by $46 million of interest expense on unrecognized tax benefits. The year to date 2025 ETR included benefits of $169 million for research credits and $34 million for FDII, partially offset by $53 million of interest expense on unrecognized tax benefits and $17 million of tax expense related to nondeductible goodwill in the divested training services business.
+We file income tax returns in the U.S. federal jurisdiction and in various state and foreign jurisdictions. Certain matters related to the company’s 2018-2024 federal income tax returns are currently under IRS examination. Certain matters related to the company’s 2014-2017 federal income tax returns and refund claims related to its 2007-2016 federal tax returns are currently under review by the IRS Appeals Office.
+Current unrecognized tax benefits, which are included in Other current liabilities, were $800 million and $436 million as of September 30, 2026 and December 31, 2025, respectively. Non-current unrecognized tax benefits, which are included in Other non-current liabilities, were $1.3 billion and $1.6 billion as of September 30, 2026 and December 31, 2025, respectively.
+Taxes receivable, which are included in Prepaid expenses and other current assets in the unaudited condensed consolidated statements of financial position, were $1.0 billion as of September 30, 2026 and $924 million as of December 31, 2025.
+5. FAIR VALUE OF FINANCIAL INSTRUMENTS
+The company holds a portfolio of marketable securities including investments to partially fund non-qualified employee benefit plans as well as investments in companies that are advancing or developing technologies applicable to our business. A portion of these securities are held in common/collective trust funds and are measured at fair value using net asset value (NAV) per share as a practical expedient; therefore, they are not categorized in the
+-9-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+fair value hierarchy table below. Marketable securities are included in Other non-current assets in the unaudited condensed consolidated statements of financial position.
+The company’s derivative portfolio consists primarily of foreign currency forward contracts. Where model-derived valuations are appropriate, the company utilizes the income approach to determine the fair value using internal models based on observable market inputs.
+The following table presents the financial assets and liabilities the company records at fair value identified by the level of inputs used to determine fair value:
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | September 30, 2026 | | December 31, 2025
+$ in millions | | Level 1 | | Level 2 | | Level 3 | | Total | | Level 1 | | Level 2 | | Level 3 | | Total
+Financial Assets | | | | | | | | | | | | | | | |
+Marketable securities | | $ | 397 | | | $ | 1 | | | $ | 22 | | | $ | 420 | | | $ | 454 | | | $ | — | | | $ | 24 | | | $ | 478 |
+Marketable securities valued using NAV | | | | | | | | 4 | | | | | | | | | 5 |
+Total marketable securities | | 397 | | | 1 | | | 22 | | | 424 | | | 454 | | | — | | | 24 | | | 483 |
+Derivatives | | — | | | ( 1 ) | | | — | | | ( 1 ) | | | — | | | 2 | | | — | | | 2 |
+There were no transfers of financial instruments into or out of Level 3 of the fair value hierarchy during the nine months ended September 30, 2026.
+During the second quarter of 2026, the company sold its investment in a public company for $107 million and recognized a related gain of $35 million. Unrealized gains and losses from marketable securities, which are reflected in Other, net on the unaudited condensed consolidated statement of earnings and comprehensive income, were not material for the three and nine months ended September 30, 2026. Unrealized gains and losses from marketable securities were $82 million and $92 million for the three and nine months ended September 30, 2025.
+The notional value of the company’s foreign currency forward contracts at September 30, 2026 and December 31, 2025 was $291 million and $308 million, respectively. The portion of notional value designated as a cash flow hedge at September 30, 2026 and December 31, 2025 was $147 million and $167 million, respectively.
+The derivative fair values and related unrealized gains/losses at September 30, 2026 and December 31, 2025 were not material.
+The carrying value of cash and cash equivalents approximates fair value.
+Long-term Debt
+The estimated fair value of the company’s long-term debt was $13.7 billion and $15.1 billion as of September 30, 2026 and December 31, 2025, respectively. We calculated the fair value of long-term debt using Level 2 inputs, based on interest rates available for debt with terms and maturities similar to the company’s existing debt arrangements. The current portion of long-term debt is recorded in Other current liabilities in the unaudited condensed consolidated statements of financial position.
+Issuance of Senior Notes
+During the nine months ended September 30, 2026, the company issued no unsecured senior notes.
+In May 2025, the company issued $1.0 billion of unsecured senior notes for general corporate purposes, including debt repayment, share repurchases, and working capital, as follows:
+•$500 million of 4.65% senior notes due 2030 (the “2030 Notes”) and
+•$500 million of 5.25% senior notes due 2035 (the “2035 Notes”).
+We refer to the 2030 Notes and 2035 Notes together, as the “notes.” Interest on the notes is payable semi-annually in arrears. The notes are generally subject to redemption, in whole or in part, at the company’s discretion at any time, or from time to time, prior to maturity at a redemption price equal to the greater of 100% of the principal amount of the notes to be redeemed or an applicable “make-whole” amount, plus accrued and unpaid interest.
+Repayment of Senior Notes
+In March 2026, the company repaid $270 million of 7.875% unsecured senior notes and $257 million of 7.75% unsecured senior notes upon maturity.
+In January 2025, the company repaid $1.5 billion of 2.93% unsecured senior notes upon maturity.
+-10-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+6. INVESTIGATIONS, CLAIMS AND LITIGATION
+For over 25 years, the company has worked closely with the United States Navy, the United States Environmental Protection Agency, the New York State Department of Environmental Conservation, the New York State Department of Health and other federal, state and local governmental authorities, to address environmental conditions allegedly resulting from historic operations at the former United States Navy and Grumman facilities in Bethpage, New York. We have incurred, and expect to continue to incur, as included in Note 7, substantial remediation costs related to these Bethpage environmental conditions, including potential costs relating to unanticipated developments such as new discoveries of potential contaminants. It is also possible that applicable remediation standards and other requirements to which we are subject may continue to change, and that our costs may increase materially. In 2022, we resolved several disputes and regulatory proceedings concerning the scope and allocation of remediation responsibilities and costs related to this site and we continue remediation consistent with agreements through which those disputes were resolved. The company continues to be involved in other remediation-related disputes, none of which are material individually or in the aggregate. We are also a party to various individual lawsuits and a putative class action in the Eastern District of New York alleging personal injury and property damage related to the legacy Bethpage environmental conditions (the “Bethpage EDNY cases”). The court had previously stayed the filed individual lawsuits and, at an April 24, 2026 hearing, denied plaintiffs’ motion to lift that stay as to a subset of plaintiffs. The parties have submitted supplemental briefing on pending class certification and expert motions in the putative class action. On September 17, 2026, the court granted the parties’ joint request to defer decision on the class certification and expert motions in deference to the parties’ mediation process. We are also a party, and may become a party, to other lawsuits brought by or against insurance carriers, and by other individual plaintiffs and/or putative classes, as well as other parties. We cannot at this time predict or reasonably estimate the potential outcomes or ranges of possible liability of the Bethpage EDNY cases.
+The company received from the U.S. Department of Justice (DOJ) a criminal subpoena on December 9, 2022, and a civil investigative demand (CID) on February 2, 2023, both seeking information regarding financial and cost accounting and controls focused on the interest rate assumptions the company used to determine our U.S. Government Cost Accounting Standards (CAS) pension expense, which are the subject of the Defense Contract Management Agency (DCMA) inquiry we discuss in Note 7 below. On May 20, 2026, DOJ confirmed that, based on the information it had learned to date, the Criminal Division closed its inquiry into this matter. The company continues to engage with the government in relation to the CID and the DCMA inquiry. We cannot at this point predict the outcome of these remaining matters.
+The company is a party to various other investigations, lawsuits, arbitration, claims, enforcement actions and other legal proceedings, including government investigations and claims, that arise in the ordinary course of our business. The nature of legal proceedings is such that we cannot assure the outcome of any particular matter. However, based on information available to the company to date, the company does not believe that the outcome of any of these other matters pending against the company is likely to have a material adverse effect on the company’s unaudited condensed consolidated financial position as of September 30, 2026, or its annual results of operations and/or cash flows.
+7. COMMITMENTS AND CONTINGENCIES
+U.S. Government Cost Claims and Contingencies
+From time to time, the company is advised of claims by the U.S. government concerning certain potential disallowed costs, plus, at times, penalties and interest. When such findings are presented, the company and U.S. government representatives engage in discussions to enable the company to evaluate the merits of these claims, as well as to assess the amounts being claimed. Where appropriate, provisions are made to reflect the company’s estimated exposure for such potential disallowed costs. Such provisions are reviewed periodically using the most recent information available. The company believes it has adequately accrued for disputed amounts that are probable and reasonably estimable, and that the outcome of any such matters would not have a material adverse effect on its unaudited condensed consolidated financial position as of September 30, 2026, or its annual results of operations and/or cash flows.
+In 2019, the DCMA raised questions about an interest rate assumption used by the company to determine our CAS pension expense. On June 1, 2020, DCMA provided written notice that the assumptions the company used during the period 2013-2019 were potentially noncompliant with CAS. We submitted a formal response on July 31, 2020, which we believed demonstrates the appropriateness of the assumptions used. On November 24, 2020, DCMA replied to the company’s response, disagreeing with our position and requesting additional input, which we provided on February 22, 2021. We subsequently continued to exchange correspondence and engage with DCMA on this
+-11-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+matter, including responding to requests for and providing additional information. On February 15, 2024, DCMA sent to the company a Contracting Officer’s determination of noncompliance with CAS, which is an interim, non-final determination, and the parties engaged in discussions. In addition, as noted in Note 6 above, the company received from the DOJ a criminal subpoena on December 9, 2022 and a CID on February 2, 2023, both seeking information related to the interest rate assumptions at issue in our discussions with DCMA. On May 20, 2026, DOJ confirmed that, based on the information it had learned to date, the Criminal Division closed its inquiry into this matter. The company continues to engage with the government in relation to the CID and the DCMA inquiry. We cannot at this point predict the outcome of these remaining matters. The sensitivity to changes in interest rate assumptions makes it reasonably possible the outcome of these matters could have a material adverse effect on our financial position, results of operations and/or cash flows, although we are not currently able to estimate a range of any potential loss.
+Environmental Matters
+The table below summarizes the amount of accrued and deferred costs associated with the company’s environmental remediation liabilities as of September 30, 2026 and December 31, 2025:
+| | | | | | | | | | | | | |
+$ in millions | | September 30, 2026 | | December 31, 2025
+Accrued costs (1) | | $ | 554 | | | $ | 547 |
+Deferred costs (2) | | 511 | | | 502 |
+(1) As of September 30, 2026, $215 million is recorded in Other current liabilities and $339 million is recorded in Other non-current liabilities in the unaudited condensed consolidated statements of financial position. Estimated remediation costs are not discounted to present value.
+(2) The company defers the portion of environmental remediation costs we expect to be recoverable through overhead charges on U.S. government contracts. As of September 30, 2026, $200 million is deferred in Prepaid expenses and other current assets and $311 million is deferred in Other non-current assets in the unaudited condensed consolidated statements of financial position. These amounts are routinely evaluated for recoverability.
+Reasonably possible future costs in excess of accrued costs were $403 million and $380 million as of September 30, 2026 and December 31, 2025, respectively. We currently expect any such future costs would be recoverable through overhead charges on our U.S. government contracts in a similar proportion as the amounts deferred in the table above.
+Although we cannot predict whether (i) new information gained as our environmental remediation projects progress, (ii) changes in remediation standards or other requirements to which we are subject, or (iii) other changes in facts and circumstances will materially affect the estimated liability accrued, we do not anticipate that future remediation expenditures associated with our currently identified projects will have a material adverse effect on the company’s unaudited condensed consolidated financial position as of September 30, 2026, or its annual results of operations and/or cash flows.
+Financial Arrangements
+In the ordinary course of business, the company uses standby letters of credit and guarantees issued by commercial banks and surety bonds issued principally by insurance companies to guarantee the performance on certain obligations. At September 30, 2026, there were $615 million of stand-by letters of credit and guarantees and $271 million of surety bonds outstanding.
+Commercial Paper
+The company maintains a commercial paper program that serves as a source of short-term financing with capacity to issue unsecured commercial paper notes up to $3.0 billion. At September 30, 2026, there were no commercial paper borrowings outstanding.
+Credit Facilities
+The company maintains a five-year senior unsecured revolving credit facility in an aggregate principal amount of $3.0 billion (the “2025 Credit Agreement”) that matures in September 2030 and is intended to support the company's commercial paper program and other general corporate purposes. Commercial paper borrowings reduce the amount available for borrowing under the 2025 Credit Agreement. At September 30, 2026, there were no borrowings outstanding under this facility.
+The 2025 Credit Agreement contains generally customary terms and conditions, including covenants restricting the company’s ability to sell all or substantially all of its assets, merge or consolidate with another entity or undertake
+-12-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+other fundamental changes and incur liens. The company also cannot permit the ratio of its debt to capitalization (as set forth in the credit agreement) to exceed 65 percent.
+At September 30, 2026, the company was in compliance with all covenants under its credit agreements.
+8. RETIREMENT BENEFITS
+The cost to the company of its pension and other postretirement benefit (OPB) plans is shown in the following table:
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+| Pension Benefits | | OPB | | Pension Benefits | | OPB
+$ in millions | 2026 | | 2025 | | 2026 | | 2025 | | 2026 | | 2025 | | 2026 | | 2025
+Components of net periodic benefit cost (benefit) | | | | | | | | | | | | | | |
+Service cost | $ | 53 | | | $ | 55 | | | $ | 1 | | | $ | 1 | | | $ | 159 | | | $ | 163 | | | $ | 3 | | | $ | 3 |
+Interest cost | 398 | | | 404 | | | 15 | | | 16 | | | 1,196 | | | 1,209 | | | 44 | | | 47 |
+Expected return on plan assets | ( 565 ) | | | ( 540 ) | | | ( 22 ) | | | ( 22 ) | | | ( 1,695 ) | | | ( 1,619 ) | | | ( 66 ) | | | ( 64 ) |
+Amortization of prior service credit | — | | | — | | | ( 1 ) | | | ( 1 ) | | | — | | | — | | | ( 2 ) | | | ( 2 ) |
+Other | — | | | — | | | — | | | — | | | — | | | 7 | | | — | | | — |
+Net periodic benefit cost (benefit) | $ | ( 114 ) | | | $ | ( 81 ) | | | $ | ( 7 ) | | | $ | ( 6 ) | | | $ | ( 340 ) | | | $ | ( 240 ) | | | $ | ( 21 ) | | | $ | ( 16 ) |
+Employer Contributions
+The company sponsors defined benefit pension and OPB plans, as well as defined contribution plans. We fund our defined benefit pension plans annually in a manner consistent with the Employee Retirement Income Security Act of 1974, as amended by the Pension Protection Act of 2006.
+Contributions made by the company to its retirement plans are as follows:
+| | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions | 2026 | | 2025 | | 2026 | | 2025
+Defined benefit pension plans | $ | 24 | | | $ | 25 | | | $ | 66 | | | $ | 67 |
+OPB plans | 5 | | | 7 | | | 26 | | | 27 |
+Defined contribution plans | 145 | | | 133 | | | 532 | | | 517 |
+9. STOCK COMPENSATION PLANS AND OTHER COMPENSATION ARRANGEMENTS
+Stock Awards
+The following table presents the number of restricted stock rights (RSRs), restricted performance stock rights (RPSRs), and market stock units (MSUs) granted to employees under the company’s long-term incentive stock plan and the grant date aggregate fair value of those stock awards for the periods presented:
+| | | | | | | | | | | | | |
+| | Nine Months Ended September 30
+in millions | | 2026 | | 2025
+RSRs granted | | 0.1 | | | 0.1 |
+RPSRs/MSUs granted | | 0.1 | | | 0.1 |
+Grant date aggregate fair value | | $ | 168 | | | $ | 104 |
+RSRs typically vest on the third anniversary of the grant date, while RPSRs and MSUs generally vest and pay out based on the achievement of certain performance metrics and/or market conditions over a three-year period for RPSRs and through December 31, 2031 for MSUs.
+-13-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Cash Awards
+The following table presents the minimum and maximum aggregate payout amounts related to cash units (CUs) and cash performance units (CPUs) granted to employees in the periods presented:
+| | | | | | | | | | | | | |
+| | Nine Months Ended September 30
+$ in millions | | 2026 | | 2025
+Minimum aggregate payout amount | | $ | — | | | $ | 35 |
+Maximum aggregate payout amount | | 163 | | | 199 |
+CUs typically vest and settle in cash on the third anniversary of the grant date, while CPUs generally vest and pay out in cash based on the achievement of certain performance metrics over a three-year period. During the nine months ended September 30, 2026, there were no CUs granted to employees.
+10. SEGMENT INFORMATION
+The company is aligned in four operating sectors, which also comprise our reportable segments: Aeronautics Systems, Defense Systems, Mission Systems and Space Systems. We generally organize our segments based on the nature of products and services offered.
+-14-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+The following table presents sales, operating costs and expenses, and operating income by segment:
+| | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions | 2026 | | 2025 | | 2026 | | 2025
+Aeronautics Systems | | | | | | |
+Sales | $ | 3,575 | | | $ | 3,142 | | | $ | 10,377 | | | $ | 9,070 |
+Operating costs and expenses: | | | | | | |
+Product | 2,463 | | | 2,108 | | | 7,180 | | | 6,575 |
+Service | 698 | | | 690 | | | 2,048 | | | 1,940 |
+Intersegment | 37 | | | 39 | | | 105 | | | 112 |
+Aeronautics Systems operating income | 377 | | | 305 | | | 1,044 | | | 443 |
+Defense Systems | | | | | | |
+Sales | 2,307 | | 2,059 | | 6,299 | | 5,855
+Operating costs and expenses: | | | | | | |
+Product | 1,717 | | 1,483 | | 4,668 | | 4,117
+Service | 287 | | 297 | | 893 | | 940
+Intersegment | 53 | | 45 | | 148 | | 132
+Defense Systems operating income | 250 | | 234 | | 590 | | 666
+Mission Systems | | | | | | |
+Sales | 3,155 | | 3,093 | | 9,266 | | 9,057
+Operating costs and expenses: | | | | | | |
+Product | 1,895 | | 1,825 | | 5,477 | | 5,500
+Service | 440 | | 466 | | 1,312 | | 1,383
+Intersegment | 320 | | 287 | | 1,043 | | 857
+Mission Systems operating income | 500 | | 515 | | 1,434 | | 1,317
+Space Systems | | | | | | |
+Sales | 2,749 | | 2,698 | | 7,982 | | 7,912
+Operating costs and expenses: | | | | | | |
+Product | 1,956 | | 1,980 | | 5,817 | | 5,702
+Service | 321 | | 297 | | 909 | | 1,021
+Intersegment | 160 | | 123 | | 473 | | 328
+Space Systems operating income | 312 | | 298 | | 783 | | 861
+Intersegment profit eliminations | ( 94 ) | | ( 75 ) | | ( 276 ) | | ( 223 )
+Total segment operating income | 1,345 | | 1,277 | | 3,575 | | 3,064
+FAS/CAS operating adjustment | 15 | | 67 | | 29 | | 193
+Unallocated corporate expense | ( 91 ) | | ( 102 ) | | ( 250 ) | | ( 17 )
+Total operating income | 1,269 | | | 1,242 | | | 3,354 | | | 3,240 |
+Other (expense) income | | | | | | |
+Interest expense | ( 158 ) | | ( 161 ) | | ( 481 ) | | ( 490 )
+Non-operating FAS pension benefit | 167 | | 136 | | 499 | | 403
+Other, net | 20 | | 106 | | 124 | | 175
+Earnings before income taxes | $ | 1,298 | | | $ | 1,323 | | | $ | 3,496 | | | $ | 3,328 |
+-15-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+FAS/CAS Operating Adjustment
+For financial statement purposes, we account for our employee pension plans in accordance with FAS. However, the cost of these plans is charged to our contracts in accordance with applicable Federal Acquisition Regulation (FAR) and CAS requirements. The FAS/CAS operating adjustment reflects the difference between CAS pension expense included as cost in segment operating income and the service cost component of FAS expense included in total operating income.
+Unallocated Corporate Expense
+Unallocated corporate expense includes the portion of corporate costs not considered allowable or allocable under applicable FAR and CAS requirements, and therefore not allocated to the segments, such as changes in deferred state income taxes and a portion of management and administration, legal, environmental, compensation, retiree benefits, advertising and other corporate unallowable costs. Unallocated corporate expense also includes costs not considered part of management’s evaluation of segment operating performance, such as amortization of purchased intangible assets and the additional depreciation expense related to the step-up in fair value of property, plant and equipment acquired through business combinations, as well as certain compensation and other costs.
+-16-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Disaggregation of Revenue
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+Sales by Customer Type | Three Months Ended September 30 | | Nine Months Ended September 30
+| 2026 | | 2025 | | 2026 | | 2025
+$ in millions | $ | % (3) | | $ | % (3) | | $ | % (3) | | $ | % (3)
+Aeronautics Systems | | | | | | | | | | |
+U.S. government (1) | $ | 2,846 | | 80 | % | | $ | 2,530 | | 82 | % | | $ | 8,349 | | 81 | % | | $ | 7,346 | | 82 | %
+International (2) | 665 | | 19 | % | | 564 | | 18 | % | | 1,857 | | 18 | % | | 1,586 | | 18 | %
+Other customers | 23 | | 1 | % | | 6 | | — | % | | 55 | | 1 | % | | 17 | | — | %
+Intersegment sales | 41 | | | | 42 | | | | 116 | | | | 121 | |
+Aeronautics Systems sales | 3,575 | | | | 3,142 | | | | 10,377 | | | | 9,070 | |
+Defense Systems | | | | | | | | | | |
+U.S. government (1) | 1,934 | | 86 | % | | 1,570 | | 78 | % | | 5,263 | | 86 | % | | 4,632 | | 81 | %
+International (2) | 294 | | 13 | % | | 419 | | 21 | % | | 808 | | 13 | % | | 1,013 | | 18 | %
+Other customers | 20 | | 1 | % | | 19 | | 1 | % | | 62 | | 1 | % | | 61 | | 1 | %
+Intersegment sales | 59 | | | | 51 | | | | 166 | | | | 149 | |
+Defense Systems sales | 2,307 | | | | 2,059 | | | | 6,299 | | | | 5,855 | |
+Mission Systems | | | | | | | | | | |
+U.S. government (1) | 2,244 | | 81 | % | | 2,166 | | 79 | % | | 6,403 | | 80 | % | | 6,421 | | 80 | %
+International (2) | 487 | | 18 | % | | 557 | | 20 | % | | 1,514 | | 19 | % | | 1,537 | | 19 | %
+Other customers | 38 | | 1 | % | | 31 | | 1 | % | | 114 | | 1 | % | | 84 | | 1 | %
+Intersegment sales | 386 | | | | 339 | | | | 1,235 | | | | 1,015 | |
+Mission Systems sales | 3,155 | | | | 3,093 | | | | 9,266 | | | | 9,057 | |
+Space Systems | | | | | | | | | | |
+U.S. government (1) | 2,411 | | 94 | % | | 2,366 | | 93 | % | | 7,111 | | 95 | % | | 7,024 | | 93 | %
+International (2) | 37 | | 1 | % | | 63 | | 2 | % | | 128 | | 2 | % | | 154 | | 2 | %
+Other customers | 123 | | 5 | % | | 132 | | 5 | % | | 215 | | 3 | % | | 367 | | 5 | %
+Intersegment sales | 178 | | | | 137 | | | | 528 | | | | 367 | |
+Space Systems sales | 2,749 | | | | 2,698 | | | | 7,982 | | | | 7,912 | |
+Total | | | | | | | | | | |
+U.S. government (1) | 9,435 | | 85 | % | | 8,632 | | 83 | % | | 27,126 | | 85 | % | | 25,423 | | 84 | %
+International (2) | 1,483 | | 13 | % | | 1,603 | | 15 | % | | 4,307 | | 14 | % | | 4,290 | | 14 | %
+Other customers | 204 | | 2 | % | | 188 | | 2 | % | | 446 | | 1 | % | | 529 | | 2 | %
+Total Sales | $ | 11,122 | | | | $ | 10,423 | | | | $ | 31,879 | | | | $ | 30,242 | |
+(1) Sales to the U.S. government include sales from contracts for which we are the prime contractor, as well as those for which we are a subcontractor and the ultimate customer is the U.S. government. Each of the company’s segments derives a substantial percentage of its revenue from the U.S. government.
+(2) International sales include sales from contracts for which we are the prime contractor, as well as those for which we are a subcontractor and the ultimate customer is an international customer to the extent that information is available to us or can be reasonably estimated. These sales include foreign military sales contracted through the U.S. government.
+(3) Percentages calculated based on external customer sales.
+-17-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+Sales by Contract Type | Three Months Ended September 30 | | Nine Months Ended September 30
+| 2026 | | 2025 | | 2026 | | 2025
+$ in millions | $ | % (1) | | $ | % (1) | | $ | % (1) | | $ | % (1)
+Aeronautics Systems | | | | | | | | | | |
+Cost-type | $ | 1,607 | | 45 | % | | $ | 1,454 | | 47 | % | | $ | 4,573 | | 45 | % | | $ | 4,254 | | 48 | %
+Fixed-price | 1,927 | | 55 | % | | 1,646 | | 53 | % | | 5,688 | | 55 | % | | 4,695 | | 52 | %
+Intersegment sales | 41 | | | | 42 | | | | 116 | | | | 121 | |
+Aeronautics Systems sales | 3,575 | | | | 3,142 | | | | 10,377 | | | | 9,070 | |
+Defense Systems | | | | | | | | | | |
+Cost-type | 1,234 | | 55 | % | | 1,028 | | 51 | % | | 3,461 | | 56 | % | | 3,077 | | 54 | %
+Fixed-price | 1,014 | | 45 | % | | 980 | | 49 | % | | 2,672 | | 44 | % | | 2,629 | | 46 | %
+Intersegment sales | 59 | | | | 51 | | | | 166 | | | | 149 | |
+Defense Systems sales | 2,307 | | | | 2,059 | | | | 6,299 | | | | 5,855 | |
+Mission Systems | | | | | | | | | | |
+Cost-type | 1,131 | | 41 | % | | 1,219 | | 44 | % | | 3,387 | | 42 | % | | 3,788 | | 47 | %
+Fixed-price | 1,638 | | 59 | % | | 1,535 | | 56 | % | | 4,644 | | 58 | % | | 4,254 | | 53 | %
+Intersegment sales | 386 | | | | 339 | | | | 1,235 | | | | 1,015 | |
+Mission Systems sales | 3,155 | | | | 3,093 | | | | 9,266 | | | | 9,057 | |
+Space Systems | | | | | | | | | | |
+Cost-type | 1,293 | | 50 | % | | 1,351 | | 53 | % | | 4,017 | | 54 | % | | 4,453 | | 59 | %
+Fixed-price | 1,278 | | 50 | % | | 1,210 | | 47 | % | | 3,437 | | 46 | % | | 3,092 | | 41 | %
+Intersegment sales | 178 | | | | 137 | | | | 528 | | | | 367 | |
+Space Systems sales | 2,749 | | | | 2,698 | | | | 7,982 | | | | 7,912 | |
+Total | | | | | | | | | | |
+Cost-type | 5,265 | | 47 | % | | 5,052 | | 48 | % | | 15,438 | | 48 | % | | 15,572 | | 51 | %
+Fixed-price | 5,857 | | 53 | % | | 5,371 | | 52 | % | | 16,441 | | 52 | % | | 14,670 | | 49 | %
+Total Sales | $ | 11,122 | | | | $ | 10,423 | | | | $ | 31,879 | | | | $ | 30,242 | |
+(1)Percentages calculated based on external customer sales.
+-18-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+Sales by Geographic Region (1) | Three Months Ended September 30 | | Nine Months Ended September 30
+| 2026 | 2025 | | 2026 | | 2025
+$ in millions | $ | % (3) | | $ | % (3) | | $ | % (3) | | $ | % (3)
+Aeronautics Systems | | | | | | | | | | |
+United States | $ | 2,869 | | 81 | % | | $ | 2,536 | | 82 | % | | $ | 8,404 | | 82 | % | | $ | 7,363 | | 82 | %
+Asia/Pacific | 251 | | 7 | % | | 221 | | 7 | % | | 743 | | 7 | % | | 647 | | 7 | %
+Europe | 393 | | 11 | % | | 321 | | 10 | % | | 1,051 | | 10 | % | | 891 | | 10 | %
+Other geographic regions | 21 | | 1 | % | | 22 | | 1 | % | | 63 | | 1 | % | | 48 | | 1 | %
+Intersegment sales | 41 | | | | 42 | | | | 116 | | | | 121 | |
+Aeronautics Systems sales | 3,575 | | | | 3,142 | | | | 10,377 | | | | 9,070 | |
+Defense Systems | | | | | | | | | | |
+United States | 1,954 | | 87 | % | | 1,589 | | 79 | % | | 5,325 | | 87 | % | | 4,693 | | 82 | %
+Asia/Pacific | 106 | | 5 | % | | 111 | | 6 | % | | 297 | | 5 | % | | 271 | | 5 | %
+Europe | 132 | | 6 | % | | 251 | | 12 | % | | 386 | | 6 | % | | 589 | | 10 | %
+Other geographic regions | 56 | | 2 | % | | 57 | | 3 | % | | 125 | | 2 | % | | 153 | | 3 | %
+Intersegment sales | 59 | | | | 51 | | | | 166 | | | | 149 | |
+Defense Systems sales | 2,307 | | | | 2,059 | | | | 6,299 | | | | 5,855 | |
+Mission Systems | | | | | | | | | | |
+United States | 2,282 | | 82 | % | | 2,197 | | 80 | % | | 6,517 | | 81 | % | | 6,505 | | 81 | %
+Asia/Pacific | 112 | | 4 | % | | 147 | | 5 | % | | 374 | | 5 | % | | 407 | | 5 | %
+Europe | 266 | | 10 | % | | 318 | | 12 | % | | 820 | | 10 | % | | 820 | | 10 | %
+Other geographic regions | 109 | | 4 | % | | 92 | | 3 | % | | 320 | | 4 | % | | 310 | | 4 | %
+Intersegment sales | 386 | | | | 339 | | | | 1,235 | | | | 1,015 | |
+Mission Systems sales | 3,155 | | | | 3,093 | | | | 9,266 | | | | 9,057 | |
+Space Systems | | | | | | | | | | |
+United States | 2,534 | | 99 | % | | 2,498 | | 98 | % | | 7,326 | | 98 | % | | 7,391 | | 98 | %
+Asia/Pacific | 14 | | — | % | | 25 | | 1 | % | | 47 | | 1 | % | | 48 | | 1 | %
+Europe | 19 | | 1 | % | | 28 | | 1 | % | | 67 | | 1 | % | | 74 | | 1 | %
+Other geographic regions | 4 | | — | % | | 10 | | — | % | | 14 | | — | % | | 32 | | — | %
+Intersegment sales | 178 | | | | 137 | | | | 528 | | | | 367 | |
+Space Systems sales | 2,749 | | | | 2,698 | | | | 7,982 | | | | 7,912 | |
+Total | | | | | | | | | | |
+United States | 9,639 | | 87 | % | | 8,820 | | 85 | % | | 27,572 | | 86 | % | | 25,952 | | 86 | %
+Asia/Pacific | 483 | | 4 | % | | 504 | | 5 | % | | 1,461 | | 5 | % | | 1,373 | | 4 | %
+Europe | 810 | | 7 | % | | 918 | | 8 | % | | 2,324 | | 7 | % | | 2,374 | | 8 | %
+Other geographic regions (2) | 190 | | 2 | % | | 181 | | 2 | % | | 522 | | 2 | % | | 543 | | 2 | %
+Total Sales | $ | 11,122 | | | | $ | 10,423 | | | | $ | 31,879 | | | | $ | 30,242 | |
+(1)Sales are attributed to countries based on the ultimate customer’s location to the extent that information is available to us or can be reasonably estimated. No country other than the United States represents greater than 10 percent of total company sales.
+(2)Other geographic regions are principally comprised of the Middle East.
+(3)Percentages calculated based on external customer sales.
+-19-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Capital Expenditures and Depreciation and Amortization
+The following table presents capital expenditures and depreciation and amortization for each of our reportable segments and for Corporate:
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions | | 2026 | | 2025 | | 2026 | | 2025
+Capital Expenditures | | | |
+Aeronautics Systems | | $ | 106 | | | $ | 102 | | | $ | 175 | | | $ | 250 |
+Defense Systems | | 33 | | | 21 | | | 77 | | | 44 |
+Mission Systems | | 46 | | | 66 | | | 133 | | | 152 |
+Space Systems | | 84 | | | 70 | | | 211 | | | 251 |
+Corporate (1) | | 37 | | | 42 | | | 179 | | | 91 |
+Total capital expenditures | | $ | 306 | | | $ | 301 | | | $ | 775 | | | $ | 788 |
+Depreciation and Amortization | | | | | | | |
+Aeronautics Systems | | $ | 97 | | | $ | 92 | | | $ | 274 | | | $ | 273 |
+Defense Systems | | 44 | | | 47 | | | 132 | | | 132 |
+Mission Systems | | 73 | | | 71 | | | 212 | | | 206 |
+Space Systems | | 98 | | | 98 | | | 293 | | | 261 |
+Corporate (1) | | 67 | | | 71 | | | 207 | | | 194 |
+Total depreciation and amortization | | $ | 379 | | | $ | 379 | | | $ | 1,118 | | | $ | 1,066 |
+(1)Corporate amounts include the amortization of purchased intangible assets and the additional depreciation expense related to the step-up in fair value of PP&E acquired through business combinations as they are not considered part of management’s evaluation of segment operating performance.
+Assets
+Our chief operating decision maker (“CODM”) does not use assets by segment to evaluate segment performance or allocate resources. Therefore, we do not disclose assets by segment.
+-20-
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Board of Directors and Shareholders of
+Northrop Grumman Corporation
+Falls Church, Virginia
+Results of Review of Interim Financial Information
+We have reviewed the accompanying condensed consolidated statement of financial position of Northrop Grumman Corporation and subsidiaries (the “Company”) as of September 30, 2026, and the related condensed consolidated statements of earnings and comprehensive income and changes in shareholders’ equity for the three-month and nine-month periods ended September 30, 2026 and 2025, and of cash flows for the nine-month periods ended September 30, 2026 and 2025 and the related notes (collectively referred to as the “interim financial information”). Based on our reviews, we are not aware of any material modifications that should be made to the accompanying interim financial information for it to be in conformity with accounting principles generally accepted in the United States of America.
+We have previously audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated statement of financial position of Northrop Grumman Corporation and subsidiaries as of December 31, 2025, and the related consolidated statements of earnings and comprehensive income, changes in shareholders’ equity, and cash flows for the year then ended (not presented herein); and in our report dated January 26, 2026, we expressed an unqualified opinion on those consolidated financial statements. In our opinion, the information set forth in the accompanying condensed consolidated statement of financial position as of December 31, 2025, is fairly stated, in all material respects, in relation to the audited consolidated statement of financial position from which it has been derived.
+Basis for Review Results
+This interim financial information is the responsibility of the Company’s management. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+We conducted our reviews in accordance with the standards of the PCAOB. A review of interim financial information consists principally of applying analytical procedures and making inquiries of persons responsible for financial and accounting matters. It is substantially less in scope than an audit conducted in accordance with the standards of the PCAOB, the objective of which is the expression of an opinion regarding the financial statements taken as a whole. Accordingly, we do not express such an opinion.
+| | | | |
+/s/ | Deloitte & Touche LLP
+| McLean, Virginia
+| October 19, 2026
+-21-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+OVERVIEW
+Northrop Grumman Corporation (herein referred to as “Northrop Grumman,” the “company,” “we,” “us,” or “our”) is a leading global aerospace and defense technology company. We deliver a broad range of products, services and solutions to U.S. and international customers, and principally to the U.S. Department of War (“DoW”) and intelligence community. Our broad portfolio is aligned to support national security priorities and our solutions equip our customers with capabilities they need to connect, protect and advance humanity.
+The company is a leading provider of space systems, military aircraft, missile defense, advanced weapons and long-range fires capabilities, mission systems, networking and communications, strategic deterrence systems, and breakthrough technologies, such as advanced computing, microelectronics and cyber. We are focused on competing and winning programs that enable continued growth, performing on our commitments and affordably delivering capability our customers need. With the investments we've made in advanced technologies, combined with our talented workforce and digital transformation capabilities, Northrop Grumman is well positioned to meet our customers' needs today and in the future.
+The following discussion should be read along with the financial statements included in this Form 10-Q, as well as “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” “Liquidity and Capital Resources,” “Quantitative and Qualitative Disclosures About Market Risks” and “Risk Factors” in our 2025 Annual Report on Form 10-K, which provides additional information on our business, the environment in which we operate and our operating results.
+Divestiture of Training Services Business
+On May 24, 2025 (the “Divestiture date”), the company completed its previously announced sale of substantially all of the Immersive Mission Solutions (IMS) operating unit of Defense Systems (the “training services” business or “divestiture”) for $333 million in cash and recorded a pre-tax gain on sale of $231 million. IMS is a provider of mission training and satellite ground network communications software for U.S. government customers. 2025 operating results include sales and operating income for the training services business prior to the Divestiture date.
+Global Security Environment
+The U.S. and its allies continue to face a dynamic global security environment of heightened tensions and instability, threats from state and non-state actors, including in particular major global powers, as well as terrorist organizations, increasing nuclear tensions, diverse regional security concerns, political instability and uncertainty concerning global strategic alliances. The market for defense products, services and solutions globally is driven by these complex and rapidly evolving security challenges, considered in the broader context of political and socioeconomic circumstances and priorities. Our operations and financial performance, as well as demand for our products and services, are impacted by these events, including global unrest. The same is true for our suppliers and other business partners.
+The ongoing conflicts in Ukraine and Iran and threats elsewhere, particularly in the Middle East and the Western Pacific region, have increased global tensions and instability and highlighted security requirements globally. These conflicts have resulted in and may continue to result in increased demand for defense products and services from allies and partner nations, particularly in those regions. We continue to monitor developments in these regions, but have not experienced, and do not anticipate experiencing, significant adverse financial impacts directly from these conflicts.
+We believe the current global security environment, characterized by significant national security threats to the U.S. and its allies, continues to highlight the need for strong deterrence and robust defense capabilities. We are actively evaluating both opportunities and risks associated with this environment and are moving with speed and at scale to deliver innovative solutions to our customers. We believe our capabilities, particularly in space, C4ISR, air and missile defense, battle management, solid rocket motors, advanced weapons, strategic deterrence, survivable aircraft, autonomous aircraft systems and mission systems should help our customers in the U.S. and globally defend against current and future threats and, as a result, continue to position us for long-term profitable business growth.
+Global Economic Environment
+Over the past several years, the global economic environment has experienced challenges, including inflationary pressures; widespread delays and disruptions in supply chains; constraints on the availability of critical materials, including rare earth minerals and metals; business slowdowns or shutdowns; workforce challenges and labor shortfalls; and market volatility. These macroeconomic factors have contributed, and could continue to contribute, to increased costs, delays, disruptions and other performance challenges, as well as increased competing demands for
+-22-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+limited resources to address such increased costs and other challenges, for our company, suppliers and partners, and customers.
+In addition, increases or fluctuations in interest rates could impact government spending priorities (in the U.S. and allied countries, in particular), including the demand for defense products. Economic tensions and changes in international trade policies, including, for example, widespread tariffs announced since last year by the U.S. on its major trading partners, higher tariffs on imported goods and materials and actions taken in response (such as retaliatory tariffs or other trade protectionist measures or the renegotiation of free trade agreements), could also further impact the global market for defense products, services and solutions. In addition, following the first quarter 2026 U.S. Supreme Court decision that invalidated tariffs imposed pursuant to the International Emergency Economic Powers Act (“IEEPA”), the U.S. has announced various tariffs under different statutory authorities. The full impact of these governmental actions on macroeconomic conditions and on our business is uncertain, difficult to predict and depends on a number of factors, including the extent and duration of tariffs, the availability of exemptions, changes in the amount and scope of tariffs, any reversal or temporary suspension of announced tariffs, the availability of refunds for tariffs paid under IEEPA, the imposition of new tariffs and other measures that target countries may take in response to U.S. trade policies, and possible resulting general inflationary pressures in the global economy. We are continuing to monitor the impact on our business, suppliers and customers, but do not believe that the tariffs, including the IEEPA tariffs, have had or will have a material adverse effect on our business.
+U.S. Political, Budget and Regulatory Environment
+The U.S. continues to face an uncertain and evolving political, budget and regulatory environment. In particular, it is difficult to predict the specific course of future defense budgets. Current and future requirements related to the conflicts in Ukraine and Iran and threats in the Middle East, the Western Pacific and Latin America and other security priorities, as well as the macroeconomic environment, the national debt, and other domestic priorities, among other things, in the U.S. and globally, will continue to impact our customers’ budgets, spending and priorities, and our industry. The U.S. political environment may also impact defense budgets and priorities, issues related to the national debt, and government spending more broadly. We anticipate that issues related to budgetary priorities, defense spending levels and the debt ceiling will continue to be subjects of considerable debate, with a potentially significant impact on our programs and the company.
+On July 4, 2025, the FY 2025 reconciliation bill titled the One Big Beautiful Bill Act (the “OBBBA”) was enacted. The OBBBA allocated approximately $150 billion in mandatory defense funding, including funding for air and missile defense, munitions, strategic deterrence, shipbuilding and supply chains and other military capabilities. The appropriated funds will remain available to be obligated until September 30, 2029 and expended through FY 2034. Funding from the OBBBA has allowed for increased investments by the DoW in defense modernization projects, homeland missile defense capabilities, and increased production capacity across a number of key programs. See Note 4 to the financial statements for additional information on key income tax provisions of the OBBBA.
+On February 3, 2026, annual appropriations to fund a vast majority of the federal government for FY 2026, including approximately $859 billion for defense, were enacted. Appropriations to partially fund the Department of Homeland Security were enacted on April 30, 2026, with the remaining appropriations enacted on June 10, 2026. On April 3, 2026, the Trump Administration (the “Administration”) released its FY 2027 budget request. The request includes $1.45 trillion for defense, with $1.1 trillion in the base budget (discretionary funding) and $350 billion in reconciliation (mandatory) funding. The total defense budget request reflects an increase of 44% ($441 billion) above the FY 2026 enacted levels (including $153 billion in FY 2026 reconciliation funding). Congress is evaluating the Administration’s budget request as it drafts authorization and appropriations legislation for FY 2027. Additionally, the Administration requested $88 billion in supplemental funding for FY 2026, which included $67 billion to address the operational costs associated with the Iran conflict and other defense priorities. There is uncertainty as to when Congress will act on the reconciliation funding and supplemental request.
+On September 2, 2026, a continuing resolution (“CR”) was enacted to provide funding for the federal government, including the DoW, through December 11, 2026, generally at FY 2026 funding levels. The CR also requires that any new multi-year contracts for military equipment receive prior Congressional approval. Annual appropriations for FY 2027 have not yet been enacted, and it remains uncertain when the government will approve full-year FY 2027 appropriations and what levels of funding those appropriations will provide. Government operations under an extended CR could have adverse impacts on our programs and new starts, in particular. If the CR is not extended or full-year appropriations legislation is not enacted before the current CR expires, a government shutdown could occur. A prolonged government shutdown could result in program disruptions and limit the U.S. Government’s ability to progress programs and make timely payments.
+-23-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+The Administration has issued numerous executive orders, including orders to undertake a comprehensive overhaul of the Federal Acquisition Regulation, to reform the DoW defense acquisition process and, more recently, to promote the use of fixed price contracts where appropriate and to address underperformance and insufficient prioritization of government contracts, insufficient investment in production and production speed and incentive compensation metrics applicable to defense contractors. See “Risk factors” for further discussion regarding risks associated with executive orders and regulatory changes. Some of the Administration’s executive orders are subject to ongoing court challenges. In addition, the DoW has outlined initiatives to, among other efforts, reform government contract accounting and promote supplier cost and pricing transparency. Implementation of certain of these executive orders and initiatives could adversely affect our business or create a more challenging or costly regulatory, operating and economic environment.
+In light of the ongoing conflicts and heightened global instability as well as political tensions and related legal challenges, we expect continued uncertainty in the global security, U.S. political, budget and regulatory environment. Initiatives to reduce governmental spending, federal budget and debt ceiling action, and further changes in U.S. government policy positions, including trade and foreign policy, tax policy and DoW policies or priorities, could materially impact defense spending broadly and the company’s programs in particular.
+B-21 Program
+In 2015, the U.S. Air Force awarded Northrop Grumman the B-21 contract, which includes a base contract for EMD and five low-rate initial production (LRIP) options for a baseline total of 21 aircraft. The EMD phase of the program is largely cost type and began at contract award. The LRIP options are largely fixed price and are expected to continue to be awarded and executed through approximately the end of the decade. We have previously recognized and disclosed cumulative losses of approximately $2.0 billion on the LRIP phase of the program. Northrop Grumman and the U.S. Air Force have also established not to exceed (NTE) pricing for two additional lots. Final terms, quantity, and pricing for the NTE lots are not fully negotiated; however, the average value for these NTE lots is above the average unit price of the five LRIP lots, and the NTE lots include an economic price adjustment clause to help protect against certain inflationary pressures.
+During the first quarter of 2026, we reached an agreement with the U.S. Air Force to expand production capacity for the B-21 program and increase the aircraft production rate. We continue to expect to invest approximately $2.5 billion over a multi-year period to expand production capacity; in return, we have the opportunity to earn improved returns on the LRIP and NTE phases of the program.
+During the third quarter of 2026, we again reviewed our estimated profitability on the LRIP phase of the program and made no significant changes to the previously recognized loss. The company’s third quarter 2026 results reflect our current best estimate of cost to complete the LRIP and NTE aircraft, as well as the outcome of ongoing discussions with our suppliers. If our estimated cost to complete the aircraft changes, or if our assumptions regarding contract performance, quantities, or supplier negotiations are resolved more or less favorably than what we have estimated, our financial position, results of operations and/or cash flows could be materially affected.
+Sentinel Program
+In 2020, the U.S. Air Force awarded Northrop Grumman a $13.3 billion contract for the EMD phase of the Sentinel program. In January 2024, the U.S. Air Force provided congressional notification that the Sentinel program was under a Nunn-McCurdy breach review, which is required when total program cost estimates exceed certain defined thresholds. This notification, which had been driven primarily by increases in cost estimates for the Production and Deployment phases, commenced the process to achieve certification for continuance of the program and update its baseline cost estimates. We are currently executing under a cost-type contract for the EMD phase, and the Production and Deployment phases are yet to be priced and negotiated.
+In July 2024, the Sentinel program was certified for continuation by the DoW upon completion of the Nunn-McCurdy breach review. In connection with the certification, the DoW directed that the program be restructured, including plans for infrastructure related to the command and launch segment, which was the main driver of the increased cost estimates for the Production and Deployment phases.
+During the second quarter of 2025, we partnered with the U.S. Air Force in defining the preliminary execution framework necessary for successful restructure of the program. The program restructure will include a revision to the acquisition strategy, joint establishment of a new program baseline, and other critical preparation activities necessary to re-accomplish Milestone B approval.
+During the second and third quarters of 2026, we continued to make progress on joint activities with the U.S. Air Force. These efforts, which included requirements and design maturation, risk reduction activities, and evaluation of
+-24-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+options to accelerate fielding of initial capability, have resulted in further definition and authorization of elements of the program execution plan, resulting in a $9.4 billion increase in program backlog.
+During the third quarter of 2026, we again reviewed our estimated profitability on the Sentinel program and made no significant changes. If our estimated cost to complete the restructured EMD effort or our achievement of future contract incentives is more or less favorable than what we have estimated, our financial position, results of operations and/or cash flows could be materially affected.
+Operating Performance Assessment and Reporting
+In evaluating our operating performance, we primarily focus on changes in sales and operating margin rates. Where applicable, significant fluctuations in operating performance attributable to individual contracts or programs, or changes in a specific cost element across multiple contracts, are described in our analysis. Based on this approach and the nature of our operations, the discussion of results of operations below first focuses on our four segments before distinguishing between products and services. Changes in sales are generally described in terms of volume, while changes in operating margin rates are generally described in terms of performance and/or contract mix. For purposes of this discussion, volume generally refers to increases or decreases in sales or cost from production/service activity levels and performance generally refers to non-volume-related changes in profitability, which are typically described in terms of changes in net EAC adjustments. Contract mix generally refers to changes in the ratio of contract type and/or life cycle (e.g., cost-type, fixed-price, development, production, and/or sustainment). Contract mix can also refer to differences in the profitability of the programs that drive changes in sales (e.g., sales growth or decreases on programs with accretive or dilutive margin rates).
+CONSOLIDATED OPERATING RESULTS
+Selected financial highlights are presented in the table below:
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %
+$ in millions, except per share amounts | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change
+Sales | $ | 11,122 | | | $ | 10,423 | | | 7 | % | | $ | 31,879 | | | $ | 30,242 | | | 5 | %
+Operating costs and expenses | 9,853 | | | 9,181 | | 7 | % | | 28,525 | | | 27,233 | | | 5 | %
+Gain on sale of business | — | | | — | | | NM | | — | | | 231 | | | NM
+Operating income | 1,269 | | | 1,242 | | | 2 | % | | 3,354 | | | 3,240 | | | 4 | %
+Operating margin rate | 11.4 | % | | 11.9 | % | | | | 10.5 | % | | 10.7 | % | |
+Federal and foreign income tax expense | 174 | | | 223 | | | (22) | % | | 403 | | | 573 | | | (30) | %
+Effective income tax rate | 13.4 | % | | 16.9 | % | | | | 11.5 | % | | 17.2 | % | |
+Net earnings | 1,124 | | | 1,100 | | | 2 | % | | 3,093 | | | 2,755 | | | 12 | %
+Diluted earnings per share | $ | 7.89 | | | $ | 7.67 | | | 3 | % | | $ | 21.72 | | | $ | 19.12 | | | 14 | %
+Sales
+Current Quarter
+Third quarter 2026 sales increased $699 million, or 7 percent, driven by higher sales at all four sectors, including a 14 percent increase at Aeronautics Systems and a 12 percent increase at Defense Systems. These increases were partially offset by $95 million of higher intercompany eliminations.
+Year to Date
+Year to date 2026 sales increased $1.6 billion, or 5 percent, driven by higher sales at all four sectors, including a 14 percent increase at Aeronautics Systems. These increases were partially offset by $393 million of higher intercompany eliminations.
+See “Segment Operating Results” below for further information by segment and “Product and Service Analysis” for product and service detail. See Note 10 to the financial statements for information regarding the company’s sales by customer type, contract type and geographic region for each of our segments.
+-25-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Operating Income and Margin Rate
+Current Quarter
+Third quarter 2026 operating income increased $27 million, or 2 percent, primarily due to $68 million of higher segment operating income, partially offset by a $52 million decrease in the FAS/CAS operating adjustment. Operating margin rate declined to 11.4 percent from 11.9 percent principally due to the decrease in the FAS/CAS operating adjustment.
+Third quarter 2026 G&A costs as a percentage of sales increased to 9.7 percent from 9.5 percent in the prior year period primarily due to an increase in our investments for future business opportunities, partially offset by higher sales.
+Year to Date
+Year to date 2026 operating income increased $114 million, or 4 percent, primarily due to $511 million of higher segment operating income largely driven by the prior year B-21 loss provision at Aeronautics Systems, partially offset by the prior year $231 million gain on the training services divestiture and a $164 million decrease in the FAS/CAS operating adjustment. Operating margin rate declined to 10.5 percent from 10.7 percent primarily due to the prior year gain on the training services divestiture and the decrease in the FAS/CAS operating adjustment, partially offset by a higher segment operating margin rate.
+Year to date 2026 G&A costs as a percentage of sales decreased to 9.7 percent from 9.9 percent in the prior year period primarily due to higher sales.
+See “Segment Operating Results” below for further information by segment. For information regarding product and service operating costs and expenses, see “Product and Service Analysis” below.
+Federal and Foreign Income Taxes
+Current Quarter
+Third quarter 2026 income tax expense decreased $49 million, or 22 percent, due to a lower ETR and $25 million of lower earnings before income taxes. The third quarter 2026 ETR decreased to 13.4 percent from 16.9 percent principally due to higher research credits.
+Year to Date
+Year to date 2026 income tax expense decreased $170 million, or 30 percent, due to a lower ETR, partially offset by $168 million of higher earnings before income taxes. The year to date 2026 ETR decreased to 11.5 percent from 17.2 percent primarily due to the remeasurement of unrecognized tax benefits during the second quarter of 2026 given recent developments with the IRS towards resolving our previously filed federal income tax returns and refund claims, as well as higher research credits, including a benefit related to CAMT guidance recently issued by the IRS.
+See Note 4 to the financial statements for additional information.
+Net Earnings
+Current Quarter
+Third quarter 2026 net earnings increased $24 million, or 2 percent, primarily due to a $49 million decrease in income tax expense, a $31 million increase in the non-operating FAS pension benefit and a $27 million increase in operating income, partially offset by an $86 million decrease in Other, net largely driven by favorable returns on marketable securities in the prior year.
+Year to Date
+Year to date 2026 net earnings increased $338 million, or 12 percent, primarily due to a $170 million decrease in income tax expense, a $114 million increase in operating income and a $96 million increase in the non-operating FAS pension benefit, partially offset by a $51 million decrease in Other, net largely driven by lower favorable returns on marketable securities.
+Diluted Earnings Per Share
+Current Quarter
+Third quarter 2026 diluted earnings per share increased $0.22, or 3 percent, reflecting a 2 percent increase in net earnings and a 1 percent reduction in weighted-average diluted shares outstanding.
+Year to Date
+Year to date 2026 diluted earnings per share increased $2.60, or 14 percent, reflecting a 12 percent increase in net earnings and a 1 percent reduction in weighted-average diluted shares outstanding.
+-26-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+SEGMENT OPERATING RESULTS
+Basis of Presentation
+The company is aligned in four operating sectors, which also comprise our reportable segments: Aeronautics Systems, Defense Systems, Mission Systems and Space Systems.
+For purposes of the operating results discussion below, we assess our performance using certain financial measures that are not calculated in accordance with GAAP.
+Organic Sales
+In the operating results discussion below, we present the performance of our Defense Systems sector using organic sales, a financial measure that is not calculated in accordance with GAAP. Organic sales is defined as total sales excluding sales attributable to the company's former training services business. This measure may be useful to investors and other users of our financial statements as a supplemental measure in evaluating the company’s underlying sales growth as well as in understanding our ongoing business and future sales trends by presenting the company’s sales adjusted for the impact of the divestiture. We reconcile this non-GAAP financial measure to its most directly comparable GAAP financial measure below. This non-GAAP measure may not be defined and calculated by other companies in the same manner and should not be considered in isolation or as an alternative to operating results presented in accordance with GAAP.
+Segment Operating Income and Margin Rate
+Segment operating income, as reconciled in the table below, and segment operating margin rate (segment operating income divided by sales) are non-GAAP measures that reflect the combined operating income of our four segments less the operating income associated with intersegment sales. Segment operating income includes pension expense allocated to our sectors under FAR and CAS and excludes FAS pension service expense and unallocated corporate items (certain corporate-level expenses, which are not considered allowable or allocable under applicable FAR and CAS requirements, and costs not considered part of management’s evaluation of segment operating performance). These non-GAAP measures may be useful to investors and other users of our financial statements as supplemental measures in evaluating the financial performance and operational trends of our sectors. These measures may not be defined and calculated by other companies in the same manner and should not be considered in isolation or as alternatives to operating results presented in accordance with GAAP.
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %
+$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change
+Operating income | $ | 1,269 | | | $ | 1,242 | | | 2 | % | | $ | 3,354 | | | $ | 3,240 | | | 4 | %
+Operating margin rate | 11.4 | % | | 11.9 | % | | | | 10.5 | % | | 10.7 | % | |
+Reconciliation to segment operating income: | | | | | | | | | | |
+CAS pension expense | (68) | | | (122) | | | (44) | % | | (188) | | | (356) | | | (47) | %
+FAS pension service expense | 53 | | | 55 | | | (4) | % | | 159 | | | 163 | | | (2) | %
+FAS/CAS operating adjustment | (15) | | | (67) | | | (78) | % | | (29) | | | (193) | | | (85) | %
+Gain on sale of training services business | — | | | — | | | NM | | — | | | (231) | | | NM
+Training services divestiture – unallowable state taxes and transaction costs | — | | | — | | | NM | | — | | | 20 | | | NM
+Intangible asset amortization and PP&E step-up depreciation | 13 | | | 21 | | | (38) | % | | 51 | | | 63 | | | (19) | %
+Other unallocated corporate expense | 78 | | | 81 | | | (4) | % | | 199 | | | 165 | | | 21 | %
+Unallocated corporate expense | 91 | | | 102 | | | (11) | % | | 250 | | | 17 | | | 1,371 | %
+Segment operating income | $ | 1,345 | | | $ | 1,277 | | | 5 | % | | $ | 3,575 | | | $ | 3,064 | | | 17 | %
+Segment operating margin rate | 12.1 | % | | 12.3 | % | | | | 11.2 | % | | 10.1 | % | |
+-27-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Current Quarter
+Third quarter 2026 segment operating income increased $68 million, or 5 percent, primarily due to $72 million of higher operating income at Aeronautics Systems. Third quarter 2026 segment operating margin rate of 12.1 percent reflects strong program performance and higher operating margin rates at Aeronautics Systems and Space Systems. Segment operating margin rate decreased from 12.3 percent in the third quarter of 2025 principally due to a prior year $68 million favorable EAC adjustment in the restricted advanced microelectronics portfolio at Mission Systems.
+Year to Date
+Year to date 2026 segment operating income increased $511 million, or 17 percent, primarily due to $601 million of higher operating income at Aeronautics Systems and $117 million of higher operating income at Mission Systems, partially offset by $78 million of lower operating income at Space Systems and $76 million of lower operating income at Defense Systems. Segment operating margin rate increased to 11.2 percent from 10.1 percent primarily due to a higher operating margin rate at Aeronautics Systems and Mission Systems, partially offset by a lower operating margin rate at Defense Systems and Space Systems.
+FAS/CAS Operating Adjustment
+The third quarter 2026 and year to date 2026 FAS/CAS operating adjustment reflects lower CAS pension expense largely driven by favorable plan asset returns in prior years.
+Unallocated Corporate Expense
+Current Quarter
+The decrease in third quarter 2026 unallocated corporate expense is primarily driven by lower intangible asset amortization and PP&E step-up depreciation.
+Year to Date
+The increase in year to date 2026 unallocated corporate expense is primarily due to the prior year $231 million gain on the training services divestiture.
+Net EAC Adjustments - We record changes in estimated contract earnings at completion (net EAC adjustments) using the cumulative catch-up method of accounting. Net EAC adjustments can have a significant effect on segment operating income and margin rate.
+The aggregate favorable and unfavorable EAC adjustments are presented in the table below:
+| | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions | 2026 | | 2025 | | 2026 | | 2025
+Favorable EAC adjustments | $ | 482 | | | $ | 433 | | | $ | 1,707 | | | $ | 1,161 |
+Unfavorable EAC adjustments | (261) | | | (352) | | | (1,472) | | | (1,054) |
+Net EAC adjustments | $ | 221 | | | $ | 81 | | | $ | 235 | | | $ | 107 |
+Net EAC adjustments by segment are presented in the table below:
+| | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions | 2026 | | 2025 | | 2026 | | 2025
+Aeronautics Systems | $ | 124 | | | $ | (66) | | | $ | 174 | | | $ | (225) |
+Defense Systems | 34 | | | 35 | | | 9 | | | 141 |
+Mission Systems | 92 | | | 121 | | | 212 | | | 163 |
+Space Systems | (15) | | | (5) | | | (144) | | | 37 |
+Eliminations | (14) | | | (4) | | | (16) | | | (9) |
+Net EAC adjustments | $ | 221 | | | $ | 81 | | | $ | 235 | | | $ | 107 |
+-28-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+AERONAUTICS SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %
+$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change
+Sales | $ | 3,575 | | | $ | 3,142 | | | 14 | % | | $ | 10,377 | | | $ | 9,070 | | | 14 | %
+Operating income | 377 | | | 305 | | | 24 | % | | 1,044 | | | 443 | | | 136 | %
+Operating margin rate | 10.5 | % | | 9.7 | % | | | | 10.1 | % | | 4.9 | % | |
+Sales
+Current Quarter
+Third quarter 2026 sales increased $433 million, or 14 percent, primarily due to a $195 million increase on F-35 driven by the timing of material costs on production lots and increased sustainment volume, higher B-21 sales and an increase in B-2 sustainment volume.
+Year to Date
+Year to date 2026 sales increased $1.3 billion, or 14 percent, primarily due to higher sales on B-21 and other restricted programs, a $237 million increase on the E-130J TACAMO (“TACAMO”) program as it ramps up, a $229 million increase on F-35, and $116 million of higher B-2 sustainment volume. The higher B-21 sales reflect the company’s first quarter 2026 agreement with the U.S. Air Force to expand production capacity and increase the aircraft production rate, including the sale of a company-owned test asset. The sales increases were partially offset by a decrease on F/A-18 as final production deliveries have completed.
+Operating Income
+Current Quarter
+Third quarter 2026 operating income increased $72 million, or 24 percent, due to higher sales and a higher operating margin rate. Operating margin rate increased to 10.5 percent from 9.7 percent primarily due to higher net contract margin adjustments, including on certain mature production and sustainment programs.
+Year to Date
+Year to date 2026 operating income increased $601 million, or 136 percent, due to a higher operating margin rate and higher sales. Year to date 2026 operating margin rate of 10.1 percent reflects strong performance on certain mature production and sustainment programs. Operating margin rate increased from 4.9 percent in 2025 primarily due to the absence of the prior year B-21 loss provision.
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+DEFENSE SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %
+$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change
+Sales | $ | 2,307 | | | $ | 2,059 | | | 12 | % | | $ | 6,299 | | | $ | 5,855 | | | 8 | %
+Less: Training services sales | — | | | — | | | | | — | | | (112) | | |
+Organic sales | $ | 2,307 | | | $ | 2,059 | | | 12 | % | | $ | 6,299 | | | $ | 5,743 | | | 10 | %
+| | | | | | | | | | |
+Operating income | $ | 250 | | | $ | 234 | | | 7 | % | | $ | 590 | | | $ | 666 | | | (11) | %
+Operating margin rate | 10.8 | % | | 11.4 | % | | | | 9.4 | % | | 11.4 | % | |
+Sales
+Current Quarter
+Third quarter 2026 sales increased $248 million, or 12 percent, primarily due to a $180 million increase on Sentinel as the program continues to ramp, higher volume on the Guided Multiple Launch Rocket System Extended Range (GMLRS ER) program due to the timing of awards, and higher volume on various tactical solid rocket motor programs. These increases were partially offset by lower volume on armament programs, primarily on certain military ammunition programs.
+Year to Date
+Year to date 2026 sales increased $444 million, or 8 percent, primarily due to a $356 million increase on Sentinel as the program continues to ramp, a $114 million increase on various tactical solid rocket motor programs, and higher volume across the IBCS portfolio. These increases were partially offset by a $112 million reduction in sales related to the divested training services business and a $109 million decrease on armament programs, including certain military ammunition programs.
+-29-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Operating Income
+Current Quarter
+Third quarter 2026 operating income increased $16 million, or 7 percent, primarily due to higher sales, partially offset by a lower operating margin rate. Operating margin rate decreased to 10.8 percent from 11.4 percent, primarily due to changes in contract mix toward more cost-type content.
+Year to Date
+Year to date 2026 operating income decreased $76 million, or 11 percent, primarily due to a lower operating margin rate, partially offset by higher sales. Operating margin rate decreased to 9.4 percent from 11.4 percent principally due to lower net EAC adjustments, largely due to the Q2 2026 unfavorable EAC adjustment on the Stand-in Attack Weapon (SiAW) program and the absence of a prior year favorable EAC adjustment on the EMD phase of the Sentinel program.
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+MISSION SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %
+$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change
+Sales | $ | 3,155 | | | $ | 3,093 | | | 2 | % | | $ | 9,266 | | | $ | 9,057 | | | 2 | %
+Operating income | 500 | | | 515 | | | (3) | % | | 1,434 | | | 1,317 | | | 9 | %
+Operating margin rate | 15.8 | % | | 16.7 | % | | | | 15.5 | % | | 14.5 | % | |
+Sales
+Current Quarter
+Third quarter 2026 sales increased $62 million, or 2 percent, primarily due to ramp-up on restricted airborne radar programs and higher volume on marine systems programs. These increases were partially offset by lower volume on restricted advanced microelectronics programs.
+Year to Date
+Year to date 2026 sales increased $209 million, or 2 percent, primarily due to ramp-up on restricted airborne radar programs, higher sales of $255 million on marine systems programs, and the timing of materials on F-35. These increases were partially offset by lower volume on restricted advanced microelectronics programs and a $129 million decrease on the Scalable Agile Beam Radar program.
+Operating Income
+Current Quarter
+Third quarter 2026 operating income decreased $15 million, or 3 percent, primarily due to a lower operating margin rate, partially offset by higher sales. Third quarter 2026 operating margin rate of 15.8 percent reflects strong program performance on marine systems and restricted airborne radar programs. Operating margin rate decreased from 16.7 percent in the third quarter of 2025 due, in part, to a prior year $68 million favorable EAC adjustment in the restricted advanced microelectronics portfolio.
+Year to Date
+Year to date 2026 operating income increased $117 million, or 9 percent, due to a higher operating margin rate and higher sales. Operating margin rate increased to 15.5 percent from 14.5 percent, primarily due to higher net EAC adjustments driven by improved performance, as well as prior year investments made by the sector in connection with restricted business opportunities.
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+SPACE SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %
+$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change
+Sales | $ | 2,749 | | | $ | 2,698 | | | 2 | % | | $ | 7,982 | | | $ | 7,912 | | | 1 | %
+Operating income | 312 | | | 298 | | | 5 | % | | 783 | | | 861 | | | (9) | %
+Operating margin rate | 11.3 | % | | 11.0 | % | | | | 9.8 | % | | 10.9 | % | |
+Sales
+Current Quarter
+Third quarter 2026 sales increased $51 million, or 2 percent, primarily due to ramp-up of programs in the restricted space portfolio, partially offset by $136 million of lower sales on Commercial Resupply Service missions due to launch timing.
+-30-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Year to Date
+Year to date 2026 sales increased $70 million, or 1 percent, primarily due to ramp-up of programs in the restricted space portfolio, $141 million of higher intercompany sales in support of Sentinel, and $107 million of higher GPI sales. These increases were partially offset by a $159 million decrease on the Graphite Epoxy Motor (GEM) 63XL program and a $129 million decrease on the Next-Generation Overhead Persistent Infrared Polar program.
+Operating Income
+Current Quarter
+Third quarter 2026 operating income increased $14 million, or 5 percent, due to a higher operating margin rate and higher sales. Operating margin rate increased to 11.3 percent from 11.0 percent, primarily due to changes in contract mix toward more fixed-price content.
+Year to Date
+Year to date 2026 operating income decreased $78 million, or 9 percent, primarily due to a lower operating margin rate, partially offset by higher sales. Operating margin rate decreased to 9.8 percent from 10.9 percent, largely due to lower net EAC adjustments, partially offset by changes in contract mix toward more fixed-price content.
+PRODUCT AND SERVICE ANALYSIS
+The following table presents product and service sales and operating costs and expenses by segment:
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30 | | Nine Months Ended September 30
+$ in millions | 2026 | 2025 | | 2026 | 2025
+Segment Information: | Sales | Operating Costs and Expenses | Sales | Operating Costs and Expenses | | Sales | Operating Costs and Expenses | Sales | Operating Costs and Expenses
+Aeronautics Systems | | | | | | | | |
+Product | $ | 2,736 | | $ | 2,463 | | $ | 2,296 | | $ | 2,108 | | | $ | 7,870 | | $ | 7,180 | | $ | 6,715 | | $ | 6,575 |
+Service | 798 | | 698 | | 804 | | 690 | | | 2,391 | | 2,048 | | 2,234 | | 1,940 |
+Intersegment eliminations | 41 | | 37 | | 42 | | 39 | | | 116 | | 105 | | 121 | | 112 |
+Total Aeronautics Systems | 3,575 | | 3,198 | | 3,142 | | 2,837 | | | 10,377 | | 9,333 | | 9,070 | | 8,627 |
+Defense Systems | | | | | | | | |
+Product | 1,920 | | 1,717 | | 1,657 | | 1,483 | | | 5,129 | | 4,668 | | 4,639 | | 4,117 |
+Service | 328 | | 287 | | 351 | | 297 | | | 1,004 | | 893 | | 1,067 | | 940 |
+Intersegment eliminations | 59 | | 53 | | 51 | | 45 | | | 166 | | 148 | | 149 | | 132 |
+Total Defense Systems | 2,307 | | 2,057 | | 2,059 | | 1,825 | | | 6,299 | | 5,709 | | 5,855 | | 5,189 |
+Mission Systems | | | | | | | | |
+Product | 2,230 | | 1,895 | | 2,203 | | 1,825 | | | 6,446 | | 5,477 | | 6,398 | | 5,500 |
+Service | 539 | | 440 | | 551 | | 466 | | | 1,585 | | 1,312 | | 1,644 | | 1,383 |
+Intersegment eliminations | 386 | | 320 | | 339 | | 287 | | | 1,235 | | 1,043 | | 1,015 | | 857 |
+Total Mission Systems | 3,155 | | 2,655 | | 3,093 | | 2,578 | | | 9,266 | | 7,832 | | 9,057 | | 7,740 |
+Space Systems | | | | | | | | |
+Product | 2,212 | | 1,956 | | 2,213 | | 1,980 | | | 6,419 | | 5,817 | | 6,396 | | 5,702 |
+Service | 359 | | 321 | | 348 | | 297 | | | 1,035 | | 909 | | 1,149 | | 1,021 |
+Intersegment eliminations | 178 | | 160 | | 137 | | 123 | | | 528 | | 473 | | 367 | | 328 |
+Total Space Systems | 2,749 | | 2,437 | | 2,698 | | 2,400 | | | 7,982 | | 7,199 | | 7,912 | | 7,051 |
+Segment Totals | | | | | | | | |
+Total Product | $ | 9,098 | | $ | 8,031 | | $ | 8,369 | | $ | 7,396 | | | $ | 25,864 | | $ | 23,142 | | $ | 24,148 | | $ | 21,894 |
+Total Service | 2,024 | | 1,746 | | 2,054 | | 1,750 | | | 6,015 | | 5,162 | | 6,094 | | 5,284 |
+Total Segment (1) | $ | 11,122 | | $ | 9,777 | | $ | 10,423 | | $ | 9,146 | | | $ | 31,879 | | $ | 28,304 | | $ | 30,242 | | $ | 27,178 |
+(1) A reconciliation of segment operating income to total operating income is included in “Segment Operating Results.”
+-31-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Product Sales and Costs
+Current Quarter
+Third quarter 2026 product sales increased $729 million, or 9 percent, primarily due to higher sales on F-35, B-21 and TACAMO at Aeronautics Systems and higher volume on Sentinel, GMLRS ER, and tactical solid rocket motor programs at Defense Systems.
+Third quarter 2026 product costs increased $635 million, or 9 percent, consistent with the higher product sales described above.
+Year to Date
+Year to date 2026 product sales increased $1.7 billion, or 7 percent, primarily due to higher sales on B-21, TACAMO and F-35 at Aeronautics Systems and higher volume on Sentinel, tactical solid rocket motor programs and across the IBCS portfolio at Defense Systems.
+Year to date 2026 product costs increased $1.2 billion, or 6 percent, reflecting a higher operating margin rate principally due to the absence of the prior year B-21 loss provision at Aeronautics Systems.
+Service Sales and Costs
+Current Quarter
+Third quarter 2026 service sales decreased $30 million, or 1 percent, primarily due to completion of the Special Electronic Mission Aircraft program at Defense Systems in the prior year.
+Third quarter 2026 service costs were comparable with the prior year period.
+Year to Date
+Year to date 2026 service sales decreased $79 million, or 1 percent, primarily due to lower restricted service sales at Space Systems, lower service volume at Defense Systems due to the training services divestiture, and lower volume on airborne electronic warfare programs at Mission Systems, partially offset by higher restricted service sales at Aeronautics Systems.
+Year to date 2026 service costs decreased $122 million, or 2 percent, reflecting a higher operating margin rate principally driven by higher net EAC adjustments on service programs at Aeronautics Systems, Mission Systems and Space Systems.
+BACKLOG
+Backlog consisted of the following as of September 30, 2026 and December 31, 2025:
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | September 30, 2026 | | December 31, 2025 | |
+$ in millions | | Funded | | Unfunded | | Total Backlog | | Total Backlog | | % Change in 2026
+Aeronautics Systems | | $ | 15,511 | | | $ | 11,288 | | | $ | 26,799 | | | $ | 23,052 | | | 16 | %
+Defense Systems | | 10,294 | | | 26,181 | | | 36,475 | | | 27,796 | | | 31 | %
+Mission Systems | | 14,442 | | | 5,533 | | | 19,975 | | | 18,632 | | | 7 | %
+Space Systems | | 9,848 | | | 16,500 | | | 26,348 | | | 26,201 | | | 1 | %
+Total backlog | | $ | 50,095 | | | $ | 59,502 | | | $ | 109,597 | | | $ | 95,681 | | | 15 | %
+Third quarter and year to date 2026 net awards totaled $16.4 billion and $46.2 billion, respectively. Backlog totaled $109.6 billion. Significant third quarter new awards include $4.6 billion for restricted programs (primarily at Aeronautics Systems, Space Systems, and Mission Systems), $2.0 billion for Sentinel, $1.4 billion for Virginia Class submarines, $1.3 billion for F-35 at Aeronautics Systems, and $1.0 billion for E-2.
+LIQUIDITY AND CAPITAL RESOURCES
+We are focused on the efficient conversion of operating income into cash to provide for the company’s material cash requirements, including working capital needs, satisfaction of contractual commitments, funding of our pension and OPB plans, investment in our business through capital expenditures, and shareholder returns.
+At September 30, 2026, we had $3.7 billion in cash and cash equivalents. We expect cash and cash equivalents and cash generated from operating activities, supplemented by borrowings under credit facilities, commercial paper and/or in the capital markets, if needed, to be sufficient to provide liquidity to the company in the short-term and long-
+-32-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+term. The company has a five-year senior unsecured revolving credit facility in an aggregate principal amount of $3.0 billion, and in April 2026, we renewed our one-year $500 million uncommitted credit facility. At September 30, 2026, there were no borrowings outstanding under these credit facilities.
+Cash Flow Measures
+In addition to our cash position, we consider various cash flow measures in capital deployment decision-making, including cash provided by operating activities and adjusted free cash flow, a non-GAAP measure described in more detail below.
+Operating Cash Flow
+The table below summarizes key components of cash provided by operating activities:
+| | | | | | | | | | | | | | | | |
+| Nine Months Ended September 30 | | %
+$ in millions | 2026 | | 2025 | | Change
+Net earnings | $ | 3,093 | | | $ | 2,755 | | | 12 | %
+Changes in trade working capital (1) | (2,154) | | | (2,437) | | | (12) | %
+Other, net | 430 | | | 542 | | | (21) | %
+Net cash provided by operating activities | $ | 1,369 | | | $ | 860 | | | 59 | %
+(1)Beginning in the fourth quarter of 2025, the company redefined trade working capital presented in this table to include accounts receivable, unbilled receivables, inventoried costs, trade accounts payable and advance payments and billings in excess of costs incurred. Prior period amounts and disclosures have been recast to conform to the current period presentation.
+Year to date 2026 net cash provided by operating activities increased $509 million as compared with the same period in 2025, primarily due to lower net cash tax payments.
+Adjusted Free Cash Flow
+Adjusted free cash flow, as reconciled in the table below, is a non-GAAP measure defined as net cash provided by or used in operating activities, less capital expenditures, plus proceeds from the sale of equipment to a customer (not otherwise included in net cash provided by or used in operating activities) and the after-tax impact of discretionary pension contributions. Adjusted free cash flow includes proceeds from the sale of equipment to a customer, if any, as such proceeds were generated in a customer sales transaction. It also includes the after-tax impact of discretionary pension contributions, if any, for consistency and comparability of financial performance. This measure may not be defined and calculated by other companies in the same manner. We use adjusted free cash flow as a key factor in our planning for, and consideration of, acquisitions, the payment of dividends and stock repurchases. This non-GAAP measure may be useful to investors and other users of our financial statements as a supplemental measure of our cash performance, but should not be considered in isolation, as a measure of residual cash flow available for discretionary purposes, or as an alternative to operating cash flows presented in accordance with GAAP. During the nine months ended September 30, 2026 and 2025, the company made no discretionary pension contributions.
+The table below reconciles net cash provided by operating activities to adjusted free cash flow:
+| | | | | | | | | | | | | | | | |
+| Nine Months Ended September 30 | | %
+$ in millions | 2026 | | 2025 | | Change
+Net cash provided by operating activities | $ | 1,369 | | | $ | 860 | | | 59 | %
+Capital expenditures | (775) | | | (788) | | | (2) | %
+Proceeds from sale of equipment to a customer | 371 | | | — | | | NM
+Adjusted free cash flow | $ | 965 | | | $ | 72 | | | 1,240 | %
+Year to date 2026 adjusted free cash flow increased $893 million, or 1,240 percent, as compared with the same period in 2025, primarily due to higher net cash from operating activities and proceeds received in connection with the sale of equipment to a customer.
+-33-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Investing Cash Flow
+Year to date 2026 net cash used in investing activities decreased $177 million, or 36 percent, as compared with the same period in 2025, principally due to $371 million of proceeds from the sale of equipment to a customer and $107 million of proceeds from the sale of an investment, partially offset by $333 million of proceeds from the training services divestiture in the prior year.
+Financing Cash Flow
+Year to date 2026 net cash used in financing activities decreased $1.1 billion, or 38 percent, as compared with the same period in 2025, primarily due to a $1.1 billion decrease in share repurchases.
+Credit Facilities, Commercial Paper and Financial Arrangements - See Note 7 to the financial statements for further information on our credit facilities, commercial paper and our use of standby letters of credit and guarantees.
+Share Repurchases - See Note 2 to the financial statements for further information on our share repurchase programs.
+Long-term Debt - See Note 5 to the financial statements for further information.
+CRITICAL ACCOUNTING POLICIES AND ESTIMATES
+There have been no material changes to our critical accounting policies and estimates from those discussed in our 2025 Annual Report on Form 10-K.
+ACCOUNTING STANDARDS UPDATES
+See Note 1 to our financial statements for further information on accounting standards updates.
+FORWARD-LOOKING STATEMENTS AND PROJECTIONS
+This Form 10-Q and the information we are incorporating by reference contain statements that constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. Words such as “will,” “expect,” “anticipate,” “intend,” “may,” “could,” “should,” “plan,” “project,” “forecast,” “believe,” “estimate,” “guidance,” “outlook,” “trends,” “goals” and similar expressions generally identify these forward-looking statements. Forward-looking statements include, among other things, statements relating to our future financial condition, results of operations and/or cash flows. Forward-looking statements are based upon assumptions, expectations, plans and projections that we believe to be reasonable when made, but which may change over time. These statements are not guarantees of future performance and inherently involve a wide range of risks and uncertainties that are difficult to predict. Specific risks that could cause actual results to differ materially from those expressed or implied in these forward-looking statements include, but are not limited to, those identified and discussed more fully in the section entitled “Risk Factors” in our 2025 Annual Report on Form 10-K and from time to time in our other filings with the SEC. They include:
+Industry and Economic Risks
+•our dependence on the U.S. government for a substantial portion of our business
+•significant delays or reductions in appropriations and/or for our programs, and U.S. government funding and program support more broadly, including as a result of a prolonged continuing resolution and/or government shutdown, and/or related to the global security environment or other global events
+•significant delays or reductions in payments as a result of or related to a breach of the debt ceiling or a prolonged government shutdown
+•the use of estimates when accounting for our contracts and the effect of contract cost growth and our efforts to recover or offset such costs and/or changes in estimated contract costs and revenues, including as a result of inflationary pressures, labor shortages, supply chain challenges, changes in trade policies and/or other macroeconomic factors, and risks related to management’s judgments and assumptions in estimating and/or projecting contract revenue and performance which may be inaccurate
+•increased competition within our markets and bid protests
+•continued pressures from macroeconomic trends, including on costs, schedules, performance and ability to meet expectations
+-34-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Legal and Regulatory Risks
+•investigations, claims, disputes, enforcement actions, litigation (including criminal, civil and administrative) and/or other legal proceedings
+•changes in procurement and other laws, SEC, DoW and other rules and regulations, including changes through executive orders, contract terms and practices applicable to our industry, findings by the U.S. government as to our compliance with such requirements, more aggressive enforcement of such requirements and changes in our customers’ business practices and preferences globally
+•the improper conduct of employees, agents, subcontractors, suppliers, business partners or joint ventures in which we participate, including the impact on our reputation and our ability to do business
+•environmental matters, unforeseen environmental costs and government and third-party claims
+•unanticipated changes in our tax provisions or exposure to additional tax liabilities
+Business and Operational Risks
+•cyber and other security threats or disruptions faced by us, our customers or our suppliers and other partners, including threats or disruptions from the use of artificial intelligence models capable of exploiting vulnerabilities to conduct or enhance cyber attacks, and changes in related regulations
+•the performance and viability of our subcontractors and suppliers and the availability and pricing of raw materials, critical minerals and metals, chemicals, parts and components, particularly with inflationary pressures, increased costs, pricing changes, shortages in labor and financial resources, supply chain disruptions, and extended material lead times
+•our ability to attract and retain a qualified and talented workforce with the necessary security clearances to meet our performance obligations
+•our exposure to additional risks as a result of our international business, including risks related to global security and strategic alliances, geopolitical and economic factors, misconduct, suppliers, laws and regulations
+•our ability to innovate, develop new products and technologies, progress and benefit from digital transformation and maintain technologies to meet the needs of our customers
+•natural disasters, epidemics, pandemics and similar outbreaks and other significant disruptions
+•products and services we provide related to hazardous and high risk operations, including the production and use of such products, which subject us to various environmental, regulatory, financial, reputational and other risks
+•our ability appropriately to protect and exploit intellectual property rights
+General and Other Risk Factors
+•the adequacy and availability of, and ability to obtain, insurance coverage, customer indemnifications or other liability protections
+•the future investment performance of plan assets, gains or losses associated with changes in valuation of marketable securities related to our non-qualified benefit plans, changes in actuarial assumptions associated with our pension and other postretirement benefit plans and legislative or other regulatory actions impacting our pension and postretirement benefit obligations
+•changes in business conditions that could impact business investments and/or recorded goodwill or the value of other long-lived assets, and other potential future liabilities
+You are urged to consider the limitations on, and risks associated with, forward-looking statements and not unduly rely on the accuracy of forward-looking statements. These forward-looking statements speak only as of the date this report is first filed or, in the case of any document incorporated by reference, the date of that document. We undertake no obligation to publicly update or revise any forward-looking statements, whether as a result of new information, future events or otherwise, except as required by applicable law.
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+There have been no material changes to our market risks from those discussed in our 2025 Annual Report on Form 10-K.
+-35-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Item 4. Controls and Procedures
+DISCLOSURE CONTROLS AND PROCEDURES
+Our principal executive officer (Chair, Chief Executive Officer and President) and principal financial officer (Corporate Vice President and Chief Financial Officer) have evaluated the company’s disclosure controls and procedures (as defined in Rule 13a-15(e) and Rule 15d-15(e) of the Securities Exchange Act of 1934 (the Exchange Act)) as of September 30, 2026, and have concluded that these controls and procedures are effective to ensure that information required to be disclosed by us in the reports that we file or submit under the Exchange Act is recorded, processed, summarized and reported within the time periods specified in the SEC’s rules and forms. These disclosure controls and procedures include, without limitation, controls and procedures designed to ensure that information required to be disclosed in the reports that we file or submit is accumulated and communicated to management, including the principal executive officer and the principal financial officer, as appropriate to allow timely decisions regarding required disclosure.
+CHANGES IN INTERNAL CONTROL OVER FINANCIAL REPORTING
+During the three months ended September 30, 2026, no changes occurred in our internal control over financial reporting that materially affected, or are reasonably likely to materially affect, our internal control over financial reporting.
+-36-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+PART II. OTHER INFORMATION
+Item 1. Legal Proceedings
+We have provided information about certain legal proceedings in which we are involved in Notes 6 and 7 to the financial statements.
+We are a party to various investigations, lawsuits, arbitration, claims, enforcement actions and other legal proceedings, including government investigations and claims, that arise in the ordinary course of our business. These types of matters could result in administrative, civil or criminal fines, penalties or other sanctions (which terms include judgments or convictions and consent or other voluntary decrees or agreements); compensatory, treble or other damages; non-monetary relief; or other liabilities. Government regulations provide that certain allegations against a contractor may lead to suspension or debarment from future government contracts or suspension of export privileges for the company or one or more of its components. The nature of legal proceedings is such that we cannot assure the outcome of any particular matter. For additional information on pending matters, please see Notes 6 and 7 to the financial statements, and for further information on the risks we face from existing and future investigations, lawsuits, arbitration, claims, enforcement actions and other legal proceedings, please see “Risk Factors” in our 2025 Annual Report on Form 10-K.
+Consistent with SEC Regulation S-K Item 103, we have elected to disclose those environmental proceedings with a governmental entity as a party where the company reasonably believes such proceeding would result in monetary sanctions, exclusive of interest and costs, of $1.0 million or more.
+Item 1A. Risk Factors
+For a discussion of our risk factors please see the section entitled “Risk Factors” in our 2025 Annual Report on Form 10-K.
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+The approximate dollar value of shares that may yet be purchased under the company’s share repurchase authorization is $2.5 billion as of September 30, 2026. We had no repurchases of common stock during the three months ended September 30, 2026.
+Share repurchases take place from time to time, subject to market and regulatory conditions and management’s discretion, in the open market or in privately negotiated transactions. The company retires its common stock upon repurchase.
+See Note 2 to the financial statements for further information on our share repurchase programs.
+Item 5. Other Information
+Consistent with Item 408 of Regulation S-K, the following table reflects Rule 10b5-1 trading arrangements and non-Rule 10b5-1 trading arrangements (as defined in Item 408) entered into by any director or officer (as defined in Rule 16a-1(f) of the Exchange Act) during the quarter ended September 30, 2026.
+| | | | | | | | | | | | | |
+Name (Title) | Type of Trading Arrangement | Date of Adoption | Expiration Date of Trading Arrangement | Aggregate Number of Securities to Be Purchased or Sold
+Mark A. Welsh III | Rule 10b5-1 Trading Arrangement | July 27, 2026 | August 7, 2027 or such earlier date upon the completion of all trades under the plan or the occurrence of such other termination events as specified in the plan. | Sale of 392 shares of common stock
+(Director)
+-37-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+Item 6. Exhibits
+| | | | |
+*+10.1 | 2026 Market Stock Units Grant Agreement Specifying Terms and Conditions Applicable to 2026 Market Stock Units Granted to Kathy J. Warden Under the 2024 Long-Term Incentive Stock Plan
+|
+*15 | Letter from Independent Registered Public Accounting Firm
+|
+*31.1 | Certification of Kathy J. Warden pursuant to Section 302 of the Sarbanes-Oxley Act of 2002
+|
+*31.2 | Certification of John T. Greene pursuant to Section 302 of the Sarbanes-Oxley Act of 2002
+|
+**32.1 | Certification of Kathy J. Warden pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+|
+**32.2 | Certification of John T. Greene pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+|
+*101 | Northrop Grumman Corporation Quarterly Report on Form 10-Q for the quarter ended September 30, 2026, formatted as inline XBRL (Extensible Business Reporting Language): (i) the Cover Page, (ii) Condensed Consolidated Statements of Earnings and Comprehensive Income, (iii) Condensed Consolidated Statements of Financial Position, (iv) Condensed Consolidated Statements of Cash Flows, (v) Condensed Consolidated Statements of Changes in Shareholders’ Equity, (vi) Notes to Condensed Consolidated Financial Statements, and (vii) Other Information. The instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document.
+|
+*104 | Cover Page Interactive Data File (formatted as Inline XBRL and contained in Exhibit 101)
+| | | | |
++ | Management contract or compensatory plan or arrangement
+|
+* | Filed with this report
+|
+** | Furnished with this report
+|
+-38-
+Table of Contents
+NORTHROP GRUMMAN CORPORATION
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+| | | | | | | |
+NORTHROP GRUMMAN CORPORATION (Registrant)
+|
+By: | | /s/ Michael A. Hardesty
+| | Michael A. Hardesty Corporate Vice President, Controller and Chief Accounting Officer (Principal Accounting Officer)
+Date: October 19, 2026
+-39-

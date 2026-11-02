@@ -1,0 +1,44 @@
+{
+  "price_usd": null,
+  "periods": {
+    "current": {
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "prior": {
+      "start": "2024-02-01",
+      "end": "2025-01-31"
+    }
+  },
+  "calculations": {
+    "Revenue growth": {
+      "value": "4.725214211766779003942818124",
+      "arithmetic": "(713,163,000,000 - 680,985,000,000) / 680,985,000,000 * 100",
+      "unit": "%"
+    },
+    "Operating margin": {
+      "value": "4.182073382943310295121872559",
+      "arithmetic": "29,825,000,000 / 713,163,000,000 * 100",
+      "unit": "%"
+    },
+    "Return on average equity": {
+      "value": "22.96910244977180926401930441",
+      "arithmetic": "21,893,000,000 / ((99,617,000,000 + 91,013,000,000) / 2) * 100",
+      "unit": "%"
+    },
+    "Debt to equity": {
+      "value": "0.3831273778571930493791220374",
+      "arithmetic": "(34,624,000,000 + 3,542,000,000) / 99,617,000,000",
+      "unit": "x"
+    },
+    "Free cash flow": {
+      "value": "14923000000",
+      "arithmetic": "41,565,000,000 - 26,642,000,000",
+      "unit": "USD"
+    },
+    "P/E (latest fiscal-year diluted EPS)": {
+      "value": null,
+      "reason": "provide --price in USD per share"
+    }
+  }
+}

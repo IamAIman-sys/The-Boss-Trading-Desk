@@ -1,0 +1,12 @@
+{
+  "status": "generated",
+  "model": "gpt-oss:120b",
+  "run_time": "2026-10-30T18:36:40.301356-04:00",
+  "report": "report.md",
+  "human_audit": "pending",
+  "manager_revisions_remaining": [],
+  "manager_issues": [
+    "P/E calculation uses a price whose market date and source are not confirmed"
+  ],
+  "model_calls": 4
+}

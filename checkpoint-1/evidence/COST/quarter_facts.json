@@ -1,0 +1,95 @@
+{
+  "accession": "0000909832-26-000084",
+  "exhibit_label": "Exhibit 99.1",
+  "total_revenue": {
+    "current": "95723",
+    "prior": "86156",
+    "unit": "USD millions",
+    "source": {
+      "line_number": 49,
+      "line": "Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235 |",
+      "context": [
+        {
+          "line_number": 42,
+          "line": "(dollars in millions, except per share data) (unaudited)"
+        },
+        {
+          "line_number": 43,
+          "line": "| | | | | | | | | | | | | | | | | | | | | | |"
+        },
+        {
+          "line_number": 44,
+          "line": "| 16 Weeks Ended | | 52 Weeks Ended"
+        },
+        {
+          "line_number": 45,
+          "line": "| August 30, 2026 | | August 31, 2025 | | August 30, 2026 | | August 31, 2025"
+        },
+        {
+          "line_number": 46,
+          "line": "REVENUE | | | | | | |"
+        },
+        {
+          "line_number": 47,
+          "line": "Net sales | $ | 93,873 | | | $ | 84,432 | | | $ | 297,247 | | | $ | 269,912 |"
+        },
+        {
+          "line_number": 48,
+          "line": "Membership fees | 1,850 | | | 1,724 | | | 5,907 | | | 5,323 |"
+        }
+      ]
+    },
+    "period_header": "| 16 Weeks Ended | | 52 Weeks Ended",
+    "column_dates": "| August 30, 2026 | | August 31, 2025 | | August 30, 2026 | | August 31, 2025"
+  },
+  "diluted_eps": {
+    "current": "6.75",
+    "prior": "5.87",
+    "unit": "USD/share",
+    "source": {
+      "line_number": 63,
+      "line": "Diluted | $ | 6.75 | | | $ | 5.87 | | | $ | 20.76 | | | $ | 18.21 |",
+      "context": [
+        {
+          "line_number": 42,
+          "line": "(dollars in millions, except per share data) (unaudited)"
+        },
+        {
+          "line_number": 43,
+          "line": "| | | | | | | | | | | | | | | | | | | | | | |"
+        },
+        {
+          "line_number": 44,
+          "line": "| 16 Weeks Ended | | 52 Weeks Ended"
+        },
+        {
+          "line_number": 45,
+          "line": "| August 30, 2026 | | August 31, 2025 | | August 30, 2026 | | August 31, 2025"
+        },
+        {
+          "line_number": 59,
+          "line": "NET INCOME | $ | 2,998 | | | $ | 2,610 | | | $ | 9,226 | | | $ | 8,099 |"
+        },
+        {
+          "line_number": 60,
+          "line": "| | | | | | |"
+        },
+        {
+          "line_number": 61,
+          "line": "NET INCOME PER COMMON SHARE: | | | | | | |"
+        },
+        {
+          "line_number": 62,
+          "line": "Basic | $ | 6.75 | | | $ | 5.88 | | | $ | 20.78 | | | $ | 18.24 |"
+        }
+      ]
+    },
+    "period_header": "| 16 Weeks Ended | | 52 Weeks Ended",
+    "column_dates": "| August 30, 2026 | | August 31, 2025 | | August 30, 2026 | | August 31, 2025"
+  },
+  "revenue_growth": {
+    "value": "11.10427596452945819211662566",
+    "arithmetic": "(95,723 - 86,156) / 86,156 * 100",
+    "unit": "%"
+  }
+}

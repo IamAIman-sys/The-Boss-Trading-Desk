@@ -4,3 +4,9 @@
 
 # Keep a secret-free example available for configuration guidance
 !.env.example
+
+# Local Python environment and generated SEC data
+.venv/
+__pycache__/
+*.pyc
+runs/

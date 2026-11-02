@@ -1,0 +1,276 @@
+{
+  "10-Q": {
+    "accessionNumber": "0001133421-26-000038",
+    "filingDate": "2026-10-20",
+    "reportDate": "2026-09-30",
+    "acceptanceDateTime": "2026-10-20T20:01:50.000Z",
+    "act": "34",
+    "form": "10-Q",
+    "fileNumber": "001-16411",
+    "filmNumber": "261472619",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 9084440,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 1,
+    "primaryDocument": "noc-20260930.htm",
+    "primaryDocDescription": "10-Q",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/0001133421-26-000038-index.html",
+    "accepted": "2026-10-20 16:01:50",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930.htm",
+    "documents": [
+      {
+        "description": "10-Q",
+        "type": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930.htm"
+      },
+      {
+        "description": "2026 MARKET STOCK UNITS GRANT AGREEMENT",
+        "type": "EX-10.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-09302026xex101.htm"
+      },
+      {
+        "description": "LETTER FROM INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM",
+        "type": "EX-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-09302026xex15.htm"
+      },
+      {
+        "description": "CERTIFICATION OF KATHY J. WARDEN",
+        "type": "EX-31.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-09302026xex311.htm"
+      },
+      {
+        "description": "CERTIFICATION OF JOHN T. GREENE",
+        "type": "EX-31.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-09302026xex312.htm"
+      },
+      {
+        "description": "CERTIFICATION OF KATHY J. WARDEN",
+        "type": "EX-32.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-09302026xex321.htm"
+      },
+      {
+        "description": "CERTIFICATION OF JOHN T. GREENE",
+        "type": "EX-32.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-09302026xex322.htm"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/0001133421-26-000038.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+        "type": "EX-101.CAL",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930_cal.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+        "type": "EX-101.DEF",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930_def.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930_htm.xml"
+      }
+    ]
+  },
+  "8-K": {
+    "accessionNumber": "0001133421-26-000037",
+    "filingDate": "2026-10-20",
+    "reportDate": "2026-10-20",
+    "acceptanceDateTime": "2026-10-20T10:00:28.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-16411",
+    "filmNumber": "261470398",
+    "items": "2.02,9.01",
+    "core_type": "XBRL",
+    "size": 902812,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "noc-20261020.htm",
+    "primaryDocDescription": "8-K",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/0001133421-26-000037-index.html",
+    "accepted": "2026-10-20 06:00:28",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-20261020.htm",
+    "documents": [
+      {
+        "description": "8-K",
+        "type": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-20261020.htm"
+      },
+      {
+        "description": "EARNINGS RELEASE",
+        "type": "EX-99",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-09302026xearningsrelea.htm"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/nocearningsreleasengclogoa.jpg"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/0001133421-26-000037.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-20261020.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-20261020_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-20261020_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-20261020_htm.xml"
+      }
+    ]
+  },
+  "10-K": {
+    "accessionNumber": "0001133421-26-000003",
+    "filingDate": "2026-01-27",
+    "reportDate": "2025-12-31",
+    "acceptanceDateTime": "2026-01-27T21:02:49.000Z",
+    "act": "34",
+    "form": "10-K",
+    "fileNumber": "001-16411",
+    "filmNumber": "26565360",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 15943001,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": null,
+    "primaryDocument": "noc-20251231.htm",
+    "primaryDocDescription": "10-K",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html",
+    "accepted": "2026-01-27 16:02:49",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.htm",
+    "documents": [
+      {
+        "description": "10-K",
+        "type": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.htm"
+      },
+      {
+        "description": "LETTER BETWEEN NORTHROP GRUMMAN AND JOHN GREENE REGARDING COMPENSATION",
+        "type": "EX-10.U",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex10u.htm"
+      },
+      {
+        "description": "SUBSIDIARIES",
+        "type": "EX-21",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex21.htm"
+      },
+      {
+        "description": "CONSENT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM",
+        "type": "EX-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex23.htm"
+      },
+      {
+        "description": "POWER OF ATTORNEY",
+        "type": "EX-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex24.htm"
+      },
+      {
+        "description": "CERTIFICATION OF KATHY J. WARDEN",
+        "type": "EX-31.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex311.htm"
+      },
+      {
+        "description": "CERTIFICATION OF JOHN T. GREENE",
+        "type": "EX-31.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex312.htm"
+      },
+      {
+        "description": "CERTIFICATION OF KATHY J. WARDEN",
+        "type": "EX-32.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex321.htm"
+      },
+      {
+        "description": "CERTIFICATION OF JOHN T. GREENE",
+        "type": "EX-32.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex322.htm"
+      },
+      {
+        "description": "POLICY REGARDING THE RECOUPMENT OF CERTAIN INCENTIVE COMPENSATION PAYMENTS",
+        "type": "EX-97",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-12312025xex97.htm"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/image_0a.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_g1.jpg"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+        "type": "EX-101.CAL",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_cal.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+        "type": "EX-101.DEF",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_def.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_htm.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "price_usd": "194.60",
+  "periods": {
+    "current": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "prior": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    }
+  },
+  "calculations": {
+    "Revenue growth": {
+      "value": "9.741385716762862592583417969",
+      "arithmetic": "(88,603,000,000 - 80,738,000,000) / 80,738,000,000 * 100",
+      "unit": "%"
+    },
+    "Operating margin": {
+      "value": "10.49625859169554078304346354",
+      "arithmetic": "9,300,000,000 / 88,603,000,000 * 100",
+      "unit": "%"
+    },
+    "Return on average equity": {
+      "value": "10.73675648519549285890862114",
+      "arithmetic": "6,732,000,000 / ((65,245,000,000 + 60,156,000,000) / 2) * 100",
+      "unit": "%"
+    },
+    "Debt to equity": {
+      "value": "0.5778220553299103379569315656",
+      "arithmetic": "(34,288,000,000 + 3,412,000,000) / 65,245,000,000",
+      "unit": "x",
+      "definition": "Long-term debt including current portion and finance/capital lease obligations, divided by stockholders' equity."
+    },
+    "Free cash flow": {
+      "value": "7940000000",
+      "arithmetic": "10,567,000,000 - 2,627,000,000",
+      "unit": "USD"
+    },
+    "P/E (latest fiscal-year diluted EPS)": {
+      "value": "39.23387096774193548387096774",
+      "arithmetic": "194.6 / 4.96",
+      "unit": "x"
+    }
+  },
+  "price_reference": {
+    "date": "2026-10-27",
+    "source": "https://rtx.gcs-web.com/stock-information/historic-stock-lookup"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "10-K": {
+    "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm",
+    "accession": "0000101829-26-000006",
+    "raw_file": "10-K.html",
+    "text_file": "10-K.txt"
+  },
+  "10-Q": {
+    "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm",
+    "accession": "0000101829-26-000031",
+    "raw_file": "10-Q.html",
+    "text_file": "10-Q.txt"
+  },
+  "8-K": {
+    "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/rtx-20261020.htm",
+    "accession": "0000101829-26-000030",
+    "raw_file": "8-K.html",
+    "text_file": "8-K.txt"
+  },
+  "earnings_release": {
+    "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/a2026-10x208xkerexhibit99.htm",
+    "accession": "0000101829-26-000030",
+    "exhibit_label": "Exhibit 99",
+    "raw_file": "earnings_release.html",
+    "text_file": "earnings_release.txt"
+  }
+}

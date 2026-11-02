@@ -1,0 +1,516 @@
+{
+  "10-Q": {
+    "accessionNumber": "0000104169-26-000154",
+    "filingDate": "2026-08-28",
+    "reportDate": "2026-07-31",
+    "acceptanceDateTime": "2026-08-28T20:11:28.000Z",
+    "act": "34",
+    "form": "10-Q",
+    "fileNumber": "001-06991",
+    "filmNumber": "261340128",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 6311331,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 1,
+    "primaryDocument": "wmt-20260731.htm",
+    "primaryDocDescription": "10-Q",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/0000104169-26-000154-index.html",
+    "accepted": "2026-08-28 16:11:28",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+    "documents": [
+      {
+        "description": "10-Q",
+        "type": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm"
+      },
+      {
+        "description": "EX-31.1",
+        "type": "EX-31.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmtexhibit311fy27q2.htm"
+      },
+      {
+        "description": "EX-31.2",
+        "type": "EX-31.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmtexhibit312fy27q2.htm"
+      },
+      {
+        "description": "EX-32.1",
+        "type": "EX-32.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmtexhibit321fy27q2.htm"
+      },
+      {
+        "description": "EX-32.2",
+        "type": "EX-32.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmtexhibit322fy27q2.htm"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731_g1.jpg"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/0000104169-26-000154.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+        "type": "EX-101.CAL",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731_cal.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+        "type": "EX-101.DEF",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731_def.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731_htm.xml"
+      }
+    ]
+  },
+  "8-K": {
+    "accessionNumber": "0000104169-26-000145",
+    "filingDate": "2026-08-20",
+    "reportDate": "2026-08-20",
+    "acceptanceDateTime": "2026-08-20T10:59:01.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-06991",
+    "filmNumber": "261297202",
+    "items": "2.02,9.01",
+    "core_type": "XBRL",
+    "size": 20985471,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "wmt-20260820.htm",
+    "primaryDocDescription": "8-K",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/0000104169-26-000145-index.html",
+    "accepted": "2026-08-20 06:59:01",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820.htm",
+    "documents": [
+      {
+        "description": "8-K",
+        "type": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820.htm"
+      },
+      {
+        "description": "EX-99.1",
+        "type": "EX-99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm"
+      },
+      {
+        "description": "EX-99.2",
+        "type": "EX-99.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27.htm"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27001.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27002.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27003.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27004.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27005.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27006.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27007.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27008.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27009.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27010.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27011.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27012.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27013.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27014.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27015.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27016.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27017.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27018.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27019.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27020.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27021.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27022.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27023.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27024.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27025.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27026.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27027.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27028.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27029.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27030.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27031.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27032.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27033.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27034.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27035.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27036.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27037.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/electricbikesfordeliverya.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/imagea.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/screenshot2026-08x10182353a.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/sparka.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820_g1.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-sparkxsparkyellowxrgb0a.gif"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmtus_freshxstore5477-019xa.jpg"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/0000104169-26-000145.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+        "type": "EX-101.DEF",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820_def.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820_htm.xml"
+      }
+    ]
+  },
+  "10-K": {
+    "accessionNumber": "0000104169-26-000055",
+    "filingDate": "2026-03-13",
+    "reportDate": "2026-01-31",
+    "acceptanceDateTime": "2026-03-13T20:06:24.000Z",
+    "act": "34",
+    "form": "10-K",
+    "fileNumber": "001-06991",
+    "filmNumber": "26752440",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 13080322,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": null,
+    "primaryDocument": "wmt-20260131.htm",
+    "primaryDocDescription": "10-K",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.html",
+    "accepted": "2026-03-13 16:06:24",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "documents": [
+      {
+        "description": "10-K",
+        "type": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+      },
+      {
+        "description": "EX-4.8",
+        "type": "EX-4.8",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit48fy26.htm"
+      },
+      {
+        "description": "EX-10.3",
+        "type": "EX-10.3",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit103fy26.htm"
+      },
+      {
+        "description": "EX-10.7",
+        "type": "EX-10.7",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit107fy26.htm"
+      },
+      {
+        "description": "EX-10.8(A)",
+        "type": "EX-10.8(A)",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit108afy26.htm"
+      },
+      {
+        "description": "EX-10.19",
+        "type": "EX-10.19",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit1019fy26.htm"
+      },
+      {
+        "description": "EX-19",
+        "type": "EX-19",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit19fy26.htm"
+      },
+      {
+        "description": "EX-21",
+        "type": "EX-21",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit21fy26.htm"
+      },
+      {
+        "description": "EX-23",
+        "type": "EX-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit23fy26.htm"
+      },
+      {
+        "description": "EX-31.1",
+        "type": "EX-31.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit311fy2610-k.htm"
+      },
+      {
+        "description": "EX-31.2",
+        "type": "EX-31.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit312fy2610-k.htm"
+      },
+      {
+        "description": "EX-32.1",
+        "type": "EX-32.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit321fy2610-k.htm"
+      },
+      {
+        "description": "EX-32.2",
+        "type": "EX-32.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit322fy2610-k.htm"
+      },
+      {
+        "description": "EX-97.1",
+        "type": "EX-97.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit971fy26.htm"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/image_0.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131_g1.jpg"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+        "type": "EX-101.CAL",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131_cal.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+        "type": "EX-101.DEF",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131_def.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131_htm.xml"
+      }
+    ]
+  }
+}

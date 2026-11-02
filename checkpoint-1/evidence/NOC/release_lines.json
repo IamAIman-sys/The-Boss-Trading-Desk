@@ -1,0 +1,409 @@
+{
+  "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-09302026xearningsrelea.htm",
+    "accession": "0001133421-26-000037",
+    "exhibit_label": "Exhibit 99",
+    "raw_file": "earnings_release.html",
+    "text_file": "earnings_release.txt"
+  },
+  "matches": {
+    "total_revenue": [
+      {
+        "line_number": 42,
+        "line": "Total sales | 11,122 | | | 10,423 | | | 7 | % | | 31,879 | | | 30,242 | | | 5 | %",
+        "context": [
+          {
+            "line_number": 34,
+            "line": "| Three Months Ended September 30 | | | | Nine Months Ended September 30 | |"
+          },
+          {
+            "line_number": 35,
+            "line": "$ in millions, except per share amounts | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 36,
+            "line": "Sales | | | | | | | | | | |"
+          },
+          {
+            "line_number": 38,
+            "line": "Defense Systems | 2,307 | | | 2,059 | | | 12 | % | | 6,299 | | | 5,855 | | | 8 | %"
+          },
+          {
+            "line_number": 39,
+            "line": "Mission Systems | 3,155 | | | 3,093 | | | 2 | % | | 9,266 | | | 9,057 | | | 2 | %"
+          },
+          {
+            "line_number": 40,
+            "line": "Space Systems | 2,749 | | | 2,698 | | | 2 | % | | 7,982 | | | 7,912 | | | 1 | %"
+          },
+          {
+            "line_number": 41,
+            "line": "Intersegment eliminations | (664) | | | (569) | | | | | (2,045) | | | (1,652) | | |"
+          }
+        ]
+      },
+      {
+        "line_number": 101,
+        "line": "Sales | $ | 3,575 | | $ | 3,142 | | 14 | % | | $ | 10,377 | | $ | 9,070 | | 14 | %",
+        "context": [
+          {
+            "line_number": 68,
+            "line": "Weighted-average diluted shares outstanding, in millions | 142.4 | | | 143.5 | | | (1) | % | | 142.4 | | | 144.1 | | | (1) | %"
+          },
+          {
+            "line_number": 69,
+            "line": "Net cash provided by operating activities | $ | 1,745 | | | $ | 1,557 | | | 12 | % | | $ | 1,369 | | | $ | 860 | | | 59 | %"
+          },
+          {
+            "line_number": 97,
+            "line": "Segment Operating Results"
+          },
+          {
+            "line_number": 98,
+            "line": "| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 99,
+            "line": "AERONAUTICS SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 100,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          }
+        ]
+      },
+      {
+        "line_number": 111,
+        "line": "Sales | $ | 2,307 | | $ | 2,059 | | 12 | % | | $ | 6,299 | | $ | 5,855 | | 8 | %",
+        "context": [
+          {
+            "line_number": 68,
+            "line": "Weighted-average diluted shares outstanding, in millions | 142.4 | | | 143.5 | | | (1) | % | | 142.4 | | | 144.1 | | | (1) | %"
+          },
+          {
+            "line_number": 69,
+            "line": "Net cash provided by operating activities | $ | 1,745 | | | $ | 1,557 | | | 12 | % | | $ | 1,369 | | | $ | 860 | | | 59 | %"
+          },
+          {
+            "line_number": 99,
+            "line": "AERONAUTICS SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 100,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 101,
+            "line": "Sales | $ | 3,575 | | $ | 3,142 | | 14 | % | | $ | 10,377 | | $ | 9,070 | | 14 | %"
+          },
+          {
+            "line_number": 107,
+            "line": "Third quarter 2026 operating income increased $72 million, or 24 percent, due to higher sales and a higher operating margin rate. Operating margin rate increased to 10.5 percent from 9.7 percent primarily due to higher net contract margin adjustments, including on certain mature production and sustainment programs."
+          },
+          {
+            "line_number": 108,
+            "line": "| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 109,
+            "line": "DEFENSE SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 110,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          }
+        ]
+      },
+      {
+        "line_number": 129,
+        "line": "Sales | $ | 3,155 | | $ | 3,093 | | 2 | % | | $ | 9,266 | | $ | 9,057 | | 2 | %",
+        "context": [
+          {
+            "line_number": 99,
+            "line": "AERONAUTICS SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 100,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 101,
+            "line": "Sales | $ | 3,575 | | $ | 3,142 | | 14 | % | | $ | 10,377 | | $ | 9,070 | | 14 | %"
+          },
+          {
+            "line_number": 109,
+            "line": "DEFENSE SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 110,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 111,
+            "line": "Sales | $ | 2,307 | | $ | 2,059 | | 12 | % | | $ | 6,299 | | $ | 5,855 | | 8 | %"
+          },
+          {
+            "line_number": 125,
+            "line": "Northrop Grumman Reports Third Quarter 2026 Financial Results | 5"
+          },
+          {
+            "line_number": 126,
+            "line": "| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 127,
+            "line": "MISSION SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 128,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          }
+        ]
+      },
+      {
+        "line_number": 139,
+        "line": "Sales | $ | 2,749 | | $ | 2,698 | | 2 | % | | $ | 7,982 | | $ | 7,912 | | 1 | %",
+        "context": [
+          {
+            "line_number": 99,
+            "line": "AERONAUTICS SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 100,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 101,
+            "line": "Sales | $ | 3,575 | | $ | 3,142 | | 14 | % | | $ | 10,377 | | $ | 9,070 | | 14 | %"
+          },
+          {
+            "line_number": 109,
+            "line": "DEFENSE SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 110,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 111,
+            "line": "Sales | $ | 2,307 | | $ | 2,059 | | 12 | % | | $ | 6,299 | | $ | 5,855 | | 8 | %"
+          },
+          {
+            "line_number": 127,
+            "line": "MISSION SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 128,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 129,
+            "line": "Sales | $ | 3,155 | | $ | 3,093 | | 2 | % | | $ | 9,266 | | $ | 9,057 | | 2 | %"
+          },
+          {
+            "line_number": 135,
+            "line": "Third quarter 2026 operating income decreased $15 million, or 3 percent, primarily due to a lower operating margin rate, partially offset by higher sales. Third quarter 2026 operating margin rate of 15.8 percent reflects strong program performance on marine systems and restricted airborne radar programs. Operating margin rate decreased from 16.7 percent in the third quarter of 2025 due, in part, to a prior year $68 million favorable EAC adjustment in the restricted advanced microelectronics portfolio."
+          },
+          {
+            "line_number": 136,
+            "line": "| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 137,
+            "line": "SPACE SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 138,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          }
+        ]
+      },
+      {
+        "line_number": 157,
+        "line": "Sales | $43,750 — $44,250",
+        "context": [
+          {
+            "line_number": 127,
+            "line": "MISSION SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 128,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 129,
+            "line": "Sales | $ | 3,155 | | $ | 3,093 | | 2 | % | | $ | 9,266 | | $ | 9,057 | | 2 | %"
+          },
+          {
+            "line_number": 137,
+            "line": "SPACE SYSTEMS | Three Months Ended September 30 | | % | | Nine Months Ended September 30 | | %"
+          },
+          {
+            "line_number": 138,
+            "line": "$ in millions | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 139,
+            "line": "Sales | $ | 2,749 | | $ | 2,698 | | 2 | % | | $ | 7,982 | | $ | 7,912 | | 1 | %"
+          },
+          {
+            "line_number": 153,
+            "line": "For additional factors that may impact the company’s ability to achieve guidance or meet expectations, please see the “Forward-Looking Statements” section in this release and our Form 10-Q."
+          },
+          {
+            "line_number": 154,
+            "line": "| | | | |"
+          },
+          {
+            "line_number": 155,
+            "line": "2026 Guidance"
+          },
+          {
+            "line_number": 156,
+            "line": "($ in millions, except per share amounts) | As of 10/20/2026"
+          }
+        ]
+      },
+      {
+        "line_number": 238,
+        "line": "Total sales | 11,122 | | | 10,423 | | | 31,879 | | | 30,242 |",
+        "context": [
+          {
+            "line_number": 233,
+            "line": "| Three Months Ended September 30 | | Nine Months Ended September 30"
+          },
+          {
+            "line_number": 234,
+            "line": "$ in millions, except per share amounts | 2026 | | 2025 | | 2026 | | 2025"
+          },
+          {
+            "line_number": 235,
+            "line": "Sales | | | | | | |"
+          },
+          {
+            "line_number": 236,
+            "line": "Product | $ | 9,098 | | | $ | 8,369 | | | $ | 25,864 | | | $ | 24,148 |"
+          },
+          {
+            "line_number": 237,
+            "line": "Service | 2,024 | | | 2,054 | | | 6,015 | | | 6,094 |"
+          }
+        ]
+      }
+    ],
+    "diluted_eps": [
+      {
+        "line_number": 21,
+        "line": "•Diluted earnings per share (EPS) of $7.89",
+        "context": [
+          {
+            "line_number": 17,
+            "line": "•Book to bill ratio of 1.5x; Net awards of $16 billion"
+          },
+          {
+            "line_number": 18,
+            "line": "•Backlog increases to $110 billion"
+          },
+          {
+            "line_number": 19,
+            "line": "•Sales increase 7 percent to $11.1 billion"
+          },
+          {
+            "line_number": 20,
+            "line": "•Operating margin rate of 11.4 percent, Segment operating margin rate1 of 12.1 percent"
+          }
+        ]
+      },
+      {
+        "line_number": 25,
+        "line": "FALLS CHURCH, Va. – October 20, 2026 – Northrop Grumman Corporation (NYSE: NOC) reported third quarter 2026 sales increased 7 percent to $11.1 billion, as compared with $10.4 billion in the third quarter of 2025. Third quarter sales reflect continued strong demand for our global capabilities. Third quarter 2026 net earnings totaled $1.1 billion, or $7.89 per diluted share, as compared with $1.1 billion, or $7.67 per diluted share, in the third quarter of 2025.",
+        "context": [
+          {
+            "line_number": 21,
+            "line": "•Diluted earnings per share (EPS) of $7.89"
+          },
+          {
+            "line_number": 22,
+            "line": "•Company raises 2026 guidance for key financial metrics:"
+          },
+          {
+            "line_number": 23,
+            "line": "◦Segment operating income1 increased by $65 million at the midpoint"
+          },
+          {
+            "line_number": 24,
+            "line": "◦MTM-adjusted EPS1 increased by $0.70 at the midpoint"
+          }
+        ]
+      },
+      {
+        "line_number": 67,
+        "line": "Diluted earnings per share | 7.89 | | | 7.67 | | | 3 | % | | 21.72 | | | 19.12 | | | 14 | %",
+        "context": [
+          {
+            "line_number": 34,
+            "line": "| Three Months Ended September 30 | | | | Nine Months Ended September 30 | |"
+          },
+          {
+            "line_number": 35,
+            "line": "$ in millions, except per share amounts | 2026 | | 2025 | | Change | | 2026 | | 2025 | | Change"
+          },
+          {
+            "line_number": 36,
+            "line": "Sales | | | | | | | | | | |"
+          },
+          {
+            "line_number": 63,
+            "line": "Earnings before income taxes | 1,298 | | | 1,323 | | | (2) | % | | 3,496 | | | 3,328 | | | 5 | %"
+          },
+          {
+            "line_number": 64,
+            "line": "Federal and foreign income tax expense | 174 | | | 223 | | | (22) | % | | 403 | | | 573 | | | (30) | %"
+          },
+          {
+            "line_number": 65,
+            "line": "Effective income tax rate | 13.4 | % | | 16.9 | % | | (350) bps | | 11.5 | % | | 17.2 | % | | (570) bps"
+          },
+          {
+            "line_number": 66,
+            "line": "Net earnings | $ | 1,124 | | | $ | 1,100 | | | 2 | % | | $ | 3,093 | | | $ | 2,755 | | | 12 | %"
+          }
+        ]
+      },
+      {
+        "line_number": 256,
+        "line": "Diluted earnings per share | $ | 7.89 | | | $ | 7.67 | | | $ | 21.72 | | | $ | 19.12 |",
+        "context": [
+          {
+            "line_number": 233,
+            "line": "| Three Months Ended September 30 | | Nine Months Ended September 30"
+          },
+          {
+            "line_number": 234,
+            "line": "$ in millions, except per share amounts | 2026 | | 2025 | | 2026 | | 2025"
+          },
+          {
+            "line_number": 235,
+            "line": "Sales | | | | | | |"
+          },
+          {
+            "line_number": 252,
+            "line": "Net earnings | $ | 1,124 | | | $ | 1,100 | | | $ | 3,093 | | | $ | 2,755 |"
+          },
+          {
+            "line_number": 253,
+            "line": "| | | | | | |"
+          },
+          {
+            "line_number": 254,
+            "line": "Basic earnings per share | $ | 7.91 | | | $ | 7.69 | | | $ | 21.77 | | | $ | 19.16 |"
+          },
+          {
+            "line_number": 255,
+            "line": "Weighted-average common shares outstanding, in millions | 142.1 | | | 143.1 | | | 142.1 | | | 143.8 |"
+          }
+        ]
+      }
+    ]
+  }
+}

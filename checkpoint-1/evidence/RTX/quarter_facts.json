@@ -1,0 +1,83 @@
+{
+  "accession": "0000101829-26-000030",
+  "exhibit_label": "Exhibit 99",
+  "total_revenue": {
+    "current": "24965",
+    "prior": "22478",
+    "unit": "USD millions",
+    "source": {
+      "line_number": 138,
+      "line": "Net Sales | $ | 24,965 | | | $ | 22,478 | | | $ | 71,749 | | | $ | 64,365 |",
+      "context": [
+        {
+          "line_number": 134,
+          "line": "| | | | | | | | | | | | | | | | | | | | | | | | | |"
+        },
+        {
+          "line_number": 135,
+          "line": "| | Quarter Ended September 30, | | Nine Months Ended September 30,"
+        },
+        {
+          "line_number": 136,
+          "line": "| | (Unaudited) | | (Unaudited)"
+        },
+        {
+          "line_number": 137,
+          "line": "(dollars in millions, except per share amounts; shares in millions) | 2026 | | 2025 | | 2026 | | 2025"
+        }
+      ]
+    },
+    "period_header": "| | Quarter Ended September 30, | | Nine Months Ended September 30,",
+    "column_dates": "(dollars in millions, except per share amounts; shares in millions) | 2026 | | 2025 | | 2026 | | 2025"
+  },
+  "diluted_eps": {
+    "current": "1.89",
+    "prior": "1.41",
+    "unit": "USD/share",
+    "source": {
+      "line_number": 156,
+      "line": "| Diluted | $ | 1.89 | | | $ | 1.41 | | | $ | 4.96 | | | $ | 3.77 |",
+      "context": [
+        {
+          "line_number": 135,
+          "line": "| | Quarter Ended September 30, | | Nine Months Ended September 30,"
+        },
+        {
+          "line_number": 136,
+          "line": "| | (Unaudited) | | (Unaudited)"
+        },
+        {
+          "line_number": 137,
+          "line": "(dollars in millions, except per share amounts; shares in millions) | 2026 | | 2025 | | 2026 | | 2025"
+        },
+        {
+          "line_number": 138,
+          "line": "Net Sales | $ | 24,965 | | | $ | 22,478 | | | $ | 71,749 | | | $ | 64,365 |"
+        },
+        {
+          "line_number": 152,
+          "line": "Net income attributable to common shareowners | $ | 2,583 | | | $ | 1,918 | | | $ | 6,781 | | | $ | 5,110 |"
+        },
+        {
+          "line_number": 153,
+          "line": "| | | | | | | |"
+        },
+        {
+          "line_number": 154,
+          "line": "Earnings Per Share attributable to common shareowners: | | | | | | |"
+        },
+        {
+          "line_number": 155,
+          "line": "| Basic | $ | 1.91 | | | $ | 1.43 | | | $ | 5.02 | | | $ | 3.81 |"
+        }
+      ]
+    },
+    "period_header": "| | Quarter Ended September 30, | | Nine Months Ended September 30,",
+    "column_dates": "(dollars in millions, except per share amounts; shares in millions) | 2026 | | 2025 | | 2026 | | 2025"
+  },
+  "revenue_growth": {
+    "value": "11.06415161491235875077853902",
+    "arithmetic": "(24,965 - 22,478) / 22,478 * 100",
+    "unit": "%"
+  }
+}

@@ -1,0 +1,450 @@
+EX-99
+2
+a2026-10x208xkerexhibit99.htm
+EX-99
+Document
+Exhibit 99
+| | | | | | | |
+| |
+| Media Contact
+| 202.384.2474
+|
+| Investor Contact
+| | 781.522.5123
+RTX Reports Q3 2026 Results
+Strong operational performance drives double-digit sales and earnings growth in Q3;
+Raises 2026 outlook for adjusted sales,* adjusted EPS,* and free cash flow*
+ARLINGTON, Va., October 20, 2026 – RTX (NYSE: RTX) reports third quarter 2026 results.
+Third quarter 2026
+•Sales of $25.0 billion, up 11 percent versus prior year, and up 12 percent organically*
+•GAAP EPS of $1.89, including $0.26 of acquisition accounting adjustments and $0.11 of restructuring and other net significant and/or non-recurring items
+•Adjusted EPS* of $2.26, up $0.56, or 33 percent, versus prior year, including $0.25 from IEEPA cost recovery
+•Operating cash flow of $2.9 billion, including approximately $0.3 billion from IEEPA recovery; free cash flow* of $2.1 billion
+•Company backlog of $340 billion, including $176 billion of commercial and $164 billion of defense
+•Awarded Tomahawk and AMRAAM multi-year undefinitized production contracts in the third quarter
+Updates outlook for full year 2026
+•Adjusted sales* of $97.0 - $97.5 billion, up from $95.0 - $96.0 billion
+•Organic sales growth* of 10 to 11 percent, up from 8 to 9 percent
+•Adjusted EPS* of $7.65 - $7.75, up from $7.10 - $7.25
+•Free cash flow* of $9.0 - $9.2 billion, up from $8.50 - $8.75 billion
+“Our strong execution and operational focus in the third quarter enabled RTX to deliver double-digit organic sales growth* across commercial aerospace and defense. Demand for our products remains robust with over $81 billion of new commercial and defense awards, resulting in a record backlog of $340 billion,” said RTX Chairman and CEO Chris Calio.
+“Given our performance year to date, we are again raising our full year outlook for adjusted sales,* adjusted EPS,* and free cash flow.* We remain focused on increasing output, optimizing our cost structure, and investing in new technologies to support our customers and drive continued growth.”
+1
+*Adjusted net sales (also referred to as adjusted sales), organic sales, adjusted operating profit (loss) and margin percentage (ROS), segment operating profit (loss) and margin percentage (ROS), adjusted segment sales, adjusted segment operating profit (loss) and margin percentage (ROS), adjusted net income, adjusted earnings per share (“EPS”), adjusted effective tax rate, and free cash flow are non-GAAP financial measures. When we provide our expectation for adjusted net sales (also referred to as adjusted sales), adjusted EPS and free cash flow on a forward-looking basis, a reconciliation of these non-GAAP financial measures to the corresponding GAAP measures (expected diluted EPS and expected cash flow from operations) is not available without unreasonable effort due to potentially high variability, complexity, and low visibility as to the items that would be excluded from the GAAP measure in the relevant future period, such as unusual gains and losses, the ultimate outcome of pending litigation, fluctuations in foreign currency exchange rates, the impact and timing of potential acquisitions and divestitures, and other structural changes or their probable significance. The variability of the excluded items may have a significant, and potentially unpredictable, impact on our future GAAP results. See “Use and Definitions of Non-GAAP Financial Measures” below for information regarding non-GAAP financial measures.
+IEEPA = International Emergency Economic Powers Act.
+Third quarter 2026
+RTX third quarter reported and adjusted sales* were $25.0 billion, up 11 percent versus the prior year and 12 percent organically.* GAAP EPS of $1.89 included $0.26 of acquisition accounting adjustments and $0.11 of restructuring and other net significant and/or non-recurring items. Adjusted EPS* of $2.26 was up 33 percent versus the prior year, including $0.25 of IEEPA recovery.
+The company reported net income attributable to common shareowners in the third quarter of $2.6 billion, which included $0.3 billion of acquisition accounting adjustments and $0.2 billion of restructuring and other net significant and/or non-recurring items. Adjusted net income* of $3.1 billion was up 34 percent versus the prior year driven by $1.1 billion of adjusted segment operating profit growth* across all three segments, including $0.4 billion of IEEPA recovery. This growth was partially offset by higher taxes and lower pension income. Operating cash flow in the third quarter was $2.9 billion, including $0.3 billion of IEEPA recovery. Capital expenditures were $0.7 billion, resulting in free cash flow* of $2.1 billion.
+Summary Financial Results
+| | | | | | | | | | | | | |
+| 3rd Quarter
+($ in millions, except EPS) | 2026 | | 2025 | % Change
+Reported | | | |
+Sales | $ | 24,965 | | | $ | 22,478 | | 11 | %
+Net Income | $ | 2,583 | | | $ | 1,918 | | 35 | %
+EPS | $ | 1.89 | | | $ | 1.41 | | 34 | %
+| | | |
+Adjusted* | | | |
+Sales | $ | 24,965 | | | $ | 22,478 | | 11 | %
+Net Income | $ | 3,091 | | | $ | 2,311 | | 34 | %
+EPS | $ | 2.26 | | | $ | 1.70 | | 33 | %
+| | | |
+Operating Cash Flow | $ | 2,868 | | | $ | 4,639 | | (38) | %
+Free Cash Flow* | $ | 2,119 | | | $ | 4,025 | | (47) | %
+Segment Results
+Collins Aerospace
+| | | | | | | | | | | | | | | | |
+| 3rd Quarter
+($ in millions) | 2026 | | 2025 | % Change
+Reported | | | | |
+Sales | $ | 8,382 | | | $ | 7,621 | | 10 | % |
+Operating Profit | $ | 1,789 | | | $ | 1,260 | | 42 | % |
+ROS | 21.3 | % | | 16.5 | % | 480 | | bps
+| | | | |
+Adjusted* | | | | |
+Sales | $ | 8,382 | | | $ | 7,621 | | 10 | % |
+Operating Profit | $ | 1,788 | | | $ | 1,194 | | 50 | % |
+ROS | 21.3 | % | | 15.7 | % | 560 | | bps
+2
+Collins Aerospace third quarter 2026 reported and adjusted sales* of $8,382 million were up 10 percent versus the prior year. Excluding the impact of divestitures, sales increased 12 percent organically* driven by a 23 percent increase in commercial OE, a 9 percent increase in commercial aftermarket, and a 7 percent increase in defense. The increase in commercial OE sales was driven by higher volume on narrowbody and widebody platforms, while the increase in commercial aftermarket sales was driven by growth in modifications and upgrades, provisioning, and parts and repair. The increase in defense sales was driven by higher volume across multiple programs.
+Collins Aerospace reported operating profit of $1,789 million was up 42 percent versus the prior year. Reported operating profit in Q3 2025 included a gain on the sale of the actuation and flight control business. Adjusted operating profit* of $1,788 million was up 50 percent versus the prior year. The increase was driven by drop through on higher commercial volume, commercial mix, and approximately $250 million of IEEPA recovery.
+Pratt & Whitney
+| | | | | | | | | | | | | | | | |
+| 3rd Quarter
+($ in millions) | 2026 | | 2025 | % Change
+Reported | | | | |
+Sales | $ | 9,231 | | | $ | 8,423 | | 10 | % |
+Operating Profit | $ | 608 | | | $ | 751 | | (19) | % |
+ROS | 6.6 | % | | 8.9 | % | (230) | | bps
+| | | | |
+Adjusted* | | | | |
+Sales | $ | 9,231 | | | $ | 8,423 | | 10 | % |
+Operating Profit | $ | 968 | | | $ | 751 | | 29 | % |
+ROS | 10.5 | % | | 8.9 | % | 160 | | bps
+Pratt & Whitney third quarter reported and adjusted sales* of $9,231 million were up 10 percent versus the prior year. The sales growth was driven by a 21 percent increase in commercial aftermarket and a 2 percent increase in military, partially offset by a 5 percent decrease in commercial OE. The increase in commercial aftermarket was driven by higher volume, primarily GTF, while the decrease in commercial OE was driven by large commercial engine mix. The increase in military was driven by higher volume across multiple programs, partially offset by the prior year benefit from contract award timing.
+Pratt & Whitney reported operating profit of $608 million was down 19 percent versus the prior year. Reported operating profit included a charge of $363 million related to a customer bankruptcy. Adjusted operating profit* of $968 million was up 29 percent versus the prior year. The increase was driven by drop through on higher commercial aftermarket volume and approximately $160 million of IEEPA recovery. This growth was partially offset by large commercial OE mix, commercial aftermarket mix, and higher SG&A expense.
+3
+Raytheon
+| | | | | | | | | | | | | | | | |
+| 3rd Quarter
+($ in millions) | 2026 | | 2025 | % Change
+Reported | | | | |
+Sales | $ | 8,031 | | | $ | 7,045 | | 14 | % |
+Operating Profit | $ | 1,133 | | | $ | 859 | | 32 | % |
+ROS | 14.1 | % | | 12.2 | % | 190 | | bps
+| | | | |
+Adjusted* | | | | |
+Sales | $ | 8,031 | | | $ | 7,045 | | 14 | % |
+Operating Profit | $ | 1,134 | | | $ | 859 | | 32 | % |
+ROS | 14.1 | % | | 12.2 | % | 190 | | bps
+Raytheon third quarter reported and adjusted sales* of $8,031 million were up 14 percent versus the prior year. This increase was driven by higher volume on naval programs and land and air defense systems, including Patriot, Standard Missile, and Tomahawk.
+Raytheon reported operating profit of $1,133 million was up 32 percent versus the prior year. Adjusted operating profit* of $1,134 million was up 32 percent versus the prior year. The increase was driven by improved net productivity, higher volume, and favorable mix, including Patriot programs. Productivity in the quarter included approximately $85 million of benefits associated with an international contract modification and a favorable adjustment related to an offset obligation.
+About RTX
+With more than 180,000 global employees, we push the limits of technology and science to redefine how we connect and protect our world. With industry-leading capabilities, we advance aviation, engineer integrated defense systems for operational success, and develop next-generation technology solutions and manufacturing to help global customers address their most critical challenges. The company, with 2025 sales of more than $88 billion, is headquartered in Arlington, Virginia.
+Conference Call on the Third Quarter 2026 Financial Results
+RTX’s financial results conference call will be held on Tuesday, October 20, 2026 at 8:30 a.m. ET. The conference call will be webcast live on the company's website at www.rtx.com and will be available for replay following the call. The corresponding presentation slides will be available for downloading prior to the call.
+Use and Definitions of Non-GAAP Financial Measures
+RTX Corporation (“RTX” or “the Company”) reports its financial results in accordance with accounting principles generally accepted in the United States (“GAAP”). We supplement the reporting of our financial information determined under GAAP with certain non-GAAP financial information. The non-GAAP information presented provides investors with additional useful information but should not be considered in isolation or as substitutes for the related GAAP measures. We believe that these non-GAAP measures provide investors with additional insight into the Company’s ongoing business performance. Other companies may define non-GAAP measures differently, which limits the usefulness of these measures for comparisons with such other companies. We encourage investors to review our financial statements and publicly-filed reports in their entirety and not to rely on any single financial measure. A reconciliation of the non-GAAP measures to the corresponding amounts prepared in
+4
+accordance with GAAP appears in the tables in this Appendix. Certain non-GAAP financial adjustments are also described in this Appendix. Below are our non-GAAP financial measures:
+| | | | |
+Non-GAAP measure | Definition
+Adjusted net sales / Adjusted sales | Represents consolidated net sales (a GAAP measure), excluding net significant and/or non-recurring items 1 (hereinafter referred to as “net significant and/or non-recurring items”).
+Organic sales | Organic sales represents the change in consolidated net sales (a GAAP measure), excluding the impact of foreign currency translation, acquisitions and divestitures completed in the preceding twelve months and net significant and/or non-recurring items.
+Adjusted operating profit (loss) and margin percentage (ROS) | Adjusted operating profit (loss) represents operating profit (loss) (a GAAP measure), excluding restructuring costs, acquisition accounting adjustments 2 , and net significant and/or non-recurring items. Adjusted operating profit margin percentage represents adjusted operating profit (loss) as a percentage of adjusted net sales.
+Segment operating profit (loss) and margin percentage (ROS) | Segment operating profit (loss) represents operating profit (loss) (a GAAP measure) excluding acquisition accounting adjustments 2 , the FAS/CAS operating adjustment 3 , Corporate expenses and other unallocated items, and Eliminations and other. Segment operating profit margin percentage represents segment operating profit (loss) as a percentage of segment sales (net sales, excluding Eliminations and other).
+Adjusted segment sales | Represents consolidated net sales (a GAAP measure) excluding eliminations and other and net significant and/or non-recurring items.
+Adjusted segment operating profit (loss) and margin percentage (ROS) | Adjusted segment operating profit (loss) represents segment operating profit (loss) excluding restructuring costs, and net significant and/or non-recurring items. Adjusted segment operating profit margin percentage represents adjusted segment operating profit (loss) as a percentage of adjusted segment sales (adjusted net sales excluding Eliminations and other).
+Adjusted net income | Adjusted net income represents net income (a GAAP measure), excluding restructuring costs, acquisition accounting adjustments 2 , and net significant and/or non-recurring items.
+Adjusted earnings per share (EPS) | Adjusted EPS represents diluted earnings per share (a GAAP measure), excluding restructuring costs, acquisition accounting adjustments 2 , and net significant and/or non-recurring items.
+Adjusted effective tax rate | Adjusted effective tax rate represents the effective tax rate (a GAAP measure), excluding the tax impact of restructuring costs, acquisition accounting adjustments 2 , and net significant and/or non-recurring items.
+Free cash flow | Free cash flow represents cash flow from operating activities (a GAAP measure) less capital expenditures. Management believes free cash flow is a useful measure of liquidity and an additional basis for assessing RTX’s ability to fund its activities, including the financing of acquisitions, debt service, repurchases of RTX’s common stock, and distribution of earnings to shareowners.
+1 Net significant and/or non-recurring items represent significant nonoperational items and/or significant operational items that may occur at irregular intervals.
+2 Acquisition accounting adjustments include the amortization of acquired intangible assets related to acquisitions, the amortization of the property, plant and equipment fair value adjustment acquired through acquisitions, the amortization of customer contractual obligations related to loss making or below market contracts acquired, and goodwill impairment, if applicable.
+3 The FAS/CAS operating adjustment represents the difference between the service cost component of our pension and postretirement benefit (PRB) expense under the Financial Accounting Standards (FAS) requirements of GAAP and our pension and PRB expense under U.S. government Cost Accounting Standards (CAS) primarily related to our Raytheon segment.
+When we provide our expectation for adjusted net sales (also referred to as adjusted sales), organic sales, adjusted operating profit (loss) and margin percentage (ROS), adjusted segment operating profit (loss) and
+5
+margin percentage (ROS), adjusted EPS, adjusted effective tax rate, and free cash flow, on a forward-looking basis, a reconciliation of the differences between the non-GAAP expectations and the corresponding GAAP measures, as described above, generally are not available without unreasonable effort due to potentially high variability, complexity, and low visibility as to the items that would be excluded from the GAAP measure in the relevant future period, such as unusual gains and losses, the ultimate outcome of pending litigation, fluctuations in foreign currency exchange rates, the impact and timing of potential acquisitions and divestitures, and other structural changes or their probable significance. The variability of the excluded items may have a significant, and potentially unpredictable, impact on our future GAAP results.
+Cautionary Statement Regarding Forward-Looking Statements This press release contains statements which, to the extent they are not statements of historical or present fact, constitute “forward-looking statements” under the securities laws. These forward-looking statements are intended to provide RTX Corporation (“RTX”) management's current expectations or plans for our future operating and financial performance, based on assumptions currently believed to be valid, and are not statements of historical fact. Forward-looking statements can be identified by the use of words such as “believe,” “expect,” “expectations,” “plans,” “strategy,” “prospects,” “estimate,” “project,” “target,” “anticipate,” “will,” “should,” “see,” “guidance,” “outlook,” “goals,” “objectives,” “confident,” “on track,” “designed to,” “commit,” “commitment” and other words of similar meaning. Forward-looking statements may include, among other things, statements relating to future sales, earnings, cash flow, results of operations, uses of cash, share repurchases, tax payments and rates, research and development spending, cost savings, other measures of financial performance, potential future plans, strategies or transactions, credit ratings and net indebtedness, the Pratt powder metal matter and related matters and activities, including without limitation other engine models that may be impacted, targets and commitments (including for share repurchases or otherwise), and other statements which are not solely historical facts. All forward-looking statements involve risks, uncertainties, changes in circumstances and other factors that are hard to predict and each of which may cause actual results to differ materially from those expressed or implied in the forward-looking statements. For those statements, we claim the protection of the safe harbor for forward-looking statements contained in the U.S. Private Securities Litigation Reform Act of 1995, as amended. Such risks, uncertainties and other factors include, without limitation: (1) changes in economic, capital market, and political conditions in the U.S. and globally; (2) changes in U.S. or foreign government defense spending, national priorities, and policy positions; (3) our performance on our contracts and programs, including our ability to control costs, and our dependence on U.S. government approvals for certain international contracts; (4) challenges in the development, certification, production, delivery, support, and performance of RTX's advanced technologies and new products and services and the realization of the anticipated benefits; (5) the challenges of operating in RTX's highly-competitive industries both domestically and abroad; (6) our reliance on U.S. and non-U.S. suppliers and commodity markets, including cost increases and disruptions in the delivery of materials and services to RTX or our suppliers; (7) changes in trade policies, implementation of sanctions, imposition of tariffs (and counter-tariffs) and other trade measures and restrictions, foreign currency fluctuations, and sales methods; (8) the economic condition of the aerospace industry; (9) the ability of RTX to attract, train, qualify, and retain qualified personnel and maintain its culture and high ethical standards, and the ability of our personnel to continue to operate our facilities and businesses around the world; (10) the scope, nature, timing, and challenges of managing and completing acquisitions, investments, divestitures, and other transactions; (11) compliance with legal, environmental, regulatory, and other requirements in the U.S. and other countries in which RTX and its businesses operate; (12) pending, threatened, and future legal proceedings, investigations, audits and other contingencies; (13) the previously-disclosed deferred prosecution agreements entered into between RTX and the Department of Justice (DOJ), the Securities and Exchange Commission (SEC) administrative order imposed on RTX, and the related investigations by the SEC and DOJ, the consent agreement between RTX and the Department of State, and the administrative agreement between RTX and the Department of the Navy; (14) RTX's ability to engage in desirable capital-raising or strategic transactions; (15) repurchases by RTX of its common stock, or declarations of cash dividends, which may be discontinued, accelerated, suspended, or delayed at any time due to various factors; (16) realizing expected benefits from, incurring costs for, and successfully managing strategic initiatives such as cost reduction, restructuring, digital transformation, and other operational initiatives; (17) additional tax exposures due to new tax legislation or other developments in the U.S. and other countries in which RTX and its businesses operate; (18) the identified rare condition in powder metal used to manufacture certain Pratt & Whitney engine parts requiring accelerated removals and inspections of a significant portion of the PW1100G-JM Geared Turbofan (GTF) fleet; (19) changes in production volumes of one or more of our significant customers as a result of business, labor, or other challenges, and the resulting effect on its or their demand for our products and services; (20) an RTX product safety failure, quality issue, or other failure affecting RTX's or its
+6
+customers' or suppliers' products or systems; (21) cybersecurity, including cyber-attacks on RTX's information technology infrastructure, products, suppliers, customers and partners, and cybersecurity-related regulations; (22) insufficient indemnity or insurance coverage; (23) our intellectual property and certain third-party intellectual property; (24) threats to RTX facilities and personnel, or those of its suppliers or customers, as well as public health crises, damaging weather, acts of nature, or other similar events outside of RTX's control that may affect RTX or its suppliers or customers; (25) changes in accounting estimates for our programs on our financial results; (26) changes in pension and other postretirement plan estimates and assumptions and contributions; (27) an impairment of goodwill and other intangible assets; and (28) climate change and climate-related regulations, and related customer and market demands, products and technologies. For additional information on identifying factors that may cause actual results to differ materially from those expressed or implied in the forward-looking statements, see the reports of RTX filed with or furnished to the Securities and Exchange Commission from time to time, including our most recent Annual Report on Form 10-K, Quarterly Reports on Form 10-Q and Current Reports on Form 8-K. Any forward-looking statement speaks only as of the date on which it is made, and RTX assumes no obligation to update or revise such statement, whether as a result of new information, future events or otherwise, except as required by applicable law.
+7
+RTX Corporation
+Condensed Consolidated Statement of Operations
+| | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Quarter Ended September 30, | | Nine Months Ended September 30,
+| | (Unaudited) | | (Unaudited)
+(dollars in millions, except per share amounts; shares in millions) | 2026 | | 2025 | | 2026 | | 2025
+Net Sales | $ | 24,965 | | | $ | 22,478 | | | $ | 71,749 | | | $ | 64,365 |
+Costs and expenses: | | | | | | |
+| Cost of sales | 19,160 | | | 17,898 | | | 56,217 | | | 51,293 |
+| Research and development | 711 | | | 684 | | | 2,064 | | | 2,018 |
+| Selling, general, and administrative | 1,918 | | | 1,436 | | | 5,052 | | | 4,457 |
+| Total costs and expenses | 21,789 | | | 20,018 | | | 63,333 | | | 57,768 |
+Other income, net | 161 | | | 63 | | | 287 | | | 107 |
+Operating profit | 3,337 | | | 2,523 | | | 8,703 | | | 6,704 |
+| Non-service pension income | (345) | | | (364) | | | (1,048) | | | (1,081) |
+| Interest expense, net | 381 | | | 449 | | | 1,188 | | | 1,349 |
+Income before income taxes | 3,301 | | | 2,438 | | | 8,563 | | | 6,436 |
+| Income tax expense | 593 | | | 432 | | | 1,449 | | | 1,080 |
+Net income | 2,708 | | | 2,006 | | | 7,114 | | | 5,356 |
+| Less: Noncontrolling interest in subsidiaries’ earnings | 125 | | | 88 | | | 333 | | | 246 |
+Net income attributable to common shareowners | $ | 2,583 | | | $ | 1,918 | | | $ | 6,781 | | | $ | 5,110 |
+| | | | | | | |
+Earnings Per Share attributable to common shareowners: | | | | | | |
+| Basic | $ | 1.91 | | | $ | 1.43 | | | $ | 5.02 | | | $ | 3.81 |
+| Diluted | $ | 1.89 | | | $ | 1.41 | | | $ | 4.96 | | | $ | 3.77 |
+| | | | | | | |
+Weighted Average Shares Outstanding: | | | | | | |
+| Basic shares | 1,352.2 | | | 1,343.1 | | | 1,350.2 | | | 1,340.2 |
+| Diluted shares | 1,368.1 | | | 1,358.4 | | | 1,365.8 | | | 1,354.7 |
+8
+RTX Corporation
+Segment Net Sales and Operating Profit (Loss)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Quarter Ended | | Nine Months Ended
+| (Unaudited) | | (Unaudited)
+| September 30, 2026 | | September 30, 2025 | | September 30, 2026 | | September 30, 2025
+(dollars in millions) | Reported | Adjusted | | Reported | Adjusted | | Reported | Adjusted | | Reported | Adjusted
+Net Sales | | | | | | | | | | |
+Collins Aerospace | $ | 8,382 | | $ | 8,382 | | | $ | 7,621 | | $ | 7,621 | | | $ | 24,194 | | $ | 24,194 | | | $ | 22,460 | | $ | 22,460 |
+Pratt & Whitney | 9,231 | | 9,231 | | | 8,423 | | 8,423 | | | 26,293 | | 26,293 | | | 23,420 | | 23,420 |
+Raytheon | 8,031 | | 8,031 | | | 7,045 | | 7,045 | | | 23,245 | | 23,245 | | | 20,386 | | 20,386 |
+Total segments | 25,644 | | 25,644 | | | 23,089 | | 23,089 | | | 73,732 | | 73,732 | | | 66,266 | | 66,266 |
+Eliminations and other | (679) | | (679) | | | (611) | | (611) | | | (1,983) | | (1,983) | | | (1,901) | | (1,901) |
+Consolidated | $ | 24,965 | | $ | 24,965 | | | $ | 22,478 | | $ | 22,478 | | | $ | 71,749 | | $ | 71,749 | | | $ | 64,365 | | $ | 64,365 |
+| | | | | | | | | | |
+Operating Profit (Loss) | | | | | | | | | | |
+Collins Aerospace | $ | 1,789 | | $ | 1,788 | | | $ | 1,260 | | $ | 1,194 | | | $ | 4,402 | | $ | 4,456 | | | $ | 3,521 | | $ | 3,670 |
+Pratt & Whitney | 608 | | 968 | | | 751 | | 751 | | | 2,056 | | 2,419 | | | 1,823 | | 1,949 |
+Raytheon | 1,133 | | 1,134 | | | 859 | | 859 | | | 3,016 | | 3,022 | | | 2,342 | | 2,346 |
+Total segments | 3,530 | | 3,890 | | | 2,870 | | 2,804 | | | 9,474 | | 9,897 | | | 7,686 | | 7,965 |
+Eliminations and other | 110 | | (49) | | | (14) | | (14) | | | 246 | | 17 | | | 22 | | (19) |
+Corporate expenses and other unallocated items | (26) | | (25) | | | (25) | | (23) | | | (138) | | (59) | | | (110) | | (94) |
+FAS/CAS operating adjustment | 171 | | 171 | | | 199 | | 199 | | | 514 | | 514 | | | 570 | | 570 |
+Acquisition accounting adjustments | (448) | | — | | | (507) | | — | | | (1,393) | | — | | | (1,464) | | — |
+Consolidated | $ | 3,337 | | $ | 3,987 | | | $ | 2,523 | | $ | 2,966 | | | $ | 8,703 | | $ | 10,369 | | | $ | 6,704 | | $ | 8,422 |
+| | | | | | | | | | |
+Segment Operating Profit Margin | | | | | | | | |
+Collins Aerospace | 21.3 | % | 21.3 | % | | 16.5 | % | 15.7 | % | | 18.2 | % | 18.4 | % | | 15.7 | % | 16.3 | %
+Pratt & Whitney | 6.6 | % | 10.5 | % | | 8.9 | % | 8.9 | % | | 7.8 | % | 9.2 | % | | 7.8 | % | 8.3 | %
+Raytheon | 14.1 | % | 14.1 | % | | 12.2 | % | 12.2 | % | | 13.0 | % | 13.0 | % | | 11.5 | % | 11.5 | %
+Total segment | 13.8 | % | 15.2 | % | | 12.4 | % | 12.1 | % | | 12.8 | % | 13.4 | % | | 11.6 | % | 12.0 | %
+9
+RTX Corporation
+Condensed Consolidated Balance Sheet
+| | | | | | | | | | |
+| September 30, 2026 | | December 31, 2025
+(dollars in millions) | (Unaudited) | | (Unaudited)
+Assets | | |
+Cash and cash equivalents | $ | 9,173 | | | $ | 7,435 |
+Accounts receivable, net | 14,681 | | | 14,701 |
+Contract assets, net | 18,701 | | | 17,092 |
+Inventory, net | 14,953 | | | 13,364 |
+Other assets, current | 8,561 | | | 7,740 |
+Total current assets | 66,069 | | | 60,332 |
+Customer financing assets | 1,880 | | | 2,132 |
+Fixed assets, net | 17,235 | | | 16,868 |
+Operating lease right-of-use assets | 1,770 | | | 1,887 |
+Goodwill | 52,969 | | | 53,343 |
+Intangible assets, net | 30,652 | | | 31,845 |
+Other assets | 6,021 | | | 4,672 |
+Total assets | $ | 176,596 | | | $ | 171,079 |
+| | |
+Liabilities, Redeemable Noncontrolling Interest, and Equity | | |
+Short-term borrowings | $ | 210 | | | $ | 204 |
+Accounts payable | 17,803 | | | 15,895 |
+Accrued employee compensation | 3,155 | | | 3,308 |
+Other accrued liabilities | 14,801 | | | 14,350 |
+Contract liabilities | 21,550 | | | 21,615 |
+Long-term debt currently due | 5,679 | | | 3,412 |
+Total current liabilities | 63,198 | | | 58,784 |
+Long-term debt | 31,490 | | | 34,288 |
+Operating lease liabilities, non-current | 1,495 | | | 1,602 |
+Future pension and postretirement benefit obligations | 1,913 | | | 2,067 |
+Other long-term liabilities | 7,508 | | | 7,200 |
+Total liabilities | 105,604 | | | 103,941 |
+Redeemable noncontrolling interest | 28 | | | 36 |
+Shareowners’ Equity: | | |
+Common stock | 38,673 | | | 38,126 |
+Treasury stock | (26,712) | | | (26,881) |
+Retained earnings | 60,597 | | | 56,718 |
+Accumulated other comprehensive loss | (3,308) | | | (2,718) |
+Total shareowners’ equity | 69,250 | | | 65,245 |
+Noncontrolling interest | 1,714 | | | 1,857 |
+Total equity | 70,964 | | | 67,102 |
+Total liabilities, redeemable noncontrolling interest, and equity | $ | 176,596 | | | $ | 171,079 |
+10
+RTX Corporation
+Condensed Consolidated Statement of Cash Flows
+| | | | | | | | | | | | | | | | | | | | | | |
+| Quarter Ended September 30, | | Nine Months Ended September 30,
+| (Unaudited) | | (Unaudited)
+(dollars in millions) | 2026 | | 2025 | | 2026 | | 2025
+Operating Activities: | | | | | | |
+Net income | $ | 2,708 | | | $ | 2,006 | | | $ | 7,114 | | | $ | 5,356 |
+Adjustments to reconcile net income to net cash flows provided by operating activities from: | | | | | | |
+Depreciation and amortization | 1,068 | | | 1,091 | | | 3,218 | | | 3,219 |
+Deferred income tax provision | 90 | | | 477 | | | 60 | | | 598 |
+Stock compensation cost | 159 | | | 113 | | | 455 | | | 337 |
+Net periodic pension and other postretirement income | (304) | | | (320) | | | (920) | | | (956) |
+Share-based 401(k) matching contributions | 135 | | | 128 | | | 474 | | | 435 |
+Change in: | | | | | | |
+Accounts receivable | (717) | | | (351) | | | 377 | | | (1,488) |
+Contract assets | (242) | | | (934) | | | (2,184) | | | (2,124) |
+Inventory | (543) | | | 182 | | | (1,686) | | | (1,015) |
+Other current assets | (552) | | | (879) | | | (974) | | | (979) |
+Accounts payable and accrued liabilities | 1,806 | | | 2,237 | | | 2,753 | | | 2,096 |
+Contract liabilities | (980) | | | 986 | | | (688) | | | 1,329 |
+Other operating activities, net | 240 | | | (97) | | | 271 | | | (406) |
+Net cash flows provided by operating activities | 2,868 | | | 4,639 | | | 8,270 | | | 6,402 |
+Investing Activities: | | | | | | |
+Capital expenditures | (749) | | | (614) | | | (1,964) | | | (1,657) |
+Dispositions of businesses, net of cash transferred | — | | | 1,188 | | | — | | | 1,188 |
+Increase in other intangible assets | (73) | | | (121) | | | (229) | | | (347) |
+Receipts from settlements of derivative contracts, net | 7 | | | 42 | | | 8 | | | 187 |
+Other investing activities, net | (42) | | | (24) | | | (224) | | | (87) |
+Net cash flows (used in) provided by investing activities | (857) | | | 471 | | | (2,409) | | | (716) |
+Financing Activities: | | | | | | |
+Repayment of long-term debt | (2) | | | (1,500) | | | (526) | | | (2,289) |
+Change in commercial paper, net | — | | | (1,432) | | | — | | | — |
+Dividends paid | (984) | | | (910) | | | (2,882) | | | (2,660) |
+Repurchase of common stock | — | | | — | | | — | | | (50) |
+Other financing activities, net | (190) | | | (81) | | | (677) | | | (333) |
+Net cash flows used in financing activities | (1,176) | | | (3,923) | | | (4,085) | | | (5,332) |
+Effect of foreign exchange rate changes on cash and cash equivalents | 3 | | | (10) | | | (16) | | | 44 |
+Net increase in cash, cash equivalents, and restricted cash | 838 | | | 1,177 | | | 1,760 | | | 398 |
+Cash, cash equivalents and restricted cash, beginning of period | 8,392 | | | 4,827 | | | 7,470 | | | 5,606 |
+Cash, cash equivalents and restricted cash, end of period | 9,230 | | | 6,004 | | | 9,230 | | | 6,004 |
+Less: Restricted cash, included in Other assets, current and Other assets | 57 | | | 38 | | | 57 | | | 38 |
+Cash and cash equivalents, end of period | $ | 9,173 | | | $ | 5,966 | | | $ | 9,173 | | | $ | 5,966 |
+11
+RTX Corporation
+Reconciliation of Adjusted (Non-GAAP) Results
+Adjusted Sales, Adjusted Operating Profit (Loss) & Operating Profit (Loss) Margin
+| | | | | | | | | | | | | | | | | | | | | | |
+| Quarter Ended September 30, | | Nine Months Ended September 30,
+| (Unaudited) | | (Unaudited)
+(dollars in millions - Income (Expense)) | 2026 | | 2025 | | 2026 | | 2025
+Collins Aerospace | | | | | | |
+Net sales | $ | 8,382 | | $ | 7,621 | | $ | 24,194 | | $ | 22,460
+Operating profit | $ | 1,789 | | $ | 1,260 | | $ | 4,402 | | $ | 3,521
+Restructuring | 6 | | (17) | | (49) | | (169)
+Gain on sale of businesses, net of transaction and other related costs (1) | — | | 95 | | — | | 95
+Portfolio transformation and divestiture costs (1) | (5) | | (12) | | (5) | | (75)
+Adjusted operating profit | $ | 1,788 | | $ | 1,194 | | $ | 4,456 | | $ | 3,670
+Adjusted operating profit margin | 21.3% | | 15.7% | | 18.4% | | 16.3%
+Pratt & Whitney | | | | | | |
+Net sales | $ | 9,231 | | $ | 8,423 | | $ | 26,293 | | $ | 23,420
+Operating profit | $ | 608 | | $ | 751 | | $ | 2,056 | | $ | 1,823
+Restructuring | 3 | | — | | — | | (18)
+Customer bankruptcy (1) | (363) | | — | | (363) | | (108)
+Adjusted operating profit | $ | 968 | | $ | 751 | | $ | 2,419 | | $ | 1,949
+Adjusted operating profit margin | 10.5% | | 8.9% | | 9.2% | | 8.3%
+Raytheon | | | | | | |
+Net sales | $ | 8,031 | | $ | 7,045 | | $ | 23,245 | | $ | 20,386
+Operating profit | $ | 1,133 | | $ | 859 | | $ | 3,016 | | $ | 2,342
+Restructuring | (1) | | — | | (6) | | (4)
+Adjusted operating profit | $ | 1,134 | | $ | 859 | | $ | 3,022 | | $ | 2,346
+Adjusted operating profit margin | 14.1% | | 12.2% | | 13.0% | | 11.5%
+Eliminations and Other | | | | | | |
+Net sales | $ | (679) | | $ | (611) | | $ | (1,983) | | $ | (1,901)
+Operating profit | $ | 110 | | $ | (14) | | $ | 246 | | $ | 22
+Gains on investments (1) | 159 | | — | | 229 | | 41
+Adjusted operating profit (loss) | $ | (49) | | $ | (14) | | $ | 17 | | $ | (19)
+Corporate expenses and other unallocated items | | | | | | |
+Operating loss | $ | (26) | | $ | (25) | | $ | (138) | | $ | (110)
+Restructuring | (1) | | (2) | | (10) | | (11)
+Tax audit settlements and closures (1) | — | | — | | — | | (5)
+Litigation matter (1) | — | | — | | (69) | | —
+Adjusted operating profit (loss) | $ | (25) | | $ | (23) | | $ | (59) | | $ | (94)
+FAS/CAS Operating Adjustment | | | | | | |
+Operating profit | $ | 171 | | $ | 199 | | $ | 514 | | $ | 570
+Acquisition Accounting Adjustments | | | | | | |
+Operating loss | $ | (448) | | $ | (507) | | $ | (1,393) | | $ | (1,464)
+Acquisition accounting adjustments | (448) | | (507) | | (1,393) | | (1,464)
+Adjusted operating loss | $ | — | | $ | — | | $ | — | | $ | —
+RTX Consolidated | | | | | | |
+Net sales | $ | 24,965 | | $ | 22,478 | | $ | 71,749 | | $ | 64,365
+Operating profit | $ | 3,337 | | $ | 2,523 | | $ | 8,703 | | $ | 6,704
+Restructuring | 7 | | (19) | | (65) | | (202)
+Acquisition accounting adjustments | (448) | | (507) | | (1,393) | | (1,464)
+12
+| | | | | | | | | | | | | | | | | | | | | | |
+Total net significant and/or non-recurring items included in Operating profit above (1) | (209) | | 83 | | (208) | | (52)
+Adjusted operating profit | $ | 3,987 | | $ | 2,966 | | $ | 10,369 | | $ | 8,422
+(1) Refer to “Non-GAAP Financial Adjustments” below for a description of these adjustments.
+13
+RTX Corporation
+Reconciliation of Adjusted (Non-GAAP) Results
+Adjusted Income, Earnings Per Share, and Effective Tax Rate
+| | | | | | | | | | | | | | | | | | | | | | |
+| Quarter Ended September 30, | | Nine Months Ended September 30,
+| (Unaudited) | | (Unaudited)
+(dollars in millions - Income (Expense)) | 2026 | | 2025 | | 2026 | | 2025
+Net income attributable to common shareowners | $ | 2,583 | | $ | 1,918 | | $ | 6,781 | | $ | 5,110
+Total Restructuring | 7 | | (19) | | (65) | | (202)
+Total Acquisition accounting adjustments | (448) | | (507) | | (1,393) | | (1,464)
+Total net significant and/or non-recurring items included in Operating profit (1) | (209) | | 83 | | (208) | | (52)
+Significant and/or non-recurring items included in Non-service Pension Income | | | | | | |
+Non-service pension restructuring | (3) | | — | | (7) | | —
+Significant non-recurring and non-operational items included in Interest Expense, Net | | | | | | |
+Tax audit settlements and closures (1) | — | | — | | — | | 54
+International tax matter (1) | — | | — | | — | | (35)
+Tax effect of restructuring and net significant and/or non-recurring items above | 145 | | 50 | | 359 | | 330
+Significant and/or non-recurring items included in Income Tax Expense | | | | | | |
+Tax audit settlements and closures (1) | — | | — | | — | | 59
+Less: Impact on net income attributable to common shareowners | (508) | | (393) | | (1,314) | | (1,310)
+Adjusted net income attributable to common shareowners | $ | 3,091 | | $ | 2,311 | | $ | 8,095 | | $ | 6,420
+| | | | | | |
+Diluted Earnings Per Share | $ | 1.89 | | $ | 1.41 | | $ | 4.96 | | $ | 3.77
+Impact on Diluted Earnings Per Share | (0.37) | | (0.29) | | (0.97) | | (0.97)
+Adjusted Diluted Earnings Per Share | $ | 2.26 | | $ | 1.70 | | $ | 5.93 | | $ | 4.74
+| | | | | | |
+Effective Tax Rate | 18.0% | | 17.7% | | 16.9% | | 16.8%
+Impact on Effective Tax Rate | (0.7)% | | 1.0% | | (0.8)% | | (1.3)%
+Adjusted Effective Tax Rate | 18.7% | | 16.7% | | 17.7% | | 18.1%
+(1) Refer to “Non-GAAP Financial Adjustments” below for a description of these adjustments.
+14
+RTX Corporation
+Reconciliation of Adjusted (Non-GAAP) Results
+Segment Operating Profit Margin and Adjusted Segment Operating Profit Margin
+| | | | | | | | | | | | | | | | | | | | | | |
+| Quarter Ended September 30, | | Nine Months Ended September 30,
+| (Unaudited) | | (Unaudited)
+(dollars in millions) | 2026 | | 2025 | | 2026 | | 2025
+Net Sales | $ | 24,965 | | | $ | 22,478 | | | $ | 71,749 | | | $ | 64,365 |
+Reconciliation to segment net sales: | | | | | | |
+Eliminations and other | 679 | | | 611 | | | 1,983 | | | 1,901 |
+Segment Net Sales | $ | 25,644 | | | $ | 23,089 | | | $ | 73,732 | | | $ | 66,266 |
+| | | | | | |
+Operating Profit | $ | 3,337 | | | $ | 2,523 | | | $ | 8,703 | | | $ | 6,704 |
+Operating Profit Margin | 13.4 | % | | 11.2 | % | | 12.1 | % | | 10.4 | %
+Reconciliation to segment operating profit: | | | | | | |
+Eliminations and other | (110) | | | 14 | | | (246) | | | (22) |
+Corporate expenses and other unallocated items | 26 | | | 25 | | | 138 | | | 110 |
+FAS/CAS operating adjustment | (171) | | | (199) | | | (514) | | | (570) |
+Acquisition accounting adjustments | 448 | | | 507 | | | 1,393 | | | 1,464 |
+Segment Operating Profit | $ | 3,530 | | | $ | 2,870 | | | $ | 9,474 | | | $ | 7,686 |
+Segment Operating Profit Margin | 13.8 | % | | 12.4 | % | | 12.8 | % | | 11.6 | %
+Reconciliation to adjusted segment operating profit: | | | | | | |
+Restructuring | 8 | | | (17) | | | (55) | | | (191) |
+Net significant and/or non-recurring items (1) | (368) | | | 83 | | | (368) | | | (88) |
+Adjusted Segment Operating Profit | $ | 3,890 | | | $ | 2,804 | | | $ | 9,897 | | | $ | 7,965 |
+Adjusted Segment Operating Profit Margin | 15.2 | % | | 12.1 | % | | 13.4 | % | | 12.0 | %
+(1) Refer to “Non-GAAP Financial Adjustments” below for a description of these adjustments.
+15
+RTX Corporation
+Free Cash Flow Reconciliation
+| | | | | | | | | | |
+| Quarter Ended September 30,
+| (Unaudited)
+( dollars in millions ) | 2026 | | 2025
+Net cash flows provided by operating activities | $ | 2,868 | | | $ | 4,639 |
+Capital expenditures | (749) | | | (614) |
+Free cash flow | $ | 2,119 | | | $ | 4,025 |
+| | |
+| Nine Months Ended September 30,
+| (Unaudited)
+(dollars in millions) | 2026 | | 2025
+Net cash flows provided by operating activities | $ | 8,270 | | | $ | 6,402 |
+Capital expenditures | (1,964) | | | (1,657) |
+Free cash flow | $ | 6,306 | | | $ | 4,745 |
+16
+RTX Corporation
+Reconciliation of Adjusted (Non-GAAP) Results
+Organic Sales Reconciliation
+| | | | | | | | | | | | | | | | | | | | | | |
+| Quarter ended September 30, 2026 compared to the Quarter Ended September 30, 2025
+| (Unaudited)
+( dollars in millions ) | Total Reported Change | Acquisitions & Divestitures Change | FX / Other Change (2) | Organic Change | | Prior Year Adjusted Sales (1) | Organic Change as a % of Adjusted Sales
+Collins Aerospace | $ | 761 | | $ | (138) | | $ | (8) | | $ | 907 | | | $ | 7,621 | | 12 | %
+Pratt & Whitney | 808 | | — | | (8) | | 816 | | | 8,423 | | 10 | %
+Raytheon | 986 | | — | | 6 | | 980 | | | 7,045 | | 14 | %
+Eliminations and Other (3) | (68) | | 14 | | 10 | | (92) | | | (611) | | 15 | %
+Consolidated | $ | 2,487 | | $ | (124) | | $ | — | | $ | 2,611 | | | $ | 22,478 | | 12 | %
+(1) For the full Non-GAAP reconciliation of adjusted sales refer to “Reconciliation of Adjusted (Non-GAAP) Results - Adjusted Sales, Adjusted Operating Profit & Operating Profit Margin.”
+(2) Includes other significant non-operational items and/or significant operational items that may occur at irregular intervals.
+(3) FX/Other Change includes the transactional impact of foreign exchange hedging at Pratt & Whitney Canada, which is included in Pratt & Whitney’s FX/Other Change, but excluded for Consolidated RTX.
+| | | | | | | | | | | | | | | | | | | | | | |
+| Nine Months Ended September 30, 2026 compared to the Nine Months Ended September 30, 2025
+| (Unaudited)
+( dollars in millions ) | Total Reported Change | Acquisitions & Divestitures Change | FX / Other Change (2) | Organic Change | | Prior Year Adjusted Sales (1) | Organic Change as a % of Adjusted Sales
+Collins Aerospace | $ | 1,734 | | $ | (925) | | $ | 43 | | $ | 2,616 | | | $ | 22,460 | | 12 | %
+Pratt & Whitney | 2,873 | | — | | 13 | | 2,860 | | | 23,420 | | 12 | %
+Raytheon | 2,859 | | — | | 35 | | 2,824 | | | 20,386 | | 14 | %
+Eliminations and Other (3) | (82) | | 40 | | (21) | | (101) | | | (1,901) | | 5 | %
+Consolidated | $ | 7,384 | | $ | (885) | | $ | 70 | | $ | 8,199 | | | $ | 64,365 | | 13 | %
+(1) For the full Non-GAAP reconciliation of adjusted sales refer to “Reconciliation of Adjusted (Non-GAAP) Results - Adjusted Sales, Adjusted Operating Profit & Operating Profit Margin.”
+(2) Includes other significant non-operational items and/or significant operational items that may occur at irregular intervals.
+(3) FX/Other Change includes the transactional impact of foreign exchange hedging at Pratt & Whitney Canada, which is included in Pratt & Whitney’s FX/Other Change, but excluded for Consolidated RTX.
+17
+Non-GAAP Financial Adjustments
+| | | | |
+Non-GAAP Adjustments | Description
+Portfolio transformation and divestiture costs | The quarters and nine months ended September 30, 2026 and 2025 include separation costs incurred in advance of the completion of certain divestitures.
+Customer bankruptcy | The quarter and nine months ended September 30, 2026 include a net pre-tax charge of approximately $0.4 billion related to a customer bankruptcy at Pratt & Whitney. The nine months ended September 30, 2025 includes a net pre-tax charge of approximately $0.1 billion related to a customer bankruptcy at Pratt & Whitney. The charges primarily relate to contract asset exposures with specific customers. Management has determined that the nature and significance of these charges is considered unusual and, therefore, not indicative of the Company’s ongoing operational performance.
+Gain on sale of businesses, net of transaction and other related costs | The quarters and nine months ended September 30, 2025 include a pre-tax gain, net of transaction and other related costs, of $0.1 billion associated with the completed sale of the actuation and flight control business at Collins. Management has determined that the nature of the net gain on this divestiture is considered significant and non-operational and, therefore, not indicative of the Company’s ongoing operational performance.
+Gains on investments | The quarter and nine months ended September 30, 2026 include a pre-tax gain of $159 million and $229 million, respectively, related to the increase in fair value on certain investments. The nine months ended September 30, 2025 includes a pre-tax gain of $41 million related to the increase in fair value on an investment. Management has determined that the nature of the gains on these investments is considered significant and non-operational and, therefore, not indicative of the Company’s ongoing operational performance.
+Tax audit settlements and closures | The nine months ended September 30, 2025 includes a tax benefit of $59 million and a pre-tax benefit on the reversal of $54 million of interest accruals both recognized as a result of the closure of the examination phase of multiple state tax audits.
+18

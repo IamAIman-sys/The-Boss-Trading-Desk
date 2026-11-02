@@ -1,0 +1,727 @@
+cost-20260510
+Table of Contents
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM 10-Q
+| | | | |
+☒ | QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended May 10, 2026
+or
+| | | | |
+☐ | TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+Commission file number 0-20355
+Costco Wholesale Corporation
+(Exact name of registrant as specified in its charter)
+| | | | | | | |
+Washington | | 91-1223280
+(State or other jurisdiction of incorporation or organization) | | (I.R.S. Employer Identification No.)
+999 Lake Drive, Issaquah, WA 98027
+(Address of principal executive offices) (Zip Code)
+(Registrant’s telephone number, including area code): (425) 313-8100
+Securities registered pursuant to Section 12(b) of the Act:
+| | | | | | | | | | | | | |
+Title of each class | | Trading symbol(s) | | Name of each exchange on which registered
+Common Stock, $.005 Par Value | | COST | | The Nasdaq Global Select Market
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).
+Yes ☒ No ☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+| | | | | | | | | | |
+Large accelerated filer | ☒ | Accelerated filer | ☐
+Non-accelerated filer | ☐ | Smaller reporting company | ☐
+| | Emerging growth company | ☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒
+The number of shares outstanding of the issuer's common stock as of May 27, 2026, was 443,478,804.
+1
+Table of Contents
+COSTCO WHOLESALE CORPORATION
+INDEX TO FORM 10-Q
+| | | | | | | |
+| | Page
+PART I | FINANCIAL INFORMATION |
+Item 1. | Financial Statements | 3
+| Condensed Consolidated Statements of Income | 3
+| Condensed Consolidated Statements of Comprehensive Income | 4
+| Condensed Consolidated Balance Sheets | 5
+| Condensed Consolidated Statements of Equity | 6
+| Condensed Consolidated Statements of Cash Flows | 8
+| Notes to Condensed Consolidated Financial Statements | 9
+Item 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations | 18
+Item 3. | Quantitative and Qualitative Disclosures About Market Risk | 27
+Item 4. | Controls and Procedures | 27
+| |
+PART II | OTHER INFORMATION |
+Item 1. | Legal Proceedings | 27
+Item 1A. | Risk Factors | 27
+Item 2. | Unregistered Sales of Equity Securities and Use of Proceeds | 28
+Item 3. | Defaults Upon Senior Securities | 28
+Item 4. | Mine Safety Disclosures | 28
+Item 5. | Other Information | 28
+Item 6. | Exhibits | 29
+| Signatures | 30
+2
+Table of Contents
+PART I—FINANCIAL INFORMATION
+Item 1—Financial Statements
+COSTCO WHOLESALE CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF INCOME
+(amounts in millions, except per share data) (unaudited)
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+REVENUE | | | | | | |
+Net sales | $ | 69,154 | | | $ | 61,965 | | | $ | 203,374 | | | $ | 185,480 |
+Membership fees | 1,373 | | | 1,240 | | | 4,057 | | | 3,599 |
+Total revenue | 70,527 | | | 63,205 | | | 207,431 | | | 189,079 |
+OPERATING EXPENSES | | | | | | |
+Merchandise costs | 61,519 | | | 54,996 | | | 180,748 | | | 164,849 |
+Selling, general and administrative | 6,193 | | | 5,679 | | | 18,799 | | | 17,188 |
+Operating income | 2,815 | | | 2,530 | | | 7,884 | | | 7,042 |
+OTHER INCOME (EXPENSE) | | | | | | |
+Interest expense | ( 32 ) | | | ( 35 ) | | | ( 100 ) | | | ( 108 ) |
+Interest income and other, net | 155 | | | 85 | | | 458 | | | 374 |
+INCOME BEFORE INCOME TAXES | 2,938 | | | 2,580 | | | 8,242 | | | 7,308 |
+Provision for income taxes | 746 | | | 677 | | | 2,014 | | | 1,819 |
+NET INCOME | $ | 2,192 | | | $ | 1,903 | | | $ | 6,228 | | | $ | 5,489 |
+NET INCOME PER COMMON SHARE: | | | | | | |
+Basic | $ | 4.94 | | | $ | 4.29 | | | $ | 14.03 | | | $ | 12.36 |
+Diluted | $ | 4.93 | | | $ | 4.28 | | | $ | 14.01 | | | $ | 12.34 |
+Shares used in calculation (000s): | | | | | | |
+Basic | 443,923 | | | 443,958 | | | 443,943 | | | 443,976 |
+Diluted | 444,430 | | | 444,762 | | | 444,455 | | | 444,846 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+3
+Table of Contents
+COSTCO WHOLESALE CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(amounts in millions) (unaudited)
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+NET INCOME | $ | 2,192 | | | $ | 1,903 | | | $ | 6,228 | | | $ | 5,489 |
+Foreign-currency translation adjustment and other, net | ( 52 ) | | | 327 | | | 112 | | | ( 87 ) |
+COMPREHENSIVE INCOME | $ | 2,140 | | | $ | 2,230 | | | $ | 6,340 | | | $ | 5,402 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+4
+Table of Contents
+COSTCO WHOLESALE CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(amounts in millions, except par value and share data) (unaudited)
+| | | | | | | | | | |
+| May 10, 2026 | | August 31, 2025
+ASSETS | | |
+CURRENT ASSETS | | |
+Cash and cash equivalents | $ | 18,946 | | | $ | 14,161 |
+Short-term investments | 1,050 | | | 1,123 |
+Receivables, net | 3,750 | | | 3,203 |
+Merchandise inventories | 19,418 | | | 18,116 |
+Other current assets | 2,013 | | | 1,777 |
+Total current assets | 45,177 | | | 38,380 |
+OTHER ASSETS | | |
+Property and equipment, net | 34,293 | | | 31,909 |
+Operating lease right-of-use assets | 2,747 | | | 2,725 |
+Other long-term assets | 4,213 | | | 4,085 |
+TOTAL ASSETS | $ | 86,430 | | | $ | 77,099 |
+LIABILITIES AND EQUITY | | |
+CURRENT LIABILITIES | | |
+Accounts payable | $ | 22,363 | | | $ | 19,783 |
+Accrued salaries and benefits | 5,218 | | | 5,205 |
+Accrued member rewards | 2,948 | | | 2,677 |
+Deferred membership fees | 3,157 | | | 2,854 |
+Other current liabilities | 8,439 | | | 6,589 |
+Total current liabilities | 42,125 | | | 37,108 |
+OTHER LIABILITIES | | |
+Long-term debt, excluding current portion | 5,670 | | | 5,713 |
+Long-term operating lease liabilities | 2,466 | | | 2,460 |
+Other long-term liabilities | 2,660 | | | 2,654 |
+TOTAL LIABILITIES | 52,921 | | | 47,935 |
+COMMITMENTS AND CONTINGENCIES | | |
+EQUITY | | |
+Preferred stock $0.005 par value; 100,000,000 shares authorized; no shares issued and outstanding | — | | | — |
+Common stock $0.005 par value; 900,000,000 shares authorized; 443,514,000 and 443,237,000 shares issued and outstanding | 2 | | | 2 |
+Additional paid-in capital | 8,683 | | | 8,282 |
+Accumulated other comprehensive loss | ( 1,658 ) | | | ( 1,770 ) |
+Retained earnings | 26,482 | | | 22,650 |
+TOTAL EQUITY | 33,509 | | | 29,164 |
+TOTAL LIABILITIES AND EQUITY | $ | 86,430 | | | $ | 77,099 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+5
+Table of Contents
+COSTCO WHOLESALE CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF EQUITY
+(amounts in millions) (unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended May 10, 2026
+| Common Stock | | Additional Paid-in Capital | | Accumulated Other Comprehensive Income (Loss) | | Retained Earnings | | Total Equity
+| Shares (000s) | | Amount |
+BALANCE AT FEBRUARY 15, 2026 | 443,692 | | | $ | 2 | | | $ | 8,570 | | | $ | ( 1,606 ) | | | $ | 25,121 | | | $ | 32,087 |
+Net income | — | | | — | | | — | | | — | | | 2,192 | | | 2,192 |
+Foreign-currency translation adjustment and other, net | — | | | — | | | — | | | ( 52 ) | | | — | | | ( 52 ) |
+Stock-based compensation | — | | | — | | | 120 | | | — | | | — | | | 120 |
+Release of vested restricted stock units (RSUs), including tax effects | 6 | | | — | | | ( 3 ) | | | — | | | — | | | ( 3 ) |
+Repurchases of common stock | ( 184 ) | | | — | | | ( 4 ) | | | — | | | ( 179 ) | | | ( 183 ) |
+Cash dividend declared | — | | | — | | | — | | | — | | | ( 652 ) | | | ( 652 ) |
+BALANCE AT MAY 10, 2026 | 443,514 | | | $ | 2 | | | $ | 8,683 | | | $ | ( 1,658 ) | | | $ | 26,482 | | | $ | 33,509 |
+| | | | | | | | | | |
+| 12 Weeks Ended May 11, 2025
+| Common Stock | | Additional Paid-in Capital | | Accumulated Other Comprehensive Income (Loss) | | Retained Earnings | | Total Equity
+| Shares (000s) | | Amount |
+BALANCE AT FEBRUARY 16, 2025 | 443,730 | | | $ | 2 | | | $ | 8,047 | | | $ | ( 2,242 ) | | | $ | 19,770 | | | $ | 25,577 |
+Net income | — | | | — | | | — | | | — | | | 1,903 | | | 1,903 |
+Foreign-currency translation adjustment and other, net | — | | | — | | | — | | | 327 | | | — | | | 327 |
+Stock-based compensation | — | | | — | | | 107 | | | — | | | — | | | 107 |
+Release of vested RSUs, including tax effects | 4 | | | — | | | ( 2 ) | | | — | | | — | | | ( 2 ) |
+Repurchases of common stock | ( 215 ) | | | — | | | ( 4 ) | | | — | | | ( 206 ) | | | ( 210 ) |
+Cash dividend declared | — | | | — | | | — | | | — | | | ( 577 ) | | | ( 577 ) |
+BALANCE AT MAY 11, 2025 | 443,519 | | | $ | 2 | | | $ | 8,148 | | | $ | ( 1,915 ) | | | $ | 20,890 | | | $ | 27,125 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+6
+Table of Contents
+COSTCO WHOLESALE CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF EQUITY
+(amounts in millions) (unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| 36 Weeks Ended May 10, 2026
+| Common Stock | | Additional Paid-in Capital | | Accumulated Other Comprehensive Income (Loss) | | Retained Earnings | | Total Equity
+| Shares (000s) | | Amount |
+BALANCE AT AUGUST 31, 2025 | 443,237 | | | $ | 2 | | | $ | 8,282 | | | $ | ( 1,770 ) | | | $ | 22,650 | | | $ | 29,164 |
+Net income | — | | | — | | | — | | | — | | | 6,228 | | | 6,228 |
+Foreign-currency translation adjustment and other, net | — | | | — | | | — | | | 112 | | | — | | | 112 |
+Stock-based compensation | — | | | — | | | 775 | | | — | | | — | | | 775 |
+Release of vested RSUs, including tax effects | 915 | | | — | | | ( 361 ) | | | — | | | — | | | ( 361 ) |
+Repurchases of common stock | ( 638 ) | | | — | | | ( 13 ) | | | — | | | ( 590 ) | | | ( 603 ) |
+Cash dividend declared | — | | | — | | | — | | | — | | | ( 1,806 ) | | | ( 1,806 ) |
+BALANCE AT MAY 10, 2026 | 443,514 | | | $ | 2 | | | $ | 8,683 | | | $ | ( 1,658 ) | | | $ | 26,482 | | | $ | 33,509 |
+| | | | | | | | | | |
+| 36 Weeks Ended May 11, 2025
+| Common Stock | | Additional Paid-in Capital | | Accumulated Other Comprehensive Income (Loss) | | Retained Earnings | | Total Equity
+| Shares (000s) | | Amount |
+BALANCE AT SEPTEMBER 1, 2024 | 443,126 | | | $ | 2 | | | $ | 7,829 | | | $ | ( 1,828 ) | | | $ | 17,619 | | | $ | 23,622 |
+Net income | — | | | — | | | — | | | — | | | 5,489 | | | 5,489 |
+Foreign-currency translation adjustment and other, net | — | | | — | | | — | | | ( 87 ) | | | — | | | ( 87 ) |
+Stock-based compensation | — | | | — | | | 723 | | | — | | | — | | | 723 |
+Release of vested RSUs, including tax effects | 1,051 | | | — | | | ( 392 ) | | | — | | | — | | | ( 392 ) |
+Repurchases of common stock | ( 658 ) | | | — | | | ( 12 ) | | | — | | | ( 611 ) | | | ( 623 ) |
+Cash dividend declared | — | | | — | | | — | | | — | | | ( 1,607 ) | | | ( 1,607 ) |
+BALANCE AT MAY 11, 2025 | 443,519 | | | $ | 2 | | | $ | 8,148 | | | $ | ( 1,915 ) | | | $ | 20,890 | | | $ | 27,125 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+7
+Table of Contents
+COSTCO WHOLESALE CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(amounts in millions) (unaudited)
+| | | | | | | | | | |
+| 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025
+CASH FLOWS FROM OPERATING ACTIVITIES | | |
+Net income | $ | 6,228 | | | $ | 5,489 |
+Adjustments to reconcile net income to net cash provided by operating activities: | | |
+Depreciation and amortization | 1,791 | | | 1,652 |
+Non-cash lease expense | 221 | | | 208 |
+Stock-based compensation | 771 | | | 720 |
+Other non-cash operating activities, net | 36 | | | ( 15 ) |
+Changes in operating assets and liabilities: | | |
+Merchandise inventories | ( 1,240 ) | | | ( 25 ) |
+Accounts payable | 2,498 | | | 604 |
+Other operating assets and liabilities, net | 828 | | | 835 |
+Net cash provided by operating activities | 11,133 | | | 9,468 |
+CASH FLOWS FROM INVESTING ACTIVITIES | | |
+Additions to property and equipment | ( 4,228 ) | | | ( 3,532 ) |
+Purchases of short-term investments | ( 480 ) | | | ( 573 ) |
+Maturities of short-term investments | 544 | | | 786 |
+Other investing activities, net | 4 | | | ( 24 ) |
+Net cash used in investing activities | ( 4,160 ) | | | ( 3,343 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES | | |
+Repayments of short-term borrowings | ( 390 ) | | | ( 635 ) |
+Proceeds from short-term borrowings | 459 | | | 616 |
+Repayments of long-term debt | ( 69 ) | | | — |
+Tax withholdings on stock-based awards | ( 361 ) | | | ( 392 ) |
+Repurchases of common stock | ( 603 ) | | | ( 623 ) |
+Cash dividend payments | ( 1,154 ) | | | ( 1,030 ) |
+Financing lease payments and other financing activities, net | ( 57 ) | | | ( 118 ) |
+Net cash used in financing activities | ( 2,175 ) | | | ( 2,182 ) |
+EFFECT OF EXCHANGE RATE CHANGES ON CASH AND CASH EQUIVALENTS | ( 13 ) | | | ( 13 ) |
+Net change in cash and cash equivalents | 4,785 | | | 3,930 |
+CASH AND CASH EQUIVALENTS BEGINNING OF YEAR | 14,161 | | | 9,906 |
+CASH AND CASH EQUIVALENTS END OF PERIOD | $ | 18,946 | | | $ | 13,836 |
+| | |
+SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION: | | |
+Cash paid during the first 36 weeks of the year for: | | |
+Interest | $ | 78 | | | $ | 81 |
+Income taxes, net | $ | 1,735 | | | $ | 1,648 |
+SUPPLEMENTAL DISCLOSURE OF NON-CASH ACTIVITIES: | | |
+Cash dividend declared, but not yet paid | $ | 652 | | | $ | 577 |
+Financing lease assets obtained in exchange for new or modified leases | $ | 116 | | | $ | 93 |
+Operating lease assets obtained in exchange for new or modified leases | $ | 202 | | | $ | 237 |
+Capital expenditures included in liabilities | $ | 218 | | | $ | 115 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+8
+Table of Contents
+COSTCO WHOLESALE CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(amounts in millions, except share, per share, and warehouse count data)
+(unaudited)
+Note 1—Summary of Significant Accounting Policies
+Description of Business
+Costco Wholesale Corporation (Costco or the Company), a Washington corporation, and its subsidiaries operate membership warehouses based on the concept that offering members low prices on a limited selection of nationally-branded and private-label products in a wide range of merchandise categories will produce high sales volumes and rapid inventory turnover. At May 10, 2026, Costco operated 928 warehouses worldwide: 637 in the United States (U.S.) located in 47 states, Washington, D.C., and Puerto Rico, 115 in Canada, 42 in Mexico, 37 in Japan, 29 in the United Kingdom (U.K.), 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden and one each in Iceland and New Zealand. The Company operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, and Australia.
+Basis of Presentation
+The condensed consolidated financial statements include the accounts of Costco and its wholly-owned subsidiaries. All material inter-company transactions among the Company and its consolidated subsidiaries have been eliminated in consolidation.
+These unaudited condensed consolidated financial statements have been prepared in accordance with the instructions to Form 10-Q for interim financial reporting pursuant to the rules and regulations of the Securities and Exchange Commission (SEC). While these statements reflect all normal recurring adjustments that are, in the opinion of management, necessary for fair presentation of the results of the interim period, they do not include all of the information and footnotes required by U.S. generally accepted accounting principles (U.S. GAAP) for complete financial statements. Therefore, the interim condensed consolidated financial statements should be read in conjunction with the consolidated financial statements and notes included in the Company's Annual Report on Form 10-K for the fiscal year ended August 31, 2025.
+Fiscal Year End
+The Company operates on a 52/53 week fiscal year basis, with the fiscal year ending on the Sunday closest to August 31. Fiscal 2026 is a 52-week year ending on August 30, 2026. References to the third quarter of 2026 and 2025 relate to the 12-week fiscal quarters ended May 10, 2026, and May 11, 2025. References to the first thirty-six weeks of 2026 and 2025 relate to the 36 weeks ended May 10, 2026, and May 11, 2025.
+Use of Estimates
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect: the reported amounts of assets and liabilities and the disclosure of contingent assets and liabilities at the date of the financial statements; and the reported amounts of revenues and expenses during the reporting period. These estimates and assumptions take into account historical and forward-looking factors that the Company believes are reasonable. Actual results could differ from those estimates and assumptions.
+Recent Accounting Pronouncements Not Yet Adopted By The Company
+In December 2023, the Financial Accounting Standards Board (FASB) issued ASU 2023-09, which requires public business entities on an annual basis to disclose specific categories in the income-tax rate reconciliation, provide information for reconciling items that meet a quantitative threshold, and disclose
+9
+Table of Contents
+certain information about income taxes paid. The standard is effective for annual periods beginning after December 15, 2024, with early adoption permitted.
+In November 2024, the FASB issued ASU 2024-03, which requires disaggregated disclosures of certain costs and expenses on the income statement on an annual and interim basis. The standard is effective for fiscal years beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027, with early adoption permitted.
+These standards should be applied on a prospective basis. Retrospective application is permitted. The Company is evaluating these standards.
+Note 2—Investments
+The Company's investments were as follows:
+| | | | | | | | | | | | | | | | |
+May 10, 2026: | Cost Basis | | Unrealized Losses, Net | | Recorded Basis
+Available-for-sale: | | | | |
+Government and agency securities | $ | 821 | | | $ | ( 3 ) | | | $ | 818 |
+Held-to-maturity: | | | | |
+Certificates of deposit | 232 | | | — | | | 232 |
+Total short-term investments | $ | 1,053 | | | $ | ( 3 ) | | | $ | 1,050 |
+| | | | | | | | | | | | | | | | |
+August 31, 2025: | Cost Basis | | Unrealized Gains, Net | | Recorded Basis
+Available-for-sale: | | | | |
+Government and agency securities | $ | 783 | | | $ | 3 | | | $ | 786 |
+Held-to-maturity: | | | | |
+Certificates of deposit | 337 | | | — | | | 337 |
+Total short-term investments | $ | 1,120 | | | $ | 3 | | | $ | 1,123 |
+Gross unrealized holding gains and losses on available-for-sale securities were not material for the periods ended May 10, 2026, or August 31, 2025. At those dates, there were no available-for-sale securities in a material continuous unrealized-loss position. There were no sales of available-for-sale securities during the first thirty-six weeks of 2026 or 2025.
+The maturities of available-for-sale and held-to-maturity securities at May 10, 2026, are as follows:
+| | | | | | | | | | | | | | | | |
+| Available-For-Sale | | Held-To-Maturity
+| Cost Basis | | Fair Value |
+Due in one year or less | $ | 133 | | | $ | 134 | | | $ | 232 |
+Due after one year through five years | 441 | | | 440 | | | — |
+Due after five years | 247 | | | 244 | | | — |
+Total | $ | 821 | | | $ | 818 | | | $ | 232 |
+10
+Table of Contents
+Note 3—Fair Value Measurement
+Assets and Liabilities Measured at Fair Value on a Recurring Basis
+The table below presents information regarding the Company’s financial assets and financial liabilities that are measured at fair value on a recurring basis and indicates the level within the hierarchy reflecting the valuation techniques utilized.
+| | | | | | | | | | |
+| Level 2
+| May 10, 2026 | | August 31, 2025
+Investment in government and agency securities | $ | 818 | | | $ | 786 |
+Forward foreign-exchange contracts, in asset position (1) | 1 | | | 6 |
+Forward foreign-exchange contracts, in (liability) position (1) | ( 10 ) | | | ( 14 ) |
+Total | $ | 809 | | | $ | 778 |
+_______________
+(1) The asset and liability values are included in other current assets and other current liabilities, respectively, in the accompanying condensed consolidated balance sheets.
+On May 10, 2026, and August 31, 2025, the Company did not hold any Level 1 or 3 financial assets or liabilities that were measured at fair value on a recurring basis. There were no transfers between levels during the first thirty-six weeks of 2026 or 2025.
+Assets and Liabilities Measured at Fair Value on a Nonrecurring Basis
+Assets and liabilities recognized and disclosed at fair value on a nonrecurring basis include items such as financial assets measured at amortized cost and long-lived nonfinancial assets. These assets are measured at fair value if determined to be impaired. There were no fair value adjustments to these items during the first thirty-six weeks of 2026 or 2025.
+Note 4—Debt
+The carrying value of the Company’s long-term debt consisted of the following:
+| | | | | | | | | | |
+| May 10, 2026 | | August 31, 2025
+3.000 % Senior Notes due May 2027 | $ | 1,000 | | | $ | 1,000 |
+1.375 % Senior Notes due June 2027 | 1,250 | | | 1,250 |
+1.600 % Senior Notes due April 2030 | 1,750 | | | 1,750 |
+1.750 % Senior Notes due April 2032 | 1,000 | | | 1,000 |
+Other long-term debt | 684 | | | 805 |
+Total long-term debt | 5,684 | | | 5,805 |
+Less unamortized debt discounts and issuance costs | 14 | | | 17 |
+Less current portion (1) | — | | | 75 |
+Long-term debt, excluding current portion | $ | 5,670 | | | $ | 5,713 |
+_______________
+(1) Net of unamortized debt discounts and issuance costs and included in other current liabilities in the accompanying condensed consolidated balance sheets.
+The fair value of the Senior Notes is estimated using Level 2 inputs. Other long-term debt consists of Guaranteed Senior Notes issued by the Company's Japan subsidiary, valued using Level 3 inputs. In March 2026, the Company's Japan subsidiary repaid $69 of its Guaranteed Senior Notes. The fair value of the Company's long-term debt, including the current portion, was approximately $5,259 and $5,370 at May 10, 2026, and August 31, 2025.
+11
+Table of Contents
+Note 5—Equity
+Dividends
+A quarterly cash dividend of $1.47 per share was declared on April 15, 2026, and paid on May 15, 2026. The dividend was $1.30 per share in the third quarter of 2025.
+Stock Repurchase Programs
+The Company's stock repurchase program is conducted under a $4,000 authorization by the Board of Directors, which expires in January 2027. At May 10, 2026, the remaining amount available under the program was $1,359. The following table summarizes the repurchase activity:
+| | | | | | | | | | | | | | | | |
+| Shares Repurchased (000s) | | Average Price per Share | | Total Cost
+Third quarter of 2026 | 184 | | | $ | 997.47 | | | $ | 183 |
+First thirty-six weeks of 2026 | 638 | | | $ | 945.46 | | | $ | 603 |
+| | | | |
+Third quarter of 2025 | 215 | | | $ | 976.71 | | | $ | 210 |
+First thirty-six weeks of 2025 | 658 | | | $ | 946.64 | | | $ | 623 |
+These amounts may differ from the accompanying condensed consolidated statements of cash flows due to changes in unsettled stock repurchases at the end of each quarter. Purchases are made from time to time, as conditions warrant, potentially including the open market, block purchases and pursuant to plans under SEC Rule 10b5-1.
+Note 6—Stock-Based Compensation
+The 2019 Incentive Plan authorizes the issuance of up to 15,885,000 RSUs. The Company issues new shares of common stock upon vesting and settlement of RSUs. Shares for vested RSUs are generally delivered to participants annually, net of shares withheld for taxes.
+Summary of Restricted Stock Unit Activity
+At May 10, 2026, 5,252,000 shares were available to be granted as RSUs, and the following awards were outstanding:
+•1,908,000 time-based RSUs, which vest upon continued employment over specified periods. Some of these RSUs accelerate upon achievement of a long-service term;
+•60,000 performance-based RSUs granted to executive officers, for which the performance targets have been met. The awards vest upon continued employment over specified periods of time and upon achievement of a long-service term; and
+•67,000 performance-based RSUs granted to executive officers, subject to achievement of performance targets for 2026, as determined by the Compensation Committee of the Board of Directors after the end of the fiscal year. These awards are included in the table below and in the amount of unrecognized compensation cost. The Company recognized compensation expense for these awards in the third quarter of 2026, as it is currently deemed probable that the targets will be achieved.
+12
+Table of Contents
+The following table summarizes RSU transactions during the first thirty-six weeks of 2026:
+| | | | | | | | | | |
+| Number of Units (in 000s) | | Weighted-Average Grant Date Fair Value
+Outstanding at August 31, 2025 | 2,308 | | | $ | 597.00 |
+Granted | 1,088 | | | 933.56 |
+Vested and delivered | ( 1,296 ) | | | 669.79 |
+Forfeited | ( 65 ) | | | 694.61 |
+Outstanding at May 10, 2026 | 2,035 | | | $ | 727.45 |
+The remaining unrecognized compensation cost related to RSUs unvested at May 10, 2026, was $1,092, and the weighted-average period over which this cost will be recognized is 1.6 years.
+Summary of Stock-Based Compensation
+The following table summarizes stock-based compensation expense and the related tax benefits:
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Stock-based compensation expense | $ | 119 | | | $ | 106 | | | $ | 771 | | | $ | 720 |
+Less recognized income tax benefits | 27 | | | 23 | | | 178 | | | 152 |
+Stock-based compensation expense, net | $ | 92 | | | $ | 83 | | | $ | 593 | | | $ | 568 |
+Note 7—Net Income per Common and Common Equivalent Share
+The following table shows the amounts used in computing net income per share and the weighted average number of shares of basic and of potentially dilutive common shares outstanding (shares in 000s):
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Net income | $ | 2,192 | | | $ | 1,903 | | | $ | 6,228 | | | $ | 5,489 |
+Weighted average basic shares | 443,923 | | | 443,958 | | | 443,943 | | | 443,976 |
+RSUs | 507 | | | 804 | | | 512 | | | 870 |
+Weighted average diluted shares | 444,430 | | | 444,762 | | | 444,455 | | | 444,846 |
+Basic earnings per share is calculated by dividing net income by the weighted average number of shares of common stock outstanding during the period. Diluted earnings per share is calculated based on the dilutive effect of RSUs using the treasury stock method.
+Note 8—Commitments and Contingencies
+Legal Proceedings
+The Company is involved in many claims, proceedings and litigations arising from its business and property ownership. In accordance with accounting guidance, the Company establishes an accrual for legal proceedings if and when those matters present loss contingencies that are both probable and reasonably estimable. There may be actual losses in excess of amounts accrued. The Company monitors those matters for developments that would affect the likelihood of a loss (considering where applicable indemnification arrangements concerning suppliers and insurers) and the accrued amount, if any, thereof, and adjusts the amount as appropriate. The Company has recorded an immaterial accrual with respect to
+13
+Table of Contents
+some matters described below, in addition to other immaterial accruals for matters not described below. If the loss contingency at issue is not both probable and reasonably estimable, the Company does not establish an accrual, but monitors for developments that make the contingency both probable and reasonably estimable. In each case, there is a reasonable possibility that a loss may be incurred, including a loss in excess of the applicable accrual. For matters where no accrual has been recorded, the possible loss or range of loss (including any loss in excess of the accrual) cannot, in the Company's view, be reasonably estimated because, among other things: the remedies or penalties sought are indeterminate or unspecified; the legal and/or factual theories are not well developed; and/or the matters involve complex or novel legal theories or a large number of parties.
+In November 2023, a former employee filed a class action against the Company alleging claims under California law for failure to pay minimum wage, failure to pay overtime, failure to provide meal and rest breaks, failure to provide accurate wage statements, failure to reimburse expenses, failure to pay wages when due, and failure to pay sick pay. Martin Reyes v. Costco Wholesale Corporation, Sacramento County Superior Court (No. 23cv011351), removed to federal court, No. 2:24-cv-00300 (E.D. Cal.). A second amended complaint was filed, which the Company has moved to dismiss. In January 2024, the same plaintiff filed a related Private Attorneys General Act (PAGA) representative action, seeking civil penalties and asserting the same alleged underlying Labor Code violations and an additional suitable seating claim. In May 2024, the plaintiff filed an amended PAGA complaint; the Company has denied the material allegations of the complaint and filed a motion to stay the action. The motion was granted on December 18, 2024.
+In August 2024, an employee filed an action under PAGA against the Company, alleging claims for penalties for various alleged violations of the California Labor Code. Nader v. Costco (No. CV-24-006198; Stanislaus County Superior Court). An amended complaint was filed in November 2024. In February 2025 the court granted the Company’s motion to strike portions of the complaint. The plaintiff filed a further amended complaint; the Company's motion to strike a portion of this complaint was granted on May 13, 2025. The Company's motion to stay the action was granted on November 13, 2025.
+In January 2026, a class action on behalf of Washington employees was filed against the Company alleging failure to provide meal periods and rest breaks and to compensate for violations, wage theft, and failure to furnish accurate wage statements. The complaint seeks compensatory and exemplary damages, interest, and attorneys' fees. Madera v. Costco Wholesale Corp. (No. 26-2-02879-6, King County Superior Court). A second class action was filed in March 2026 alleging failure to provide meal periods and to compensate for violations, seeking similar relief. Howell v. Costco Wholesale Corp. (No. 26-2-09459-5; King County Superior Court). The Company has denied the material allegations of the complaints.
+Beginning in December 2017, the United States Judicial Panel on Multidistrict Litigation consolidated numerous cases concerning the impacts of opioid abuses filed against various defendants by counties, cities, hospitals, Native American tribes, third-party payors, and others. In re National Prescription Opiate Litigation (MDL No. 2804) (N.D. Ohio). Cases filed against the Company by counties and cities in Michigan, New Jersey, Oregon, Virginia and South Carolina, a hospital in Texas, and class actions and individual actions filed on behalf of individuals seeking to recover alleged increased insurance costs associated with opioid abuse in 43 states and American Samoa have been resolved or dismissed. A claim by a third-party payor in Ohio and actions filed on behalf of infants born with opioid-related medical conditions in 40 states remain in the MDL. A claim against the Company filed in federal court outside the MDL by one county in Georgia is pending, and claims filed by certain cities and counties in New York are pending in state court, as are claims by certain county district attorneys in Pennsylvania. Claims against the Company in state courts in New Jersey, Oklahoma, Utah, and Arizona have been dismissed. Claims against the Company in federal court in Georgia and Florida have been dismissed. The Company is defending all of the pending matters remaining.
+Between September 25 and October 31, 2023, five class action suits were filed against the Company alleging privacy law violations stemming from pixel trackers on Costco.com: Birdwell v. Costco Wholesale
+14
+Table of Contents
+Corp., No. C23-02416, Contra Costa County Superior Court; and Scott v. Costco Wholesale Corp., No. 2:23-cv-08808 (C.D. Cal.), now consolidated with R.S. v. Costco Wholesale Corp., No. 2:23-cv-01628 (W.D. Wash.); Groves, et ano., v. Costco Wholesale Corp., No. 2:23-cv-01662 (W.D. Wash.), and Castillo v. Costco Wholesale Corp., under No. 2:34-cv-01548 (W.D. Wash.). The Castillo plaintiffs filed a consolidated complaint on January 26, 2024, which seeks damages, equitable relief and attorneys’ fees under various statutes, including the Washington Consumer Protection Act, Washington Privacy Act, Washington Uniform Health Care Information Act, Electronic Communications Privacy Act, California Invasion of Privacy Act, and California Confidentiality of Medical Information Act. The consolidated complaint also alleges breach of implied contract, invasion of privacy, conversion, and unjust enrichment. The Company filed a motion to dismiss the Castillo complaint on March 11, 2024. In November 2024 the court denied the motion to dismiss in substantial part. On May 16, 2024, the parties stipulated to stay Birdwell pending resolution of Castillo. On January 2, and August 22, 2024, the Company received related civil investigative demands from the Washington Attorney General's Office. On January 3, 2024, the Company received a related pre-litigation letter from the Los Angeles Office of the County Counsel. The Company is in the process of responding to both agencies. The Birdwell case was dismissed with prejudice in March 2026.
+In October and November 2025, two class actions were filed against the Company alleging violations of consumer protection and other laws arising from the Company’s sale of Kirkland Signature tequila products in the United States: Glazer v. Costco Wholesale Corp., Case No. 1:25-cv-25057 (S.D. Fla.); and Salisbury, et al. v. Costco Wholesale Corp., Case No. 2:25-cv-02277 (W.D. Wash.). Plaintiffs allege that the Company’s Kirkland Signature tequilas are labeled “100% de Agave” but contain alcohol derived from non-agave sugars. They seek damages, statutory penalties, punitive and treble damages, and disgorgement. The Glazer action was subsequently dismissed without prejudice. An amended complaint was filed in the Salisbury case on March 9, 2026, adding Glazer as an additional named plaintiff. The Company filed a motion to dismiss Salisbury in April 2026.
+In March 2026, four class actions were filed against the Company seeking a refund of tariffs paid by the Company under the International Emergency Economic Powers Act (“IEEPA”) that were passed on to members through higher prices. The complaints allege violations of state consumer protection laws and equitable doctrines: Stockov, et al. v. Costco Wholesale Corp., Case No. 26-cv-02734 (N.D. Illinois); Gower, et al. v. Costco Wholesale Corp., Case No. 26-2-08898-5SEA (King County Superior Court); Ortiz, et al. v. Costco Wholesale Corp., Case No. 3:26-cv-01164-CVR (D.P.R.); and Briggs, et al. v. Costco Wholesale Corp., Case No. 2:26-cv-01064 (W.D. Wash.). The Company has filed motions to dismiss in Stockov and Gower.
+The Company does not believe that any pending claim, proceeding or litigation, either alone or in the aggregate, will have a material adverse effect on the Company’s financial position, results of operations or cash flows; it is possible that an unfavorable outcome of some or all of the matters, however unlikely, could result in a charge that might be material to the results of an individual fiscal quarter or year.
+15
+Table of Contents
+Note 9—Segment Reporting
+The Company is principally engaged in the operation of membership warehouses through wholly owned subsidiaries in the U.S., Canada, Mexico, Japan, the U.K., Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland and New Zealand. Reportable segments are largely based on management’s organization of the operating segments for operational decisions and assessments of financial performance, which considers geographic locations. The material accounting policies of the segments are as described in the notes to the consolidated financial statements included in the Company's Annual Report filed on Form 10-K for the fiscal year ended August 31, 2025, and Note 1 above. Inter-segment net sales and expenses, including royalties, have been eliminated in computing total revenue and operating income.
+The chief operating decision maker (CODM) is the Company's President and Chief Executive Officer. The CODM uses the metrics outlined in the table below, along with internal management reports, to evaluate performance, monitor actual results versus budget and prior year results, and make strategic and operational resource allocation decisions.
+The following table provides the revenue, significant expenses, and operating income for the Company's reportable segments:
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+United States | | | | | | |
+Total revenue | $ | 51,434 | | | $ | 46,318 | | | $ | 149,934 | | | $ | 137,819 |
+Merchandise costs | 44,857 | | | 40,239 | | | 130,499 | | | 119,922 |
+Selling, general and administrative expenses | 4,704 | | | 4,366 | | | 14,311 | | | 13,171 |
+Operating income | $ | 1,873 | | | $ | 1,713 | | | $ | 5,124 | | | $ | 4,726 |
+Canada | | | | | | |
+Total revenue | $ | 9,410 | | | $ | 8,321 | | | $ | 27,774 | | | $ | 25,021 |
+Merchandise costs | 8,171 | | | 7,234 | | | 24,156 | | | 21,828 |
+Selling, general and administrative expenses | 733 | | | 637 | | | 2,202 | | | 1,978 |
+Operating income | $ | 506 | | | $ | 450 | | | $ | 1,416 | | | $ | 1,215 |
+Other International | | | | | | |
+Total revenue | $ | 9,683 | | | $ | 8,566 | | | $ | 29,723 | | | $ | 26,239 |
+Merchandise costs | 8,491 | | | 7,523 | | | 26,093 | | | 23,099 |
+Selling, general and administrative expenses | 756 | | | 676 | | | 2,286 | | | 2,039 |
+Operating income | $ | 436 | | | $ | 367 | | | $ | 1,344 | | | $ | 1,101 |
+Total | | | | | | |
+Total revenue | $ | 70,527 | | | $ | 63,205 | | | $ | 207,431 | | | $ | 189,079 |
+Merchandise costs | 61,519 | | | 54,996 | | | 180,748 | | | 164,849 |
+Selling, general and administrative expenses | 6,193 | | | 5,679 | | | 18,799 | | | 17,188 |
+Operating income | 2,815 | | | 2,530 | | | 7,884 | | | 7,042 |
+Other income (1) | 123 | | | 50 | | | 358 | | | 266 |
+Income before income taxes | $ | 2,938 | | | $ | 2,580 | | | $ | 8,242 | | | $ | 7,308 |
+_______________
+(1)Other income consists of interest expense and interest income and other, net.
+16
+Table of Contents
+The following table provides depreciation and amortization and additions to property and equipment for the Company's reportable segments:
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+United States | | | | | | |
+Depreciation and amortization | $ | 460 | | | $ | 432 | | | $ | 1,388 | | | $ | 1,295 |
+Additions to property and equipment | 1,143 | | | 846 | | | 3,335 | | | 2,698 |
+Canada | | | | | | |
+Depreciation and amortization | $ | 52 | | | $ | 44 | | | $ | 148 | | | $ | 132 |
+Additions to property and equipment | 113 | | | 99 | | | 455 | | | 352 |
+Other International | | | | | | |
+Depreciation and amortization | $ | 85 | | | $ | 76 | | | $ | 255 | | | $ | 225 |
+Additions to property and equipment | 157 | | | 186 | | | 438 | | | 482 |
+Total | | | | | | |
+Depreciation and amortization | $ | 597 | | | $ | 552 | | | $ | 1,791 | | | $ | 1,652 |
+Additions to property and equipment | 1,413 | | | 1,131 | | | 4,228 | | | 3,532 |
+The following table provides property and equipment, net and total assets for the Company's reportable segments:
+| | | | | | | | | | |
+| May 10, 2026 | | August 31, 2025
+United States | | |
+Property and equipment, net | $ | 24,644 | | | $ | 22,790 |
+Total assets | 62,980 | | | 54,862 |
+Canada | | |
+Property and equipment, net | $ | 3,258 | | | $ | 2,930 |
+Total assets | 7,925 | | | 7,304 |
+Other International | | |
+Property and equipment, net | $ | 6,391 | | | $ | 6,189 |
+Total assets | 15,525 | | | 14,933 |
+Total | | |
+Property and equipment, net | $ | 34,293 | | | $ | 31,909 |
+Total assets | 86,430 | | | 77,099 |
+Disaggregated Revenue
+The following table summarizes net sales by merchandise category; sales from e-commerce sites and business centers have been allocated to the applicable merchandise categories:
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Foods and Sundries | $ | 26,533 | | | $ | 25,149 | | | $ | 80,625 | | | $ | 75,323 |
+Non-Foods | 17,529 | | | 16,080 | | | 54,122 | | | 49,777 |
+Fresh Foods | 9,673 | | | 8,785 | | | 28,576 | | | 25,839 |
+Warehouse Ancillary and Other Businesses | 15,419 | | | 11,951 | | | 40,051 | | | 34,541 |
+Total net sales | $ | 69,154 | | | $ | 61,965 | | | $ | 203,374 | | | $ | 185,480 |
+17
+Table of Contents
+Item 2—Management’s Discussion and Analysis of Financial Condition and Results of Operations
+(amounts in millions, except per share, share, percentages and warehouse count data)
+FORWARD-LOOKING STATEMENTS
+Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future and may relate to such matters as net sales growth, changes in comparable sales, cannibalization of existing locations by new openings, price or fee changes, earnings performance, earnings per share, stock-based compensation expense, warehouse openings and closures, capital spending, the effect of adopting certain accounting standards, future financial reporting, financing, margins, return on invested capital, investments in technology, strategic direction, expense controls, membership fee changes, signups, and renewal rates, shopping frequency, litigation, attainment of sustainability goals, and the demand for our products and services. In some cases, forward-looking statements can be identified because they contain words such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “intend,” “likely,” “may,” “might,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or similar expressions and the negatives of those terms. Such forward-looking statements involve risks and uncertainties that may cause actual events, results or performance to differ materially from those indicated by such statements. These risks and uncertainties include, but are not limited to, domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs and global conflicts), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors, and other risks identified from time to time in the Company's public statements and reports filed with the Securities and Exchange Commission. Forward-looking statements speak only as of the date they are made, and the Company does not undertake to update these statements, except as required by law.
+OVERVIEW
+Management's Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is intended to promote understanding of the results of operations and financial condition. MD&A is provided as a supplement to and should be read in conjunction with our condensed consolidated financial statements and the accompanying Notes to Financial Statements (Part I, Item 1 of this Form 10-Q), as well as our consolidated financial statements, the accompanying Notes to Financial Statements, and the related MD&A in our fiscal year 2025 Form 10-K, which was filed with the Securities and Exchange Commission on October 8, 2025.
+We operate membership warehouses and e-commerce sites based on the concept that offering low prices on a limited selection of nationally-branded and private-label products in a wide range of categories will produce high sales volumes and rapid inventory turnover. When combined with the operating efficiencies achieved by volume purchasing, efficient distribution and reduced handling of merchandise in no-frills, self-service warehouse facilities, these volumes and turnover enable us to operate profitably at significantly lower gross margins (net sales less merchandise costs) than most other retailers. We often sell inventory before we are required to pay for it, even while taking advantage of early payment discounts.
+We believe that the most important driver of our profitability is increasing net sales, particularly comparable sales. Net sales includes our core merchandise categories (foods and sundries, non-foods, and fresh foods), warehouse ancillary (gasoline, pharmacy, optical, food court, hearing aids, and tire
+18
+Table of Contents
+installation) and other businesses (e-commerce, business centers, travel, and other). E-commerce and business center sales are allocated to the appropriate merchandise categories in the Net Sales discussion. The 2% reward associated with Executive membership reduces net sales and is allocated to the category in which the reward is generated (core merchandise categories, warehouse ancillary, and other businesses). Comparable sales is defined as net sales from warehouses and digitally-enabled businesses operating for more than one year, including remodels, relocations and expansions. Starting this year, we changed our e-commerce comparable sales metric to digitally-enabled comparable sales. This metric represents sales delivered to members that are initiated through a digital device, whether fulfilled through a warehouse or a distribution center, as well as Costco Travel. The comparable sales measures are intended as supplemental information and are not a substitute for net sales presented in accordance with U.S. GAAP and should be reviewed in conjunction with results reported in accordance with U.S. GAAP. Comparable sales growth is achieved through increasing shopping frequency from new and existing members and the amount they spend on each visit (average ticket). Sales comparisons can also be particularly influenced by certain factors that are beyond our control: fluctuations in currency exchange rates (with respect to our international operations) and inflation or deflation in the cost of gasoline and associated competitive conditions. The higher our comparable sales exclusive of these items, the more we can leverage our selling, general and administrative (SG&A) expenses, reducing them as a percentage of sales and enhancing profitability. Generating comparable sales growth is foremost a question of making available the right merchandise at the right prices, a skill that we believe we have repeatedly demonstrated over the long-term. Another substantial factor in net sales growth is the health of the economies in which we do business, including the effects of inflation or deflation, especially the United States. Net sales growth and gross margins are also impacted by competition, which is vigorous and widespread, across a wide range of global, national and regional wholesalers and retailers, including those with e-commerce operations. While we cannot control or reliably predict general economic health or changes in competition, we believe that we have been successful historically in adapting our business to these changes, such as through adjustments to our pricing and merchandise mix, including increasing the penetration of our private-label items, and through online offerings.
+Our philosophy is to provide our members with quality goods and services at competitive prices. We do not focus in the short-term on maximizing prices charged, but instead seek to maintain what we believe is a perception among our members of our “pricing authority” – consistently providing the most competitive values. Our net sales and gross margin are influenced in part by our merchandising and pricing strategies in response to cost increases. Those strategies can include, but are not limited to, working with our suppliers to share in absorbing cost increases, earlier-than-usual purchasing and in greater volumes, sourcing in the countries and regions where items are sold, as well as passing cost increases on to our members. Our investments in merchandise pricing may include reducing prices on merchandise to drive sales or meet competition and holding prices steady despite cost increases instead of passing the increases on to our members, negatively impacting gross margin and gross margin as a percentage of net sales (gross margin percentage) in the near term. Our digitally-enabled business, domestically and internationally, has a lower gross-margin percentage than our warehouse operations.
+Government actions in various countries relating to tariffs affect the costs of some of our merchandise. The degree of our exposure is dependent on (among other things) the type of goods, rates imposed, and timing of the tariffs. Higher tariffs are more likely to adversely impact rather than improve our results.
+We believe our gasoline business enhances traffic in our warehouses; it generally has a lower gross margin percentage and lower SG&A expense relative to our non-gasoline businesses. A higher penetration of gasoline sales will generally lower our gross margin percentage. Generally, rising gasoline prices benefit net sales growth which, given the higher sales base, negatively impacts our gross margin percentage but decreases our SG&A expenses as a percentage of net sales. A decline in gasoline prices has the inverse effect.
+We also achieve net sales growth by opening new warehouses. As our warehouse base grows and available and desirable sites become more difficult to secure, square footage growth becomes a comparatively less substantial component of growth. Negative aspects of such growth include lower initial
+19
+Table of Contents
+operating profitability relative to existing warehouses and cannibalization of sales at existing warehouses when openings occur in existing markets. Our rate of square footage growth is generally higher in many of our foreign markets, due to the smaller base in those markets, and we expect that to continue.
+The membership format is integral to our business and profitability. This format is designed to reinforce member loyalty and provide continuing fee revenue. The extent to which we achieve growth in our membership base, increase the penetration of Executive memberships, and sustain high renewal rates materially influences our profitability. Our renewal rate, which excludes affiliates of Business members, is a trailing calculation that captures renewals during the period seven to eighteen months prior to the reporting date. Our paid-membership growth rate may be adversely impacted when warehouse openings occur in existing markets as compared to new markets. Our worldwide renewal rate is adversely impacted by membership growth in newer international markets and a higher penetration of memberships sold online, including through digital membership promotions, which renew at a slightly lower rate on average.
+Our financial performance depends heavily on controlling costs. While we believe that we have achieved successes in this area, some significant costs are partially outside our control, particularly health care and utility expenses. With respect to the compensation of our employees, our philosophy is not to seek to minimize their wages and benefits. Rather, we believe that achieving our longer-term objectives of reducing employee turnover, increasing productivity and enhancing employee satisfaction requires maintaining compensation levels that are better than the industry average for much of our workforce. This may cause us, for example, to absorb costs that other employers might seek to pass through to their workforces. Because our business operates on very low margins, modest changes in various items in the consolidated statements of income, particularly merchandise costs and SG&A expenses, can have substantial impacts on net income.
+Our operating models are generally the same across our U.S., Canadian, and Other International operating segments (see Note 9 to the condensed consolidated financial statements included in Part I, Item 1, of this Report). Certain operations in our Other International segment have relatively higher rates of square footage growth, lower wage and benefit costs as a percentage of sales, less or no direct membership warehouse competition, or lack e-commerce or business delivery.
+In discussions of our consolidated operating results, we refer to the impact of changes in foreign currencies relative to the U.S. dollar, which are differences between the foreign-exchange rates we use to convert the financial results of our international operations from local currencies into U.S. dollars. This impact is calculated based on the difference between the current and prior period's exchange rates. The impact of changes in gasoline prices on net sales is calculated based on the difference between the current and prior period's average price per gallon. Results expressed excluding the impacts of foreign-exchange and gasoline prices are intended as supplemental information and are not a substitute for net sales presented in accordance with U.S. GAAP and should be reviewed in conjunction with results reported in accordance with U.S. GAAP.
+Our fiscal year ends on the Sunday closest to August 31. References to the third quarter of 2026 and 2025 relate to the 12-week fiscal quarters ended May 10, 2026, and May 11, 2025. References to the first thirty-six weeks of 2026 and 2025 relate to the 36 weeks ended May 10, 2026, and May 11, 2025. Certain percentages presented are calculated using actual results prior to rounding.
+Highlights for the third quarter of 2026 versus 2025 include:
+•We opened four new warehouses: three in the U.S. and one in Canada, compared to nine new warehouses, including one relocation;
+•Net sales increased 12% to $69,154, driven by an increase in comparable sales and sales at 23 net new warehouses opened since the end of the third quarter of 2025;
+•Higher gasoline prices positively impacted net sales by $1,367, or 221 basis points, and changes in foreign currencies positively impacted net sales by approximately $643, or 104 basis points;
+20
+Table of Contents
+•Membership fee revenue increased 11% to $1,373, primarily driven by new member sign-ups, membership fee increases, and upgrades to Executive Membership;
+•Gross margin as a percentage of net sales and excluding the impact of gasoline price inflation increased one basis point;
+•SG&A expenses as a percentage of net sales and excluding the impact of gasoline price inflation decreased two basis points;
+•The effective tax rate was 25.4%, compared to 26.2%;
+•Net income increased to $2,192, $4.93 per diluted share, compared to $1,903, $4.28 per diluted share; and
+•A quarterly cash dividend of $1.47 per share was declared on April 15, 2026, and paid on May 15, 2026.
+RESULTS OF OPERATIONS
+Net Sales
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Net Sales | $ | 69,154 | | | $ | 61,965 | | | $ | 203,374 | | | $ | 185,480 |
+Increases in net sales: | | | | | | |
+U.S. | 11 | % | | 9 | % | | 9 | % | | 9 | %
+Canada | 13 | % | | 4 | % | | 11 | % | | 5 | %
+Other International | 13 | % | | 6 | % | | 13 | % | | 6 | %
+Total Company | 12 | % | | 8 | % | | 10 | % | | 8 | %
+Increases in comparable sales: | | | | | | |
+U.S. | 9 | % | | 7 | % | | 7 | % | | 7 | %
+Canada | 11 | % | | 3 | % | | 9 | % | | 4 | %
+Other International | 11 | % | | 3 | % | | 11 | % | | 3 | %
+Total Company | 10 | % | | 6 | % | | 8 | % | | 6 | %
+Increases in comparable sales excluding the impact of changes in foreign currency and gasoline prices: | | | | | | |
+U.S. | 7 | % | | 8 | % | | 6 | % | | 8 | %
+Canada | 6 | % | | 8 | % | | 8 | % | | 8 | %
+Other International | 6 | % | | 9 | % | | 7 | % | | 9 | %
+Total Company | 7 | % | | 8 | % | | 7 | % | | 8 | %
+Net sales increased $7,189 or 12%, and $17,894 or 10% during the third quarter and first thirty-six weeks of 2026. The improvement was primarily attributable to an increase in comparable sales of $6,055 or 10% and $14,553 or 8% during the third quarter and thirty-six weeks of 2026. Comparable sales were positively impacted by increases of approximately 7% and 5% in average ticket and 2% and 3% in shopping frequency in the third quarter and first thirty-six weeks of 2026. The remaining increase was driven by sales at the 23 net new warehouses opened since the end of the third quarter of 2025.
+Digitally-enabled comparable sales increased 21% and 22% during the third quarter and first thirty-six weeks of 2026 and increased 21% for each period excluding the impact of changes in foreign currencies.
+Sales increased $3,721 or 7% and $12,384 or 8% in core merchandise categories during the third quarter and first thirty-six weeks of 2026, increasing in all categories. Sales increased $3,468 or 29% and $5,510 or 16% in warehouse ancillary and other businesses during the third quarter and first thirty-six weeks of 2026, led by gasoline and pharmacy.
+21
+Table of Contents
+The volume of gasoline sold increased approximately 10% and 6%, positively impacting net sales by $662, or 107 basis points and $1,105 or 60 basis points during the third quarter and first thirty-six weeks of 2026. Higher gasoline prices positively impacted net sales by $1,367, or 221 basis points, and $936, or 50 basis points during the third quarter and first thirty-six weeks of 2026, with a 20% and 5% increase in the average price per gallon.
+Changes in foreign currencies relative to the U.S. dollar attributable to our Other International and Canadian operations positively impacted net sales by approximately $643, or 104 basis points, and approximately $1,578, or 85 basis points, during the third quarter and first thirty-six weeks of 2026.
+Membership Fees
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Membership fees | $ | 1,373 | | | $ | 1,240 | | | $ | 4,057 | | | $ | 3,599 |
+Total paid members (000s) | 82,900 | | | 79,600 | | | — | | | — |
+Total cardholders (000s) | 148,500 | | | 142,800 | | | — | | | — |
+Membership fee revenue increased 11% and 13% in the third quarter and first thirty-six weeks of 2026, driven by new member sign-ups, membership fee increases and upgrades to Executive Membership. At the end of the third quarter of 2026, our renewal rates were 92.2% in the U.S. and Canada and 89.7% worldwide. Renewal rates were negatively impacted by a higher number of memberships sold online, including through digital promotions, entering the renewal rate calculation. These memberships renew at a slightly lower rate on average.
+As previously reported, we increased our annual membership fees in the U.S. and Canada, effective September 1, 2024. We account for membership fee revenue on a deferred basis, recognized ratably over the one-year membership period. The fee income increase accounted for approximately 25% and 35% of membership income growth during the third quarter and first thirty-six weeks of 2026.
+Gross Margin
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Net sales | $ | 69,154 | | | $ | 61,965 | | | $ | 203,374 | | $ | 185,480
+Less merchandise costs | 61,519 | | | 54,996 | | | 180,748 | | 164,849
+Gross margin | $ | 7,635 | | | $ | 6,969 | | | $ | 22,626 | | $ | 20,631
+Gross margin percentage | 11.04 | % | | 11.25 | % | | 11.13 | % | | 11.12 | %
+Quarterly Results
+Gross margin as a percentage of net sales decreased by 21 basis points. Excluding the impact of gasoline price inflation on net sales, gross margin percentage was 11.26%, an increase of one basis point. The increase was positively impacted by 14 basis points in our warehouse ancillary and other businesses, primarily pharmacy and e-commerce. A smaller LIFO charge in the third quarter of 2026 compared to the third quarter of 2025 positively impacted gross margin by 14 basis points. The absence of a charge this quarter related to a one-time expense for increased employee vacation positively impacted gross margin by two basis points. Gross margin percentage was negatively impacted by 29 basis points in our core merchandise categories, primarily due to foods and sundries and fresh foods, partially offset by our co-branded credit card program and non-foods. Changes in foreign currencies relative to the U.S. dollar positively impacted gross margin by approximately $69, compared to the third quarter of 2025, attributable to our Other International and Canadian operations.
+22
+Table of Contents
+The gross margin in core merchandise categories, when expressed as a percentage of core merchandise sales (rather than total net sales), decreased nine basis points. The decrease was primarily due to fresh foods and foods and sundries, partially offset by non-foods. This measure eliminates the impact of changes in sales penetration and gross margin from our warehouse ancillary and other businesses.
+Gross margin percentage on a segment basis, when expressed as a percentage of the segment's own sales and excluding the impact of changes in gasoline prices on net sales (segment gross margin percentage), decreased in our U.S. segment. The decrease was primarily due to a negative impact from core merchandise categories, partially offset by increases in warehouse ancillary and other businesses, a smaller LIFO charge and the absence of a charge related to a one-time expense for increased employee vacation. Our Canadian segment gross margin percentage increased, primarily due to increases in warehouse ancillary and other businesses, partially offset by decreases in core merchandise categories. Gross margin increased in our Other International segment, primarily due to increases in core merchandise categories.
+Year-to-date Results
+Gross margin as a percentage of net sales increased by one basis point. Excluding the impact of gasoline price inflation on net sales, gross margin percentage was 11.18%, an increase of six basis points. The increase was positively impacted by 13 basis points in our warehouse ancillary and other businesses, primarily pharmacy and gasoline, and three basis points from a smaller LIFO charge in the first thirty-six weeks of 2026 compared to the first thirty-six weeks of 2025. A non-recurring legal settlement also positively impacted gross margin by two basis points. Gross margin percentage was negatively impacted by 12 basis points in our core merchandise categories, primarily due to our co-branded credit card program, foods and sundries, and 2% rewards, partially offset by increases in non-foods. Changes in foreign currencies relative to the U.S. dollar positively impacted gross margin by approximately $170, compared to the first thirty-six weeks of 2025, attributable to our Other International and Canadian operations.
+The gross margin in core merchandise categories, when expressed as a percentage of core merchandise sales (rather than total net sales), increased 14 basis points. The increase was primarily due to non-foods and foods and sundries, partially offset by fresh foods.
+Segment gross margin percentage increased in all segments. Our U.S. segment performed similarly to the consolidated results above. Our Canadian segment gross margin percentage increased, primarily due to increases in warehouse ancillary and other businesses, partially offset by decreases in core merchandise categories. Gross margin increased in our Other International segment, primarily due to increases in core merchandise categories and warehouse ancillary and other businesses.
+Selling, General and Administrative Expenses
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+SG&A expenses | $ | 6,193 | | | $ | 5,679 | | | $ | 18,799 | | | $ | 17,188 |
+SG&A expenses as a percentage of net sales | 8.96 | % | | 9.16 | % | | 9.24 | % | | 9.27 | %
+Quarterly Results
+SG&A expenses as a percentage of net sales decreased by 20 basis points. SG&A expenses as a percentage of net sales excluding the impact of gasoline price inflation was 9.14%, a decrease of two basis points. Compared to last year, results were favorably impacted by five basis points attributable to the absence of a charge related to a one-time expense for increased employee vacation and one basis point from central operating costs. SG&A was negatively impacted by three basis points attributable to warehouse operations and other businesses. Stock compensation was higher by one basis point. Changes in foreign currencies relative to the U.S. dollar increased SG&A expenses by approximately $48
+23
+Table of Contents
+compared to the third quarter of 2025, attributable to our Other International and Canadian operations. SG&A expenses as a percentage of net sales was lower in our U.S. segment and higher in our Canadian and Other International segments.
+Year-to-date Results
+SG&A expenses as a percentage of net sales decreased by three basis points. SG&A expenses as a percentage of net sales excluding the impact of gasoline price inflation was 9.29%, an increase of two basis points. Compared to last year, results were negatively impacted by two basis points attributable to self-insured general liability claims expense. A charge related to a tax assessment for prior years and warehouse operations and other businesses also negatively impacted SG&A by one basis point each. The absence of a charge related to a one-time expense for increased employee vacation favorably impacted SG&A by two basis points. Changes in foreign currencies relative to the U.S. dollar increased SG&A expenses by approximately $113 compared to the first thirty-six weeks of 2025, attributable to our Other International and Canadian operations. SG&A expenses as a percentage of net sales were higher in our U.S. and Canadian segments and lower in our Other International segment.
+Interest Expense
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Interest expense | $ | 32 | | | $ | 35 | | | $ | 100 | | | $ | 108 |
+Interest expense is primarily related to Senior Notes and financing leases.
+Interest Income and Other, Net
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Interest income | $ | 130 | | | $ | 95 | | | $ | 392 | | | $ | 300 |
+Foreign-currency transaction gains (losses), net | 17 | | | (17) | | | 38 | | | 49 |
+Other, net | 8 | | | 7 | | | 28 | | | 25 |
+Interest income and other, net | $ | 155 | | | $ | 85 | | | $ | 458 | | | $ | 374 |
+The increase in interest income in the third quarter and first thirty-six weeks of 2026 was due to higher cash balances, partially offset by lower interest rates. Foreign-currency transaction gains (losses), net, include revaluation or settlement of monetary assets and liabilities by our Canadian and Other International operations and mark-to-market adjustments for forward foreign-exchange contracts. See Derivatives and Foreign Currency sections in Item 8, Note 1 of our Annual Report on Form 10-K, for the fiscal year ended August 31, 2025.
+Provision for Income Taxes
+| | | | | | | | | | | | | | | | | | | | | | |
+| 12 Weeks Ended | | 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025 | | May 10, 2026 | | May 11, 2025
+Provision for income taxes | $ | 746 | | | $ | 677 | | | $ | 2,014 | | | $ | 1,819 |
+Effective tax rate | 25.4 | % | | 26.2 | % | | 24.4 | % | | 24.9 | %
+The effective tax rate for the first thirty-six weeks of 2026 and 2025 was favorably impacted by discrete tax benefits of $72 and $100 related to stock compensation.
+24
+Table of Contents
+LIQUIDITY AND CAPITAL RESOURCES
+The following table summarizes our significant sources and uses of cash and cash equivalents:
+| | | | | | | | | | |
+| 36 Weeks Ended
+| May 10, 2026 | | May 11, 2025
+Net cash provided by operating activities | $ | 11,133 | | | $ | 9,468 |
+Net cash used in investing activities | (4,160) | | | (3,343) |
+Net cash used in financing activities | (2,175) | | | (2,182) |
+Our primary sources of liquidity are cash flows from operations, cash and cash equivalents, and short-term investments. Cash and cash equivalents and short-term investments were $19,996 and $15,284 at May 10, 2026, and August 31, 2025. Of these balances, unsettled credit and debit card receivables represented approximately $3,078 and $2,670 at May 10, 2026, and August 31, 2025. These receivables generally settle within four days.
+Material contractual obligations arising in the normal course of business primarily consist of purchase obligations, long-term debt and related interest payments, leases, and construction and land purchase obligations. Purchase obligations consist of contracts primarily related to merchandise, equipment, and third-party services, the majority of which are due in the next 12 months. Construction and land-purchase obligations consist of contracts primarily related to the development and opening of new and relocated warehouses, the majority of which (other than leases) are due in the next 12 months.
+We believe that our cash and investment positions and operating cash flow, with capacity under existing and available credit agreements, will be sufficient to meet our liquidity and capital requirements for the foreseeable future and that our U.S. current and projected asset position is sufficient to meet our U.S. liquidity requirements.
+Cash Flows from Operating Activities
+Our cash flow provided by operations is primarily from net sales and membership fees. Cash flow used in operations generally consists of payments to suppliers, warehouse operating costs, including wages and employee benefits, utilities, credit and debit card processing fees, and operating leases. Cash used in operations also includes payments for income taxes. Changes in our net investment in merchandise inventories (the difference between merchandise inventories and accounts payable) is impacted by several factors, including inventory levels and turnover, payment terms with suppliers, and early payments to obtain discounts. Net cash provided by operating activities totaled $11,133 in the first thirty-six weeks of 2026, compared to $9,468 in the first thirty-six weeks of 2025. The increase was primarily due to higher cash flow provided from operating income, as well as reduced net investment in merchandise inventories. The latter was a result of faster inventory turns and improved payment terms with suppliers.
+Cash Flows from Investing Activities
+Net cash used in investing activities totaled $4,160 in the first thirty-six weeks of 2026, compared to $3,343 in the first thirty-six weeks of 2025, and is primarily related to capital expenditures. Net cash from investing activities also includes purchases and maturities of short-term investments.
+Capital Expenditure Plans
+Our primary requirements for capital are acquiring land, buildings, and equipment for new and remodeled warehouses, information systems, and manufacturing and distribution facilities. In the first thirty-six weeks of 2026, we spent $4,228 on capital expenditures, and it is our current intention to spend approximately $6,500 during fiscal 2026, as we continue to invest in new warehouse openings, remodel existing locations, expand our depot network, and further develop our digitally-enabled businesses. These expenditures are expected to be financed with cash from operations, cash and cash equivalents, and
+25
+Table of Contents
+short-term investments. We opened 16 new warehouses, including two relocations, in the first thirty-six weeks of 2026, and plan to open 13 additional new warehouses, including one relocation, in the remainder of fiscal 2026. There can be no assurance that current expectations will be realized, and plans are subject to change upon further review of our capital expenditure needs and the economic environment.
+Cash Flows from Financing Activities
+Net cash used in financing activities totaled $2,175 in the first thirty-six weeks of 2026, compared to $2,182 in the first thirty-six weeks of 2025. Cash flow used in financing activities during the first thirty-six weeks of 2026 was primarily related to the payment of dividends, repurchases of common stock, repayments of short-term borrowings, withholding taxes on stock-based awards, and repayments of long-term debt. Cash flow provided by financing activities included proceeds from short-term borrowings.
+Long-term Debt
+Repayments of long-term debt in the first thirty-six weeks of 2026 totaled $69, as compared to no repayments in 2025.
+Dividends
+A quarterly cash dividend of $1.47 per share was declared on April 15, 2026, and paid on May 15, 2026.
+Share Repurchase Program
+On January 19, 2023, the Board of Directors authorized a share repurchase program in the amount of $4,000, which expires in January 2027. During the first thirty-six weeks of 2026 and 2025, we repurchased 638,000 and 658,000 shares of common stock, at an average price per share of $945.46 and $946.64, totaling approximately $603 and $623. These amounts may differ from the accompanying condensed consolidated statements of cash flows due to changes in unsettled repurchases at the end of a quarter. Purchases are made from time to time, as conditions warrant, potentially including the open market, block purchases and pursuant to plans under SEC Rule 10b5-1. Repurchased shares are retired, in accordance with the Washington Business Corporation Act. The remaining amount available to be purchased under our approved plan was $1,359 at the end of the third quarter.
+Bank Credit Facilities and Commercial Paper Programs
+We maintain bank credit facilities for working capital and general corporate purposes. At May 10, 2026, we had borrowing capacity under these facilities of $1,531. Our Canadian and Other International operations maintain $1,028 of this capacity under bank credit facilities, of which $338 is guaranteed by the Company. Short-term borrowings outstanding under the bank credit facilities, which are included in other current liabilities on the condensed consolidated balance sheets, were $96 at the end of the third quarter of 2026 and immaterial at the end of 2025.
+We have letter of credit facilities, for commercial and standby letters of credit, totaling $242. The outstanding commitments under these facilities at the end of the third quarter of 2026 totaled $205, most of which were standby letters of credit that do not expire or have expiration dates within one year. The bank credit facilities have various expiration dates, most within one year, and we generally intend to renew these facilities. The amount of borrowings available at any time under our bank credit facilities is reduced by the amount of standby and commercial letters of credit outstanding.
+Critical Accounting Estimates
+The preparation of our consolidated financial statements in accordance with U.S. GAAP requires that we make estimates and judgments. We base these on historical experience and on assumptions that we believe to be reasonable. Our critical accounting policies are discussed in Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” section of our Annual Report
+26
+Table of Contents
+on Form 10-K, for the fiscal year ended August 31, 2025. There have been no material changes to the critical accounting estimates previously disclosed in that Report.
+Recent Accounting Pronouncements
+See discussion of Recent Accounting Pronouncements in Note 1 to the condensed consolidated financial statements included in Part I, Item 1 of this Report.
+Item 3—Quantitative and Qualitative Disclosures about Market Risk
+Our direct exposure to financial market risk results from fluctuations in foreign-currency exchange rates and interest rates. There have been no material changes to our market risks as disclosed in our Annual Report on Form 10-K, for the fiscal year ended August 31, 2025.
+Item 4—Controls and Procedures
+Evaluation of Disclosure Controls and Procedures
+Our disclosure controls and procedures (as defined in Rules 13a-15(e) or 15d-15(e) under the Securities Exchange Act of 1934, as amended) are designed to ensure that information required to be disclosed in the reports that we file or submit under the Exchange Act is recorded, processed, summarized, and reported within the time periods specified in the rules and forms of the Securities and Exchange Commission and to ensure that information required to be disclosed is accumulated and communicated to management, including our principal executive and financial officers, to allow timely decisions regarding disclosure. The Chief Executive Officer and the Chief Financial Officer, with assistance from other members of management, have reviewed the effectiveness of our disclosure controls and procedures as of May 10, 2026, and, based on their evaluation, have concluded the disclosure controls and procedures were effective as of such date.
+Changes in Internal Control over Financial Reporting
+There have been no changes in our internal control over financial reporting (as defined in Rules 13a-15(f) or 15d-15(f) of the Exchange Act) that occurred during the third quarter of fiscal 2026 that have materially affected, or are reasonably likely to materially affect, the Company’s internal control over financial reporting.
+PART II—OTHER INFORMATION
+Item 1—Legal Proceedings
+See discussion of Legal Proceedings in Note 8 to the condensed consolidated financial statements included in Part I, Item 1 of this Report.
+Item 1A—Risk Factors
+In addition to the other information set forth in the Quarterly Report on Form 10-Q, you should carefully consider the factors discussed in Part I, Item 1A, “Risk Factors” in our Annual Report on Form 10-K, for the fiscal year ended August 31, 2025. There have been no material changes in our risk factors from those disclosed in our Annual Report on Form 10-K.
+27
+Table of Contents
+Item 2—Unregistered Sales of Equity Securities and Use of Proceeds
+The following table sets forth information on our common stock repurchase activity for the third quarter of 2026 (amounts in millions, except share and per share data):
+| | | | | | | | | | | | | | | | | | | | | | |
+Period | Total Number of Shares Purchased | | Average Price Paid Per Share | | Total Number of Shares Purchased as Part of Publicly Announced Programs (1) | | Maximum Dollar Value of Shares that May Yet be Purchased Under the Programs (1)
+February 16, 2026 — March 15, 2026 | 61,000 | | | $ | 998.15 | | | 61,000 | | | $ | 1,481 |
+March 16, 2026 — April 12, 2026 | 62,000 | | | 994.33 | | | 62,000 | | | 1,420 |
+April 13, 2026 — May 10, 2026 | 61,000 | | | 999.96 | | | 61,000 | | | 1,359 |
+Total third quarter | 184,000 | | | $ | 997.47 | | | 184,000 | | |
+_______________
+(1) Our share repurchase program is conducted under a $4,000 authorization approved by our Board of Directors in January 2023, which expires in January 2027.
+Item 3—Defaults Upon Senior Securities
+None.
+Item 4—Mine Safety Disclosures
+Not applicable.
+Item 5—Other Information
+None.
+28
+Table of Contents
+Item 6—Exhibits
+The following exhibits are filed as part of this Quarterly Report on Form 10-Q or are incorporated herein by reference.
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | Incorporated by Reference
+Exhibit Number | | Exhibit Description | | Filed Herewith | | Form | | Period Ending | | Filing Date
+| | | | | | | | | |
+3.1 | | Articles of Incorporation as amended of Costco Wholesale Corporation | | | | 10-K | | 8/28/2022 | | 10/5/2022
+| | | | | | | | | |
+3.2 | | Bylaws as amended of Costco Wholesale Corporation | | | | 8-K | | | | 9/20/2024
+| | | | | | | | | |
+31.1 | | Rule 13(a) – 14(a) Certifications | | x | | | | | |
+| | | | | | | | | |
+32.1* | | Section 1350 Certifications | | | | | | | |
+| | | | | | | | | |
+101.INS | | Inline XBRL Instance Document | | x | | | | | |
+| | | | | | | | | |
+101.SCH | | Inline XBRL Taxonomy Extension Schema Document | | x | | | | | |
+| | | | | | | | | |
+101.CAL | | Inline XBRL Taxonomy Extension Calculation Linkbase Document | | x | | | | | |
+| | | | | | | | | |
+101.DEF | | Inline XBRL Taxonomy Extension Definition Linkbase Document | | x | | | | | |
+| | | | | | | | | |
+101.LAB | | Inline XBRL Taxonomy Extension Label Linkbase Document | | x | | | | | |
+| | | | | | | | | |
+101.PRE | | Inline XBRL Taxonomy Extension Presentation Linkbase Document | | x | | | | | |
+| | | | | | | | | |
+104 | | Cover Page Interactive Data File (formatted as inline XBRL and contained in Exhibit 101) | | x | | | | | |
+_______________
+* Furnished herewith.
+29
+Table of Contents
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this Report to be signed on its behalf by the undersigned, thereunto duly authorized.
+| | | | | | | | | | |
+| | | C OSTCO W HOLESALE C ORPORATION (Registrant)
+| |
+June 3, 2026 | By | | /s/ R ON M. V ACHRIS
+Date | | | Ron M. Vachris
+| | | President and Chief Executive Officer
+| | |
+June 3, 2026 | By | | /s/ G ARY M ILLERCHIP
+Date | | | Gary Millerchip
+| | | Executive Vice President and Chief Financial Officer
+30

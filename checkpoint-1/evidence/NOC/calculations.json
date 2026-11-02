@@ -1,0 +1,50 @@
+{
+  "price_usd": "510.65",
+  "periods": {
+    "current": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "prior": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    }
+  },
+  "calculations": {
+    "Revenue growth": {
+      "value": "2.244534886554724246338313065",
+      "arithmetic": "(41,954,000,000 - 41,033,000,000) / 41,033,000,000 * 100",
+      "unit": "%"
+    },
+    "Operating margin": {
+      "value": "10.75225246698765314391953091",
+      "arithmetic": "4,511,000,000 / 41,954,000,000 * 100",
+      "unit": "%"
+    },
+    "Return on average equity": {
+      "value": "26.16693780503065949192841947",
+      "arithmetic": "4,182,000,000 / ((16,674,000,000 + 15,290,000,000) / 2) * 100",
+      "unit": "%"
+    },
+    "Debt to equity": {
+      "value": "0.9413458078445483987045699892",
+      "arithmetic": "(15,162,000,000 + 534,000,000) / 16,674,000,000",
+      "unit": "x",
+      "definition": "Long-term debt including current portion, excluding lease obligations, divided by stockholders' equity."
+    },
+    "Free cash flow": {
+      "value": "3307000000",
+      "arithmetic": "4,757,000,000 - 1,450,000,000",
+      "unit": "USD"
+    },
+    "P/E (latest fiscal-year diluted EPS)": {
+      "value": "17.56017881705639614855570839",
+      "arithmetic": "510.65 / 29.08",
+      "unit": "x"
+    }
+  },
+  "price_reference": {
+    "date": "2026-10-19",
+    "source": "https://investor.northropgrumman.com/stock-information/historical-price-lookup"
+  }
+}

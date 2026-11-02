@@ -1,0 +1,10 @@
+{
+  "status": "generated",
+  "model": "gpt-oss:120b",
+  "run_time": "2026-10-30T18:36:40.304317-04:00",
+  "report": "report.md",
+  "human_audit": "pending",
+  "manager_revisions_remaining": [],
+  "manager_issues": [],
+  "model_calls": 4
+}

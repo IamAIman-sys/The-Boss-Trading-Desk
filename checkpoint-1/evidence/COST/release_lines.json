@@ -1,0 +1,108 @@
+{
+  "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+    "accession": "0000909832-26-000084",
+    "raw_file": "earnings_release.html",
+    "text_file": "earnings_release.txt"
+  },
+  "matches": {
+    "total_revenue": [
+      {
+        "line_number": 49,
+        "line": "Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235 |",
+        "context": [
+          {
+            "line_number": 42,
+            "line": "(dollars in millions, except per share data) (unaudited)"
+          },
+          {
+            "line_number": 43,
+            "line": "| | | | | | | | | | | | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 44,
+            "line": "| 16 Weeks Ended | | 52 Weeks Ended"
+          },
+          {
+            "line_number": 45,
+            "line": "| August 30, 2026 | | August 31, 2025 | | August 30, 2026 | | August 31, 2025"
+          },
+          {
+            "line_number": 46,
+            "line": "REVENUE | | | | | | |"
+          },
+          {
+            "line_number": 47,
+            "line": "Net sales | $ | 93,873 | | | $ | 84,432 | | | $ | 297,247 | | | $ | 269,912 |"
+          },
+          {
+            "line_number": 48,
+            "line": "Membership fees | 1,850 | | | 1,724 | | | 5,907 | | | 5,323 |"
+          }
+        ]
+      }
+    ],
+    "diluted_eps": [
+      {
+        "line_number": 25,
+        "line": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.",
+        "context": [
+          {
+            "line_number": 21,
+            "line": "Total Company | 9.4% | | 6.7% | | 8.4% | | 6.6%"
+          },
+          {
+            "line_number": 22,
+            "line": "| | | | | | |"
+          },
+          {
+            "line_number": 23,
+            "line": "Digitally-Enabled | 19.5% | | 19.8% | | 20.9% | | 20.7%"
+          },
+          {
+            "line_number": 24,
+            "line": "*Excluding the impacts from changes in gasoline prices and foreign exchange."
+          }
+        ]
+      },
+      {
+        "line_number": 63,
+        "line": "Diluted | $ | 6.75 | | | $ | 5.87 | | | $ | 20.76 | | | $ | 18.21 |",
+        "context": [
+          {
+            "line_number": 42,
+            "line": "(dollars in millions, except per share data) (unaudited)"
+          },
+          {
+            "line_number": 43,
+            "line": "| | | | | | | | | | | | | | | | | | | | | | |"
+          },
+          {
+            "line_number": 44,
+            "line": "| 16 Weeks Ended | | 52 Weeks Ended"
+          },
+          {
+            "line_number": 45,
+            "line": "| August 30, 2026 | | August 31, 2025 | | August 30, 2026 | | August 31, 2025"
+          },
+          {
+            "line_number": 59,
+            "line": "NET INCOME | $ | 2,998 | | | $ | 2,610 | | | $ | 9,226 | | | $ | 8,099 |"
+          },
+          {
+            "line_number": 60,
+            "line": "| | | | | | |"
+          },
+          {
+            "line_number": 61,
+            "line": "NET INCOME PER COMMON SHARE: | | | | | | |"
+          },
+          {
+            "line_number": 62,
+            "line": "Basic | $ | 6.75 | | | $ | 5.88 | | | $ | 20.78 | | | $ | 18.24 |"
+          }
+        ]
+      }
+    ]
+  }
+}

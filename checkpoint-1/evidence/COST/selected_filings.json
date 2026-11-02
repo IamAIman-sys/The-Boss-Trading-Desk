@@ -1,0 +1,276 @@
+{
+  "10-K": {
+    "accessionNumber": "0000909832-26-000093",
+    "filingDate": "2026-10-07",
+    "reportDate": "2026-08-30",
+    "acceptanceDateTime": "2026-10-07T01:13:15.000Z",
+    "act": "34",
+    "form": "10-K",
+    "fileNumber": "000-20355",
+    "filmNumber": "261445309",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 8831787,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 1,
+    "primaryDocument": "cost-20260830.htm",
+    "primaryDocDescription": "10-K",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html",
+    "accepted": "2026-10-06 21:13:15",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+    "documents": [
+      {
+        "description": "10-K",
+        "type": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm"
+      },
+      {
+        "description": "EX-21.1",
+        "type": "EX-21.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/costex21110k83026.htm"
+      },
+      {
+        "description": "EX-23.1",
+        "type": "EX-23.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/costex23110k83026.htm"
+      },
+      {
+        "description": "EX-31.1",
+        "type": "EX-31.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/costex31110k83026.htm"
+      },
+      {
+        "description": "EX-32.1",
+        "type": "EX-32.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/costex32110k83026.htm"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830_g1.jpg"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+        "type": "EX-101.CAL",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830_cal.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+        "type": "EX-101.DEF",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830_def.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830_htm.xml"
+      }
+    ]
+  },
+  "8-K": {
+    "accessionNumber": "0000909832-26-000084",
+    "filingDate": "2026-09-24",
+    "reportDate": "2026-09-24",
+    "acceptanceDateTime": "2026-09-24T20:17:37.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "000-20355",
+    "filmNumber": "261404969",
+    "items": "2.02,9.01",
+    "core_type": "XBRL",
+    "size": 1811381,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "cost-20260924.htm",
+    "primaryDocDescription": "8-K",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/0000909832-26-000084-index.html",
+    "accepted": "2026-09-24 16:17:37",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924.htm",
+    "documents": [
+      {
+        "description": "8-K",
+        "type": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924.htm"
+      },
+      {
+        "description": "EX-99.1",
+        "type": "EX-99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm"
+      },
+      {
+        "description": "EX-99.2",
+        "type": "EX-99.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426.htm"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costco6.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426001.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426002.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426003.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426004.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426005.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426006.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426007.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426008.jpg"
+      },
+      {
+        "description": "",
+        "type": "GRAPHIC",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9928-k92426009.jpg"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/0000909832-26-000084.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924_htm.xml"
+      }
+    ]
+  },
+  "10-Q": {
+    "accessionNumber": "0000909832-26-000051",
+    "filingDate": "2026-06-03",
+    "reportDate": "2026-05-10",
+    "acceptanceDateTime": "2026-06-03T20:43:00.000Z",
+    "act": "34",
+    "form": "10-Q",
+    "fileNumber": "000-20355",
+    "filmNumber": "261061471",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 5058262,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 1,
+    "primaryDocument": "cost-20260510.htm",
+    "primaryDocDescription": "10-Q",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/0000909832-26-000051-index.html",
+    "accepted": "2026-06-03 16:43:00",
+    "document_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510.htm",
+    "documents": [
+      {
+        "description": "10-Q",
+        "type": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510.htm"
+      },
+      {
+        "description": "EX-31.1",
+        "type": "EX-31.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/costex31110q51026.htm"
+      },
+      {
+        "description": "EX-32.1",
+        "type": "EX-32.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/costex32110q51026.htm"
+      },
+      {
+        "description": "Complete submission text file",
+        "type": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/0000909832-26-000051.txt"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+        "type": "EX-101.SCH",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510.xsd"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT",
+        "type": "EX-101.CAL",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510_cal.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT",
+        "type": "EX-101.DEF",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510_def.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+        "type": "EX-101.LAB",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510_lab.xml"
+      },
+      {
+        "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+        "type": "EX-101.PRE",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510_pre.xml"
+      },
+      {
+        "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+        "type": "XML",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510_htm.xml"
+      }
+    ]
+  }
+}
