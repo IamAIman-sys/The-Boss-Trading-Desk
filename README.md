@@ -6,7 +6,7 @@ Zhang (2026). The source paper is `FRL-CanAIReplaceAnalyst.pdf` in this reposito
 pages 2–4. `research_desk.py` adds the four model roles through Purdue GenAI
 Studio, using `gpt-oss:120b` and the official OpenAI Python SDK.
 
-Checkpoint 1 requirements, preparation status, and a blank human audit are in
+Checkpoint 1 requirements, preparation status, and the recorded student audit are in
 [`checkpoint-1/`](checkpoint-1/README.md).
 
 The main entry point is **`research_desk.py`**. Keep these files together in the
@@ -24,7 +24,9 @@ project root:
 
 The saved Checkpoint 1 report is [NOC.md](checkpoint-1/reports/NOC.md).
 Its [source evidence](checkpoint-1/evidence/NOC/) and
-[blank human audit sheet](checkpoint-1/audits/NOC.md) are included.
+[human audit sheet](checkpoint-1/audits/NOC.md) are included. The audit records
+Ryan Lease’s confirmed checks, including the final Buy recommendation, and
+Samuel Parfait’s two partner checks. The report includes the course disclosure.
 `test_equity_desk.py` and `test_research_desk.py` provide verification tests;
 they are not required to run the desk. The paper and prompt library document
 the design and are not runtime dependencies.
@@ -50,6 +52,10 @@ To run the full desk, including the model report:
 The NOC price, date, and LSEG source attribution were supplied by the student.
 The source record is [price_reference.json](checkpoint-1/evidence/NOC/price_reference.json).
 P/E uses the supplied price divided by latest fiscal-year GAAP diluted EPS.
+The source adjusts historical prices for subsequent splits and/or dividends.
+The observed 1:1 split factor does not establish that the price is unadjusted
+for dividends. The report uses the displayed historical price; see the
+[human price check and qualification](checkpoint-1/audits/NOC.md).
 Change the ticker, peers, price and price reference for a different company.
 
 To run only the data steps, without model calls, use this example:

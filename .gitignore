@@ -10,3 +10,6 @@
 __pycache__/
 *.pyc
 runs/
+
+# macOS Finder metadata
+.DS_Store

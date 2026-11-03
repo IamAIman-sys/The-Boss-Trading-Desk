@@ -1,11 +1,15 @@
 # Checkpoint 1 preparation
 
 Status: the four model roles are implemented with Purdue's `gpt-oss:120b`.
-Reports and evidence are ready for human review. No audit mark in this
-folder is an AI sign-off, and nothing has been submitted to Brightspace.
+The NOC report and evidence are saved. Ryan Lease’s student audit is recorded,
+including his final Buy recommendation and Correct mark. Samuel Parfait’s two
+Correct partner checks (SP, November 2, 2026) and the course disclosure are
+recorded. No human mark is an AI sign-off. Nothing has been submitted to
+Brightspace.
 
-The deadline is October 29, 2026, at 11:59 PM Eastern. Submit a GitHub commit
-permalink in Brightspace → Checkpoint 1. The commit must contain the desk and a
+Revised deadline reported by Ryan Lease: November 3, 2026, at 11:59 PM Eastern.
+This extension is student-provided; it is not represented here as independently
+verified on the public schedule. Submit a GitHub commit permalink in Brightspace → Checkpoint 1. The commit must contain the desk and a
 report about the company chosen by your partner. The checkpoint is individual,
 worth 17.5% of the course grade, and scored 100 or 0. A course-approved fallback
 report counts.
@@ -20,17 +24,24 @@ Sources:
 
 ## Prepared
 
-- Your NOC draft: [Northrop Grumman report](reports/NOC.md), generated November 1,
+- Your NOC submission report: [Northrop Grumman report](reports/NOC.md), generated November 1,
   2026 with `gpt-oss:120b`. All four model roles completed; after one Advisor
   revision, the manager requested no further corrections. P/E is 17.56 times:
   the supplied October 19, 2026 price of USD 510.65 divided by latest annual
   GAAP diluted EPS of USD 29.08 for fiscal-year 2025. The student's source is
   LSEG through Northrop Grumman Historical Price Lookup; provenance is saved in
   `evidence/NOC/price_reference.json`. Peers
-  are RTX, LMT, and GD. The [NOC audit sheet](audits/NOC.md) is blank for human
-  review; [NOC evidence](evidence/NOC/) includes the source texts and role calls.
-  AI observations for checking the Advisor's claims are in
-  [review notes](reports/NOC-review-notes.md); no human marks were filled.
+  are RTX, LMT, and GD. The [NOC audit sheet](audits/NOC.md) records Ryan’s
+  confirmed checks, including all 11 core financial claims, additional numerical
+  checks, and the five-part template. Original findings remain recorded after
+  text revisions. The [NOC evidence](evidence/NOC/) includes source texts and role
+  calls. The [review notes](reports/NOC-review-notes.md) distinguish confirmed
+  human findings from AI source checking. The student recommendation mark and
+  audit totals are recorded. Samuel Parfait’s two Correct partner checks and
+  the final course disclosure are included. Final editorial corrections are
+  identified separately in the review notes.
+  The price source adjusts historical prices for subsequent splits and/or
+  dividends; a 1:1 split factor does not establish an unadjusted price.
 - Existing partner-company draft: [RTX report](reports/RTX.md). Your practice audit:
   [COST report](reports/COST.md). Both model reviews finished without requests
   for further corrections. This is not a human verification of their claims.
@@ -68,21 +79,18 @@ Sources:
   no `.env` file or API key. Original full runs remain under ignored `runs/`.
 - `audit-template.md` provides empty rows for the human audit.
 
-## Still required
+## Submission
 
-1. Read the student's updated NOC report and review notes. Its price, date,
-   source, annual GAAP EPS definition, and P/E are included for human review.
-2. Audit COST by hand: all 11 core claims, every other Financial Analyst number,
-   the template, and the recommendation. Record errors and missing claims.
-3. The student reports that the partner's RTX checks are complete. For the
-   student's NOC report, have the partner check two core claims and record both
-   marks at the top. Audit all 11 yourself before Session 4. Completion of the
-   NOC checks has not been reported.
-4. After human review, add the course's three-line disclosure. Do not claim that
-   you verified sources until you have done so.
-5. Commit the desk, evidence, and the required report after review. Push the commit. Submit
-   its permanent link in Brightspace. A local folder or changing branch link is
-   not the requested commit permalink.
+The submission consists of the desk, reviewed NOC report, source evidence, and
+completed audit in this repository. The report’s top records Samuel’s two checks.
+Ryan has already completed his checks on Samuel’s RTX report.
+
+Submit the permanent link to the final pushed GitHub commit in Brightspace →
+Checkpoint 1, then confirm receipt. A local folder or changing branch link is
+not the requested commit permalink. These files do not claim that Brightspace
+submission has occurred.
+
+The COST audit is a Lab 03 exercise, not a separate Checkpoint 1 upload.
 
 The report must contain these five parts: Overview; Market Positioning and
 Growth Outlook; Valuation Insights; Future Developments and Strategic
@@ -91,7 +99,7 @@ filings and accession numbers; its second line records the run time.
 
 ## If using the fallback
 
-Use the partner's company. Give a model chat the latest 10-K's income statement,
+Use the company chosen for you by your partner. Give a model chat the latest 10-K's income statement,
 balance sheet, cash flow statement, and the latest earnings release. Ask it to
 perform the four roles' tasks and produce the five report parts. Save the result
 as Markdown. Name the company and filings on the first line and put `fallback`
