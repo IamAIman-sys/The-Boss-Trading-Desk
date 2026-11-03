@@ -13,3 +13,8 @@ runs/
 
 # macOS Finder metadata
 .DS_Store
+
+# Anthropic skills for local Claude Code use only (teammates do not use Claude)
+.claude/skills/webapp-testing/
+.claude/skills/frontend-design/
+.claude/skills/doc-coauthoring/

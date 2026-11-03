@@ -233,3 +233,7 @@ Run the deterministic tests without SEC requests:
 ```sh
 .venv/bin/python -m unittest -v
 ```
+
+---
+
+AI assistance: Codex, Claude, Gemini, Purdue GenAI Studio (gpt-oss:120b). I verified the sources myself; the judgments are mine.
