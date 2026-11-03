@@ -234,6 +234,14 @@ Run the deterministic tests without SEC requests:
 .venv/bin/python -m unittest -v
 ```
 
+## Coding-agent skills
+
+`.agents/skills/` holds 8 skills from crewAI's official skill pack
+([crewAIInc/skills](https://github.com/crewAIInc/skills), MIT license, see
+`.agents/skills/CREWAI-SKILLS-LICENSE.txt`). They teach a coding agent such as
+Codex the current crewAI 1.15.x API and Flows. They are tools for building the
+desk. They are not desk code, and we did not write them.
+
 ---
 
 AI assistance: Codex, Claude, Gemini, Purdue GenAI Studio (gpt-oss:120b). I verified the sources myself; the judgments are mine.

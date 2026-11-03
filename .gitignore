@@ -18,3 +18,14 @@ runs/
 .claude/skills/webapp-testing/
 .claude/skills/frontend-design/
 .claude/skills/doc-coauthoring/
+
+# crewAI skills: Claude copy stays local; the Codex copy in .agents/skills/ is committed
+.claude/skills/getting-started/
+.claude/skills/build-flow/
+.claude/skills/design-agent/
+.claude/skills/design-task/
+.claude/skills/check-crewai-api/
+.claude/skills/connect-tools-and-mcp/
+.claude/skills/test-crewai-project/
+.claude/skills/ask-docs/
+.claude/skills/CREWAI-SKILLS-LICENSE.txt
