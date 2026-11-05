@@ -11,6 +11,7 @@ import re
 import sys
 
 import equity_desk as data
+import financial_datasets as fd
 from model_client import ModelClient, ModelError
 
 PARTS = ("Overview", "Market Positioning and Growth Outlook", "Valuation Insights",
@@ -276,6 +277,10 @@ def evidence_markdown(facts, calculations, quarter, peers):
         reference = calculations["price_reference"]
         lines += [f"Price input: {calculations['price_usd']} USD/share; date: {reference['date']}; "
                   f"source supplied with the run: {reference['source']}. The reader should check that source.", ""]
+        if reference.get("provider"):
+            lines += [f"Fetched from {reference['provider']}; field: {reference['field']}; "
+                      f"retrieved: {reference['retrieved_at']}. {reference['adjustment']} "
+                      f"{reference.get('currency_basis', '')}", ""]
     else:
         lines += ["The supplied price's market date and source have not been confirmed.", ""]
     for label, row in calculations["calculations"].items():
@@ -481,9 +486,11 @@ def main(argv=None):
     parser.add_argument("--price-date", help="Date of the supplied price, YYYY-MM-DD")
     parser.add_argument("--price-source", help="Source URL for the supplied price")
     parser.add_argument("--reuse", action="store_true", help="Use the latest completed saved data run; do not fetch SEC data")
+    fd.add_arguments(parser)
     args = parser.parse_args(argv)
     run = None
     try:
+        provider_options = fd.options(args)
         if bool(args.price_date) != bool(args.price_source) or (args.price_date and args.price is None):
             raise data.DeskError("Use --price-date and --price-source together with --price.")
         if args.price_date:
@@ -492,7 +499,8 @@ def main(argv=None):
                 raise data.DeskError("Price source must be an HTTPS URL.")
         peers = list(dict.fromkeys(data.normalize_ticker(t) for group in args.peers for t in group.split(",") if t))
         client = ModelClient()
-        run = data.Desk(data.SECClient(), args.ticker, peers, args.price, 5 if args.reuse else None)
+        run = data.Desk(data.SECClient(), args.ticker, peers, args.price, 5 if args.reuse else None,
+                        **provider_options)
         if not args.reuse:
             for step in range(1, 8):
                 run.run_step(step)
@@ -501,13 +509,21 @@ def main(argv=None):
                 saved_peers = load(run.folder, "peers.json")
                 if set(peers) != set(saved_peers):
                     raise data.DeskError("Requested peers differ from the saved run; rerun data step 7 or omit --reuse.")
-            if args.price is not None:
+            if args.price is not None or args.fetch_price_date:
                 run.run_step(5)
+            if args.compare_financial_datasets:
+                run.compare_facts(run.require("facts.json", 4), run.folder)
+                saved_peers = run.require("peers.json", 7)
+                for ticker, peer in saved_peers.items():
+                    if "facts" not in peer:
+                        raise data.DeskError(f"Saved peer facts are missing for {ticker}.")
+                    run.compare_facts(peer["facts"], run.folder / "peers" / ticker)
             print("Using saved data:", run.folder, flush=True)
         if args.price_date:
             calculations = load(run.folder, "calculations.json")
             calculations["price_reference"] = {"date": args.price_date, "source": args.price_source}
             data.save_json(run.folder / "calculations.json", calculations)
+            data.save_json(run.folder / "price_reference.json", calculations["price_reference"])
         ReportManager(client, run.folder).run()
         return 0
     except (data.DeskError, ModelError, OSError, ValueError, argparse.ArgumentTypeError) as exc:

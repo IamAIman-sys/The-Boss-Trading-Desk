@@ -17,6 +17,7 @@ project root:
 | `research_desk.py` | Runs the seven data steps and four model roles; writes the report |
 | `equity_desk.py` | Retrieves SEC filings and facts and calculates financial ratios |
 | `model_client.py` | Connects to Purdue GenAI Studio using settings from `.env` |
+| `financial_datasets.py` | Optional closing prices and comparisons with annual SEC facts |
 | `requirements.txt` | Lists the Python packages to install |
 | `.env.example` | Provides settings placeholders; contains no credentials |
 | `.gitignore` | Excludes `.env`, `.venv`, and local generated runs |
@@ -82,6 +83,81 @@ The saved steps must be complete. Supplied peers must match the saved peer list.
 A supplied price recalculates step 5; it does not fetch a market price. Date and
 source flags must be supplied together with the price. Full source texts remain
 available even when model input uses shorter excerpts.
+
+### Optional Financial Datasets connection
+
+Set `FINANCIAL_DATASETS_API_KEY` in your existing local `.env`. Keep `API_KEY`
+as your Purdue key. No extra Python packages are needed for this connection.
+The provider receives `X-API-KEY` and your `SEC_USER_AGENT` on each request.
+Keys and response error bodies are not printed. Redirects are not followed.
+
+Run both optional features, with no model calls:
+
+```sh
+.venv/bin/python equity_desk.py NOC --peers RTX --fetch-price-date 2026-10-19 --compare-financial-datasets
+```
+
+To run the same data checks and then generate a new model report:
+
+```sh
+.venv/bin/python research_desk.py NOC --peers RTX --fetch-price-date 2026-10-19 --compare-financial-datasets
+```
+
+These are example inputs, not defaults. The new run goes under ignored `runs/`;
+it does not replace the saved Checkpoint 1 report or its LSEG price evidence.
+The Financial Datasets price is a separate source; it is not labeled as LSEG
+or as an exchange quote. Check the course's source requirement before using
+it in a submission.
+
+`--fetch-price-date` requires an exact completed date before today in New York.
+It cannot be combined with `--price`, `--price-date`, or `--price-source`.
+If no unique price exists for that date, the command fails without selecting
+another trading day. Choose the trading day you intend to use. The provider's
+`close` field supplies the numerator for P/E; annual SEC GAAP diluted EPS
+still supplies the denominator. The endpoint does not specify split/dividend
+adjustment treatment, so the saved source and generated report state that
+limitation. USD is assumed for the requested US listing if currency is absent.
+A historical price does not make the latest SEC facts a point-in-time dataset.
+
+`--compare-financial-datasets` compares all nine main-company facts and each
+requested peer's facts, for the current and prior annual periods. It requires
+matching ticker, annual period, period end, and USD currency. Values are compared
+exactly, without rounding tolerance. It records both filing references when
+available. Different filing versions, restatements, or definitions may explain
+a difference; a numeric match is not a completed human audit. Vendor start dates
+are unavailable, so only annual period ends can be matched. Debt and capital
+expenditure always require definition review; no cash-flow sign conversion is
+applied. Missing fields stay missing. SEC facts continue to drive every ratio.
+
+Saved local evidence:
+
+| File in the run folder | Contents |
+| --- | --- |
+| `price_reference.json` | Fetched price, exact date, source query, retrieval time, and adjustment limitation |
+| `calculations.json` | SEC-based calculations, with the fetched price reference when requested |
+| `financial_datasets_comparison.json` | Selected main-company values, differences, definitions, and filing references |
+| `peers/TICKER/financial_datasets_comparison.json` | The same comparison for a peer |
+
+Full vendor response bodies are not saved. Keep the selected vendor evidence
+under ignored `runs/`; do not add it to the Checkpoint 1 evidence folder.
+Endpoint errors stop the requested operation with a readable error; they do not
+replace missing data with zero or a different provider.
+
+For saved data, `research_desk.py --reuse` still avoids SEC requests, but these
+optional flags make new Financial Datasets requests. They update the latest run
+and generate a new report there. For the data-only desk, price lookup can run
+with `--step 5`; statement comparison can run with `--step 4` or `--step 7`.
+Step 4 and step 7 fetch SEC facts again. Omit both new flags to retain the prior
+SEC-only behavior and manual `--price` input.
+
+Run the offline checks:
+
+```sh
+.venv/bin/python -m unittest test_equity_desk test_research_desk test_financial_datasets
+```
+
+API references: [historical prices](https://docs.financialdatasets.ai/api/prices/historical)
+and [all financial statements](https://docs.financialdatasets.ai/api/financials/all-financial-statements).
 
 The manager sends separate JSON tasks to Research Analyst, Financial Analyst,
 Investment Advisor, and Strategy Manager. The Research Analyst receives Business
@@ -233,6 +309,102 @@ Run the deterministic tests without SEC requests:
 ```sh
 .venv/bin/python -m unittest -v
 ```
+
+## Research Analyst evidence inputs (Week 3)
+
+`flow_desk.py` now sends the Research Analyst the complete data desk's saved
+financial inputs as well as filing excerpts. The graph remains
+`gather_filings -> research_analyst -> check_research -> save_run`.
+This is the Research Analyst stage only. It does not yet implement the other
+three roles or the full course Verifier.
+
+To inspect inputs without a model call:
+
+```sh
+.venv/bin/python flow_desk.py NOC --reuse --peers RTX,LMT,GD --prepare-only
+```
+
+To run this Research Analyst stage using the same saved data:
+
+```sh
+.venv/bin/python flow_desk.py NOC --reuse --peers RTX,LMT,GD
+```
+
+Without `--reuse`, Python runs SEC steps 1–7 first. `--reuse` selects a complete
+run with the requested peer set; it does not silently substitute different
+peers. `--run-folder PATH` selects a specific complete run. The ticker, selected
+10-K, facts, periods and saved calculations are checked for consistency.
+
+The input package includes:
+
+- 10-K Business and MD&A excerpts; 10-Q MD&A excerpts; the earnings release.
+  10-K Item 8 and 10-Q Item 1 (the financial statements) are not sent to the
+  model, because Purdue's `gpt-oss:120b` accepts at most 65,536 tokens. Their
+  numbers reach the model as Python evidence lines with filing tags and
+  accessions. The full texts stay in the run's source snapshot.
+- Annual XBRL facts and peer facts, including tags, accessions, units and periods.
+- Python calculations for operating margin, net profit margin, operating cash
+  flow, cash-flow margin, return on average equity, debt and debt-to-equity,
+  and interest coverage where the required facts exist. Cash-flow margin is
+  provided for comparing companies of different sizes.
+- Current/prior annual comparisons. Prior ROE requires the earlier opening
+  equity balance. Missing or nonpositive denominators remain unavailable.
+- A high-priority review flag at an absolute operating-margin change of at
+  least 5 percentage points (500 basis points). Smaller changes can still merit
+  the analyst's review. These flags do not assign a recommendation.
+- A separate debt/ROE warning when debt rises, interest coverage falls, and ROE
+  rises. If any required comparison is unavailable, the flag is unknown.
+
+Interest coverage uses operating income divided by reported interest expense,
+accepting only `InterestExpenseNonOperating` or `InterestAndDebtExpense` for the
+same annual period and filing. The actual tag is shown; net-interest tags are
+not substituted. The debt measure is long-term debt plus its current portion;
+it excludes separately reported short-term borrowings. Lease definitions are
+shown and must match. These definitions must be considered before comparing
+peers. No automatic peer ranking is performed.
+
+Output and send-back: the Research Analyst returns lists of claims. Each claim
+has three required fields: `claim`, `quote` and `citation`. Python writes the
+report from them, so a claim cannot be saved without a quote. The check then
+tests each quote and number against its cited line. A quote shortened with
+"..." passes only when each part is on that line, in order. If the check fails,
+the Flow sends the problem list back once (at most 2 attempts, as Week 3
+allows). If the send-back call itself fails, the report keeps the first draft
+and records the error. `research_analyst.json` keeps every attempt. The check
+cannot judge meaning: a claim such as "coverage fell" can pass with an exact
+quote that shows only one year. Human audit remains necessary.
+
+Input size: before each model call, the Flow estimates the input at 3.5
+characters per token (Purdue counted 3.5 and 3.75 on NOC inputs) and stops
+with no model call above 52,000 tokens. The answer may use up to 12,000 tokens;
+Purdue's limit for both together is 65,536. `--prepare-only` prints the same estimate.
+Each evidence line is sent as plain text that starts with its citation tag,
+for example `[10-K L128] ...`. Python evidence shows percentages and ratios
+to 2 decimal places and dollars as whole numbers; JSON files keep exact values.
+The check compares numbers by value, so 0.10 and 0.1 match.
+
+`--prepare-only` saves an input package, not a report or a verification result.
+Every model run saves `research_model_input.json` (the exact context sent),
+`research_context.json` (the full evidence package), `financial_evidence.json`,
+and snapshots of the source files under `evidence/`. Python calculations are
+cited as `[Python evidence L<number>]` and retain their underlying filing tags,
+periods and accessions. They are not represented as SEC quotations.
+
+Management presentations are optional, explicit inputs. To include one, save a
+text transcription or labeled excerpt next to a JSON manifest. Preserve page
+or slide numbers in the text. Each manifest item needs `file`, `title`, `date`
+(YYYY-MM-DD), and the original public HTTPS `url`. The file must be within the
+manifest folder and use `.txt` or `.md`, with at most 100 KB per document.
+Pass the manifest with `--supplements PATH`. The source text, metadata and hash
+are saved with the run. No presentation supplied means "not supplied", not
+"reviewed". Management statements remain claims to evaluate against filings.
+
+Filing excerpts are capped at 25,000 characters per selected Item; the complete
+source texts are retained in the run snapshot. The model must not claim to have
+read omitted notes. Peer inputs are SEC XBRL facts, not complete peer filings.
+The present checker matches quotes and numbers to the cited lines. It does not
+establish semantic correctness, complete claim coverage, or the investment thesis.
+Human review and the full Week 3 Verifier remain necessary.
 
 ## Coding-agent skills
 

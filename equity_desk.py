@@ -18,6 +18,7 @@ from bs4 import BeautifulSoup
 from dotenv import dotenv_values
 from pypdf import PdfReader
 import requests
+import financial_datasets as fd
 
 ROOT = Path(__file__).resolve().parent
 RUNS = ROOT / "runs"
@@ -480,8 +481,12 @@ def release_lines(text):
 
 
 class Desk:
-    def __init__(self, client, ticker, peers, price, step):
+    def __init__(self, client, ticker, peers, price, step, *, fd_client=None,
+                 fetch_price_date=None, compare_financial_datasets=False):
         self.client, self.ticker, self.peers, self.price = client, ticker, peers, price
+        self.fd_client = fd_client
+        self.fetch_price_date = fetch_price_date
+        self.compare_financial_datasets = compare_financial_datasets
         self.folder, self.state = None, {}
         if step and step != 1:
             for path in sorted(RUNS.glob("*/manifest.json"), reverse=True,
@@ -505,7 +510,27 @@ class Desk:
         report = extract_facts(raw, company)
         save_json(folder / "facts.json", report)
         print_facts(report)
+        if self.compare_financial_datasets:
+            self.compare_facts(report, folder)
+        elif (folder / "financial_datasets_comparison.json").exists():
+            save_json(folder / "financial_datasets_comparison.json",
+                      {"status": "stale", "reason": "SEC facts were fetched again without a new vendor comparison."})
         return report
+
+    def compare_facts(self, report, folder):
+        path = folder / "financial_datasets_comparison.json"
+        # Invalidate the previous check before attempting a new request.
+        save_json(path, {"status": "running", "ticker": report["company"]["ticker"]})
+        try:
+            comparison = self.fd_client.compare(report)
+        except fd.FinancialDatasetsError as exc:
+            save_json(path, {"status": "failed", "error": str(exc)})
+            raise
+        save_json(path, {"status": "complete", **comparison})
+        print(f"  Financial Datasets comparison: {report['company']['ticker']}")
+        for row in comparison["rows"]:
+            print(f"    {row['concept']} {row['column']}: {row['status']}")
+        print("  Comparison saved:", path)
 
     def run_step(self, step):
         print(f"\nStep {step}/7: {STEPS[step]}", flush=True)
@@ -536,10 +561,22 @@ class Desk:
             self.facts(self.state["company"], self.folder)
         elif step == 5:
             report = self.require("facts.json", 4)
+            reference = None
+            if self.fetch_price_date:
+                self.price, reference = self.fd_client.closing_price(self.ticker, self.fetch_price_date)
+                print(f"  Financial Datasets closing price: {self.price} USD on {reference['date']}")
+                print("  Price adjustment:", reference["adjustment"])
             results = calculate(report, self.price)
             print_calculations(results)
-            save_json(self.folder / "calculations.json", {"price_usd": str(self.price) if self.price is not None else None,
-                                                          "periods": report["periods"], "calculations": results})
+            calculated = {"price_usd": str(self.price) if self.price is not None else None,
+                          "periods": report["periods"], "calculations": results}
+            if reference:
+                calculated["price_reference"] = reference
+                save_json(self.folder / "price_reference.json", reference)
+            else:
+                # A later manual-price run must not retain fetched-price evidence.
+                (self.folder / "price_reference.json").unlink(missing_ok=True)
+            save_json(self.folder / "calculations.json", calculated)
         elif step == 6:
             docs = self.require("documents.json", 3)
             path = self.folder / docs["earnings_release"]["text_file"]
@@ -564,7 +601,7 @@ class Desk:
                     margin = calculate(report)["Operating margin"]
                     print_calculations({"Operating margin": margin})
                     peers[ticker] = {"facts": report, "operating_margin": margin}
-                except DeskError as exc:
+                except (DeskError, fd.FinancialDatasetsError) as exc:
                     peers[ticker] = {"error": str(exc)}
                     print(f"  {ticker}: {exc}")
             save_json(self.folder / "peers.json", peers)
@@ -592,13 +629,14 @@ def main(argv=None):
     parser.add_argument("--peers", nargs="*", default=[], help="Peer tickers, separated by spaces or commas")
     parser.add_argument("--price", type=positive_price, help="USD share price for fiscal-year P/E")
     parser.add_argument("--step", type=int, choices=range(1, 8), help="Run only this step; use the latest saved run for this ticker")
+    fd.add_arguments(parser)
     args = parser.parse_args(argv)
     try:
         peers = list(dict.fromkeys(normalize_ticker(t) for group in args.peers for t in group.split(",") if t))
     except argparse.ArgumentTypeError as exc:
         parser.error(str(exc))
     try:
-        desk = Desk(SECClient(), args.ticker, peers, args.price, args.step)
+        desk = Desk(SECClient(), args.ticker, peers, args.price, args.step, **fd.options(args))
         failed = []
         for step in [args.step] if args.step else range(1, 8):
             try:
