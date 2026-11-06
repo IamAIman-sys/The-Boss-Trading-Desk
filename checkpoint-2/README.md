@@ -78,9 +78,14 @@ Exhibit 99 L17 ("Book to bill ratio of 1.5x"). The number is correct, but the
 citation is off by 1 line. The student audit marked the 1.5× number Correct; it
 did not check the line number.
 
-**Partner check for test 1** (Lab 04 asks the partner to do this): open the
-10-K, accession 0001133421-26-000003, Consolidated Statements of Earnings, and
-confirm that FY2025 diluted EPS is 29.08. Write the mark here: ______
+**Partner checks** (Lab 04 asks the partner to do this). Checked by Samuel
+Parfait (SP), November 5, 2026, in the 10-K for the year ended December 31,
+2025 (accession 0001133421-26-000003):
+
+| Check | What the partner found | Verifier correction | Mark |
+| --- | --- | --- | --- |
+| 1. FY2025 GAAP diluted EPS (test 1) | $29.08 per share, printed page 48 of the 10-K | **29.08** (V26, seeded-error run) | Correct |
+| 2. FY2025 revenue growth (test 2) | Total sales $41,954 million (2025) and $41,033 million (2024); (41,954 − 41,033) ÷ 41,033 × 100 = 2.24% | **2.24** (V18, invented-number run) | Correct |
 
 ## What this Verifier cannot catch
 
