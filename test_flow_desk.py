@@ -18,14 +18,22 @@ CONTEXT = {
 
 
 class StubLLM(BaseLLM):
-    """Returns queued JSON answers in order (the last one repeats); records each prompt."""
-    answers: list[str] = []
+    """Per role, returns queued JSON answers in order (the last one repeats); records each prompt."""
+    answers: dict[str, list[str]] = {}
     prompts: list[str] = []
+
+    @staticmethod
+    def role_of(prompt):
+        return "financial" if "You are the Financial Analyst" in prompt else "research"
 
     def call(self, messages, tools=None, callbacks=None, available_functions=None,
              from_task=None, from_agent=None, response_model=None, **kwargs):
-        self.prompts.append(messages if isinstance(messages, str) else json.dumps(messages))
-        answer = self.answers[min(len(self.prompts), len(self.answers)) - 1]
+        prompt = messages if isinstance(messages, str) else json.dumps(messages)
+        self.prompts.append(prompt)
+        role = self.role_of(prompt)
+        queue = self.answers[role]
+        count = sum(self.role_of(p) == role for p in self.prompts)
+        answer = queue[min(count, len(queue)) - 1]
         if answer == "RAISE":
             raise RuntimeError("length limit was reached")
         if response_model is not None:
@@ -47,6 +55,30 @@ GOOD = json.dumps({
     "insight": "Fee growth matters more than the headline suggests.",
     "insight_evidence": [claim("Fees rose.", "Membership fees rose.", "10-K L4")]})
 BAD = json.dumps({**json.loads(GOOD), "overview": [claim("It runs 950 stores.", "We operate 950 warehouses", "10-K L2")]})
+
+
+def tag(context, start):
+    """Citation tag of the first evidence line that starts with the given text."""
+    return next(f"{r['source']} L{r['line']}" for r in context["evidence_lines"] if r["text"].startswith(start))
+
+
+def financial_answer(context, flag=True, invent=False):
+    """A Financial Analyst answer built from the fixture's Python evidence lines."""
+    def py(text, quote):
+        return claim(text, quote, tag(context, quote))
+    # The quote holds no number, so a claim with a number must fail the check.
+    margin = py("The margin rose 18 points." if invent else "The current operating margin is stated with its formula.",
+                "TST current Operating margin; period=")
+    flags = [py("Both review signals are True.", "Annual operating-margin change: 5.00 percentage points")] if flag \
+        else [py("Debt is calculated.", "TST current Debt; period=")]
+    return json.dumps({
+        "operating_margin": [margin],
+        "profitability_and_cash": [py("Net margin is calculated.", "TST current Net profit margin; period=")],
+        "debt_and_coverage": [py("Coverage is calculated.", "TST current Interest coverage; period=")],
+        "peer_comparison": [],
+        "review_flags": flags,
+        "insight": "Leverage rose while returns improved, so the gain needs a cause.",
+        "insight_evidence": [py("Debt is calculated.", "TST current Debt; period=")]})
 
 
 class CheckResearchTests(unittest.TestCase):
@@ -127,6 +159,41 @@ class CheckResearchTests(unittest.TestCase):
         self.assertIn("Insight: no citations", result["problems"])
 
 
+class CheckFinancialTests(unittest.TestCase):
+    CONTEXT = {"evidence_lines": [
+        {"source": "Python evidence", "line": 1, "text": "TST current Operating margin: 15.00 %"},
+        {"source": "Python evidence", "line": 2, "text": "Annual operating-margin change: 5.00 percentage points; high-priority review=True"}],
+        "financial_evidence": {"peers": {}}}
+
+    def answer(self, **changes):
+        ok = claim("Margin is stated.", "TST current Operating margin", "Python evidence L1")
+        flag = claim("Review is triggered.", "high-priority review=True", "Python evidence L2")
+        return {"operating_margin": [ok], "profitability_and_cash": [ok], "debt_and_coverage": [ok],
+                "peer_comparison": [], "review_flags": [flag], "insight": "A point.", "insight_evidence": [ok],
+                **changes}
+
+    def test_clean_answer_without_peers_passes(self):
+        result = flow_desk.check_financial(self.answer(), self.CONTEXT)
+        self.assertEqual(result["status"], "pass", result["problems"])
+
+    def test_missing_signal_flag_fails(self):
+        other = claim("Margin is stated.", "TST current Operating margin", "Python evidence L1")
+        result = flow_desk.check_financial(self.answer(review_flags=[other]), self.CONTEXT)
+        self.assertEqual(result["status"], "fail")
+        self.assertIn("Review Flags: no flag quotes the review-signal line [Python evidence L2]", result["problems"])
+
+    def test_empty_peer_section_fails_when_peers_were_supplied(self):
+        context = {**self.CONTEXT, "financial_evidence": {"peers": {"PEER": {}}}}
+        result = flow_desk.check_financial(self.answer(), context)
+        self.assertIn("Peer Comparison: empty, but peer evidence was supplied", result["problems"])
+
+    def test_seeded_wrong_number_in_flag_fails(self):
+        flag = claim("The change is 7 points.", "Annual operating-margin change: 5.00", "Python evidence L2")
+        result = flow_desk.check_financial(self.answer(review_flags=[flag]), self.CONTEXT)
+        self.assertEqual(result["status"], "fail")
+        self.assertTrue(any("number not on cited line" in p for p in result["problems"]), result["problems"])
+
+
 class PersonaTests(unittest.TestCase):
     def write(self, body):
         folder = Path(tempfile.mkdtemp())
@@ -171,20 +238,28 @@ class FlowTests(unittest.TestCase):
             (folder / name).write_text(json.dumps(payload))
         return runs
 
-    def run_flow(self, answers):
-        runs, stub = self.make_run(), StubLLM(model="stub", answers=answers)
+    def run_flow(self, research, financial=None, persona_dir=None):
+        """financial: a function of the context that returns the Financial Analyst's answers."""
+        runs = self.make_run()
+        context = flow_desk.build_research_context(next(runs.iterdir()))
+        answers = {"research": research, "financial": (financial or (lambda c: [financial_answer(c)]))(context)}
+        stub = StubLLM(model="stub", answers=answers)
         with mock.patch.object(data, "RUNS", runs), \
                 mock.patch.object(flow_desk.ResearchDeskFlow, "llm_factory", staticmethod(lambda: stub)), \
-                mock.patch.object(flow_desk, "PERSONA_DIR", Path(tempfile.mkdtemp())):
+                mock.patch.object(flow_desk, "PERSONA_DIR", persona_dir or Path(tempfile.mkdtemp())):
             flow = flow_desk.ResearchDeskFlow()
             flow.kickoff(inputs={"ticker": "TST", "reuse": True})
         return flow, stub
 
+    def prompts(self, stub, role):
+        return [p for p in stub.prompts if StubLLM.role_of(p) == role]
+
     def test_flow_runs_offline_and_saves(self):
         flow, stub = self.run_flow([GOOD])
-        self.assertEqual(flow.state.research_check["status"], "pass", flow.state.research_check["problems"])
-        self.assertEqual(flow.state.attempts, 1)
-        self.assertEqual(flow.state.research["future_developments"][0]["citation"], "10-K L4")
+        research = flow.state.research
+        self.assertEqual(research.check["status"], "pass", research.check["problems"])
+        self.assertEqual(research.attempts, 1)
+        self.assertEqual(research.output["future_developments"][0]["citation"], "10-K L4")
         text = (Path(flow.state.output_folder) / "research_analyst.md").read_text(encoding="utf-8")
         self.assertIn("Insight: Fee growth matters more than the headline suggests.", text)
         self.assertIn('- Fees rose. ("Membership fees rose." [10-K L4])', text)
@@ -198,25 +273,27 @@ class FlowTests(unittest.TestCase):
 
     def test_failed_draft_is_sent_back_once_with_its_problems(self):
         flow, stub = self.run_flow([BAD, GOOD])
-        self.assertEqual(flow.state.attempts, 2)
-        self.assertEqual([h["check"]["status"] for h in flow.state.history], ["fail", "pass"])
-        self.assertEqual(flow.state.research_check["status"], "pass")
-        self.assertNotIn("SEND-BACK", stub.prompts[0])
-        self.assertIn("SEND-BACK", stub.prompts[-1])
-        self.assertIn("quote not on cited line", stub.prompts[-1])
+        research = flow.state.research
+        self.assertEqual(research.attempts, 2)
+        self.assertEqual([h["check"]["status"] for h in research.history], ["fail", "pass"])
+        self.assertEqual(research.check["status"], "pass")
+        prompts = self.prompts(stub, "research")
+        self.assertNotIn("SEND-BACK", prompts[0])
+        self.assertIn("SEND-BACK", prompts[-1])
+        self.assertIn("quote not on cited line", prompts[-1])
 
     def test_send_back_stops_after_two_attempts(self):
         flow, stub = self.run_flow([BAD, BAD, GOOD])
-        self.assertEqual(flow.state.attempts, 2)
-        self.assertEqual(flow.state.research_check["status"], "fail")
+        self.assertEqual(flow.state.research.attempts, 2)
+        self.assertEqual(flow.state.research.check["status"], "fail")
         text = (Path(flow.state.output_folder) / "research_analyst.md").read_text(encoding="utf-8")
         self.assertIn("## Check problems", text)
         self.assertIn("after 2 attempt(s)", text)
 
     def test_failed_send_back_keeps_first_draft(self):
         flow, stub = self.run_flow([BAD, "RAISE"])
-        self.assertEqual(flow.state.attempts, 2)
-        self.assertEqual(flow.state.research["overview"][0]["quote"], "We operate 950 warehouses")
+        self.assertEqual(flow.state.research.attempts, 2)
+        self.assertEqual(flow.state.research.output["overview"][0]["quote"], "We operate 950 warehouses")
         text = (Path(flow.state.output_folder) / "research_analyst.md").read_text(encoding="utf-8")
         self.assertIn("Send-back attempt failed", text)
         self.assertIn("keeps the previous draft", text)
@@ -224,6 +301,49 @@ class FlowTests(unittest.TestCase):
     def test_schema_requires_quote_and_citation(self):
         with self.assertRaises(ValueError):
             flow_desk.ResearchSections.model_validate({**json.loads(GOOD), "overview": [{"claim": "No quote."}]})
+
+    def test_financial_analyst_runs_after_research_and_saves(self):
+        flow, stub = self.run_flow([GOOD])
+        financial = flow.state.financial
+        self.assertEqual(financial.check["status"], "pass", financial.check["problems"])
+        self.assertEqual(financial.attempts, 1)
+        self.assertEqual([StubLLM.role_of(p) for p in stub.prompts], ["research", "financial"])
+        self.assertIn("You are the Research Analyst", stub.prompts[0])
+        self.assertIn("Your work is qualitative", stub.prompts[0])
+        self.assertIn("Your work is quantitative", stub.prompts[1])
+        text = (Path(flow.state.output_folder) / "financial_analyst.md").read_text(encoding="utf-8")
+        self.assertIn("# Financial Analyst draft: Test Co (TST)", text)
+        self.assertIn("## Review Flags", text)
+        self.assertIn("Annual operating-margin change: 5.00 percentage points", text)
+        self.assertIn("Peer Comparison\n\nNone supplied.", text)
+        saved = json.loads((Path(flow.state.output_folder) / "financial_analyst.json").read_text(encoding="utf-8"))
+        self.assertEqual(saved["check"]["status"], "pass")
+
+    def test_financial_missing_signal_flag_is_sent_back_once(self):
+        flow, stub = self.run_flow([GOOD], lambda c: [financial_answer(c, flag=False), financial_answer(c)])
+        financial = flow.state.financial
+        self.assertEqual(financial.attempts, 2)
+        self.assertEqual([h["check"]["status"] for h in financial.history], ["fail", "pass"])
+        prompts = self.prompts(stub, "financial")
+        self.assertIn("no flag quotes the review-signal line", prompts[-1])
+        self.assertEqual(flow.state.research.attempts, 1)  # a Financial Analyst send-back never reruns research
+
+    def test_financial_invented_number_fails_after_two_attempts(self):
+        flow, stub = self.run_flow([GOOD], lambda c: [financial_answer(c, invent=True)])
+        financial = flow.state.financial
+        self.assertEqual(financial.attempts, 2)
+        self.assertEqual(financial.check["status"], "fail")
+        self.assertTrue(any("number 18" in p for p in financial.check["problems"]), financial.check["problems"])
+
+    def test_financial_persona_is_sent(self):
+        folder = Path(tempfile.mkdtemp())
+        (folder / "financial_analyst.md").write_text(
+            "".join(f"## {part}\nFA {part}.\n" for part in flow_desk.PERSONA_PARTS), encoding="utf-8")
+        flow, stub = self.run_flow([GOOD], persona_dir=folder)
+        self.assertIn("FA Scored criteria.", self.prompts(stub, "financial")[0])
+        self.assertNotIn("FA Scored criteria.", self.prompts(stub, "research")[0])
+        self.assertEqual(flow.state.financial.persona, "student persona")
+        self.assertEqual(flow.state.research.persona, "neutral rules (persona file empty)")
 
     def test_prepare_only_never_calls_model(self):
         with tempfile.TemporaryDirectory() as temp:

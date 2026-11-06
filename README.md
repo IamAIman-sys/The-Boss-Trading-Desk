@@ -310,13 +310,48 @@ Run the deterministic tests without SEC requests:
 .venv/bin/python -m unittest -v
 ```
 
-## Research Analyst evidence inputs (Week 3)
+## Verifier (Week 3, Checkpoint 2)
 
-`flow_desk.py` now sends the Research Analyst the complete data desk's saved
-financial inputs as well as filing excerpts. The graph remains
-`gather_filings -> research_analyst -> check_research -> save_run`.
-This is the Research Analyst stage only. It does not yet implement the other
-three roles or the full course Verifier.
+`verifier.py` marks every number in a compiled report as Correct, Wrong or
+Unsupported. It uses code only: exact XBRL match, the number on its cited line,
+and ratios recomputed. It writes `verified/<date-time>/verified_report.md`
+with the table of marks under the first line. `research_desk.py` runs it after
+every report.
+
+```sh
+.venv/bin/python research_desk.py --verify-only RUN_FOLDER
+```
+
+The four Lab 04 tests (seeded EPS, invented growth, clean report, skip test)
+and their marks are in [checkpoint-2/README.md](checkpoint-2/README.md).
+
+## Research Analyst and Financial Analyst nodes (Week 3)
+
+`flow_desk.py` now runs two analyst nodes on the same evidence package:
+
+```
+gather_filings -> research_analyst -> check_research -> financial_analyst -> check_financial -> save_run
+```
+
+- The Research Analyst does qualitative work: business model, competitive
+  position, catalysts, recent developments and risks. Ratios, peers, cash flow
+  and debt are not the main point of its claims.
+- The Financial Analyst does quantitative work: operating margin, net profit
+  margin, operating cash flow, return on average equity, debt and interest
+  coverage, against the prior year and the peers. It reads
+  `personas/financial_analyst.md`. Its sections are Operating Margin,
+  Profitability and Cash Flow, Debt and Interest Coverage, Peer Comparison and
+  Review Flags, then an `Insight:` line.
+- Each node has its own send-back: at most 2 attempts per role. A Financial
+  Analyst send-back does not rerun the Research Analyst.
+- `check_financial` runs the same quote/number check. It also fails when no
+  review flag cites the Python review-signal line ("Annual operating-margin
+  change ..."), and when peers were supplied but Peer Comparison is empty.
+- Each run saves `research_analyst.md/.json` and `financial_analyst.md/.json`.
+  The exit code is 0 only when both checks pass, 2 when one fails.
+
+The Investment Advisor, the Strategy Manager's send-back and the full course
+Verifier are not built yet.
 
 To inspect inputs without a model call:
 
@@ -324,7 +359,7 @@ To inspect inputs without a model call:
 .venv/bin/python flow_desk.py NOC --reuse --peers RTX,LMT,GD --prepare-only
 ```
 
-To run this Research Analyst stage using the same saved data:
+To run both analyst nodes using the same saved data:
 
 ```sh
 .venv/bin/python flow_desk.py NOC --reuse --peers RTX,LMT,GD
@@ -363,14 +398,15 @@ it excludes separately reported short-term borrowings. Lease definitions are
 shown and must match. These definitions must be considered before comparing
 peers. No automatic peer ranking is performed.
 
-Output and send-back: the Research Analyst returns lists of claims. Each claim
+Output and send-back: each analyst returns lists of claims. Each claim
 has three required fields: `claim`, `quote` and `citation`. Python writes the
 report from them, so a claim cannot be saved without a quote. The check then
 tests each quote and number against its cited line. A quote shortened with
 "..." passes only when each part is on that line, in order. If the check fails,
 the Flow sends the problem list back once (at most 2 attempts, as Week 3
 allows). If the send-back call itself fails, the report keeps the first draft
-and records the error. `research_analyst.json` keeps every attempt. The check
+and records the error. `research_analyst.json` and `financial_analyst.json`
+keep every attempt. The check
 cannot judge meaning: a claim such as "coverage fell" can pass with an exact
 quote that shows only one year. Human audit remains necessary.
 

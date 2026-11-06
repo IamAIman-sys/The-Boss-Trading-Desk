@@ -1,0 +1,83 @@
+{
+  "accession": "0001133421-26-000037",
+  "exhibit_label": "Exhibit 99",
+  "total_revenue": {
+    "current": "11122",
+    "prior": "10423",
+    "unit": "USD millions",
+    "source": {
+      "line_number": 238,
+      "line": "Total sales | 11,122 | | | 10,423 | | | 31,879 | | | 30,242 |",
+      "context": [
+        {
+          "line_number": 233,
+          "line": "| Three Months Ended September 30 | | Nine Months Ended September 30"
+        },
+        {
+          "line_number": 234,
+          "line": "$ in millions, except per share amounts | 2026 | | 2025 | | 2026 | | 2025"
+        },
+        {
+          "line_number": 235,
+          "line": "Sales | | | | | | |"
+        },
+        {
+          "line_number": 236,
+          "line": "Product | $ | 9,098 | | | $ | 8,369 | | | $ | 25,864 | | | $ | 24,148 |"
+        },
+        {
+          "line_number": 237,
+          "line": "Service | 2,024 | | | 2,054 | | | 6,015 | | | 6,094 |"
+        }
+      ]
+    },
+    "period_header": "| Three Months Ended September 30 | | Nine Months Ended September 30",
+    "column_dates": "$ in millions, except per share amounts | 2026 | | 2025 | | 2026 | | 2025"
+  },
+  "diluted_eps": {
+    "current": "7.89",
+    "prior": "7.67",
+    "unit": "USD/share",
+    "source": {
+      "line_number": 256,
+      "line": "Diluted earnings per share | $ | 7.89 | | | $ | 7.67 | | | $ | 21.72 | | | $ | 19.12 |",
+      "context": [
+        {
+          "line_number": 233,
+          "line": "| Three Months Ended September 30 | | Nine Months Ended September 30"
+        },
+        {
+          "line_number": 234,
+          "line": "$ in millions, except per share amounts | 2026 | | 2025 | | 2026 | | 2025"
+        },
+        {
+          "line_number": 235,
+          "line": "Sales | | | | | | |"
+        },
+        {
+          "line_number": 252,
+          "line": "Net earnings | $ | 1,124 | | | $ | 1,100 | | | $ | 3,093 | | | $ | 2,755 |"
+        },
+        {
+          "line_number": 253,
+          "line": "| | | | | | |"
+        },
+        {
+          "line_number": 254,
+          "line": "Basic earnings per share | $ | 7.91 | | | $ | 7.69 | | | $ | 21.77 | | | $ | 19.16 |"
+        },
+        {
+          "line_number": 255,
+          "line": "Weighted-average common shares outstanding, in millions | 142.1 | | | 143.1 | | | 142.1 | | | 143.8 |"
+        }
+      ]
+    },
+    "period_header": "| Three Months Ended September 30 | | Nine Months Ended September 30",
+    "column_dates": "$ in millions, except per share amounts | 2026 | | 2025 | | 2026 | | 2025"
+  },
+  "revenue_growth": {
+    "value": "6.706322555886021299050177492",
+    "arithmetic": "(11,122 - 10,423) / 10,423 * 100",
+    "unit": "%"
+  }
+}

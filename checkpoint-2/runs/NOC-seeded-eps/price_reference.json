@@ -1,0 +1,39 @@
+{
+  "ticker": "NOC",
+  "price_usd": "510.65",
+  "price_date": "2026-10-19",
+  "price_field": "Closing price, as supplied by the user",
+  "source_name": "LSEG through Northrop Grumman Historical Price Lookup",
+  "source_url": "https://investor.northropgrumman.com/stock-information/historical-price-lookup",
+  "provenance": "Price, date, and source attribution supplied by the user in this conversation. The source page returned HTTP 403 when accessed during this update; no independent page capture is claimed.",
+  "recorded_at": "2026-11-01T20:44:00.430201-05:00",
+  "pe_definition": "Supplied share price divided by latest fiscal-year GAAP diluted EPS; not quarterly, TTM, or forward EPS.",
+  "annual_diluted_eps": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "val": 29.08,
+    "accn": "0001133421-26-000003",
+    "fy": 2025,
+    "fp": "FY",
+    "form": "10-K",
+    "filed": "2026-01-27",
+    "frame": "CY2025",
+    "tag": "us-gaap:EarningsPerShareDiluted",
+    "unit": "USD/shares",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
+  },
+  "pe_arithmetic": "510.65 / 29.08",
+  "pe_value": "17.56017881705639614855570839",
+  "human_audit": "recorded",
+  "human_review": {
+    "auditor": "Ryan Lease",
+    "date_checked": "2026-11-01",
+    "mark": "Correct",
+    "price_usd": "510.65",
+    "price_date": "2026-10-19",
+    "split_adjustment_factor": "1:1",
+    "audit_path": "../../audits/NOC.md",
+    "source_qualification_read_by_codex": "Historical prices reflect subsequent stock splits and/or dividends. A 1:1 split factor does not establish that the price is unadjusted for dividends.",
+    "provenance_note": "This later human review supplements the original run provenance above; it does not claim that the original run captured the source page."
+  }
+}

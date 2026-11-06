@@ -13,6 +13,7 @@ import sys
 import equity_desk as data
 import financial_datasets as fd
 from model_client import ModelClient, ModelError
+import verifier
 
 PARTS = ("Overview", "Market Positioning and Growth Outlook", "Valuation Insights",
          "Future Developments and Strategic Recommendations", "Investment Recommendation")
@@ -473,6 +474,10 @@ class ReportManager:
                        "report": path.name, "human_audit": "pending", "manager_revisions_remaining": revisions,
                        "manager_issues": issues, "model_calls": len(self.trace)})
         print("Report:", path)
+        # The Verifier runs on every compiled report; no option turns it off.
+        print("Node: verifier", flush=True)
+        verified, marks = verifier.verify_run(self.folder, report_name=path.name)
+        print("Verified report:", verified / "verified_report.md", "-", verifier.summary(marks))
         if revisions:
             raise ModelError("Report saved as report_draft.md; manager issues remain after one revision round.")
         return path
@@ -480,14 +485,19 @@ class ReportManager:
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("ticker", type=data.normalize_ticker)
+    parser.add_argument("ticker", type=data.normalize_ticker, nargs="?")
     parser.add_argument("--peers", nargs="*", default=[])
+    parser.add_argument("--verify-only", metavar="RUN_FOLDER", help="Run only the Verifier on a saved run folder")
     parser.add_argument("--price", type=data.positive_price)
     parser.add_argument("--price-date", help="Date of the supplied price, YYYY-MM-DD")
     parser.add_argument("--price-source", help="Source URL for the supplied price")
     parser.add_argument("--reuse", action="store_true", help="Use the latest completed saved data run; do not fetch SEC data")
     fd.add_arguments(parser)
     args = parser.parse_args(argv)
+    if args.verify_only:
+        return verifier.main([args.verify_only])
+    if not args.ticker:
+        parser.error("a ticker is required unless --verify-only is used")
     run = None
     try:
         provider_options = fd.options(args)
