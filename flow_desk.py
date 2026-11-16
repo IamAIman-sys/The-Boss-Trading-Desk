@@ -47,7 +47,7 @@ from crewai.flow import Flow, listen, or_, router, start  # noqa: E402
 
 import equity_desk as data  # noqa: E402
 import verifier  # noqa: E402
-from research_desk import evidence_markdown, quarterly_facts, research_excerpts, source_lines  # noqa: E402
+from research_desk import evidence_markdown, heading_excerpts, quarterly_facts, research_excerpts, source_lines  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent
 PURDUE_URL = "https://genai.rcac.purdue.edu/api"
@@ -336,6 +336,13 @@ def build_research_context(folder, peers=None, supplements_manifest=None, excerp
             availability[name] = "supplied excerpts; full text retained in source snapshot"
         except data.DeskError as exc:
             sections[name] = []; availability[name] = str(exc)
+            if label == "10-K":
+                try:  # a 10-K in cross-reference format: find the sections by their headings
+                    sections[name], note = heading_excerpts((folder / filename).read_text(encoding="utf-8"),
+                                                            label=label, max_chars=excerpt_chars)
+                    availability[name] = "supplied excerpts by heading fallback: " + note
+                except data.DeskError as fallback:
+                    availability[name] = f"{exc} Heading fallback: {fallback}"
     if not sections["10-K_excerpts"]:
         raise data.DeskError("Required 10-K Business/MD&A excerpts could not be located.")
     release_rows = source_lines(release, exhibit)
@@ -668,12 +675,14 @@ def repair_quote(quote, text):
     match = difflib.SequenceMatcher(None, q, t, autojunk=False).find_longest_match(0, len(q), 0, len(t))
     if match.size < len(q) / 2:
         return None
-    best, base = None, match.b - match.a
-    for start in range(max(0, base - 8), min(len(t), base + 9)):
+    best, base = None, max(0, match.b - match.a)  # the quote may have extra words before the line's start
+    for start in range(max(0, base - 8), max(1, min(len(t), base + 9))):
         for length in range(max(1, len(q) - 12), len(q) + 13):
             ratio = difflib.SequenceMatcher(None, q, t[start:start + length], autojunk=False).ratio()
             if best is None or ratio > best[0]:
                 best = (ratio, start, start + length)
+    if best is None:
+        return None
     _, start, end = best
     while start > 0 and not t[start - 1].isspace():  # whole words only
         start -= 1
@@ -701,6 +710,29 @@ def repair_claims(output, context):
         if fixed:
             log.append({"citation": claim["citation"], "old": claim["quote"], "new": fixed[0], "similarity": fixed[1]})
             claim["quote"] = fixed[0]
+    return log
+
+
+def copy_analyst_quotes(output, upstream, context):
+    """The Advisor must copy each analyst quote exactly. When its quote is not on the
+    cited line, code copies the analysts' quote for that same citation (the one sharing
+    the most numbers with the Advisor's claim). Returns the log of every copy."""
+    lines, log = line_map(context), []
+    by_tag = {}
+    for out in upstream:
+        for claim in claims_of(out):
+            by_tag.setdefault(tidy_citation(claim["citation"]), []).append(claim["quote"])
+    for claim in claims_of(output):
+        tag = tidy_citation(claim.get("citation", ""))
+        keys = cited_keys(tag)
+        if not keys or any(key not in lines for key in keys) or tag not in by_tag:
+            continue
+        if quote_on_line(claim["quote"], _norm(" ".join(lines[key] for key in keys))):
+            continue
+        wanted = {_digits(n) for n in claimed_numbers(claim["claim"] + " " + claim["quote"])}
+        best = max(by_tag[tag], key=lambda q: len(wanted & {_digits(n) for n in NUMBER.findall(q)}))
+        log.append({"citation": tag, "old": claim["quote"], "new": best, "similarity": "copied from the analyst"})
+        claim["quote"] = best
     return log
 
 
@@ -836,7 +868,7 @@ def compile_report(state, folder, evidence_table):
             "advisor": split_claims(advisor.output, restricted, allowed)}
     titles = {**SECTIONS, **FINANCIAL_SECTIONS, **ADVISOR_SECTIONS,
               "deciding_number": "Deciding number", "insight_evidence": "Insight evidence"}
-    repairs = sum(len(runs[role.key].repairs) for role in ALL_ROLES)
+    repairs = sum(1 for role in ALL_ROLES for entry in runs[role.key].repairs if "new" in entry)
     lines.insert(-2, f"Quote repairs made in code: {repairs} (each is listed in the role's JSON file). "
                      "Claims that failed the check are not in the five parts; see Remaining review items.")
 
@@ -973,7 +1005,17 @@ class ResearchDeskFlow(Flow[DeskState]):
         for key in ("insight", "thesis", "what_would_change"):
             if isinstance(output.get(key), str):
                 output[key] = clean_format(output[key])
-        for entry in repair_claims(output, self.state.research_context):
+        try:
+            repairs = []
+            if role is ADVISOR:
+                repairs = copy_analyst_quotes(output, [self.state.research.output, self.state.financial.output],
+                                              self.state.research_context)
+            repairs += repair_claims(output, self.state.research_context)
+        except Exception as exc:  # noqa: BLE001 - a repair fault must never stop a run; the check still applies
+            repairs = []
+            run.repairs.append({"attempt": run.attempts, "error": f"quote repair skipped: {exc}"[:300]})
+            print(f"{role.title}: quote repair skipped ({exc})", flush=True)
+        for entry in repairs:
             run.repairs.append({"attempt": run.attempts, **entry})
             print(f"{role.title}: quote repaired at [{entry['citation']}] (similarity {entry['similarity']})", flush=True)
         run.output = output

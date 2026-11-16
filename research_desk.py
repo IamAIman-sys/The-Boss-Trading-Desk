@@ -123,6 +123,9 @@ def research_excerpts(text, items=("1", "7"), label="10-K", max_chars=25000):
     headings = []
     for i, line in enumerate(lines):
         match = re.match(r"^\s*Item\s+(\d+[A-C]?)\b", line, re.I)
+        if not match and re.fullmatch(r"\s*Item\.?\s*", line, re.I) and i + 1 < len(lines):
+            # A heading split over two lines: "ITEM" alone, then "1 - BUSINESS".
+            match = re.match(r"^\s*(\d+[A-C]?)\b", lines[i + 1])
         if match:
             headings.append((i, match[1].upper()))
     result = []
@@ -144,11 +147,41 @@ def research_excerpts(text, items=("1", "7"), label="10-K", max_chars=25000):
     return result
 
 
+def heading_excerpts(text, label="10-K", max_chars=25000):
+    """Fallback for a 10-K whose text has no Item headings (a cross-reference index format).
+
+    The business part starts at the title that the cross-reference index gives for
+    Item 1 (for example "ITEM 1 | | About ..."). The MD&A part starts at the first
+    "Management's Discussion and Analysis" or "Results of Operations" heading after it.
+    Table rows are never used as headings. Returns (rows, note); the note says what was sent."""
+    lines = text.splitlines()
+    plain = [i for i, line in enumerate(lines) if "|" not in line and line.strip()]
+    title = next((m[1].strip() for line in lines
+                  for m in [re.search(r"\bITEM\s*1\.?\s*\|[\s|]*([^|]+?)\s*$", line, re.I)] if m), None)
+    business = next((i for i in plain if title and lines[i].strip().lower() == title.lower()), None)
+    mdna = next((i for i in plain if (business is None or i > business) and
+                 re.match(r"^\s*(MANAGEMENT.S DISCUSSION AND ANALYSIS|RESULTS OF OPERATIONS)\b", lines[i], re.I)), None)
+    if business is None or mdna is None:
+        raise data.DeskError(f"Could not locate {label} Item 1 and Item 7, or their headings; inspect the filing.")
+    result = []
+    for start, end in ((business, mdna), (mdna, len(lines))):
+        used = 0
+        for i in range(start, end):
+            if used + len(lines[i]) > max_chars:
+                break
+            result.append({"source": label, "line": i + 1, "text": lines[i]})
+            used += len(lines[i])
+    note = (f"no Item headings in the text; business excerpt from the heading \"{lines[business].strip()}\" (L{business + 1}), "
+            f"MD&A excerpt from \"{lines[mdna].strip()}\" (L{mdna + 1}); at most {max_chars:,} characters each")
+    return result, note
+
+
 def table_numbers(line):
     numbers = []
     for cell in line.split("|")[1:]:
         cleaned = cell.strip().replace(",", "").replace("$", "").strip()
-        if re.fullmatch(r"\(?-?\d+(?:\.\d+)?\)?", cleaned):
+        # (5) is a negative in a financial table; an unbalanced "(5" or "5)" is not a number.
+        if re.fullmatch(r"\(-?\d+(?:\.\d+)?\)|-?\d+(?:\.\d+)?", cleaned):
             if cleaned.startswith("(") and cleaned.endswith(")"):
                 cleaned = "-" + cleaned[1:-1]
             numbers.append(Decimal(cleaned))

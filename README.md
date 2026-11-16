@@ -368,7 +368,16 @@ gather_filings -> research_analyst -> financial_analyst -> investment_advisor ->
   alike and every number is the same, the quote is replaced by the line's exact
   words. Each part between "..." is repaired on its own. Every repair is logged
   (`quote_repairs` in the role's JSON file, and a count in the report header).
-  A changed number or a different statement is never repaired.
+  A changed number or a different statement is never repaired. For the
+  Investment Advisor, a quote that is not on its line is first replaced by the
+  analysts' quote for the same citation (its rules say to copy it exactly).
+  A repair fault is logged and never stops a run.
+- **10-K sections.** Item 1 and Item 7 are found by their headings, also when a
+  heading is split over two lines ("ITEM" / "1 - BUSINESS"). A 10-K in
+  cross-reference format (no Item headings in the text) uses a fallback: the
+  Item 1 title from the cross-reference index, and the first "Management's
+  Discussion and Analysis" or "Results of Operations" heading. The run's
+  `availability` states when the fallback was used.
 - **compile_report** writes `report.md`: the filings line first, then the five
   parts in template order. Only claims that pass the check go into the five
   parts. A claim that still fails after the send-back is moved to "Remaining

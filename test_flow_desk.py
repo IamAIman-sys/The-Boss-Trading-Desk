@@ -202,6 +202,20 @@ class QuoteRepairTests(unittest.TestCase):
         self.assertEqual(fixed[0], "Membership fee revenue increased 11% to $5,907, driven by upgrades to Executive membership;")
         self.assertGreaterEqual(fixed[1], flow_desk.REPAIR_MIN_SIMILARITY)
 
+    def test_extra_words_before_the_line_start_do_not_crash(self):
+        # The longest match is at the line's start, but the quote has words before it.
+        self.assertIsNone(flow_desk.repair_quote("In the year, we said that Membership fee revenue increased 11%", self.LINE[:40]))
+        fixed = flow_desk.repair_quote("The Membership fee revenue increased 11% to $5,907, driven by upgrades to Executive membership;", self.LINE)
+        self.assertEqual(fixed[0], self.LINE)
+
+    def test_advisor_quote_is_copied_from_the_analyst(self):
+        context = {"evidence_lines": [{"source": "Python evidence", "line": 4, "text": "X current Net profit margin: 3.78 %; formula: a / b"}]}
+        analyst = {"profitability_and_cash": [claim("Margin.", "X current Net profit margin: 3.78 %", "Python evidence L4")]}
+        advisor = {"deciding_number": claim("Net margin is 3.78%.", "Current net profit margin is 3.78% for FY2026.", "Python evidence L4")}
+        log = flow_desk.copy_analyst_quotes(advisor, [analyst], context)
+        self.assertEqual(advisor["deciding_number"]["quote"], "X current Net profit margin: 3.78 %")
+        self.assertEqual(log[0]["similarity"], "copied from the analyst")
+
     def test_changed_number_is_never_repaired(self):
         self.assertIsNone(flow_desk.repair_quote("Membership fee revenue increased 12% to $5,907, driven by upgrades", self.LINE))
 

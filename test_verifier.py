@@ -107,6 +107,21 @@ class UnitTests(unittest.TestCase):
         self.assertTrue((first / "verified_report.md").exists() and (second / "verified_report.md").exists())
 
 
+class NegativeNumberTests(unittest.TestCase):
+    """A company with losses: the minus sign must survive in table cells, results and inputs."""
+    def test_table_cell_keeps_its_sign(self):
+        cell = " -3,501,753,000 USD; 0001628280-26-011053, `us-gaap:OperatingIncomeLoss`, 2025-01-01 to 2025-12-31 "
+        self.assertEqual(verifier.TABLE_CELL.match(cell)["num"], "-3,501,753,000")
+
+    def test_negative_result_is_a_calculation(self):
+        line = "- Operating margin: -3,501,753,000 / 1,353,790,000 * 100 = -258.662939 %. Inputs: annual facts above."
+        match = verifier.CALC.match(line)
+        self.assertEqual(match["result"], "-258.662939")
+
+    def test_unary_minus_is_recomputed(self):
+        self.assertEqual(verifier.safe_eval("-2,931,912,000 - 868,158,000"), -3800070000)
+
+
 class SentenceSplitTests(unittest.TestCase):
     def test_quote_with_two_sentences_stays_with_its_citation(self):
         line = 'Staff is 355,000 ("We employ 355,000. About 95% work in warehouses." [10-K L136]). Next point.'

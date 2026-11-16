@@ -53,9 +53,9 @@ LINE_NUMBER = re.compile(r"\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?")
 BRACKET_CITE = re.compile(r"\[([^\[\]]*?\bL\d+[^\[\]]*)\]")
 PLAIN_CITE = re.compile(r"(?<!\[)\b(10-K|10-Q|Exhibit 99(?:\.1)?)\s+(L\d+(?:\s*-\s*L?\d+)?)")
 RANGE = re.compile(r"L(\d+)(?:\s*-\s*L?(\d+))?")
-TABLE_CELL = re.compile(r"^\s*(?P<num>[\d,]+(?:\.\d+)?) (?P<unit>[A-Za-z/]+); (?P<accn>\d{10}-\d{2}-\d{6}), "
+TABLE_CELL = re.compile(r"^\s*(?P<num>-?[\d,]+(?:\.\d+)?) (?P<unit>[A-Za-z/]+); (?P<accn>\d{10}-\d{2}-\d{6}), "
                         r"`(?P<tag>[\w-]+:\w+)`, (?P<start>\d{4}-\d{2}-\d{2})(?: to (?P<end>\d{4}-\d{2}-\d{2}))?")
-CALC = re.compile(r"^- (?P<name>[^:]+): (?P<expr>[\d,.\s()+\-*/]+?) = (?P<result>[\d,]+(?:\.\d+)?)\s*(?P<unit>%|x|USD)?")
+CALC = re.compile(r"^- (?P<name>[^:]+): (?P<expr>[\d,.\s()+\-*/]+?) = (?P<result>-?[\d,]+(?:\.\d+)?)\s*(?P<unit>%|x|USD)?")
 SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z*(\[])")
 CONSTANTS = {Decimal(100), Decimal(2)}
 # Ten-K row labels used to show "the real line" beside a fact.
@@ -281,6 +281,8 @@ def safe_eval(expr):
             return ops[type(node.op)](walk(node.left), walk(node.right))
         if isinstance(node, ast.Constant):
             return Decimal(str(node.value))
+        if isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.USub):
+            return -walk(node.operand)  # a loss, for example -3,501,753,000
         raise ValueError("unsupported expression")
     return walk(ast.parse(expr.replace(",", ""), mode="eval"))
 
@@ -346,7 +348,8 @@ class Verifier:
         unsourced = []
         for token in LINE_NUMBER.finditer(match["expr"]):
             value = dec(token.group())
-            if value not in CONSTANTS and value not in self.run.known:
+            # The token is read without its sign; a sourced loss is stored with its minus sign.
+            if value not in CONSTANTS and value not in self.run.known and -value not in self.run.known:
                 unsourced.append(token.group())
                 start = offset + match.start("expr") + token.start()
                 self.mark(start, start + len(token.group()), token.group(), where, f"{name} input", "Unsupported",

@@ -55,6 +55,31 @@ class ArithmeticTests(unittest.TestCase):
         self.assertEqual(result[0]["line"], 3)
         self.assertTrue(any(r["line"] == 8 and r["text"] == "Results." for r in result))
 
+    def test_table_numbers_ignore_unbalanced_brackets(self):
+        from research_desk import table_numbers
+        self.assertEqual(table_numbers("| Revenue | 1,200 | (5) | (7 | 8) | -3 |"), [1200, -5, -3])
+
+    def test_heading_split_over_two_lines(self):
+        text = "Item\n1 | Business | 1\nITEM\n1 - BUSINESS\nWe make software.\nMore text here.\nITEM\n7 - MD&A\nRevenue rose.\nITEM\n7A - RISK"
+        result = research_excerpts(text)
+        self.assertEqual(result[0]["line"], 3)
+        self.assertTrue(any(r["text"] == "Revenue rose." for r in result))
+
+    def test_heading_fallback_for_cross_reference_format(self):
+        from research_desk import heading_excerpts
+        text = ("Cover\nABOUT TESTCO\nWe sell widgets.\nRESULTS OF OPERATIONS\nSales rose.\n"
+                "Page | | ITEM 1 | | About TestCo\n15 | | ITEM 7 | | Management's Discussion and Analysis")
+        rows, note = heading_excerpts(text)
+        self.assertEqual([r["line"] for r in rows][:3], [2, 3, 4])
+        self.assertIn('"ABOUT TESTCO" (L2)', note)
+        self.assertIn('"RESULTS OF OPERATIONS" (L4)', note)
+        self.assertNotIn("ITEM 1 |", note)  # an index row is never used as a heading
+
+    def test_heading_fallback_stops_when_nothing_is_found(self):
+        from research_desk import heading_excerpts
+        with self.assertRaises(data.DeskError):
+            heading_excerpts("No headings at all.\nJust text.")
+
 
 class FakeClient:
     model = "test-model"
