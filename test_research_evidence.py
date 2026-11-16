@@ -105,6 +105,38 @@ class PacketTests(unittest.TestCase):
         self.assertIn("companyfacts.json", paths)
         self.assertFalse(any(re.search(r"\d\.\d{3,} (%|x|percentage)", r["text"]) for r in lines))
 
+    def test_peer_median_uses_only_matching_periods(self):
+        packet, _ = evidence.financial_packet(self.folder, self.manifest, self.selected, ["PEER"])
+        lines = [r["text"] for r in evidence.metric_lines(packet)]
+        self.assertIn("Peer median current Net profit margin: unavailable (no peer with matching fiscal periods "
+                      "and a value; excluded: PEER fiscal periods differ)", lines)
+        self.assertFalse(any(t.startswith("Peer median current Operating cash flow;") for t in lines))  # raw USD: no median
+
+    def test_peer_median_with_matching_peers(self):
+        peers = {}
+        for ticker in ("PA", "PB"):
+            peer = copy.deepcopy(self.report); peer["company"]["ticker"] = ticker
+            peers[ticker] = {"facts": peer}
+        self.files["peers.json"] = peers; self.save()
+        packet, _ = evidence.financial_packet(self.folder, self.manifest, self.selected, ["PA", "PB"])
+        line = next(r["text"] for r in evidence.metric_lines(packet) if r["text"].startswith("Peer median current Net profit margin"))
+        self.assertEqual(line, "Peer median current Net profit margin: 8.00 %; peers: PA, PB; formula: median(8.00, 8.00)")
+
+    def test_pe_line_carries_price_and_eps_sources(self):
+        packet, _ = evidence.financial_packet(self.folder, self.manifest, self.selected, ["PEER"])
+        line = next(r["text"] for r in evidence.metric_lines(packet) if " current P/E:" in r["text"])
+        self.assertIn("formula: 100 / ", line)
+        self.assertIn("price date: not confirmed; price source: not confirmed", line)
+        self.assertIn("us-gaap:EarningsPerShareDiluted", line)
+
+    def test_pe_line_without_price(self):
+        self.files["calculations.json"] = {"periods": self.report["periods"], "price_usd": None,
+                                           "calculations": data.calculate(self.report)}
+        self.save()
+        packet, _ = evidence.financial_packet(self.folder, self.manifest, self.selected, ["PEER"])
+        self.assertIn(f"{self.report['company']['ticker']} current P/E: unavailable (no price supplied)",
+                      [r["text"] for r in evidence.metric_lines(packet)])
+
     def test_display_rounding(self):
         self.assertEqual(evidence.display("10.752252", "%"), "10.75")
         self.assertEqual(evidence.display("0.10228780439900498268345263", "pp"), "0.10")

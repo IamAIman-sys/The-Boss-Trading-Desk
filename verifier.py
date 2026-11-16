@@ -103,10 +103,12 @@ def blank(text, pattern, flags=0):
 class Run:
     """Everything the Verifier may read from one saved run, and nothing else."""
 
-    def __init__(self, folder, report_name="report.md"):
+    def __init__(self, folder, report_name="report.md", evidence=None):
+        """folder holds the report; evidence (default: the same folder) holds the facts and filing texts."""
         self.folder = Path(folder)
-        read = lambda name: json.loads((self.folder / name).read_text(encoding="utf-8")) if (self.folder / name).exists() else None
         self.report = (self.folder / report_name).read_text(encoding="utf-8")
+        self.folder = Path(evidence) if evidence else self.folder
+        read = lambda name: json.loads((self.folder / name).read_text(encoding="utf-8")) if (self.folder / name).exists() else None
         self.facts = read("facts.json")
         if not self.facts:
             raise ValueError(f"{self.folder}: facts.json is required")
@@ -124,8 +126,26 @@ class Run:
             if (self.folder / name).exists():
                 self.texts[label] = (self.folder / name).read_text(encoding="utf-8").splitlines()
         self.texts["Exhibit 99.1"] = self.texts.get("Exhibit 99", [])
+        self.texts["Python evidence"] = self._python_evidence()
         self.metrics = self._metrics()
         self.known = self._known_values()
+
+    def _python_evidence(self):
+        """Rebuild the "Python evidence" lines from the saved facts, in code.
+
+        The roles cite these lines (for example prior-year and peer ratios). The
+        Verifier does not read the roles' copy: it recomputes the same lines from
+        facts.json, calculations.json and peers.json. If the saved files cannot
+        give them, the lines stay unknown and such numbers are checked as before."""
+        try:
+            import research_evidence  # local import: the Verifier itself needs no SEC client
+            manifest = json.loads((self.folder / "manifest.json").read_text(encoding="utf-8"))
+            selected = json.loads((self.folder / "selected_filings.json").read_text(encoding="utf-8"))
+            packet, _ = research_evidence.financial_packet(self.folder, manifest, selected, None)
+            rows = research_evidence.metric_lines(packet)
+        except Exception:  # noqa: BLE001 - missing or partial saved files: no rebuilt lines
+            return []
+        return [row["text"] for row in sorted(rows, key=lambda r: r["line"])]
 
     def fact(self, key, column="current"):
         entry = self.facts["facts"].get(key, {}).get(column)
@@ -173,12 +193,13 @@ class Run:
         price = Decimal(str(self.price["price_usd"])) if self.price.get("price_usd") else None
         add("p/e", "x", lambda: price / eps, f"{price} / {eps}", "supplied price / facts.json annual diluted EPS")
         q = self.quarter
-        if q.get("total_revenue"):
+        # A quarter row is used only when it is complete; a partial row gives no metric.
+        if all(k in (q.get("total_revenue") or {}) for k in ("current", "prior", "source")):
             qc, qp = dec(q["total_revenue"]["current"]), dec(q["total_revenue"]["prior"])
             line = q["total_revenue"]["source"]["line_number"]
             add("quarterly revenue growth", "%", lambda: (qc - qp) / qp * 100, f"({fmt(qc)} - {fmt(qp)}) / {fmt(qp)} × 100",
                 f"Exhibit 99 L{line}")
-        if q.get("diluted_eps"):
+        if all(k in (q.get("diluted_eps") or {}) for k in ("current", "source")):
             line = q["diluted_eps"]["source"]["line_number"]
             add("quarterly diluted eps", "USD", lambda: dec(q["diluted_eps"]["current"]),
                 f"release diluted EPS {q['diluted_eps']['current']}", f"Exhibit 99 L{line}")
@@ -198,8 +219,9 @@ class Run:
             if "facts" in peer:
                 facts_of(peer["facts"], ticker)
         for key in ("total_revenue", "diluted_eps"):
-            if self.quarter.get(key):
-                for column in ("current", "prior"):
+            row = self.quarter.get(key) or {}
+            for column in ("current", "prior"):
+                if column in row and "source" in row:  # a "missing" row gives no known value
                     known.setdefault(dec(self.quarter[key][column]),
                                      f"release {key} {column}, Exhibit 99 L{self.quarter[key]['source']['line_number']}")
         if self.price.get("price_usd"):
@@ -235,6 +257,19 @@ def on_lines(stated, decimals, scale, lines):
                 if same(dec(found) * s / scale, stated, decimals):
                     return True
     return False
+
+
+def split_sentences(line):
+    """Split at sentence ends, but never inside a quotation: a quote with two sentences stays whole."""
+    parts, start = [], 0
+    for match in SENTENCE_END.finditer(line):
+        head = line[:match.start()]
+        if head.count('"') % 2 or head.count("\u201c") > head.count("\u201d"):
+            continue  # inside an open quotation
+        parts.append(line[start:match.start()])
+        start = match.end()
+    parts.append(line[start:])
+    return [part for part in parts if part] or [line]
 
 
 def safe_eval(expr):
@@ -342,7 +377,7 @@ class Verifier:
 
     def prose(self, line, offset, where, sub):
         position = 0
-        for sentence in SENTENCE_END.split(line):
+        for sentence in split_sentences(line):
             position = line.index(sentence, position)
             cited = []
             for match in BRACKET_CITE.finditer(sentence):
@@ -458,9 +493,12 @@ def summary(marks):
     return f"{len(marks)} numbers: {counts['Correct']} Correct, {counts['Wrong']} Wrong, {counts['Unsupported']} Unsupported"
 
 
-def verify_run(folder, out_root=None, report_name="report.md"):
-    """Verify one saved run. Writes a new timestamped folder; never overwrites an earlier result."""
-    run = Run(folder, report_name)
+def verify_run(folder, out_root=None, report_name="report.md", evidence=None):
+    """Verify one saved run. Writes a new timestamped folder; never overwrites an earlier result.
+
+    evidence: the folder with facts.json and the filing texts, when it is not the report's folder
+    (flow_desk.py keeps them in <flow run>/evidence/)."""
+    run = Run(folder, report_name, evidence)
     marks = Verifier(run).verify()
     stamp = datetime.now().astimezone().strftime("%Y-%m-%d_%H-%M-%S-%f")
     out = Path(out_root or Path(folder) / "verified") / stamp
@@ -476,8 +514,11 @@ def main(argv=None):
     parser.add_argument("run_folder", help="Saved run folder with report.md, facts.json and filing texts")
     args = parser.parse_args(argv)
     print("Node: verifier", flush=True)
+    folder = Path(args.run_folder)
+    # A flow_desk.py run keeps its facts and filing texts in evidence/.
+    evidence = folder / "evidence" if not (folder / "facts.json").exists() and (folder / "evidence" / "facts.json").exists() else None
     try:
-        out, marks = verify_run(args.run_folder)
+        out, marks = verify_run(folder, evidence=evidence)
     except (OSError, ValueError, KeyError) as exc:
         print("ERROR:", exc, file=sys.stderr)
         return 1

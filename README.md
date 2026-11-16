@@ -315,8 +315,12 @@ Run the deterministic tests without SEC requests:
 `verifier.py` marks every number in a compiled report as Correct, Wrong or
 Unsupported. It uses code only: exact XBRL match, the number on its cited line,
 and ratios recomputed. It writes `verified/<date-time>/verified_report.md`
-with the table of marks under the first line. `research_desk.py` runs it after
-every report.
+with the table of marks under the first line. `research_desk.py` and
+`flow_desk.py` run it after every report.
+
+For a citation to a "Python evidence" line (for example a prior-year or peer
+ratio), the Verifier rebuilds those lines itself from the saved facts,
+calculations and peers, in code. It does not read the roles' copy.
 
 ```sh
 .venv/bin/python research_desk.py --verify-only RUN_FOLDER
@@ -325,33 +329,82 @@ every report.
 The four Lab 04 tests (seeded EPS, invented growth, clean report, skip test)
 and their marks are in [checkpoint-2/README.md](checkpoint-2/README.md).
 
-## Research Analyst and Financial Analyst nodes (Week 3)
+## The agent team as a graph in code (Week 3, Lab 04)
 
-`flow_desk.py` now runs two analyst nodes on the same evidence package:
+`flow_desk.py` runs the four roles as a crewAI Flow. The graph is fixed in
+code, and it is the same on every run. A model never decides which node runs
+next.
 
 ```
-gather_filings -> research_analyst -> check_research -> financial_analyst -> check_financial -> save_run
+gather_filings -> research_analyst -> financial_analyst -> investment_advisor -> strategy_manager
+                        ^                    ^                     ^                |
+                        +---- revise_research / revise_financial / revise_advisor --+
+                                                                                    |
+                                                   report_ready -> compile_report -> verifier
 ```
 
-- The Research Analyst does qualitative work: business model, competitive
-  position, catalysts, recent developments and risks. Ratios, peers, cash flow
-  and debt are not the main point of its claims.
-- The Financial Analyst does quantitative work: operating margin, net profit
-  margin, operating cash flow, return on average equity, debt and interest
-  coverage, against the prior year and the peers. It reads
-  `personas/financial_analyst.md`. Its sections are Operating Margin,
-  Profitability and Cash Flow, Debt and Interest Coverage, Peer Comparison and
-  Review Flags, then an `Insight:` line.
-- Each node has its own send-back: at most 2 attempts per role. A Financial
-  Analyst send-back does not rerun the Research Analyst.
-- `check_financial` runs the same quote/number check. It also fails when no
-  review flag cites the Python review-signal line ("Annual operating-margin
-  change ..."), and when peers were supplied but Peer Comparison is empty.
-- Each run saves `research_analyst.md/.json` and `financial_analyst.md/.json`.
-  The exit code is 0 only when both checks pass, 2 when one fails.
+- **Role instructions** are in `roles/`, one file per role:
+  `research_analyst.md`, `financial_analyst.md`, `investment_advisor.md` and
+  `strategy_manager.md`. Each model role gets its file word for word, then its
+  persona from `personas/`. The rules win over the persona.
+- **Research Analyst** (qualitative) and **Financial Analyst** (margins,
+  cash flow, returns, debt, peers, P/E) read the same evidence package. Each
+  is one model call that returns claims with a quote and a citation.
+- **Investment Advisor** gets only the two analysts' outputs and the price
+  note. It returns Buy, Hold or Sell, a thesis in words, one deciding number
+  copied from an analyst claim, support, risks, what would change the view,
+  and an `Insight:` line.
+- **Strategy Manager** is code, not a model. It checks that the five parts are
+  present (Overview; Market Positioning and Growth Outlook; Valuation
+  Insights; Future Developments and Strategic Recommendations; Investment
+  Recommendation) and consistent: each quote is on its cited line, each
+  number is on that line, each `Insight:` number is on a cited evidence line,
+  the Financial Analyst cites the review-signal line, and the Advisor cites
+  only lines that an analyst cited and states no number in its thesis except
+  the deciding number. A failed part goes back to its owner one time, with the
+  problems. **No role runs more than 2 times in one run.**
+- **Quote repair (code).** When a quote is not on its cited line, the code
+  looks for the closest unbroken text on that same line. If it is at least 90%
+  alike and every number is the same, the quote is replaced by the line's exact
+  words. Each part between "..." is repaired on its own. Every repair is logged
+  (`quote_repairs` in the role's JSON file, and a count in the report header).
+  A changed number or a different statement is never repaired.
+- **compile_report** writes `report.md`: the filings line first, then the five
+  parts in template order. Only claims that pass the check go into the five
+  parts. A claim that still fails after the send-back is moved to "Remaining
+  review items", with its problem; a failed Insight line or deciding number is
+  shown as "not shown" with the same pointer. The Python evidence table (the 11 core claims) is
+  added to Valuation Insights unchanged. Problems that remain after the
+  send-back are listed under "Remaining review items".
+- **verifier** runs on every compiled report. No option turns it off. It reads
+  only `report.md` and the evidence snapshot (`evidence/`: facts, filing texts,
+  quarter facts, price). It skips the Investment Recommendation.
+- Each node prints its name as it starts (`Node: ...`).
+- Each run writes a new folder, `<data run>/flow/<date-time>/`, and never
+  overwrites an earlier run. It holds each role's input and output
+  (`research_model_input.json`, `advisor_input.json`, `*_analyst.json`,
+  `investment_advisor.json`), the Strategy Manager's reviews
+  (`strategy_manager.json`), `report.md`, and `verified/<date-time>/`.
+- The `Insight:` line (all three roles) must state at least one number, and
+  each number must be on a line that one of its `insight_evidence` claims
+  cites. The report puts that line's tag beside the sentence, so the Verifier
+  can check the number at its line.
+- The exit code is 0 only when all three roles pass the Strategy Manager's
+  checks, and 2 when one does not.
 
-The Investment Advisor, the Strategy Manager's send-back and the full course
-Verifier are not built yet.
+The Verifier's model step ("does the line state that number for that period,
+in that definition?") is not built yet. See the limits in
+[checkpoint-2/README.md](checkpoint-2/README.md).
+
+Lab 04 command (COST, with the Checkpoint 1 price):
+
+```sh
+.venv/bin/python flow_desk.py COST --peers WMT,TGT,BJ --price 1001.57
+```
+
+Add `--reuse` to use the saved SEC data. `--price-date YYYY-MM-DD` and
+`--price-source https://...` record where the price came from; without them,
+the report says the price's date and source are not confirmed.
 
 To inspect inputs without a model call:
 
@@ -359,7 +412,7 @@ To inspect inputs without a model call:
 .venv/bin/python flow_desk.py NOC --reuse --peers RTX,LMT,GD --prepare-only
 ```
 
-To run both analyst nodes using the same saved data:
+To run the full team on the same saved data:
 
 ```sh
 .venv/bin/python flow_desk.py NOC --reuse --peers RTX,LMT,GD
@@ -436,7 +489,10 @@ are saved with the run. No presentation supplied means "not supplied", not
 "reviewed". Management statements remain claims to evaluate against filings.
 
 Filing excerpts are capped at 25,000 characters per selected Item; the complete
-source texts are retained in the run snapshot. The model must not claim to have
+source texts are retained in the run snapshot. In the Flow, the cap is made
+shorter in steps of 2,500 characters (to at least 12,500) until the largest
+first message plus a 4,000-token send-back reserve fits the 52,000-token input
+limit. The run's `availability` and `excerpt_policy` state the cap used. The model must not claim to have
 read omitted notes. Peer inputs are SEC XBRL facts, not complete peer filings.
 The present checker matches quotes and numbers to the cited lines. It does not
 establish semantic correctness, complete claim coverage, or the investment thesis.

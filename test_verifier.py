@@ -107,5 +107,15 @@ class UnitTests(unittest.TestCase):
         self.assertTrue((first / "verified_report.md").exists() and (second / "verified_report.md").exists())
 
 
+class SentenceSplitTests(unittest.TestCase):
+    def test_quote_with_two_sentences_stays_with_its_citation(self):
+        line = 'Staff is 355,000 ("We employ 355,000. About 95% work in warehouses." [10-K L136]). Next point.'
+        self.assertEqual(verifier.split_sentences(line),
+                         ['Staff is 355,000 ("We employ 355,000. About 95% work in warehouses." [10-K L136]).', "Next point."])
+
+    def test_plain_sentences_still_split(self):
+        self.assertEqual(verifier.split_sentences("One is 5. Two is 6."), ["One is 5.", "Two is 6."])
+
+
 if __name__ == "__main__":
     unittest.main()

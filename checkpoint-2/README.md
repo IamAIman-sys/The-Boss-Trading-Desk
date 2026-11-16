@@ -98,15 +98,20 @@ Parfait (SP), November 5, 2026, in the 10-K for the year ended December 31,
 - **Meaning, thesis and recommendation.** The Verifier does not judge these.
   Human audit is still necessary.
 
-## Not done yet (Lab 05 and the Week 3 graph)
+## After Checkpoint 2 (added November 15, 2026; not part of the submitted commit)
 
-- The crewAI Flow (`flow_desk.py`) has the Research Analyst and Financial
-  Analyst nodes. The Investment Advisor and Strategy Manager nodes are not
-  built, so the Flow does not yet make a compiled report for the Verifier
-  node. Until they are built, `research_desk.py` makes the compiled reports,
-  and it runs the Verifier every time.
-- Lab 05: the three personas in the student's own words, the Insight-line
-  rules in the Strategy Manager, the run on the partner's pick, and the UI page.
+- The crewAI Flow (`flow_desk.py`) now has the full Week 3 graph: Research
+  Analyst, Financial Analyst, Investment Advisor, a code-only Strategy Manager
+  (5 parts, one send-back per role), the compiled report and the Verifier node.
+  See the main README.
+- The Verifier now rebuilds the "Python evidence" lines from the saved facts,
+  in code, so a prior-year or peer ratio cited to such a line is checked at
+  that line. Before this change, those numbers were compared with the
+  company's current-year metric and marked Wrong by mistake. The 3 Checkpoint 2
+  test runs give the same marks as above (they cite no Python evidence lines).
+- Not done yet (Lab 05): the Investment Advisor persona and the Financial
+  Analyst persona's remaining gaps, the run on the partner's pick, and the UI
+  page. The Verifier's model step (period and definition) is also not built.
 
 This is a learning exercise, not financial advice.
 AI assistance: Claude (Verifier code and tests), Codex and Purdue GenAI Studio (gpt-oss:120b) (Checkpoint 1 report). I verified the sources myself; the judgments are mine.

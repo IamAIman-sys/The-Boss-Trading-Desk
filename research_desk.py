@@ -115,8 +115,10 @@ def source_lines(text, label, start=0):
             for i, line in enumerate(text.splitlines())]
 
 
-def research_excerpts(text, items=("1", "7"), label="10-K"):
-    """Choose the longest Business and MD&A section, avoiding table-of-contents hits."""
+def research_excerpts(text, items=("1", "7"), label="10-K", max_chars=25000):
+    """Choose the longest Business and MD&A section, avoiding table-of-contents hits.
+
+    Each Item keeps at most max_chars characters, on complete lines."""
     lines = text.splitlines()
     headings = []
     for i, line in enumerate(lines):
@@ -135,7 +137,7 @@ def research_excerpts(text, items=("1", "7"), label="10-K"):
         _, start, end = max(spans)
         used = 0
         for i in range(start, end):
-            if used + len(lines[i]) > 25000:
+            if used + len(lines[i]) > max_chars:
                 break
             result.append({"source": label, "line": i + 1, "text": lines[i]})
             used += len(lines[i])

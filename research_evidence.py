@@ -2,6 +2,7 @@
 
 from datetime import date, timedelta
 from decimal import Decimal
+from statistics import median
 import hashlib
 import json
 import re
@@ -169,6 +170,12 @@ def financial_packet(folder, manifest, selected, peers=None):
     packet = {"company": report["company"], "facts": report, "metrics": annual_metrics(report, raw),
               "peers": {}, "peer_policy": "Compare only compatible definitions and fiscal periods. Raw cash-flow dollars are size-dependent; cash-flow margin supports size-adjusted comparison. No automatic peer ranking."}
     packet["signals"] = review_signals(packet["metrics"])
+    # P/E: the supplied price is the one market number; Python divides it by annual diluted EPS.
+    reference = saved.get("price_reference") or {}
+    pe = recomputed.get("P/E (latest fiscal-year diluted EPS)", {})
+    eps = report["facts"].get("diluted_eps", {}).get("current")
+    packet["valuation"] = {"price_usd": saved.get("price_usd"), "price_date": reference.get("date"),
+                           "price_source": reference.get("source"), "pe": pe, "eps": eps}
     paths = ["facts.json", "calculations.json", "peers.json"] + (["companyfacts.json"] if raw_path.exists() else [])
     for ticker, peer in peer_reports.items():
         if not re.fullmatch(r"[A-Z0-9.-]+", ticker):
@@ -216,6 +223,42 @@ def metric_lines(packet):
                 metric["citation"] = f"[Python evidence L{len(lines)}]"
                 for entry in metric["inputs"]:
                     append(f"{ticker} input: {entry['val']} {entry['unit']}; {entry['tag']}; {entry.get('start', 'instant')} to {entry['end']}; accession={entry['accn']}; {entry['filing_url']}")
+    valuation = packet.get("valuation") or {}
+    ticker = packet["company"]["ticker"]
+    pe, eps = valuation.get("pe") or {}, valuation.get("eps")
+    if valuation.get("price_usd") is None:
+        append(f"{ticker} current P/E: unavailable (no price supplied)")
+    elif pe.get("value") is None:
+        append(f"{ticker} current P/E: unavailable ({pe.get('reason', 'not computed')})")
+    else:
+        append(f"{ticker} current P/E: {display(pe['value'], 'x')} x; formula: {pe['arithmetic']} "
+               f"(supplied price {valuation['price_usd']} USD / annual diluted EPS); "
+               f"price date: {valuation.get('price_date') or 'not confirmed'}; price source: {valuation.get('price_source') or 'not confirmed'}; "
+               f"EPS tag: {eps['tag']}; {eps.get('start', 'instant')} to {eps['end']}; accession={eps['accn']}")
+    # Peer medians: Python computes them; the model never does. Only peers whose fiscal periods
+    # match the company's count, and only size-adjusted measures (%, x), not raw dollars.
+    own = packet.get("metrics", {}).get("current", {})
+    for name, metric in own.items():
+        if metric.get("unit") == "USD":
+            continue
+        used, skipped = [], []
+        for peer_ticker, peer in packet["peers"].items():
+            value = peer.get("metrics", {}).get("current", {}).get(name, {}).get("value")
+            if "metrics" not in peer:
+                skipped.append(f"{peer_ticker} facts unavailable")
+            elif not peer.get("periods_match_company"):
+                skipped.append(f"{peer_ticker} fiscal periods differ")
+            elif value is None:
+                skipped.append(f"{peer_ticker} value unavailable")
+            else:
+                used.append((peer_ticker, Decimal(str(value))))
+        note = ("; excluded: " + ", ".join(skipped)) if skipped else ""
+        if used:
+            values = [v for _, v in used]
+            append(f"Peer median current {name}: {display(median(values), metric['unit'])} {metric['unit']}; "
+                   f"peers: {', '.join(t for t, _ in used)}; formula: median({', '.join(display(v, metric['unit']) for v in values)}){note}")
+        else:
+            append(f"Peer median current {name}: unavailable (no peer with matching fiscal periods and a value{note})")
     append("Review policy: at least 5 percentage points (500 basis points) in either direction; a student-selected trigger, not a filing fact.")
     signals = packet["signals"]
     append(f"Annual operating-margin change: {display(signals['operating_margin_change_pp'], 'pp')} percentage points; high-priority review={signals['high_priority_review']}; ROE/debt/coverage warning={signals['roe_debt_warning']}. Unknown is not false.")

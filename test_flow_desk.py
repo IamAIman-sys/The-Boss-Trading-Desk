@@ -24,6 +24,8 @@ class StubLLM(BaseLLM):
 
     @staticmethod
     def role_of(prompt):
+        if "You are the Investment Advisor" in prompt:
+            return "advisor"
         return "financial" if "You are the Financial Analyst" in prompt else "research"
 
     def call(self, messages, tools=None, callbacks=None, available_functions=None,
@@ -52,8 +54,21 @@ GOOD = json.dumps({
     "overview": [claim("The company runs a large network.", "We operate 912 warehouses worldwide.", "10-K L2")],
     "market_positioning": [claim("Scale supports its position.", "We operate 912 warehouses worldwide.", "[10-K L2]")],
     "future_developments": [claim("Fee income is growing.", "Membership fees rose.", "10\u2011K L4")],
-    "insight": "Fee growth matters more than the headline suggests.",
-    "insight_evidence": [claim("Fees rose.", "Membership fees rose.", "10-K L4")]})
+    "insight": "Scale across 912 warehouses matters more than the headline suggests.",
+    "insight_evidence": [claim("The network is large.", "We operate 912 warehouses worldwide.", "10-K L2"),
+                         claim("Fees rose.", "Membership fees rose.", "10-K L4")]})
+def advisor_answer(**changes):
+    """An Investment Advisor answer that copies only claims from GOOD."""
+    network = claim("The network has 912 warehouses.", "We operate 912 warehouses worldwide.", "10-K L2")
+    fees = claim("Fees rose.", "Membership fees rose.", "10-K L4")
+    return json.dumps({"recommendation": "Hold",
+                       "thesis": "Scale supports the business, but fee growth still needs proof.",
+                       "deciding_number": network, "support": [network], "risks": [fees],
+                       "what_would_change": "A filing that shows fee growth would move the view up one step.",
+                       "insight": "Fee growth rests on a base of 912 warehouses.",
+                       "insight_evidence": [network], **changes})
+
+
 BAD = json.dumps({**json.loads(GOOD), "overview": [claim("It runs 950 stores.", "We operate 950 warehouses", "10-K L2")]})
 
 
@@ -77,8 +92,9 @@ def financial_answer(context, flag=True, invent=False):
         "debt_and_coverage": [py("Coverage is calculated.", "TST current Interest coverage; period=")],
         "peer_comparison": [],
         "review_flags": flags,
-        "insight": "Leverage rose while returns improved, so the gain needs a cause.",
-        "insight_evidence": [py("Debt is calculated.", "TST current Debt; period=")]})
+        "insight": "Leverage rose while the margin moved 5.00 percentage points, so the gain needs a cause.",
+        "insight_evidence": [py("Debt is calculated.", "TST current Debt; period="),
+                             py("The margin moved.", "Annual operating-margin change: 5.00 percentage points")]})
 
 
 class CheckResearchTests(unittest.TestCase):
@@ -159,6 +175,137 @@ class CheckResearchTests(unittest.TestCase):
         self.assertIn("Insight: no citations", result["problems"])
 
 
+class YearTests(unittest.TestCase):
+    """A year names a period; the check does not treat it as a claimed amount."""
+    def test_years_are_not_claimed_numbers(self):
+        self.assertEqual(flow_desk.claimed_numbers("Opened 28 in 2026 (FY2025-2026, FY 2024)."), ["28"])
+
+    def test_amounts_that_look_like_years_are_kept(self):
+        self.assertEqual(flow_desk.claimed_numbers("$2026 and 2,026 and 2026% and 2026 million"),
+                         ["$2026", "2,026", "2026%", "2026"])
+
+    def test_claim_with_a_year_passes_when_its_amount_is_on_the_line(self):
+        text = 'Costs rose in 2026: "Net sales increased 6% to $62.15 billion." [Exhibit 99.1 L4]'
+        self.assertEqual(flow_desk.check_research({"Overview": text}, CONTEXT)["status"], "pass")
+
+    def test_wrong_amount_still_fails_beside_a_year(self):
+        text = 'Sales rose 7% in 2026: "Net sales increased 6% to $62.15 billion." [Exhibit 99.1 L4]'
+        self.assertEqual(flow_desk.check_research({"Overview": text}, CONTEXT)["status"], "fail")
+
+
+class QuoteRepairTests(unittest.TestCase):
+    """Change 1: a near-miss quote gets the cited line's exact words; nothing else is changed."""
+    LINE = "Membership fee revenue increased 11% to $5,907, driven by upgrades to Executive membership;"
+
+    def test_near_miss_is_repaired(self):
+        fixed = flow_desk.repair_quote("Membership fee revenue increased 11% to $5,907, driven by upgrades to Executive memberships", self.LINE)
+        self.assertEqual(fixed[0], "Membership fee revenue increased 11% to $5,907, driven by upgrades to Executive membership;")
+        self.assertGreaterEqual(fixed[1], flow_desk.REPAIR_MIN_SIMILARITY)
+
+    def test_changed_number_is_never_repaired(self):
+        self.assertIsNone(flow_desk.repair_quote("Membership fee revenue increased 12% to $5,907, driven by upgrades", self.LINE))
+
+    def test_different_statement_is_not_repaired(self):
+        self.assertIsNone(flow_desk.repair_quote("Gasoline prices raised sales by $3,501 million", self.LINE))
+
+    def test_each_part_around_skipped_words_is_repaired(self):
+        fixed = flow_desk.repair_quote("Membership fee revenue increased 11% ... upgrades to Executive memberships", self.LINE)
+        self.assertEqual(fixed[0], "Membership fee revenue increased 11% ... upgrades to Executive membership;")
+
+    def test_long_unmarked_gap_is_not_repaired(self):
+        self.assertIsNone(flow_desk.repair_quote("Membership fee revenue driven by Executive membership", self.LINE))
+
+    def test_repair_claims_logs_and_fixes_in_place(self):
+        context = {"evidence_lines": [{"source": "10-K", "line": 7, "text": self.LINE}]}
+        output = {"overview": [claim("Fees rose 11%.", "Membership fee revenue increased 11% to $5,907, driven by upgrades to Executive memberships", "10-K L7")]}
+        log = flow_desk.repair_claims(output, context)
+        self.assertEqual(len(log), 1)
+        self.assertEqual(log[0]["citation"], "10-K L7")
+        self.assertEqual(flow_desk.check_research(flow_desk.render_sections(output, {"overview": "Overview"}), context)["problems"],
+                         ["Insight: no citations"])  # the repaired claim passes; only the empty Insight remains
+
+
+class CheckInsightTests(unittest.TestCase):
+    """Week 3: the Insight line states a number that the Verifier can check at its line."""
+    CONTEXT = {"evidence_lines": [
+        {"source": "10-K", "line": 10, "text": "We operate 912 warehouses worldwide."},
+        {"source": "Exhibit 99.1", "line": 4, "text": "Net sales increased 6% to $62.15 billion."}]}
+
+    def output(self, sentence):
+        return {"insight": sentence,
+                "insight_evidence": [claim("Sales grew.", "Net sales increased 6%", "Exhibit 99.1 L4"),
+                                     claim("Network.", "We operate 912 warehouses", "10-K L10")]}
+
+    def test_number_on_an_evidence_line_passes_and_gives_its_tag(self):
+        result = flow_desk.check_insight(self.output("Growth of 6% rests on 912 warehouses."), self.CONTEXT)
+        self.assertEqual(result["problems"], [])
+        self.assertEqual(result["insight_citation"], "Exhibit 99.1 L4")
+        self.assertEqual(result["insight_citations"], ["Exhibit 99.1 L4", "10-K L10"])
+        run = flow_desk.RoleRun(output=self.output("Growth of 6% rests on 912 warehouses."), check=result)
+        self.assertEqual(flow_desk.insight_line(run), "Insight: Growth of 6% rests on 912 warehouses [Exhibit 99.1 L4] [10-K L10].")
+
+    def test_sentence_without_a_number_fails(self):
+        result = flow_desk.check_insight(self.output("Growth rests on the network."), self.CONTEXT)
+        self.assertIn("states no number", result["problems"][0])
+
+    def test_number_not_on_any_evidence_line_fails(self):
+        result = flow_desk.check_insight(self.output("Growth of 7% rests on the network."), self.CONTEXT)
+        self.assertEqual(result["problems"],
+                         ["Insight: number 7% is not on any line that an insight_evidence claim cites"])
+
+    def test_number_only_on_an_uncited_line_fails(self):
+        output = {"insight": "The network has 912 warehouses.",
+                  "insight_evidence": [claim("Sales grew.", "Net sales increased 6%", "Exhibit 99.1 L4")]}
+        self.assertTrue(flow_desk.check_insight(output, self.CONTEXT)["problems"])
+
+    def test_research_output_check_includes_the_insight(self):
+        output = {**json.loads(GOOD), "insight": "No number here."}
+        result = flow_desk.check_research_output(output, {"evidence_lines": [
+            {"source": "10-K", "line": 2, "text": "We operate 912 warehouses worldwide."},
+            {"source": "10-K", "line": 4, "text": "Membership fees rose."}]})
+        self.assertEqual(result["status"], "fail")
+        self.assertTrue(any(p.startswith("Insight: the sentence states no number") for p in result["problems"]))
+
+
+class FitContextTests(unittest.TestCase):
+    """Excerpts get shorter, in steps, until one send-back fits the input limit."""
+    def fake_build(self, sizes):
+        def build(folder, peers, manifest, chars):
+            sizes.append(chars)
+            return {"availability": {}, "excerpt_chars": chars}
+        return build
+
+    def fake_message(self, context, persona, rules=None):
+        return "x" * int(context["excerpt_chars"] * 2 * flow_desk.CHARS_PER_TOKEN)  # tokens = 2 x chars
+
+    def test_shortens_until_the_reserve_fits(self):
+        sizes = []
+        limit = 2 * 20000 + flow_desk.SEND_BACK_RESERVE_TOKENS
+        with mock.patch.object(flow_desk, "build_research_context", self.fake_build(sizes)), \
+                mock.patch.object(flow_desk, "build_message", self.fake_message), \
+                mock.patch.object(flow_desk, "MAX_INPUT_TOKENS", limit):
+            context = flow_desk.fit_context("run", None, None, {})
+        self.assertEqual(sizes, [25000, 22500, 20000])
+        self.assertIn("shortened from 25,000 to 20,000", context["availability"]["excerpt_size"])
+
+    def test_full_excerpts_when_they_fit(self):
+        sizes = []
+        with mock.patch.object(flow_desk, "build_research_context", self.fake_build(sizes)), \
+                mock.patch.object(flow_desk, "build_message", self.fake_message), \
+                mock.patch.object(flow_desk, "MAX_INPUT_TOKENS", 10 ** 6):
+            context = flow_desk.fit_context("run", None, None, {})
+        self.assertEqual(sizes, [25000])
+        self.assertNotIn("excerpt_size", context["availability"])
+
+    def test_stops_at_the_minimum(self):
+        sizes = []
+        with mock.patch.object(flow_desk, "build_research_context", self.fake_build(sizes)), \
+                mock.patch.object(flow_desk, "build_message", self.fake_message), \
+                mock.patch.object(flow_desk, "MAX_INPUT_TOKENS", 10):
+            flow_desk.fit_context("run", None, None, {})
+        self.assertEqual(sizes[-1], flow_desk.MIN_EXCERPT_CHARS)
+
+
 class CheckFinancialTests(unittest.TestCase):
     CONTEXT = {"evidence_lines": [
         {"source": "Python evidence", "line": 1, "text": "TST current Operating margin: 15.00 %"},
@@ -169,7 +316,7 @@ class CheckFinancialTests(unittest.TestCase):
         ok = claim("Margin is stated.", "TST current Operating margin", "Python evidence L1")
         flag = claim("Review is triggered.", "high-priority review=True", "Python evidence L2")
         return {"operating_margin": [ok], "profitability_and_cash": [ok], "debt_and_coverage": [ok],
-                "peer_comparison": [], "review_flags": [flag], "insight": "A point.", "insight_evidence": [ok],
+                "peer_comparison": [], "review_flags": [flag], "insight": "A 15.00 % margin needs a cause.", "insight_evidence": [ok],
                 **changes}
 
     def test_clean_answer_without_peers_passes(self):
@@ -238,11 +385,12 @@ class FlowTests(unittest.TestCase):
             (folder / name).write_text(json.dumps(payload))
         return runs
 
-    def run_flow(self, research, financial=None, persona_dir=None):
+    def run_flow(self, research, financial=None, persona_dir=None, advisor=None):
         """financial: a function of the context that returns the Financial Analyst's answers."""
         runs = self.make_run()
         context = flow_desk.build_research_context(next(runs.iterdir()))
-        answers = {"research": research, "financial": (financial or (lambda c: [financial_answer(c)]))(context)}
+        answers = {"research": research, "financial": (financial or (lambda c: [financial_answer(c)]))(context),
+                   "advisor": advisor or [advisor_answer()]}
         stub = StubLLM(model="stub", answers=answers)
         with mock.patch.object(data, "RUNS", runs), \
                 mock.patch.object(flow_desk.ResearchDeskFlow, "llm_factory", staticmethod(lambda: stub)), \
@@ -261,8 +409,8 @@ class FlowTests(unittest.TestCase):
         self.assertEqual(research.attempts, 1)
         self.assertEqual(research.output["future_developments"][0]["citation"], "10-K L4")
         text = (Path(flow.state.output_folder) / "research_analyst.md").read_text(encoding="utf-8")
-        self.assertIn("Insight: Fee growth matters more than the headline suggests.", text)
-        self.assertIn('- Fees rose. ("Membership fees rose." [10-K L4])', text)
+        self.assertIn("Insight: Scale across 912 warehouses matters more than the headline suggests [10-K L2].", text)
+        self.assertIn('- Fees rose ("Membership fees rose." [10-K L4]).', text)
         self.assertTrue((Path(flow.state.output_folder) / "research_context.json").exists())
         self.assertTrue((Path(flow.state.output_folder) / "research_model_input.json").exists())
         self.assertTrue((Path(flow.state.output_folder) / "evidence" / "facts.json").exists())
@@ -298,6 +446,42 @@ class FlowTests(unittest.TestCase):
         self.assertIn("Send-back attempt failed", text)
         self.assertIn("keeps the previous draft", text)
 
+    def test_failed_first_call_is_sent_back_once(self):
+        flow, stub = self.run_flow(["RAISE", GOOD])
+        research = flow.state.research
+        self.assertEqual(research.attempts, 2)
+        self.assertEqual(research.check["status"], "pass", research.check["problems"])
+        self.assertEqual(research.call_error, "")
+        self.assertIn("First attempt failed: length limit was reached", self.prompts(stub, "research")[-1])
+        self.assertTrue((Path(flow.state.verified_folder) / "verified_report.md").exists())
+
+    def test_failed_first_and_second_call_still_compiles_and_verifies(self):
+        flow, stub = self.run_flow(["RAISE", "RAISE"])
+        self.assertEqual(flow.state.research.attempts, 2)
+        self.assertEqual(flow.state.research.check["status"], "fail")
+        report = (Path(flow.state.output_folder) / "report.md").read_text(encoding="utf-8")
+        self.assertIn("## Remaining review items", report)
+        self.assertTrue((Path(flow.state.verified_folder) / "verified_report.md").exists())
+
+    def test_near_miss_quote_is_repaired_and_logged(self):
+        near = json.dumps({**json.loads(GOOD), "overview": [claim("The network is large.", "We operate 912 warehouse worldwide.", "10-K L2")]})
+        flow, stub = self.run_flow([near])
+        research = flow.state.research
+        self.assertEqual(research.attempts, 1)
+        self.assertEqual(research.check["status"], "pass", research.check["problems"])
+        self.assertEqual(research.repairs[0]["new"], "We operate 912 warehouses worldwide.")
+        saved = json.loads((Path(flow.state.output_folder) / "research_analyst.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(saved["quote_repairs"]), 1)
+        self.assertIn("Quote repairs made in code: 1", (Path(flow.state.output_folder) / "report.md").read_text(encoding="utf-8"))
+
+    def test_failed_claims_leave_the_report_body(self):
+        flow, stub = self.run_flow([BAD, BAD])
+        report = (Path(flow.state.output_folder) / "report.md").read_text(encoding="utf-8")
+        body, review = report.split("## Remaining review items", 1)
+        self.assertNotIn("950 warehouses", body)
+        self.assertIn("Research Analyst / Overview: removed from the report: It runs 950 stores", review)
+        self.assertIn("Overview\n\nNone passed the Strategy Manager's check.", body)
+
     def test_schema_requires_quote_and_citation(self):
         with self.assertRaises(ValueError):
             flow_desk.ResearchSections.model_validate({**json.loads(GOOD), "overview": [{"claim": "No quote."}]})
@@ -307,7 +491,7 @@ class FlowTests(unittest.TestCase):
         financial = flow.state.financial
         self.assertEqual(financial.check["status"], "pass", financial.check["problems"])
         self.assertEqual(financial.attempts, 1)
-        self.assertEqual([StubLLM.role_of(p) for p in stub.prompts], ["research", "financial"])
+        self.assertEqual([StubLLM.role_of(p) for p in stub.prompts], ["research", "financial", "advisor"])
         self.assertIn("You are the Research Analyst", stub.prompts[0])
         self.assertIn("Your work is qualitative", stub.prompts[0])
         self.assertIn("Your work is quantitative", stub.prompts[1])
@@ -344,6 +528,62 @@ class FlowTests(unittest.TestCase):
         self.assertNotIn("FA Scored criteria.", self.prompts(stub, "research")[0])
         self.assertEqual(flow.state.financial.persona, "student persona")
         self.assertEqual(flow.state.research.persona, "neutral rules (persona file empty)")
+
+    def test_graph_compiles_five_parts_and_always_verifies(self):
+        flow, stub = self.run_flow([GOOD])
+        out = Path(flow.state.output_folder)
+        report = (out / "report.md").read_text(encoding="utf-8")
+        positions = [report.index("## " + part) for part in flow_desk.PARTS]
+        self.assertEqual(positions, sorted(positions))
+        self.assertTrue(report.startswith("Test Co (TST); filings read: 10-K 0000000001-26-000001"))
+        self.assertIn("Recommendation: **Hold**", report)
+        self.assertIn("Insight: Fee growth rests on a base of 912 warehouses [10-K L2].", report)
+        self.assertIn("### Python evidence (code-generated, unchanged)", report)
+        self.assertTrue((Path(flow.state.verified_folder) / "verified_report.md").exists())
+        self.assertTrue((out / "strategy_manager.json").exists() and (out / "advisor_input.json").exists())
+        self.assertEqual(flow.state.manager[-1]["next"], "report_ready")
+        self.assertEqual(flow.state.advisor.check["status"], "pass", flow.state.advisor.check["problems"])
+        # The Verifier rebuilds the Python evidence lines from the saved facts; they equal what the roles saw.
+        rebuilt = flow_desk.verifier.Run(out, "report.md", out / "evidence").texts["Python evidence"]
+        sent = [r["text"] for r in flow.state.research_context["evidence_lines"] if r["source"] == "Python evidence"]
+        self.assertTrue(sent)
+        self.assertEqual(rebuilt, sent)
+
+    def test_advisor_sees_only_the_analysts_outputs(self):
+        flow, stub = self.run_flow([GOOD])
+        prompt = self.prompts(stub, "advisor")[0]
+        self.assertIn("research_analyst", prompt)
+        self.assertIn("financial_analyst", prompt)
+        self.assertNotIn("evidence_lines", prompt)
+
+    def test_advisor_new_fact_is_sent_back_once(self):
+        new_fact = claim("Sales rose 6%.", "Net sales increased 6%", "Exhibit 99.1 L1")
+        flow, stub = self.run_flow([GOOD], advisor=[advisor_answer(support=[new_fact]), advisor_answer()])
+        advisor = flow.state.advisor
+        self.assertEqual(advisor.attempts, 2)
+        self.assertEqual([h["check"]["status"] for h in advisor.history], ["fail", "pass"])
+        self.assertIn("no analyst cited", self.prompts(stub, "advisor")[-1])
+        self.assertEqual(flow.state.research.attempts, 1)
+
+    def test_advisor_number_in_thesis_fails_after_two_attempts(self):
+        flow, stub = self.run_flow([GOOD], advisor=[advisor_answer(thesis="Growth of 9% is likely.")])
+        self.assertEqual(flow.state.advisor.attempts, 2)
+        self.assertTrue(any("Thesis: number 9%" in p for p in flow.state.advisor.check["problems"]))
+        report = (Path(flow.state.output_folder) / "report.md").read_text(encoding="utf-8")
+        self.assertIn("## Remaining review items", report)
+
+    def test_no_role_runs_more_than_twice(self):
+        flow, stub = self.run_flow([BAD], lambda c: [financial_answer(c, flag=False)],
+                                   advisor=[advisor_answer(thesis="Up 9%.")])
+        counts = {role: sum(StubLLM.role_of(p) == role for p in stub.prompts) for role in ("research", "financial", "advisor")}
+        self.assertEqual(counts, {"research": 2, "financial": 2, "advisor": 2})
+        self.assertEqual(flow.state.manager[-1]["next"], "report_ready")
+
+    def test_manager_parts_come_from_its_role_file(self):
+        self.assertEqual(flow_desk.PARTS, ("Overview", "Market Positioning and Growth Outlook", "Valuation Insights",
+                                           "Future Developments and Strategic Recommendations", "Investment Recommendation"))
+        for name in ("research_analyst.md", "financial_analyst.md", "investment_advisor.md", "strategy_manager.md"):
+            self.assertTrue((flow_desk.ROLES_DIR / name).exists(), name)
 
     def test_prepare_only_never_calls_model(self):
         with tempfile.TemporaryDirectory() as temp:
