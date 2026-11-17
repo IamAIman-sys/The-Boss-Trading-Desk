@@ -382,7 +382,7 @@ class FlowTests(unittest.TestCase):
         folder.mkdir()
         manifest = {"company": {"ticker": "TST", "name": "Test Co", "cik": "1"},
                     "steps": {str(n): {"status": "complete"} for n in range(1, 8)}}
-        row = {"accessionNumber": "0000000001-26-000001", "accepted": "2026-11-01", "index_url": "u", "document_url": "u"}
+        row = {"accessionNumber": "0000000001-26-000001", "accepted": "2026-11-01 16:05:00", "index_url": "u", "document_url": "u"}
         files = {"manifest.json": manifest, "selected_filings.json": {"10-K": row, "8-K": row},
                  "documents.json": {"earnings_release": {"exhibit_label": "Exhibit 99.1"}}}
         for name, content in files.items():
@@ -399,7 +399,7 @@ class FlowTests(unittest.TestCase):
             (folder / name).write_text(json.dumps(payload))
         return runs
 
-    def run_flow(self, research, financial=None, persona_dir=None, advisor=None):
+    def run_flow(self, research, financial=None, persona_dir=None, advisor=None, live=False):
         """financial: a function of the context that returns the Financial Analyst's answers."""
         runs = self.make_run()
         context = flow_desk.build_research_context(next(runs.iterdir()))
@@ -410,7 +410,7 @@ class FlowTests(unittest.TestCase):
                 mock.patch.object(flow_desk.ResearchDeskFlow, "llm_factory", staticmethod(lambda: stub)), \
                 mock.patch.object(flow_desk, "PERSONA_DIR", persona_dir or Path(tempfile.mkdtemp())):
             flow = flow_desk.ResearchDeskFlow()
-            flow.kickoff(inputs={"ticker": "TST", "reuse": True})
+            flow.kickoff(inputs={"ticker": "TST", "reuse": True, "live": live})
         return flow, stub
 
     def prompts(self, stub, role):
@@ -598,6 +598,35 @@ class FlowTests(unittest.TestCase):
                                            "Future Developments and Strategic Recommendations", "Investment Recommendation"))
         for name in ("research_analyst.md", "financial_analyst.md", "investment_advisor.md", "strategy_manager.md"):
             self.assertTrue((flow_desk.ROLES_DIR / name).exists(), name)
+
+    def test_live_window_math(self):
+        from datetime import datetime
+        inside = flow_desk.live_window("2026-11-19 16:05:00", datetime(2026, 11, 20, 10, 0, tzinfo=flow_desk.EASTERN))
+        late = flow_desk.live_window("2026-11-19 16:05:00", datetime(2026, 11, 20, 16, 6, tzinfo=flow_desk.EASTERN))
+        self.assertTrue(inside["open"])
+        self.assertEqual(inside["window_ends_et"], "2026-11-20T16:05:00-05:00")
+        self.assertFalse(late["open"])
+
+    def test_live_run_after_the_window_stops_before_any_model_call(self):
+        with self.assertRaisesRegex(data.DeskError, "24-hour window ended"):
+            flow, stub = self.run_flow([GOOD], live=True)  # the fixture's 8-K was accepted 2026-11-01
+
+    def test_live_run_inside_the_window_saves_to_runs_live(self):
+        live_root = Path(tempfile.mkdtemp())
+        with mock.patch.object(flow_desk, "LIVE_WINDOW", flow_desk.timedelta(days=36500)):
+            flow, stub = self.run_flow([GOOD], live=True)
+            target = flow_desk.save_live(flow.state, root=live_root)
+        self.assertEqual(target.parent.name, "TST_2026-11-01")
+        for name in ("report.md", "verified_report.md", "marks.json", "live.json"):
+            self.assertTrue((target / name).exists(), name)
+        record = json.loads((target / "live.json").read_text(encoding="utf-8"))
+        self.assertTrue(record["report_inside_window"])
+        self.assertEqual(record["accession"], "0000000001-26-000001")
+        self.assertIn("Live run: earnings 8-K 0000000001-26-000001", (target / "report.md").read_text(encoding="utf-8"))
+        self.assertFalse((target / "10-K.txt").exists())  # filing texts stay in the ignored data run
+
+    def test_live_refuses_saved_data(self):
+        self.assertEqual(flow_desk.main(["TST", "--live", "--reuse"]), 1)
 
     def test_prepare_only_never_calls_model(self):
         with tempfile.TemporaryDirectory() as temp:

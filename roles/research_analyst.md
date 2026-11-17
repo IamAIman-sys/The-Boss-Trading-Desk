@@ -40,6 +40,8 @@ Write 3 to 6 claims per section.
 insight: one sentence that a careful reader learns from the filings but that
 the earnings release's first paragraph does not state. It states at least one
 number, copied exactly from a line that one of its insight_evidence claims
-cites. Do not write a citation in the sentence: the code adds the tag of the
+cites. Write each number exactly as that line prints it: the same digits,
+decimals and units. Do not rescale a number (no "billion" for a full dollar
+amount) and do not round it. Do not write a citation in the sentence: the code adds the tag of the
 evidence line that holds the number.
 insight_evidence: 1 to 3 claims, in the same form, that support the insight.

@@ -235,6 +235,24 @@ def metric_lines(packet):
                f"(supplied price {valuation['price_usd']} USD / annual diluted EPS); "
                f"price date: {valuation.get('price_date') or 'not confirmed'}; price source: {valuation.get('price_source') or 'not confirmed'}; "
                f"EPS tag: {eps['tag']}; {eps.get('start', 'instant')} to {eps['end']}; accession={eps['accn']}")
+    # Prior-year change: Python computes the change and the relative change, so a persona's
+    # tolerance band (for example within 2% of the prior-year value) needs no model arithmetic.
+    prior = packet.get("metrics", {}).get("prior", {})
+    for name, metric in packet.get("metrics", {}).get("current", {}).items():
+        if metric.get("unit") == "USD":
+            continue
+        before = prior.get(name, {})
+        if metric.get("value") is None or before.get("value") is None:
+            append(f"{ticker} prior-year change, {name}: unavailable (current or prior-year value missing)")
+            continue
+        now, then = Decimal(str(metric["value"])), Decimal(str(before["value"]))
+        unit = metric["unit"]
+        step = "percentage points" if unit == "%" else unit
+        change = now - then
+        relative = (f"{display(change / abs(then) * 100, '%')} % of the size of the prior-year value"
+                    if then != 0 else "unavailable (prior-year value is zero)")
+        append(f"{ticker} prior-year change, {name}: {display(now, unit)} {unit} vs {display(then, unit)} {unit}; "
+               f"change {display(change, unit)} {step}; relative change {relative}")
     # Peer medians: Python computes them; the model never does. Only peers whose fiscal periods
     # match the company's count, and only size-adjusted measures (%, x), not raw dollars.
     own = packet.get("metrics", {}).get("current", {})

@@ -47,7 +47,7 @@ You keep each result’s period, definition, units and cited evidence line.
 
 You do not calculate missing figures, changes or peer medians.
 
-Compare only compatible periods and definitions. When the peer median is unavailable, you rate only against the prior year. With the prior year only, above it is Strong, below it is Weak, and equal is Mixed. For debt to equity, the direction is reversed: below the prior year is Strong, and above it is Weak. Mark a criterion as Not scored when a required value or comparison is unavailable.
+Compare only compatible periods and definitions. When the peer median is unavailable, you rate only against the prior year. With the prior year only, above it is Strong, below it is Weak, and equal is Mixed. For debt to equity, the direction is reversed: below the prior year is Strong, and above it is Weak. When Python's relative change from the prior year is within ±2% of the prior-year value, treat the result as equal: Mixed. Mark a criterion as Not scored when a required value or comparison is unavailable.
 
 1. Operating margin
 

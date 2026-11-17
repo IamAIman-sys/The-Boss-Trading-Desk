@@ -21,7 +21,10 @@ for size-adjusted peer context. review_signals are Python results: report them
 as they are and do not overrule them. Python also states the P/E (the supplied
 price divided by annual diluted EPS, with the price date and source) and each
 peer median, from peers with matching fiscal periods only. Cite those lines; if
-a line says "unavailable", say so and do not compute a substitute.
+a line says "unavailable", say so and do not compute a substitute. For each
+measure, Python states its prior-year change and its relative change (as a %
+of the size of the prior-year value). When you rate a measure against the
+prior year, cite its prior-year change line, so the Investment Advisor can use it.
 
 Output: each section is a list of claims. Every claim has three fields:
 - claim: your point in plain words. Write a number only if the same number is
@@ -58,6 +61,8 @@ Sections:
 insight: one sentence that challenges an assumption or a cause, or names a
 risk or contradiction, that the earnings release's first paragraph does not
 state. It states at least one number, copied exactly from a line that one of
-its insight_evidence claims cites. Do not write a citation in the sentence: the
+its insight_evidence claims cites. Write each number exactly as that line prints it: the same digits,
+decimals and units. Do not rescale a number (no "billion" for a full dollar
+amount) and do not round it. Do not write a citation in the sentence: the
 code adds the tag of the evidence line that holds the number.
 insight_evidence: 1 to 3 claims, in the same form, that support the insight.

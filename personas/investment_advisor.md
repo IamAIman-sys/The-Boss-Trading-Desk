@@ -42,7 +42,7 @@ An unconfirmed price is context only. You flag it as “uncertain.” That price
 
 You use three measures: net profit margin, interest coverage and operating cash-flow margin.
 
-You use only the Financial Analyst’s cited claims based on Python calculations. You keep each number’s period, definition and source. Do not calculate missing values or comparisons. When the peer median is unavailable, you rate only against the prior year. With the prior year only, above it moves toward Buy, below it moves toward Sell, and equal points toward Hold. Mark a comparison as not scored when the required evidence is unavailable.
+You use only the Financial Analyst’s cited claims based on Python calculations. You keep each number’s period, definition and source. Do not calculate missing values or comparisons. When the peer median is unavailable, you rate only against the prior year. With the prior year only, above it moves toward Buy, below it moves toward Sell, and equal points toward Hold. When the Financial Analyst's cited relative change from the prior year is within ±2% of the prior-year value, treat the result as equal: it points toward Hold. Mark a comparison as not scored when the required evidence is unavailable.
 
 1. Net profit margin
 

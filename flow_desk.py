@@ -21,7 +21,8 @@ the Verifier off.
 """
 
 import argparse
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 from decimal import Decimal, InvalidOperation
 import difflib
 import json
@@ -52,6 +53,18 @@ from research_desk import evidence_markdown, heading_excerpts, quarterly_facts, 
 ROOT = Path(__file__).resolve().parent
 PURDUE_URL = "https://genai.rcac.purdue.edu/api"
 PERSONA_DIR = ROOT / "personas"
+LIVE_DIR = ROOT / "runs" / "live"
+EASTERN = ZoneInfo("America/New_York")
+LIVE_WINDOW = timedelta(hours=24)  # project rule: within 24 hours of the 8-K's EDGAR "Accepted" time
+
+
+def live_window(accepted, now=None):
+    """The live window of one earnings 8-K. accepted: EDGAR index display time, Eastern ("YYYY-MM-DD HH:MM:SS")."""
+    start = datetime.strptime(accepted, "%Y-%m-%d %H:%M:%S").replace(tzinfo=EASTERN)
+    now = (now or datetime.now(EASTERN)).astimezone(EASTERN)
+    end = start + LIVE_WINDOW
+    return {"accepted_et": start.isoformat(), "window_ends_et": end.isoformat(), "checked_et": now.isoformat(),
+            "open": start <= now <= end, "hours_left": round((end - now).total_seconds() / 3600, 2)}
 PERSONA_PARTS = ("Identity", "How this role reads a company", "Inputs",
                  "Scored criteria", "What would change its view", "Output")
 # Purdue's limit is 65,536 tokens for input and answer together. The answer gets
@@ -251,6 +264,8 @@ class DeskState(BaseModel):
     report_path: str = ""
     verified_folder: str = ""
     verified_summary: str = ""
+    live: bool = False
+    live_record: dict = {}  # the 8-K accession, its Accepted time, the window, and whether the report was inside it
 
 
 def make_llm():
@@ -857,6 +872,15 @@ def compile_report(state, folder, evidence_table):
                  f"{role.title} {runs[role.key].check.get('status', 'not run')} after {runs[role.key].attempts} attempt(s)"
                  for role in ALL_ROLES) + ".",
              "Status: DRAFT. Human audit and partner checks are pending.", ""]
+    if state.live and state.live_record:
+        compiled = datetime.now(EASTERN)
+        inside = compiled <= datetime.fromisoformat(state.live_record["window_ends_et"])
+        state.live_record["report_compiled_et"] = compiled.isoformat()
+        state.live_record["report_inside_window"] = inside
+        lines.insert(-2, f"Live run: earnings 8-K {state.live_record['accession']} accepted "
+                         f"{state.live_record['accepted_et']} (EDGAR); window ends {state.live_record['window_ends_et']}; "
+                         f"report compiled {compiled.isoformat(timespec='seconds')}; inside the 24-hour window: "
+                         f"{'yes' if inside else 'NO'}. The commit's time is the record.")
 
     research, financial, advisor = runs["research"], runs["financial"], runs["advisor"]
     # Change 2: only claims that pass the check go into the five parts. Removed claims are
@@ -954,6 +978,17 @@ class ResearchDeskFlow(Flow[DeskState]):
             data.save_json(Path(folder) / "calculations.json", calculations)
             data.save_json(Path(folder) / "price_reference.json", calculations["price_reference"])
         self.state.run_folder = str(folder)
+        if self.state.live:
+            eight_k = evidence.read_json(Path(folder) / "selected_filings.json")["8-K"]
+            window = live_window(eight_k["accepted"])
+            self.state.live_record = {"ticker": self.state.ticker, "accession": eight_k["accessionNumber"],
+                                      "index_url": eight_k["index_url"], **window}
+            if not window["open"]:
+                raise data.DeskError(f"--live: the earnings 8-K {eight_k['accessionNumber']} was accepted "
+                                     f"{eight_k['accepted']} Eastern; its 24-hour window ended {window['window_ends_et']}. "
+                                     "No model call was made. Run without --live; that run would be a practice run.")
+            print(f"Live window: 8-K {eight_k['accessionNumber']} accepted {eight_k['accepted']} Eastern; "
+                  f"{window['hours_left']} hours left", flush=True)
         saved = evidence.read_json(Path(folder) / "calculations.json")
         reference = saved.get("price_reference") or {}
         self.state.price_note = ({"price_usd": saved["price_usd"], "date": reference.get("date") or "not confirmed",
@@ -1137,6 +1172,25 @@ class ResearchDeskFlow(Flow[DeskState]):
         print("Verified report:", verified / "verified_report.md", "-", self.state.verified_summary, flush=True)
 
 
+def save_live(state, root=None):
+    """Copy the live run's report, verified report and marks into runs/live/, ready to commit.
+
+    Only small result files are copied: the filing texts and facts stay in the ignored data run."""
+    record = state.live_record
+    out, verified = Path(state.output_folder), Path(state.verified_folder)
+    target = Path(root or LIVE_DIR) / f"{state.ticker}_{record['accepted_et'][:10]}" / out.name
+    target.mkdir(parents=True, exist_ok=False)
+    shutil.copyfile(out / "report.md", target / "report.md")
+    shutil.copyfile(verified / "verified_report.md", target / "verified_report.md")
+    shutil.copyfile(verified / "marks.json", target / "marks.json")
+    roles = {role.title: {"status": getattr(state, role.key).check.get("status"),
+                          "attempts": getattr(state, role.key).attempts} for role in ALL_ROLES}
+    data.save_json(target / "live.json", {**record, "verified_summary": state.verified_summary, "roles": roles,
+                                          "recommendation": state.advisor.output.get("recommendation"),
+                                          "source_run": str(out)})
+    return target
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("ticker", type=data.normalize_ticker, nargs="?")
@@ -1149,6 +1203,9 @@ def main(argv=None):
     parser.add_argument("--price", type=data.positive_price, help="USD share price for fiscal-year P/E")
     parser.add_argument("--price-date", help="Market date of the supplied price, YYYY-MM-DD")
     parser.add_argument("--price-source", help="HTTPS source URL of the supplied price")
+    parser.add_argument("--live", action="store_true",
+                        help="Live record run: fresh SEC data; stops before any model call if the earnings 8-K's "
+                             "24-hour window has closed; saves the result in runs/live/")
     args = parser.parse_args(argv)
     if args.verify_only:
         return verifier.main([args.verify_only])
@@ -1157,6 +1214,8 @@ def main(argv=None):
     try:
         if bool(args.price_date) != bool(args.price_source) or (args.price_date and args.price is None):
             raise data.DeskError("Use --price-date and --price-source together, with --price.")
+        if args.live and (args.reuse or args.run_folder or args.prepare_only):
+            raise data.DeskError("--live fetches fresh SEC data; do not combine it with --reuse, --run-folder or --prepare-only.")
         if args.price_date:
             date.fromisoformat(args.price_date)
             if not args.price_source.startswith("https://"):
@@ -1166,7 +1225,7 @@ def main(argv=None):
         inputs = {"ticker": args.ticker, "reuse": args.reuse, "peers": peers,
                   "requested_run_folder": args.run_folder, "supplements_manifest": args.supplements,
                   "price": None if args.price is None else str(args.price),
-                  "price_date": args.price_date, "price_source": args.price_source}
+                  "price_date": args.price_date, "price_source": args.price_source, "live": args.live}
         if args.prepare_only:
             for name, value in inputs.items():
                 setattr(flow.state, name, value)
@@ -1186,6 +1245,11 @@ def main(argv=None):
         flow.kickoff(inputs=inputs)
         print("Verified report:", Path(flow.state.verified_folder) / "verified_report.md")
         print(flow.state.verified_summary)
+        if args.live:
+            target = save_live(flow.state)
+            inside = flow.state.live_record.get("report_inside_window")
+            print(f"Live record saved: {target} (inside the 24-hour window: {'yes' if inside else 'NO'}). "
+                  "Commit and push it now: the commit's time is the record.")
         passed = all(getattr(flow.state, role.key).check.get("status") == "pass" for role in ALL_ROLES)
         return 0 if passed else 2
     except (data.DeskError, OSError, ValueError) as exc:

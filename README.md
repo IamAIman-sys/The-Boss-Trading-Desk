@@ -411,6 +411,21 @@ Lab 04 command (COST, with the Checkpoint 1 price):
 .venv/bin/python flow_desk.py COST --peers WMT,TGT,BJ --price 1001.57
 ```
 
+**Live record run** (project Part 2: one report per week in Weeks 4 to 7,
+committed within 24 hours of the earnings 8-K's EDGAR "Accepted" time):
+
+```sh
+.venv/bin/python flow_desk.py NVDA --peers AMD,AVGO,INTC --live
+```
+
+`--live` fetches fresh SEC data (it cannot be combined with `--reuse`). Before
+any model call, it reads the selected earnings 8-K's Accepted time (Eastern) and
+stops if the 24-hour window has closed. The report header states the accession,
+the Accepted time, the end of the window and whether the report was compiled
+inside it. The report, the verified report, the marks and `live.json` are
+copied to `runs/live/<TICKER>_<date>/<run>/`, which is committed (practice runs
+in `runs/` stay ignored). Commit and push at once: the commit's time is the record.
+
 Add `--reuse` to use the saved SEC data. `--price-date YYYY-MM-DD` and
 `--price-source https://...` record where the price came from; without them,
 the report says the price's date and source are not confirmed.

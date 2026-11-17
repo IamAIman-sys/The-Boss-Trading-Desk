@@ -122,6 +122,24 @@ class PacketTests(unittest.TestCase):
         line = next(r["text"] for r in evidence.metric_lines(packet) if r["text"].startswith("Peer median current Net profit margin"))
         self.assertEqual(line, "Peer median current Net profit margin: 8.00 %; peers: PA, PB; formula: median(8.00, 8.00)")
 
+    def test_prior_year_change_lines(self):
+        packet, _ = evidence.financial_packet(self.folder, self.manifest, self.selected, ["PEER"])
+        lines = [r["text"] for r in evidence.metric_lines(packet)]
+        ticker = self.report["company"]["ticker"]
+        line = next(t for t in lines if t.startswith(f"{ticker} prior-year change, Net profit margin"))
+        self.assertRegex(line, r"change -?\d+\.\d{2} percentage points; relative change -?\d+\.\d{2} % of the size of the prior-year value")
+        self.assertFalse(any(t.startswith(f"{ticker} prior-year change, Operating cash flow:") for t in lines))  # raw USD
+
+    def test_relative_change_uses_the_size_of_a_negative_prior_value(self):
+        packet = {"company": {"ticker": "LOSS"}, "peers": {}, "signals": {"operating_margin_change_pp": None,
+                  "high_priority_review": None, "roe_debt_warning": None},
+                  "metrics": {"current": {"Net profit margin": {"value": "-5", "unit": "%", "period": "p", "arithmetic": "a",
+                                                                "definition": "d", "inputs": []}},
+                              "prior": {"Net profit margin": {"value": "-10", "unit": "%", "period": "p", "arithmetic": "a",
+                                                              "definition": "d", "inputs": []}}}}
+        line = next(r["text"] for r in evidence.metric_lines(packet) if "prior-year change" in r["text"])
+        self.assertIn("change 5.00 percentage points; relative change 50.00 %", line)  # a smaller loss is an improvement
+
     def test_pe_line_carries_price_and_eps_sources(self):
         packet, _ = evidence.financial_packet(self.folder, self.manifest, self.selected, ["PEER"])
         line = next(r["text"] for r in evidence.metric_lines(packet) if " current P/E:" in r["text"])
