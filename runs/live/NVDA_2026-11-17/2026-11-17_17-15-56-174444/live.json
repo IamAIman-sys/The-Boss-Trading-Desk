@@ -1,0 +1,29 @@
+{
+  "ticker": "NVDA",
+  "accession": "0001045810-26-000088",
+  "index_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088-index.html",
+  "accepted_et": "2026-11-17T16:20:51-05:00",
+  "window_ends_et": "2026-11-18T16:20:51-05:00",
+  "checked_et": "2026-11-17T17:13:01.824286-05:00",
+  "open": true,
+  "hours_left": 23.13,
+  "report_compiled_et": "2026-11-17T17:15:56.260982-05:00",
+  "report_inside_window": true,
+  "verified_summary": "63 numbers: 63 Correct, 0 Wrong, 0 Unsupported",
+  "roles": {
+    "Research Analyst": {
+      "status": "fail",
+      "attempts": 2
+    },
+    "Financial Analyst": {
+      "status": "fail",
+      "attempts": 2
+    },
+    "Investment Advisor": {
+      "status": "pass",
+      "attempts": 2
+    }
+  },
+  "recommendation": "Hold",
+  "source_run": "/Users/blackfox440/orca/projects/FIN 6770/runs/NVIDIA_CORP__2026-11-17_17-12-58-274712-0500/flow/2026-11-17_17-15-56-174444"
+}
