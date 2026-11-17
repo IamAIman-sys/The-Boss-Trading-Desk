@@ -1,0 +1,30 @@
+{
+  "ticker": "GEV",
+  "practice": true,
+  "source_run": "GE_Vernova_Inc__2026-11-17_18-26-55-503909-0500",
+  "flow_ts": "2026-11-17_18-30-05-210528",
+  "report_compiled_et": "2026-11-17T18:30:05-05:00",
+  "eight_k_accession": "0001996810-26-000162",
+  "eight_k_accepted_utc": "2026-10-28T10:16:59.000Z",
+  "peers": [
+    "ETN",
+    "VRT",
+    "HUBB"
+  ],
+  "verified_summary": "104 numbers: 104 Correct, 0 Wrong, 0 Unsupported",
+  "roles": {
+    "Research Analyst": {
+      "status": "fail",
+      "attempts": 2
+    },
+    "Financial Analyst": {
+      "status": "pass",
+      "attempts": 2
+    },
+    "Investment Advisor": {
+      "status": "pass",
+      "attempts": 2
+    }
+  },
+  "recommendation": "Hold"
+}
