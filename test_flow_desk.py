@@ -239,6 +239,20 @@ class QuoteRepairTests(unittest.TestCase):
                          ["Insight: no citations"])  # the repaired claim passes; only the empty Insight remains
 
 
+class DeadlineTests(unittest.TestCase):
+    """A role attempt that runs past its deadline fails; it never blocks the run."""
+
+    def test_slow_call_raises_timeout(self):
+        import time
+        with self.assertRaises(TimeoutError):
+            flow_desk.call_with_deadline(lambda: time.sleep(2), 0.1)
+
+    def test_result_and_errors_pass_through(self):
+        self.assertEqual(flow_desk.call_with_deadline(lambda: 7, 5), 7)
+        with self.assertRaises(ValueError):
+            flow_desk.call_with_deadline(lambda: int("x"), 5)
+
+
 class CitationRepairTests(unittest.TestCase):
     """Exact quotes cited at the wrong line: wrapped sentences, headings and the wrong Python line."""
     LINES = {("10-K", 10): "Pork",
@@ -282,6 +296,19 @@ class CitationRepairTests(unittest.TestCase):
                                 "quote": "$75 million to $175 million in fiscal 2027"}])
         problems = flow_desk.check_research(flow_desk.render_sections(output, {"overview": "Overview"}), context)["problems"]
         self.assertEqual(problems, ["Insight: no citations"])
+
+
+class BulletTests(unittest.TestCase):
+    """Each bullet is checked on its own: a bad claim never puts its quote on the next claim."""
+
+    def test_claim_without_a_line_citation_is_named_and_the_next_claim_passes(self):
+        context = {"evidence_lines": [{"source": "Exhibit 99.1", "line": 29, "text": "\u2022Liquidity of $4.1 billion"}]}
+        output = {"overview": [claim("Backlog does not apply.", "Backlog does not apply to its business.",
+                                     "Not applicable - no backlog disclosure"),
+                               claim("Liquidity was $4.1 billion.", "Liquidity of $4.1 billion", "Exhibit 99.1 L29")]}
+        result = flow_desk.check_research(flow_desk.render_sections(output, {"overview": "Overview"}), context)
+        self.assertEqual([m["result"] for m in result["marks"]], ["ok"])
+        self.assertEqual(result["problems"][0][:42], "Overview: a claim has no line citation (Ba")
 
 
 class RescaledNumberTests(unittest.TestCase):

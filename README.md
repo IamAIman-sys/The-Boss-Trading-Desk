@@ -389,6 +389,20 @@ gather_filings -> research_analyst -> financial_analyst -> investment_advisor ->
   millions. The check accepts it by the Verifier's rule (unit scaling, then
   rounding to the digits shown), so the check and the Verifier agree. A number
   without a scale word must match exactly.
+- **One claim per bullet.** The check reads each bullet on its own. A claim
+  without a line citation is named as a problem, and its quote is never
+  checked against the next claim's citation.
+- **Model-call deadline.** One role attempt may run at most 600 seconds
+  (`ROLE_CALL_SECONDS`). The 180-second LLM timeout applies to each HTTP try,
+  but crewAI retries, so one attempt once waited 22 minutes. After the deadline
+  the attempt fails, and the Strategy Manager sends it back once.
+- **Interest expense tags.** Interest coverage uses the first reported tag of
+  `InterestExpenseNonoperating`, `InterestExpense`, `InterestAndDebtExpense`
+  and `InterestExpenseDebt`; the tag used is kept in the inputs. XBRL tag names
+  are case-sensitive. Before Nov 17, 2026 the code used
+  `InterestExpenseNonOperating` (capital "O"), so coverage was unavailable for
+  every company that reports only `InterestExpenseNonoperating` (for example
+  NVDA, LCID, REZI, TTWO and TSN). Runs before that date have this error.
 - **10-K sections.** Item 1 and Item 7 are found by their headings, also when a
   heading is split over two lines ("ITEM" / "1 - BUSINESS"). A 10-K in
   cross-reference format (no Item headings in the text) uses a fallback: the

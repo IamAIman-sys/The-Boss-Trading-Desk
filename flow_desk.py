@@ -31,6 +31,7 @@ from pathlib import Path
 import re
 import sys
 import shutil
+import threading
 from dataclasses import dataclass
 from typing import Literal
 
@@ -266,6 +267,35 @@ class DeskState(BaseModel):
     verified_summary: str = ""
     live: bool = False
     live_record: dict = {}  # the 8-K accession, its Accepted time, the window, and whether the report was inside it
+
+
+# One role attempt may not run longer than this. The LLM timeout (180 s) applies to each HTTP
+# try, but crewAI retries the call and the agent loop, so on Nov 17, 2026 one attempt waited
+# 22 minutes. After the deadline the attempt counts as failed, and the Strategy Manager sends
+# it back once, as for any failed call.
+ROLE_CALL_SECONDS = 600
+
+
+def call_with_deadline(function, seconds):
+    """function() run in a daemon thread; TimeoutError if it does not finish in time.
+
+    A daemon thread cannot be stopped, but it does not keep the program running at exit."""
+    box = {}
+
+    def target():
+        try:
+            box["result"] = function()
+        except BaseException as exc:  # noqa: BLE001 - passed back to the caller
+            box["error"] = exc
+
+    worker = threading.Thread(target=target, daemon=True)
+    worker.start()
+    worker.join(seconds)
+    if worker.is_alive():
+        raise TimeoutError(f"the model call did not finish in {seconds} seconds")
+    if "error" in box:
+        raise box["error"]
+    return box["result"]
 
 
 def make_llm():
@@ -558,8 +588,13 @@ def check_research(sections, context):
         cites = list(CITATION.finditer(text))
         if not cites:
             problems.append(f"{name}: no citations")
+        for bullet in text.splitlines():
+            if bullet.startswith("- ") and not CITATION.search(bullet):
+                problems.append(f"{name}: a claim has no line citation ({bullet[2:62].strip()}...)")
         previous_end = 0
         for cite in cites:
+            # A quote belongs to the citation on its own bullet line, never to the next one.
+            previous_end = max(previous_end, text.rfind("\n", 0, cite.start()) + 1)
             source, first = cite[1].strip(), int(cite[2])
             last = int(cite[3]) if cite[3] else first
             span = range(first, last + 1)
@@ -1096,7 +1131,7 @@ class ResearchDeskFlow(Flow[DeskState]):
         agent = Agent(role=role.title, goal=role.goal, backstory=persona or role.backstory,
                       llm=llm, max_iter=3, verbose=False)
         try:
-            result = agent.kickoff(message, response_format=role.schema)
+            result = call_with_deadline(lambda: agent.kickoff(message, response_format=role.schema), ROLE_CALL_SECONDS)
             if result.pydantic is None:
                 raise data.DeskError(f"{role.title} did not return the required fields.")
         except Exception as exc:  # noqa: BLE001 - a failed call is a failed draft, never a lost run

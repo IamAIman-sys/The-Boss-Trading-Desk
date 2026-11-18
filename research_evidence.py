@@ -20,6 +20,12 @@ def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+# Reported interest expense, in order. XBRL tag names are case-sensitive: the us-gaap tag is
+# "InterestExpenseNonoperating" (small "o"). Before Nov 17, 2026 the code used "NonOperating",
+# so coverage was unavailable for every company that reports only this tag.
+INTEREST_TAGS = ("InterestExpenseNonoperating", "InterestExpense", "InterestAndDebtExpense", "InterestExpenseDebt")
+
+
 def annual_metrics(report, raw=None):
     """Use stated annual periods and sourced USD facts. Unavailable is never zero."""
     raw = raw or {}
@@ -105,10 +111,15 @@ def annual_metrics(report, raw=None):
         def coverage():
             op, oe = fact("operating_income", column)
             # Deliberately avoid net-interest, capitalized-interest and debt-total tags.
-            try:
-                interest, ie = raw_fact("InterestExpenseNonOperating", period, oe["accn"])
-            except ValueError:
-                interest, ie = raw_fact("InterestAndDebtExpense", period, oe["accn"])
+            # The first reported tag in INTEREST_TAGS wins; its name is kept in the inputs.
+            for tag in INTEREST_TAGS:
+                try:
+                    interest, ie = raw_fact(tag, period, oe["accn"])
+                    break
+                except ValueError:
+                    continue
+            else:
+                raise ValueError("no reported interest expense (" + ", ".join(INTEREST_TAGS) + ") for the same filing and period")
             if interest <= 0:
                 raise ValueError("interest expense is not positive")
             return op / interest, f"{op} / {interest}", [oe, ie]
@@ -122,7 +133,7 @@ def annual_metrics(report, raw=None):
         debt_definition += ("Includes finance/capital leases." if "CapitalLease" in (facts.get("long_term_debt", {}).get("tag") or "") else "Excludes lease obligations.")
         calculate("Debt", "USD", debt_definition, debt)
         calculate("Debt to equity", "x", debt_definition + " Divided by book shareholders' equity.", debt_equity)
-        calculate("Interest coverage", "x", "Operating income / reported interest expense (InterestExpenseNonOperating or InterestAndDebtExpense); compare the input tag before peer comparison; no net-interest substitution", coverage)
+        calculate("Interest coverage", "x", "Operating income / reported interest expense (the first of " + ", ".join(INTEREST_TAGS) + "); compare the input tag before peer comparison; no net-interest substitution", coverage)
         results[column] = metrics
     return results
 

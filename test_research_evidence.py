@@ -29,7 +29,7 @@ def fixture():
         report["facts"][key] = item
     raw = {"facts": {"us-gaap": {
         "StockholdersEquity": {"units": {"USD": [{"val": 200, "end": "2023-12-31", "accn": "0000000001-26-000001"}]}},
-        "InterestExpenseNonOperating": {"units": {"USD": [
+        "InterestExpenseNonoperating": {"units": {"USD": [
             {**periods[c], "val": val, "accn": "0000000001-26-000001"} for c, val in (("current", 50), ("prior", 20))]}}
     }}}
     return report, raw
@@ -42,7 +42,7 @@ class MetricTests(unittest.TestCase):
         self.assertEqual(metrics["current"]["Return on average equity"]["value"], "40.0")
         self.assertEqual(metrics["prior"]["Return on average equity"]["value"], "30.0")
         self.assertEqual(metrics["current"]["Interest coverage"]["value"], "3")
-        self.assertEqual(metrics["current"]["Interest coverage"]["inputs"][1]["tag"], "us-gaap:InterestExpenseNonOperating")
+        self.assertEqual(metrics["current"]["Interest coverage"]["inputs"][1]["tag"], "us-gaap:InterestExpenseNonoperating")
         self.assertTrue(evidence.review_signals(metrics)["roe_debt_warning"])
 
     def test_both_threshold_directions_and_boundary(self):
@@ -69,8 +69,18 @@ class MetricTests(unittest.TestCase):
     def test_wrong_interest_period_or_accession_is_rejected(self):
         for field, value in (("start", "2025-07-01"), ("accn", "different")):
             report, raw = fixture()
-            raw["facts"]["us-gaap"]["InterestExpenseNonOperating"]["units"]["USD"][0][field] = value
+            raw["facts"]["us-gaap"]["InterestExpenseNonoperating"]["units"]["USD"][0][field] = value
             self.assertIsNone(evidence.annual_metrics(report, raw)["current"]["Interest coverage"]["value"])
+
+    def test_interest_tag_names_are_exact_and_later_tags_are_fallbacks(self):
+        report, raw = fixture()
+        tags = raw["facts"]["us-gaap"]
+        tags["InterestExpenseNonOperating"] = tags.pop("InterestExpenseNonoperating")  # wrong case: not a us-gaap tag
+        self.assertIsNone(evidence.annual_metrics(report, raw)["current"]["Interest coverage"]["value"])
+        tags["InterestExpenseDebt"] = tags.pop("InterestExpenseNonOperating")
+        coverage = evidence.annual_metrics(report, raw)["current"]["Interest coverage"]
+        self.assertEqual(coverage["value"], "3")
+        self.assertEqual(coverage["inputs"][1]["tag"], "us-gaap:InterestExpenseDebt")
 
     def test_lease_definitions_cannot_be_mixed(self):
         report, raw = fixture()
