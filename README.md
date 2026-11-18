@@ -389,6 +389,17 @@ gather_filings -> research_analyst -> financial_analyst -> investment_advisor ->
   millions. The check accepts it by the Verifier's rule (unit scaling, then
   rounding to the digits shown), so the check and the Verifier agree. A number
   without a scale word must match exactly.
+- **Persona rule check (Investment Advisor).** `persona_rules.py` applies the
+  Buy/Hold/Sell rules from the "Scored criteria" part of
+  `personas/investment_advisor.md` to the Python evidence lines. The rules are:
+  net profit margin has the most weight; a relative change within ±2 % is
+  equal; coverage below 1.5x blocks Buy; a negative cash-flow margin blocks
+  Buy. If the Advisor's recommendation or deciding number differs, the
+  Strategy Manager sends it back once with the expected result and the
+  reasons. Where the persona's words allow more than one result, each one is
+  accepted. **If you change the persona's "Scored criteria", the check stops
+  and prints a note** (a hash guard, `PERSONA_SHA`) until `persona_rules.py`
+  is updated to the new rules.
 - **One claim per bullet.** The check reads each bullet on its own. A claim
   without a line citation is named as a problem, and its quote is never
   checked against the next claim's citation.

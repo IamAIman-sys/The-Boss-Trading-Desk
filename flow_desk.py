@@ -35,6 +35,7 @@ import threading
 from dataclasses import dataclass
 from typing import Literal
 
+import persona_rules
 import research_evidence as evidence
 
 # Keep run data on this laptop: no crewAI telemetry or tracing.
@@ -891,7 +892,7 @@ def split_claims(output, context, allowed=None):
     return kept, removed
 
 
-def check_advisor(output, upstream, context):
+def check_advisor(output, upstream, context, persona_rules_apply=False):
     """Strategy Manager consistency check of the Investment Advisor: no new facts.
 
     upstream: the analysts' outputs. The Advisor may cite only lines that an
@@ -913,6 +914,10 @@ def check_advisor(output, upstream, context):
             problems.append(f"Thesis: number {token} is not the deciding number; write the thesis in words")
     if output.get("recommendation") not in {"Buy", "Hold", "Sell"}:
         problems.append("Recommendation: must be Buy, Hold or Sell")
+    elif persona_rules_apply:
+        # The student's persona rules, applied in code to the Python evidence lines (persona_rules.py).
+        problems += persona_rules.advisor_problems(output, context,
+                                                   lambda text: {_digits(t) for t in claimed_numbers(text)})
     return with_insight({**result, "problems": result["problems"] + problems}, output, restricted)
 
 
@@ -1174,7 +1179,7 @@ class ResearchDeskFlow(Flow[DeskState]):
         run = getattr(self.state, role.key)
         if role is ADVISOR:
             return check_advisor(run.output, [self.state.research.output, self.state.financial.output],
-                                 self.state.research_context)
+                                 self.state.research_context, persona_rules_apply=run.persona == "student persona")
         return CHECKS[role.key](run.output, self.state.research_context)
 
     @router(or_(gather_filings, "revise_research"))
