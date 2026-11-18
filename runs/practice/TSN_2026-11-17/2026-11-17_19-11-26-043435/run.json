@@ -1,0 +1,30 @@
+{
+  "ticker": "TSN",
+  "practice": true,
+  "source_run": "TYSON_FOODS_INC__2026-11-17_19-09-11-923994-0500",
+  "flow_ts": "2026-11-17_19-11-26-043435",
+  "report_compiled_et": "2026-11-17T19:11:26-05:00",
+  "eight_k_accession": "0000100493-26-000077",
+  "eight_k_accepted_utc": "2026-11-16T12:41:53.000Z",
+  "peers": [
+    "HRL",
+    "PPC",
+    "CAG"
+  ],
+  "verified_summary": "102 numbers: 102 Correct, 0 Wrong, 0 Unsupported",
+  "roles": {
+    "Research Analyst": {
+      "status": "fail",
+      "attempts": 2
+    },
+    "Financial Analyst": {
+      "status": "pass",
+      "attempts": 1
+    },
+    "Investment Advisor": {
+      "status": "pass",
+      "attempts": 2
+    }
+  },
+  "recommendation": "Hold"
+}
