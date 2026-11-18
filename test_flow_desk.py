@@ -239,6 +239,82 @@ class QuoteRepairTests(unittest.TestCase):
                          ["Insight: no citations"])  # the repaired claim passes; only the empty Insight remains
 
 
+class CitationRepairTests(unittest.TestCase):
+    """Exact quotes cited at the wrong line: wrapped sentences, headings and the wrong Python line."""
+    LINES = {("10-K", 10): "Pork",
+             ("10-K", 11): "We anticipate segment operating income of $75 million to $175 million in fiscal 2027.",
+             ("10-K", 20): "a gas turbine installed base with approximately 1,800 units under long-term service agreements and an",
+             ("10-K", 21): "average remaining contract life of approximately 10 years.",
+             ("Python evidence", 3): "Annual operating-margin change: -0.07 percentage points; high-priority review=False; margin-up signal=False",
+             ("Python evidence", 9): "TSN prior-year change, Operating margin: 1.95 % vs 2.02 %",
+             ("Exhibit 99.1", 5): "Revenue rose 4% this year."}
+
+    def test_heading_citation_moves_to_the_line_below(self):
+        self.assertEqual(flow_desk.repair_citation("$75 million to $175 million in fiscal 2027", "10-K L10", self.LINES),
+                         "10-K L11")
+
+    def test_wrapped_sentence_gets_a_two_line_range(self):
+        quote = "approximately 1,800 units under long-term service agreements and an average remaining contract life"
+        self.assertEqual(flow_desk.repair_citation(quote, "10-K L20", self.LINES), "10-K L20-L21")
+
+    def test_wrong_python_line_moves_to_the_one_line_that_holds_the_quote(self):
+        quote = "Annual operating-margin change: -0.07 percentage points; high-priority review=False; ..."
+        self.assertEqual(flow_desk.repair_citation(quote, "Python evidence L9", self.LINES), "Python evidence L3")
+
+    def test_changed_words_are_never_moved(self):
+        self.assertIsNone(flow_desk.repair_citation("$80 million to $175 million in fiscal 2027", "10-K L10", self.LINES))
+
+    def test_short_quote_is_not_searched_far_away_or_in_another_source(self):
+        lines = {**self.LINES, ("10-K", 90): "Revenue rose 4%"}
+        self.assertIsNone(flow_desk.repair_citation("Revenue rose 4%", "10-K L40", {**lines, ("10-K", 40): "x"}))
+
+    def test_quote_on_two_far_lines_is_ambiguous(self):
+        lines = {("10-K", 1): "x", ("10-K", 50): "The same long sentence appears here.",
+                 ("10-K", 90): "The same long sentence appears here."}
+        self.assertIsNone(flow_desk.repair_citation("The same long sentence appears here", "10-K L1", lines))
+
+    def test_repair_claims_logs_the_move_and_the_claim_then_passes(self):
+        context = {"evidence_lines": [{"source": s, "line": n, "text": t} for (s, n), t in self.LINES.items()]}
+        output = {"overview": [claim("Pork guidance is $75 million to $175 million.",
+                                     "$75 million to $175 million in fiscal 2027", "10-K L10")]}
+        log = flow_desk.repair_claims(output, context)
+        self.assertEqual(log, [{"citation": "10-K L10", "new_citation": "10-K L11",
+                                "quote": "$75 million to $175 million in fiscal 2027"}])
+        problems = flow_desk.check_research(flow_desk.render_sections(output, {"overview": "Overview"}), context)["problems"]
+        self.assertEqual(problems, ["Insight: no citations"])
+
+
+class RescaledNumberTests(unittest.TestCase):
+    """A number with "million" or "billion" passes by the Verifier's scaling and rounding rule."""
+    CONTEXT = {"evidence_lines": [{"source": "10-Q", "line": 5, "text": "Total RPO | $ 196,721 | $ 150,238"},
+                                  {"source": "Python evidence", "line": 7, "text": "TSN current Operating cash flow: 2433000000 USD"}]}
+
+    def problems(self, text, citation, quote):
+        sections = {"Overview": "- " + flow_desk.render_claim(claim(text, quote, citation))}
+        return flow_desk.check_research(sections, self.CONTEXT)["problems"]
+
+    def test_table_in_millions_restated_in_billions_passes(self):
+        self.assertEqual(self.problems("RPO was $196.7 billion.", "10-Q L5", "Total RPO | $ 196,721"), [])
+
+    def test_full_dollars_restated_in_billions_passes(self):
+        self.assertEqual(self.problems("Operating cash flow was $2.433 billion.", "Python evidence L7",
+                                       "TSN current Operating cash flow: 2433000000 USD"), [])
+
+    def test_wrong_rescaled_number_fails(self):
+        self.assertEqual(self.problems("RPO was $197.7 billion.", "10-Q L5", "Total RPO | $ 196,721"),
+                         ["Overview: [10-Q L5] number not on cited line",
+                          "Overview: number $197.7 not found in any source line sent"])
+
+    def test_number_without_a_scale_word_must_match_exactly(self):
+        self.assertIn("Overview: [10-Q L5] number not on cited line",
+                      self.problems("RPO was $196.7.", "10-Q L5", "Total RPO | $ 196,721"))
+
+    def test_insight_accepts_a_rescaled_number(self):
+        output = {"insight": "RPO of $196.7 billion covers years of work.",
+                  "insight_evidence": [claim("RPO.", "Total RPO | $ 196,721", "10-Q L5")]}
+        self.assertEqual(flow_desk.check_insight(output, self.CONTEXT)["problems"], [])
+
+
 class CheckInsightTests(unittest.TestCase):
     """Week 3: the Insight line states a number that the Verifier can check at its line."""
     CONTEXT = {"evidence_lines": [

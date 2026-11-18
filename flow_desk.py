@@ -508,6 +508,27 @@ def _digits(token):
         return plain
 
 
+# A number written with "million" or "billion" may restate a line's number at another scale,
+# for example "$196.7 billion" for "$ 196,721" in a table in millions. The check accepts it
+# by the Verifier's own rule (verifier.on_lines: unit scaling, then rounding to the digits shown),
+# so the check and the Verifier agree. A number without a scale word must match exactly.
+SCALED = re.compile(r"(?<![\w.])\$?\s?(?P<num>\d[\d,]*(?:\.\d+)?)\s(?P<scale>million|billion)\b", re.I)
+
+
+def scaled_numbers(text):
+    """{number's value: scale word} for each number in text written with "million" or "billion"."""
+    return {_digits(m["num"]): m["scale"].lower() for m in SCALED.finditer(text)}
+
+
+def rescaled_on(token, scales, texts):
+    """True when token has a scale word in scales and equals a number on texts after scaling and rounding."""
+    scale = scales.get(_digits(token))
+    if not scale or token.endswith("%"):
+        return False
+    plain = token.replace("$", "").replace(",", "")
+    return verifier.on_lines(verifier.dec(plain), verifier.places(plain), verifier.SCALES[scale], texts)
+
+
 def quote_on_line(quote, target):
     """Exact match; a quote shortened with ... or … matches when each part is on the line, in order."""
     parts = [_norm(p) for p in re.split(r"\.\.\.|…", quote) if _norm(p)]
@@ -558,7 +579,10 @@ def check_research(sections, context):
                     row["quote"] = missing[0]
                 else:
                     local_numbers = {_digits(t) for t in NUMBER.findall(target)}
-                    unmatched = [t for t in claimed_numbers(text[previous_end:cite.start()]) if _digits(t) not in local_numbers]
+                    segment = text[previous_end:cite.start()]
+                    scales = scaled_numbers(segment)
+                    unmatched = [t for t in claimed_numbers(segment)
+                                 if _digits(t) not in local_numbers and not rescaled_on(t, scales, [target])]
                     row["result"] = "number not on cited line" if unmatched else "ok"
             previous_end = cite.end()
             marks.append(row)
@@ -567,8 +591,9 @@ def check_research(sections, context):
         if claimed_numbers(text[previous_end:]):
             problems.append(f"{name}: uncited number after the final citation")
         prose = CITATION.sub(" ", text)
+        prose_scales = scaled_numbers(prose)
         for token in claimed_numbers(prose):
-            if _digits(token) not in all_numbers:
+            if _digits(token) not in all_numbers and not rescaled_on(token, prose_scales, lines.values()):
                 problems.append(f"{name}: number {token} not found in any source line sent")
     return {"status": "pass" if not problems else "fail",
             "citations": len(marks), "citations_ok": sum(m["result"] == "ok" for m in marks),
@@ -594,13 +619,16 @@ def check_insight(output, context):
         span = [(match[1].strip(), n) for n in range(first, last + 1)]
         if 0 <= last - first < MAX_RANGE and all(key in lines for key in span):
             text = " ".join(lines[key] for key in span)
-            cited.append((tag, {_digits(t) for t in NUMBER.findall(text)}))
+            cited.append((tag, {_digits(t) for t in NUMBER.findall(text)}, text))
     numbers = claimed_numbers(CITATION.sub(" ", sentence))
+    scales = scaled_numbers(sentence)
     problems, tags = [], []
     if not numbers:
         problems.append("Insight: the sentence states no number; copy one from a line that an insight_evidence claim cites")
     for token in numbers:
-        tag = next((tag for tag, values in cited if _digits(token) in values), None)
+        tag = next((tag for tag, values, _ in cited if _digits(token) in values), None)
+        if tag is None:  # a rescaled number, by the Verifier's rule
+            tag = next((tag for tag, _, text in cited if rescaled_on(token, scales, [text])), None)
         if tag is None:
             problems.append(f"Insight: number {token} is not on any line that an insight_evidence claim cites")
         elif tag not in tags:
@@ -711,8 +739,49 @@ def repair_quote(quote, text):
     return candidate, round(similarity, 3)
 
 
+# Citation repair: the quote is exact, but the tag points to the wrong line. Seen in runs:
+# a sentence that wraps onto the next line, a heading cited in place of the line below it,
+# and the wrong Python evidence line. Only an exact quote (quote_on_line) moves a citation.
+CITATION_REACH = (2, 5)  # lines before and after the cited line(s) that are searched
+CITATION_MAX_SPAN = 3  # a repaired citation covers at most 3 lines
+GLOBAL_MIN_WORDS = 5  # a quote with fewer words is not searched outside the nearby lines
+
+
+def span_tag(source, first, last):
+    return f"{source} L{first}" if first == last else f"{source} L{first}-L{last}"
+
+
+def repair_citation(quote, tag, lines):
+    """The tag of the nearest line(s) that hold the exact quote, or None.
+
+    First the lines near the cited line, as the shortest span; then, if the quote
+    is long enough, the one line of the same source that holds it (only when one
+    line does)."""
+    keys = cited_keys(tag)
+    if not keys or not quote.strip():
+        return None
+    source, first, last = keys[0][0], keys[0][1], keys[-1][1]
+    best = None
+    for start in range(first - CITATION_REACH[0], last + CITATION_REACH[1] + 1):
+        for end in range(start, start + CITATION_MAX_SPAN):
+            span = [(source, n) for n in range(start, end + 1)]
+            if any(key not in lines for key in span):
+                break
+            if quote_on_line(quote, _norm(" ".join(lines[key] for key in span))):
+                score = (end - start, abs(start - first))
+                if best is None or score < best[0]:
+                    best = (score, start, end)
+                break  # a longer span from this start is never better
+    if best:
+        return span_tag(source, best[1], best[2])
+    if len(_norm(quote.replace("...", " ").replace("…", " ")).split()) < GLOBAL_MIN_WORDS:
+        return None
+    hits = [n for (s, n), text in lines.items() if s == source and quote_on_line(quote, _norm(text))]
+    return span_tag(source, hits[0], hits[0]) if len(hits) == 1 else None
+
+
 def repair_claims(output, context):
-    """Repair near-miss quotes in place; return the log of every repair."""
+    """Repair wrong citations and near-miss quotes in place; return the log of every repair."""
     lines, log = line_map(context), []
     for claim in claims_of(output):
         keys = cited_keys(claim.get("citation", ""))
@@ -720,6 +789,11 @@ def repair_claims(output, context):
             continue
         text = " ".join(lines[key] for key in keys)
         if quote_on_line(claim["quote"], _norm(text)):
+            continue
+        moved = repair_citation(claim["quote"], claim["citation"], lines)
+        if moved:
+            log.append({"citation": claim["citation"], "new_citation": moved, "quote": claim["quote"]})
+            claim["citation"] = moved
             continue
         fixed = repair_quote(claim["quote"], text)
         if fixed:
@@ -893,7 +967,9 @@ def compile_report(state, folder, evidence_table):
     titles = {**SECTIONS, **FINANCIAL_SECTIONS, **ADVISOR_SECTIONS,
               "deciding_number": "Deciding number", "insight_evidence": "Insight evidence"}
     repairs = sum(1 for role in ALL_ROLES for entry in runs[role.key].repairs if "new" in entry)
-    lines.insert(-2, f"Quote repairs made in code: {repairs} (each is listed in the role's JSON file). "
+    moved = sum(1 for role in ALL_ROLES for entry in runs[role.key].repairs if "new_citation" in entry)
+    lines.insert(-2, f"Quote repairs made in code: {repairs}; citation repairs made in code: {moved} "
+                     "(each is listed in the role's JSON file). "
                      "Claims that failed the check are not in the five parts; see Remaining review items.")
 
     def bullets(claims):
@@ -1052,7 +1128,10 @@ class ResearchDeskFlow(Flow[DeskState]):
             print(f"{role.title}: quote repair skipped ({exc})", flush=True)
         for entry in repairs:
             run.repairs.append({"attempt": run.attempts, **entry})
-            print(f"{role.title}: quote repaired at [{entry['citation']}] (similarity {entry['similarity']})", flush=True)
+            if "new_citation" in entry:
+                print(f"{role.title}: citation repaired [{entry['citation']}] -> [{entry['new_citation']}]", flush=True)
+            else:
+                print(f"{role.title}: quote repaired at [{entry['citation']}] (similarity {entry['similarity']})", flush=True)
         run.output = output
 
     def check_role(self, role):

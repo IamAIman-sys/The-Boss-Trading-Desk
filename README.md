@@ -372,6 +372,23 @@ gather_filings -> research_analyst -> financial_analyst -> investment_advisor ->
   Investment Advisor, a quote that is not on its line is first replaced by the
   analysts' quote for the same citation (its rules say to copy it exactly).
   A repair fault is logged and never stops a run.
+- **Citation repair (code).** This runs before quote repair. When an exact
+  quote is not on its cited line, the code looks for the same words on the
+  nearby lines: 2 lines before to 5 lines after, in spans of at most 3 lines.
+  This fixes a sentence that wraps onto the next line (the citation becomes,
+  for example, `[10-K L263-L264]`) and a heading cited in place of the line
+  below it. If the nearby lines do not hold the quote, and the quote has at
+  least 5 words, the code uses the one line of the same source that holds it
+  (for example, the wrong Python evidence line). If 2 or more lines hold it,
+  nothing changes. Only an exact quote moves a citation, and the quote's words
+  never change. Each move is logged (`new_citation` in `quote_repairs`, and a
+  count in the report header). In the NVDA, TSN and GEV runs of Nov 17, 2026,
+  this and the rescaled-number rule below fixed 11 of 14 failed claims.
+- **Rescaled numbers.** A claim may restate a line's number with "million" or
+  "billion", for example "$196.7 billion" for "$ 196,721" in a table in
+  millions. The check accepts it by the Verifier's rule (unit scaling, then
+  rounding to the digits shown), so the check and the Verifier agree. A number
+  without a scale word must match exactly.
 - **10-K sections.** Item 1 and Item 7 are found by their headings, also when a
   heading is split over two lines ("ITEM" / "1 - BUSINESS"). A 10-K in
   cross-reference format (no Item headings in the text) uses a fallback: the

@@ -92,6 +92,12 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(marks[0]["mark"], "Unsupported")
         self.assertEqual(marks[0]["source"], "10-K L1")
 
+    def test_two_line_citation_from_citation_repair_is_read(self):
+        # flow_desk.repair_citation writes "[10-K L2-L3]" for a sentence that wraps onto the next line.
+        folder = self.make_run('x\n## Overview\n\nThe base has 7,000 units ("approximately 7,000 units with" [10-K L2-L3]).\n',
+                               lines=("Other", "a gas turbine installed base of", "approximately 7,000 units with"))
+        self.assertEqual(verifier.verify_run(folder)[1][0]["mark"], "Correct")
+
     def test_uncited_unknown_number_is_unsupported(self):
         folder = self.make_run("x\n## Overview\n\nThe firm has 912 warehouses.\n")
         self.assertEqual(verifier.verify_run(folder)[1][0]["mark"], "Unsupported")
