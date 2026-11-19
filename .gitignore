@@ -9,10 +9,11 @@
 .venv/
 __pycache__/
 *.pyc
-# Practice runs stay local. The live record (Lab 07: runs/live) is committed:
+# Practice runs stay local, except the ones copied to runs/practice. The live record (Lab 07: runs/live) is committed:
 # the project's Part 2 must be in the repository, and each commit's time is the record.
 /runs/*
 !/runs/live/
+!/runs/practice/
 
 # macOS Finder metadata
 .DS_Store
